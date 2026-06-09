@@ -66,7 +66,7 @@ const translations = {
         'login.privateKeyDesc': 'Enter your nsec or hex private key (local only)',
         'login.newToNostr': 'New to Nostr?',
         'login.createAccount': 'Create Account',
-        'login.createAccountDesc': 'Get started with a new Nostr identity to use on Plebs',
+        'login.createAccountDesc': 'Get started with a new Nostr identity to use on Goblinbox',
         // Connect Modal
         'connect.title': 'Connect with Nostr',
         'connect.option1': 'Option 1: Use this connection string',
@@ -92,8 +92,8 @@ const translations = {
         'signup.title': 'Create Nostr Account',
         'signup.whatIsNostr': 'What is Nostr?',
         'signup.nostrExplanation': 'Nostr is a decentralized social protocol that gives you ownership of your identity and content. Unlike traditional platforms, no company can ban you, censor your content, or shut down your account.',
-        'signup.whyPlebs': 'Why does Plebs use Nostr?',
-        'signup.plebsExplanation': 'Plebs is built on Nostr to provide censorship-resistant video sharing. Your videos, comments, and interactions are stored across a network of relays, not on our servers. Your Nostr identity works across hundreds of other apps too!',
+        'signup.whyGoblinbox': 'Why does Goblinbox use Nostr?',
+        'signup.plebsExplanation': 'Goblinbox is built on Nostr to provide censorship-resistant video sharing. Your videos, comments, and interactions are stored across a network of relays, not on our servers. Your Nostr identity works across hundreds of other apps too!',
         'signup.howItWorks': 'How it works',
         'signup.keysIdentity': 'Your keys = Your identity.',
         'signup.keysIdentityDesc': "You'll get a private key (nsec) that proves you own your account.",
@@ -136,7 +136,7 @@ const translations = {
         'signup.keyWarning': 'This is the ONLY way to access your account. Save it somewhere safe!',
         'signup.copyPrivateKey': 'Copy Private Key',
         'signup.howToUseKey': 'How to use your private key',
-        'signup.continueToPlebs': 'Continue to Plebs',
+        'signup.continueToGoblinbox': 'Continue to Goblinbox',
         'signup.step1': 'Save it securely:',
         'signup.step1Desc': 'Store your nsec in a password manager, write it down, or save it in an encrypted file. Never share it publicly!',
         'signup.step2': 'To log in again:',
@@ -159,7 +159,7 @@ const translations = {
         'settings.language': 'Language',
         'settings.languageDesc': 'Choose your preferred language',
         'settings.saveToNostr': 'Save to Nostr',
-        'settings.saveToNostrDesc': 'Sync settings across all Plebs instances',
+        'settings.saveToNostrDesc': 'Sync settings across all Goblinbox instances',
         'settings.darkMode': 'Dark Mode',
         'settings.darkModeDesc': 'Switch between light and dark theme',
         'settings.contentWarnings': 'Content Warning Preferences',
@@ -344,7 +344,7 @@ const translations = {
         'toast.invalidKey': 'Invalid private key. Please check and try again.',
         'toast.enterKey': 'Please enter your private key',
         'toast.enterUsername': 'Please enter a username',
-        'toast.accountCreated': 'Welcome to Plebs! You are now logged in.',
+        'toast.accountCreated': 'Welcome to Goblinbox! You are now logged in.',
         'toast.keyCopied': 'Private key copied to clipboard!',
         'toast.unmuted': 'User unmuted',
         'toast.unmuteFailed': 'Failed to unmute user',
@@ -844,9 +844,9 @@ const translations = {
         'analytics.shortsTab': 'Shorts ({count})',
         'analytics.streamsTab': 'Live Streams ({count})',
         // About Page
-        'about.title': 'About Plebs',
-        'about.whatIs': 'What is Plebs?',
-        'about.whatIsDesc': 'Plebs is a censorship-resistant, decentralized video platform built on the <a href="https://nostr.com" target="_blank" rel="noopener">Nostr protocol</a>. Unlike traditional video platforms controlled by corporations, Plebs gives you true ownership of your content and identity.',
+        'about.title': 'About Goblinbox',
+        'about.whatIs': 'What is Goblinbox?',
+        'about.whatIsDesc': 'Goblinbox is a censorship-resistant, decentralized video platform built on the <a href="https://nostr.com" target="_blank" rel="noopener">Nostr protocol</a>. Unlike traditional video platforms controlled by corporations, Goblinbox gives you true ownership of your content and identity.',
         'about.whyNostr': 'Why Nostr?',
         'about.whyNostrDesc': 'Nostr (Notes and Other Stuff Transmitted by Relays) is a simple, open protocol that enables a truly decentralized social network. Key benefits include:',
         'about.benefit1': 'Censorship Resistance:',
@@ -858,7 +858,7 @@ const translations = {
         'about.benefit4': 'Cryptographic Identity:',
         'about.benefit4Desc': 'Your keys prove you are who you say you are',
         'about.howItWorks': 'How It Works',
-        'about.howItWorksDesc': 'Videos on Plebs are stored using <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, a distributed file storage system, while video metadata and social interactions are broadcast to Nostr relays. This means your content isn\'t stored on our servers - it\'s distributed across the network.',
+        'about.howItWorksDesc': 'Videos on Goblinbox are stored using <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, a distributed file storage system, while video metadata and social interactions are broadcast to Nostr relays. This means your content isn\'t stored on our servers - it\'s distributed across the network.',
         'about.features': 'Features',
         'about.feature1': 'Upload and share videos with the Nostr community',
         'about.feature2': 'Like, comment, and share videos using Nostr reactions',
@@ -867,10 +867,10 @@ const translations = {
         'about.feature5': 'Browse topics and discover new content',
         'about.feature6': 'Works with any Nostr identity (use existing keys)',
         'about.openSource': 'Open Source',
-        'about.openSourceDesc': 'Plebs is open source software. You can view the code, contribute, or run your own instance:',
+        'about.openSourceDesc': 'Goblinbox is open source software. You can view the code, contribute, or run your own instance:',
         'about.githubRepo': 'GitHub Repository',
         'about.builtBy': 'Built By',
-        'about.builtByDesc': 'Plebs is developed by <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, a company dedicated to building tools for the Bitcoin and Nostr ecosystem.',
+        'about.builtByDesc': 'Goblinbox is developed by <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, a company dedicated to building tools for the Bitcoin and Nostr ecosystem.',
         // Contact Page
         'contact.title': 'Contact Us',
         'contact.getInTouch': 'Get In Touch',
@@ -881,14 +881,14 @@ const translations = {
         'contact.githubDesc': 'For bug reports, feature requests, or technical issues, please open an issue on our GitHub repository:',
         'contact.githubIssues': 'GitHub Issues',
         'contact.company': 'Company',
-        'contact.companyDesc': 'Plebs is developed by 21 Million LLC',
+        'contact.companyDesc': 'Goblinbox is developed by 21 Million LLC',
         // Terms of Service Page
         'terms.title': 'Terms of Service',
         'terms.lastUpdated': 'Last updated: December 2024',
         'terms.section1Title': '1. Acceptance of Terms',
-        'terms.section1Desc': 'By accessing and using Plebs ("the Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service.',
+        'terms.section1Desc': 'By accessing and using Goblinbox ("the Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service.',
         'terms.section2Title': '2. Description of Service',
-        'terms.section2Desc': 'Plebs is a decentralized video platform built on the Nostr protocol. The Service provides an interface to browse, upload, and interact with video content stored across distributed networks. Plebs does not host or store video content on centralized servers.',
+        'terms.section2Desc': 'Goblinbox is a decentralized video platform built on the Nostr protocol. The Service provides an interface to browse, upload, and interact with video content stored across distributed networks. Goblinbox does not host or store video content on centralized servers.',
         'terms.section3Title': '3. User Responsibilities',
         'terms.section3Desc': 'You are responsible for:',
         'terms.section3Item1': 'Maintaining the security of your Nostr private keys',
@@ -911,7 +911,7 @@ const translations = {
         'terms.section6Title': '6. No Warranty',
         'terms.section6Desc': 'The Service is provided "as is" without warranties of any kind. We do not guarantee continuous, uninterrupted access to the Service.',
         'terms.section7Title': '7. Limitation of Liability',
-        'terms.section7Desc': 'To the maximum extent permitted by law, Plebs and its operators shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service.',
+        'terms.section7Desc': 'To the maximum extent permitted by law, Goblinbox and its operators shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service.',
         'terms.section8Title': '8. Changes to Terms',
         'terms.section8Desc': 'We reserve the right to modify these terms at any time. Continued use of the Service after changes constitutes acceptance of the new terms.',
         'terms.section9Title': '9. Contact',
@@ -920,9 +920,9 @@ const translations = {
         'privacy.title': 'Privacy Policy',
         'privacy.lastUpdated': 'Last updated: December 2024',
         'privacy.section1Title': '1. Overview',
-        'privacy.section1Desc': 'Plebs is committed to protecting your privacy. This policy explains how we handle information when you use our decentralized video platform.',
+        'privacy.section1Desc': 'Goblinbox is committed to protecting your privacy. This policy explains how we handle information when you use our decentralized video platform.',
         'privacy.section2Title': '2. Decentralized Architecture',
-        'privacy.section2Desc': 'Plebs is built on Nostr, a decentralized protocol. This means:',
+        'privacy.section2Desc': 'Goblinbox is built on Nostr, a decentralized protocol. This means:',
         'privacy.section2Item1': 'Your content is broadcast to public relays, not stored on our servers',
         'privacy.section2Item2': 'Your Nostr public key serves as your identity',
         'privacy.section2Item3': 'Videos are stored on distributed Blossom servers',
@@ -944,9 +944,9 @@ const translations = {
         'privacy.section4Item4': 'Who you follow',
         'privacy.section4Item5': 'Zaps (Lightning payments) you send or receive',
         'privacy.section5Title': '5. Data Storage',
-        'privacy.section5Desc': 'Local data is stored in your browser\'s localStorage. You can clear this data at any time through your browser settings. Content published to Nostr is distributed across relays and cannot be controlled or deleted by Plebs.',
+        'privacy.section5Desc': 'Local data is stored in your browser\'s localStorage. You can clear this data at any time through your browser settings. Content published to Nostr is distributed across relays and cannot be controlled or deleted by Goblinbox.',
         'privacy.section6Title': '6. Third-Party Services',
-        'privacy.section6Desc': 'Plebs interacts with:',
+        'privacy.section6Desc': 'Goblinbox interacts with:',
         'privacy.section6Item1': 'Nostr relays (for social data)',
         'privacy.section6Item2': 'Blossom servers (for video storage)',
         'privacy.section6Item3': 'Lightning Network (for zaps/payments)',
@@ -968,19 +968,19 @@ const translations = {
         'privacy.section10Desc': 'For privacy-related questions, please <a href="#/contact" class="accent-link">contact us</a>.',
         // FAQ Page
         'faq.title': 'Frequently Asked Questions',
-        'faq.aboutPlebs': 'About Plebs',
+        'faq.aboutGoblinbox': 'About Goblinbox',
         'faq.nostrProtocol': 'Nostr Protocol',
         'faq.videoStorage': 'Video Storage & Blossom',
         'faq.featuresUsage': 'Features & Usage',
-        'faq.q1': 'What is Plebs?',
-        'faq.a1': 'Plebs is a censorship-resistant, decentralized video platform built on the Nostr protocol. Unlike traditional video platforms controlled by corporations, Plebs gives you true ownership of your content and identity. There are no central servers that can ban you or remove your content.',
-        'faq.q2': 'Is Plebs free to use?',
-        'faq.a2': 'Yes, Plebs is completely free to use for watching videos. You can browse and watch content without creating an account. To upload videos, comment, like, or interact with other users, you\'ll need a Nostr identity (which is also free).',
-        'faq.q3': 'Who develops Plebs?',
-        'faq.a3': 'Plebs is developed by <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, a company dedicated to building tools for the Bitcoin and Nostr ecosystem. Plebs is open source, and you can view the code or contribute on <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
+        'faq.q1': 'What is Goblinbox?',
+        'faq.a1': 'Goblinbox is a censorship-resistant, decentralized video platform built on the Nostr protocol. Unlike traditional video platforms controlled by corporations, Goblinbox gives you true ownership of your content and identity. There are no central servers that can ban you or remove your content.',
+        'faq.q2': 'Is Goblinbox free to use?',
+        'faq.a2': 'Yes, Goblinbox is completely free to use for watching videos. You can browse and watch content without creating an account. To upload videos, comment, like, or interact with other users, you\'ll need a Nostr identity (which is also free).',
+        'faq.q3': 'Who develops Goblinbox?',
+        'faq.a3': 'Goblinbox is developed by <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, a company dedicated to building tools for the Bitcoin and Nostr ecosystem. Goblinbox is open source, and you can view the code or contribute on <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
         'faq.q4': 'What is Nostr?',
         'faq.a4': 'Nostr stands for "Notes and Other Stuff Transmitted by Relays." It\'s a simple, open protocol that enables a truly decentralized social network. Unlike traditional platforms, Nostr doesn\'t rely on any central server. Instead, it uses a network of relays to transmit messages between users, and cryptographic keys for identity.',
-        'faq.q5': 'Why does Plebs use Nostr?',
+        'faq.q5': 'Why does Goblinbox use Nostr?',
         'faq.a5Title': 'Nostr provides several key benefits:',
         'faq.a5Item1': 'Censorship Resistance:',
         'faq.a5Item1Desc': 'No single entity can ban you or remove your content',
@@ -993,15 +993,15 @@ const translations = {
         'faq.q6': 'What are Nostr keys (npub/nsec)?',
         'faq.a6': 'Your Nostr identity consists of two keys: a public key (npub) and a private key (nsec). Your npub is like your username - you can share it with anyone. Your nsec is like your password - never share it! Anyone with your nsec can post as you and access your account. We recommend using a browser extension like Alby or nos2x to manage your keys securely.',
         'faq.q7': 'Can I use my existing Nostr account?',
-        'faq.a7': 'Absolutely! If you already have a Nostr identity from apps like Damus, Primal, Amethyst, or any other Nostr client, you can use the same keys to log into Plebs. Your followers, profile, and reputation carry over automatically.',
+        'faq.a7': 'Absolutely! If you already have a Nostr identity from apps like Damus, Primal, Amethyst, or any other Nostr client, you can use the same keys to log into Goblinbox. Your followers, profile, and reputation carry over automatically.',
         'faq.q8': 'What are Nostr relays?',
         'faq.a8': 'Relays are servers that store and transmit Nostr messages. When you post something, it gets sent to multiple relays. Other users connect to relays to read messages. Because there are many independent relays, no single one can censor you - if one relay blocks you, your content still exists on others.',
         'faq.q9': 'Where are videos stored?',
-        'faq.a9': 'Videos are stored on Blossom servers, not on Plebs itself. Blossom is a distributed file storage system designed to work with Nostr. When you upload a video, it goes to one or more Blossom servers of your choice. The video metadata (title, description, etc.) is published to Nostr relays.',
+        'faq.a9': 'Videos are stored on Blossom servers, not on Goblinbox itself. Blossom is a distributed file storage system designed to work with Nostr. When you upload a video, it goes to one or more Blossom servers of your choice. The video metadata (title, description, etc.) is published to Nostr relays.',
         'faq.q10': 'What is Blossom?',
         'faq.a10': 'Blossom is an open protocol for storing and serving media files in a decentralized way. Files are identified by their SHA-256 hash, which means the same file will have the same address regardless of which server hosts it. This enables redundancy - your files can exist on multiple servers. Learn more at <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom GitHub</a>.',
-        'faq.q11': 'Does Plebs host my videos?',
-        'faq.a11': 'No. Plebs is a client/interface that helps you browse and upload content, but it doesn\'t store any video or image files. All media is stored on independent Blossom servers. Plebs simply displays content from these distributed storage providers.',
+        'faq.q11': 'Does Goblinbox host my videos?',
+        'faq.a11': 'No. Goblinbox is a client/interface that helps you browse and upload content, but it doesn\'t store any video or image files. All media is stored on independent Blossom servers. Goblinbox simply displays content from these distributed storage providers.',
         'faq.q12': 'Can I choose which Blossom server to use?',
         'faq.a12': 'Yes! You can configure which Blossom servers you want to use for uploading in your settings. You can even run your own Blossom server if you want complete control over your media storage.',
         'faq.q13': 'How do I create an account?',
@@ -1026,7 +1026,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Self-Moderation',
         'faq.q16': 'How does moderation work on a decentralized platform?',
-        'faq.a16': 'Unlike traditional platforms with centralized moderators, Plebs puts you in control of what you see. We provide powerful self-moderation tools including content filter packs, user muting, community warnings, and ratioed video indicators. You decide what content is appropriate for you - there\'s no central authority making those decisions.',
+        'faq.a16': 'Unlike traditional platforms with centralized moderators, Goblinbox puts you in control of what you see. We provide powerful self-moderation tools including content filter packs, user muting, community warnings, and ratioed video indicators. You decide what content is appropriate for you - there\'s no central authority making those decisions.',
         'faq.q17': 'What are Content Filter Packs?',
         'faq.a17Intro': 'Content Filter Packs are predefined keyword filters you can enable to hide specific types of content. Available packs include:',
         'faq.a17Pack1': 'Racism & Hate Speech:',
@@ -1057,7 +1057,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Privacy & Security',
         'faq.q22': 'Is my activity private?',
-        'faq.a22': 'On Nostr, most activity is public by design. Your likes, comments, follows, and zaps are visible on the public network. However, Plebs stores your watch history locally in your browser - it\'s never sent to any server. You can clear your local data at any time.',
+        'faq.a22': 'On Nostr, most activity is public by design. Your likes, comments, follows, and zaps are visible on the public network. However, Goblinbox stores your watch history locally in your browser - it\'s never sent to any server. You can clear your local data at any time.',
         'faq.q23': 'How do I keep my account secure?',
         'faq.a23': 'Never share your private key (nsec) with anyone. We strongly recommend using a Nostr browser extension like Alby, nos2x, or a hardware signer. These keep your private key secure and only sign events when you approve them. Avoid storing your nsec directly in websites.',
         'faq.q24': 'Can I delete my content?',
@@ -1068,7 +1068,7 @@ const translations = {
         'faq.a25Intro': 'If videos aren\'t loading, try these steps:',
         'faq.a25Item1': 'Refresh the page',
         'faq.a25Item2': 'Check your internet connection',
-        'faq.a25Item3': 'The Blossom server hosting the video might be down - this is independent of Plebs',
+        'faq.a25Item3': 'The Blossom server hosting the video might be down - this is independent of Goblinbox',
         'faq.a25Item4': 'Try disabling browser extensions that might block content',
         'faq.a25Item5': 'Clear your browser cache and try again',
         'faq.q26': 'I lost my private key - can you help me recover it?',
@@ -1081,8 +1081,8 @@ const translations = {
         'pageTitle.likedVideos': 'Liked Videos',
         'pageTitle.watchHistory': 'Watch History',
         'pageTitle.liveStreams': 'Live Streams',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Live on Plebs',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Live on Goblinbox',
         // Home Page Sections
         'section.trending': 'Trending',
         'section.recommended': 'Recommended For You',
@@ -1124,15 +1124,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA & Content Policy',
         'dmca.lastUpdated': 'Last Updated: December 2024',
-        'dmca.architectureTitle': 'Understanding Plebs Architecture',
-        'dmca.architectureDesc': 'Plebs is a decentralized video platform interface that operates differently from traditional video hosting services. It\'s important to understand how content is distributed on our platform:',
-        'dmca.architectureItem1': 'Plebs does not host any video or image content.',
+        'dmca.architectureTitle': 'Understanding Goblinbox Architecture',
+        'dmca.architectureDesc': 'Goblinbox is a decentralized video platform interface that operates differently from traditional video hosting services. It\'s important to understand how content is distributed on our platform:',
+        'dmca.architectureItem1': 'Goblinbox does not host any video or image content.',
         'dmca.architectureItem1Desc': 'We are a client/interface that displays content stored elsewhere.',
         'dmca.architectureItem2': 'All media files (videos, images, thumbnails) are stored on independent Blossom servers operated by third parties.',
         'dmca.architectureItem3': 'Video metadata (titles, descriptions, etc.) is published to Nostr relays, which are also independently operated.',
-        'dmca.architectureItem4': 'Plebs simply aggregates and displays this distributed content through a user-friendly interface.',
+        'dmca.architectureItem4': 'Goblinbox simply aggregates and displays this distributed content through a user-friendly interface.',
         'dmca.filingTitle': 'Filing a DMCA Claim',
-        'dmca.filingDesc': 'Because Plebs does not host content, we cannot directly remove infringing material. To address copyright infringement, you must contact the appropriate parties:',
+        'dmca.filingDesc': 'Because Goblinbox does not host content, we cannot directly remove infringing material. To address copyright infringement, you must contact the appropriate parties:',
         'dmca.forVideoTitle': '1. For Video/Image Content',
         'dmca.forVideoDesc': 'Media files are stored on Blossom servers. You need to:',
         'dmca.forVideoItem1': 'Identify which Blossom server is hosting the content (the URL will indicate this)',
@@ -1143,7 +1143,7 @@ const translations = {
         'dmca.forMetadataItem1': 'This information is stored on Nostr relays',
         'dmca.forMetadataItem2': 'Contact the specific Nostr relay operators where the content appears',
         'dmca.forMetadataItem3': 'Multiple relays may store the same data due to Nostr\'s distributed nature',
-        'dmca.whatWeCanDoTitle': 'What Plebs Can Do',
+        'dmca.whatWeCanDoTitle': 'What Goblinbox Can Do',
         'dmca.whatWeCanDoDesc': 'While we don\'t host content, we can:',
         'dmca.whatWeCanDoItem1': 'Help you identify which Blossom servers or relays are hosting specific content',
         'dmca.whatWeCanDoItem2': 'Add content to a local blocklist so it doesn\'t appear in our interface (note: this only affects plebs.app, not other Nostr clients)',
@@ -1163,7 +1163,7 @@ const translations = {
         'dmca.considerationsItem3': 'Hash-Based Storage:',
         'dmca.considerationsItem3Desc': 'Blossom uses content-addressed storage. The same file will have the same hash on any server.',
         'dmca.considerationsItem4': 'No Central Control:',
-        'dmca.considerationsItem4Desc': 'Neither Plebs nor any single entity has the ability to remove content from the entire network.',
+        'dmca.considerationsItem4Desc': 'Neither Goblinbox nor any single entity has the ability to remove content from the entire network.',
         'dmca.counterNotificationTitle': 'Counter-Notification',
         'dmca.counterNotificationDesc': 'If you believe your content was wrongly removed from a Blossom server, you should contact that server operator directly to file a counter-notification.',
         'dmca.contactTitle': 'Contact',
@@ -1175,17 +1175,17 @@ const translations = {
         'nav.home': 'Inicio', 'nav.following': 'Siguiendo', 'nav.myVideos': 'Mis Videos', 'nav.liked': 'Me Gusta', 'nav.history': 'Historial', 'nav.topics': 'TEMAS', 'nav.live': 'En Vivo', 'nav.bitcoin': 'Bitcoin', 'nav.nostr': 'Nostr', 'nav.technology': 'Tecnología', 'nav.gaming': 'Juegos', 'nav.tutorials': 'Tutoriales', 'nav.podcasts': 'Podcasts', 'nav.music': 'Música', 'nav.nsfw': 'NSFW', 'nav.about': 'Acerca de', 'nav.contact': 'Contacto', 'nav.terms': 'Términos', 'nav.privacy': 'Privacidad', 'nav.faq': 'FAQ', 'nav.dmca': 'DMCA', 'nav.playlists': 'Listas', 'nav.downloads': 'Descargas', 'nav.subscriptions': 'Suscripciones', 'nav.trending': 'Tendencias', 'nav.explore': 'Explorar', 'nav.categories': 'Categorías', 'nav.liveStreams': 'Transmisiones en Vivo', 'nav.github': 'GitHub',
         'header.search': 'Buscar videos...', 'header.notifications': 'Notificaciones', 'header.settings': 'Configuración', 'header.create': 'Crear', 'header.admin': 'Admin', 'header.viewProfile': 'Ver Perfil', 'header.logout': 'Cerrar Sesión',
         // Login Modal
-        'login.title': 'Iniciar Sesión con Nostr', 'login.extension': 'Iniciar con Extensión', 'login.extensionDesc': 'Usa Alby, nos2x u otras extensiones Nostr', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Conectar con firmantes remotos como Amber, nsec.app', 'login.privateKey': 'Clave Privada', 'login.privateKeyDesc': 'Ingresa tu nsec o clave hex (solo local)', 'login.newToNostr': '¿Nuevo en Nostr?', 'login.createAccount': 'Crear Cuenta', 'login.createAccountDesc': 'Comienza con una nueva identidad Nostr para usar en Plebs',
+        'login.title': 'Iniciar Sesión con Nostr', 'login.extension': 'Iniciar con Extensión', 'login.extensionDesc': 'Usa Alby, nos2x u otras extensiones Nostr', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Conectar con firmantes remotos como Amber, nsec.app', 'login.privateKey': 'Clave Privada', 'login.privateKeyDesc': 'Ingresa tu nsec o clave hex (solo local)', 'login.newToNostr': '¿Nuevo en Nostr?', 'login.createAccount': 'Crear Cuenta', 'login.createAccountDesc': 'Comienza con una nueva identidad Nostr para usar en Goblinbox',
         // Connect Modal
         'connect.title': 'Conectar con Nostr', 'connect.option1': 'Opción 1: Usa esta cadena de conexión', 'connect.option1Desc': 'Copia y pega esto en cualquier app compatible con NIP-46 (nsec.app, Amber, etc.)', 'connect.copyString': 'Copiar Cadena de Conexión', 'connect.showQR': 'Mostrar Código QR', 'connect.listening': 'Esperando conexión...', 'connect.option2': 'Opción 2: Pegar una URL bunker', 'connect.option2Desc': 'Si ya tienes una URL bunker:// de un firmante remoto', 'connect.withBunker': 'Conectar con Bunker', 'connect.popularSigners': 'Firmantes NIP-46 populares:', 'connect.webSigner': 'Firmante web', 'connect.androidApp': 'App Android', 'connect.builtInSigner': 'Firmante integrado', 'connect.or': 'O', 'connect.bunkerPlaceholder': 'bunker://...',
         // Private Key Modal
         'privateKey.title': 'Iniciar con Clave Privada', 'privateKey.warning': 'Advertencia de Seguridad', 'privateKey.warningText': 'Tu clave privada se almacenará localmente en tu navegador. Para mayor seguridad, considera usar una extensión de navegador o Nostr Connect.', 'privateKey.label': 'Clave Privada (nsec o hex)', 'privateKey.showKey': 'Mostrar clave', 'privateKey.login': 'Iniciar Sesión', 'privateKey.placeholder': 'nsec1...',
         // Signup Modal
-        'signup.title': 'Crear Cuenta Nostr', 'signup.whatIsNostr': '¿Qué es Nostr?', 'signup.nostrExplanation': 'Nostr es un protocolo social descentralizado que te da propiedad de tu identidad y contenido. A diferencia de las plataformas tradicionales, ninguna empresa puede banearte, censurar tu contenido o cerrar tu cuenta.', 'signup.whyPlebs': '¿Por qué Plebs usa Nostr?', 'signup.plebsExplanation': 'Plebs está construido sobre Nostr para proporcionar compartición de videos resistente a la censura. Tus videos, comentarios e interacciones se almacenan en una red de relays, no en nuestros servidores. ¡Tu identidad Nostr funciona en cientos de otras apps también!', 'signup.howItWorks': 'Cómo funciona', 'signup.keysIdentity': 'Tus claves = Tu identidad.', 'signup.keysIdentityDesc': 'Obtendrás una clave privada (nsec) que prueba que eres dueño de tu cuenta.', 'signup.keepSecret': '¡Mantén tu clave privada en secreto!', 'signup.keepSecretDesc': 'Es como una contraseña que nunca se puede restablecer.', 'signup.oneIdentity': 'Una identidad, muchas apps.', 'signup.oneIdentityDesc': 'Usa la misma cuenta en Damus, Primal, Amethyst y más.', 'signup.gotIt': 'Entendido, vamos a crear mi cuenta', 'signup.username': 'Nombre de Usuario', 'signup.usernamePlaceholder': 'Elige un nombre para mostrar', 'signup.about': 'Acerca de (opcional)', 'signup.aboutPlaceholder': 'Cuéntale a otros sobre ti', 'signup.profilePicture': 'Foto de Perfil (opcional)', 'signup.uploadPhoto': 'Subir Foto', 'signup.remove': 'Eliminar', 'signup.avatarHint': 'Las imágenes cuadradas funcionan mejor. Máx 5MB.', 'signup.uploading': 'Subiendo...', 'signup.lightningAddress': 'Dirección Lightning (opcional)', 'signup.lightningPlaceholder': 'tu@walletofsatoshi.com', 'signup.lightningHint': 'Agrega una dirección Lightning para recibir zaps (propinas de Bitcoin) en tus videos y perfil.', 'signup.nostrAddress': 'Dirección Nostr', 'signup.nostrAddressPlaceholder': 'usuario', 'signup.nostrAddressHint': 'Tu dirección Nostr facilita encontrar tu perfil. Solo letras minúsculas, números, _ y -.', 'signup.nostrAddressRequired': 'Por favor ingresa una dirección Nostr', 'signup.nostrAddressAvailable': '¡Disponible!', 'signup.nostrAddressUnavailable': 'Ya está en uso', 'signup.nostrAddressChecking': 'Verificando...', 'signup.nostrAddressInvalid': 'Formato de usuario inválido', 'signup.nostrAddressRegistering': 'Registrando tu dirección Nostr...', 'signup.nostrAddressSuccess': '¡Dirección Nostr registrada!', 'signup.nostrAddressFailed': 'No se pudo registrar la dirección Nostr', 'signup.yourUsername': 'Tu Nombre de Usuario', 'signup.yourBio': 'Tu biografía aparecerá aquí', 'signup.createAccountBtn': 'Crear Cuenta', 'signup.termsAgree': 'Al crear una cuenta, aceptas nuestros', 'signup.and': 'y', 'signup.success': '¡Cuenta Creada Exitosamente!', 'signup.yourPrivateKey': 'Tu Clave Privada (nsec)', 'signup.keyWarning': 'Esta es la ÚNICA forma de acceder a tu cuenta. ¡Guárdala en un lugar seguro!', 'signup.copyPrivateKey': 'Copiar Clave Privada', 'signup.howToUseKey': 'Cómo usar tu clave privada', 'signup.continueToPlebs': 'Continuar a Plebs', 'signup.step1': 'Guárdala de forma segura:', 'signup.step1Desc': 'Almacena tu nsec en un administrador de contraseñas, escríbela o guárdala en un archivo encriptado. ¡Nunca la compartas públicamente!', 'signup.step2': 'Para iniciar sesión de nuevo:', 'signup.step2Desc': 'Haz clic en "Clave Privada" en la pantalla de inicio de sesión y pega tu nsec. Funciona como una contraseña.', 'signup.step3': 'Usar en otras apps:', 'signup.step3Desc': '¡Tu nsec funciona en todas las apps Nostr - Damus, Primal, Amethyst y cientos más!', 'signup.step4': 'Considera una app de firmante:', 'signup.step4Desc': 'Para mayor seguridad, usa apps como Amber (Android) o una extensión de navegador como Alby para administrar tus claves.',
+        'signup.title': 'Crear Cuenta Nostr', 'signup.whatIsNostr': '¿Qué es Nostr?', 'signup.nostrExplanation': 'Nostr es un protocolo social descentralizado que te da propiedad de tu identidad y contenido. A diferencia de las plataformas tradicionales, ninguna empresa puede banearte, censurar tu contenido o cerrar tu cuenta.', 'signup.whyGoblinbox': '¿Por qué Goblinbox usa Nostr?', 'signup.plebsExplanation': 'Goblinbox está construido sobre Nostr para proporcionar compartición de videos resistente a la censura. Tus videos, comentarios e interacciones se almacenan en una red de relays, no en nuestros servidores. ¡Tu identidad Nostr funciona en cientos de otras apps también!', 'signup.howItWorks': 'Cómo funciona', 'signup.keysIdentity': 'Tus claves = Tu identidad.', 'signup.keysIdentityDesc': 'Obtendrás una clave privada (nsec) que prueba que eres dueño de tu cuenta.', 'signup.keepSecret': '¡Mantén tu clave privada en secreto!', 'signup.keepSecretDesc': 'Es como una contraseña que nunca se puede restablecer.', 'signup.oneIdentity': 'Una identidad, muchas apps.', 'signup.oneIdentityDesc': 'Usa la misma cuenta en Damus, Primal, Amethyst y más.', 'signup.gotIt': 'Entendido, vamos a crear mi cuenta', 'signup.username': 'Nombre de Usuario', 'signup.usernamePlaceholder': 'Elige un nombre para mostrar', 'signup.about': 'Acerca de (opcional)', 'signup.aboutPlaceholder': 'Cuéntale a otros sobre ti', 'signup.profilePicture': 'Foto de Perfil (opcional)', 'signup.uploadPhoto': 'Subir Foto', 'signup.remove': 'Eliminar', 'signup.avatarHint': 'Las imágenes cuadradas funcionan mejor. Máx 5MB.', 'signup.uploading': 'Subiendo...', 'signup.lightningAddress': 'Dirección Lightning (opcional)', 'signup.lightningPlaceholder': 'tu@walletofsatoshi.com', 'signup.lightningHint': 'Agrega una dirección Lightning para recibir zaps (propinas de Bitcoin) en tus videos y perfil.', 'signup.nostrAddress': 'Dirección Nostr', 'signup.nostrAddressPlaceholder': 'usuario', 'signup.nostrAddressHint': 'Tu dirección Nostr facilita encontrar tu perfil. Solo letras minúsculas, números, _ y -.', 'signup.nostrAddressRequired': 'Por favor ingresa una dirección Nostr', 'signup.nostrAddressAvailable': '¡Disponible!', 'signup.nostrAddressUnavailable': 'Ya está en uso', 'signup.nostrAddressChecking': 'Verificando...', 'signup.nostrAddressInvalid': 'Formato de usuario inválido', 'signup.nostrAddressRegistering': 'Registrando tu dirección Nostr...', 'signup.nostrAddressSuccess': '¡Dirección Nostr registrada!', 'signup.nostrAddressFailed': 'No se pudo registrar la dirección Nostr', 'signup.yourUsername': 'Tu Nombre de Usuario', 'signup.yourBio': 'Tu biografía aparecerá aquí', 'signup.createAccountBtn': 'Crear Cuenta', 'signup.termsAgree': 'Al crear una cuenta, aceptas nuestros', 'signup.and': 'y', 'signup.success': '¡Cuenta Creada Exitosamente!', 'signup.yourPrivateKey': 'Tu Clave Privada (nsec)', 'signup.keyWarning': 'Esta es la ÚNICA forma de acceder a tu cuenta. ¡Guárdala en un lugar seguro!', 'signup.copyPrivateKey': 'Copiar Clave Privada', 'signup.howToUseKey': 'Cómo usar tu clave privada', 'signup.continueToGoblinbox': 'Continuar a Goblinbox', 'signup.step1': 'Guárdala de forma segura:', 'signup.step1Desc': 'Almacena tu nsec en un administrador de contraseñas, escríbela o guárdala en un archivo encriptado. ¡Nunca la compartas públicamente!', 'signup.step2': 'Para iniciar sesión de nuevo:', 'signup.step2Desc': 'Haz clic en "Clave Privada" en la pantalla de inicio de sesión y pega tu nsec. Funciona como una contraseña.', 'signup.step3': 'Usar en otras apps:', 'signup.step3Desc': '¡Tu nsec funciona en todas las apps Nostr - Damus, Primal, Amethyst y cientos más!', 'signup.step4': 'Considera una app de firmante:', 'signup.step4Desc': 'Para mayor seguridad, usa apps como Amber (Android) o una extensión de navegador como Alby para administrar tus claves.',
         // Notifications
         'notifications.title': 'Notificaciones', 'notifications.settings': 'Configuración de Notificaciones', 'notifications.reactions': 'Reacciones (me gusta/no me gusta)', 'notifications.replies': 'Comentarios y Respuestas', 'notifications.zaps': 'Zaps', 'notifications.chatMentions': 'Menciones en Chat en Vivo', 'notifications.newFollowers': 'Nuevos Seguidores', 'notifications.syncNote': 'La configuración se sincroniza entre dispositivos vía Nostr', 'notifications.settingsTitle': 'Configuración de Notificaciones',
         // Settings Modal
-        'settings.title': 'Configuración', 'settings.language': 'Idioma', 'settings.languageDesc': 'Elige tu idioma preferido', 'settings.saveToNostr': 'Guardar en Nostr', 'settings.saveToNostrDesc': 'Sincronizar configuración en todas las instancias de Plebs', 'settings.darkMode': 'Modo Oscuro', 'settings.darkModeDesc': 'Cambiar entre tema claro y oscuro', 'settings.contentWarnings': 'Preferencias de Advertencias de Contenido', 'settings.contentWarning': 'Preferencias de Advertencias de Contenido', 'settings.showNSFW': 'Mostrar advertencias NSFW', 'settings.showNSFWDesc': 'Mostrar verificación de edad para contenido NSFW', 'settings.showNsfwWarnings': 'Mostrar advertencias NSFW', 'settings.showNsfwWarningsDesc': 'Mostrar verificación de edad para contenido NSFW', 'settings.showCommunity': 'Mostrar advertencias de la comunidad', 'settings.showCommunityDesc': 'Mostrar advertencias para contenido marcado o con muchos votos negativos', 'settings.showCommunityWarnings': 'Mostrar advertencias de la comunidad', 'settings.showCommunityWarningsDesc': 'Mostrar advertencias para contenido marcado o con muchos votos negativos', 'settings.showFollowsReport': 'Mostrar advertencias de reportes de seguidos', 'settings.showFollowsReportDesc': 'Mostrar advertencias cuando 5+ personas que sigues han reportado contenido', 'settings.showFollowsReportWarnings': 'Mostrar advertencias de reportes de seguidos', 'settings.showFollowsReportWarningsDesc': 'Mostrar advertencias cuando 5+ personas que sigues han reportado contenido', 'settings.filterPacks': 'Paquetes de Filtros de Contenido', 'settings.filterPacksDesc': 'Habilita paquetes de filtros para ocultar automáticamente contenido que coincida con palabras clave específicas.', 'settings.customKeywords': 'Filtro de Palabras Clave Personalizado', 'settings.customKeywordsPlaceholder': 'Ingresa palabras clave o frases separadas por comas', 'settings.customKeywordsDesc': 'Agrega tus propias palabras clave para filtrar (separadas por comas)', 'settings.customKeywordFilter': 'Filtro de Palabras Clave Personalizado', 'settings.customKeywordFilterPlaceholder': 'Ingresa palabras clave o frases separadas por comas\nEjemplo: spam, contenido no deseado, frase específica', 'settings.customKeywordFilterDesc': 'Agrega tus propias palabras clave para filtrar (separadas por comas)', 'settings.mutedUsers': 'Usuarios Silenciados', 'settings.mutedUsersDesc': 'Los usuarios que silencies no aparecerán en tu feed o comentarios.', 'settings.blossomSettings': 'Configuración del Servidor Blossom', 'settings.premiumBlossom': 'Servidor Blossom Premium (NostrMedia.com)', 'settings.premiumBlossomDesc': 'Usa NostrMedia.com si eres usuario suscrito', 'settings.customBlossom': 'Servidores Blossom Personalizados', 'settings.customBlossomDesc': 'Agrega tus propios servidores Blossom (separados por comas)', 'settings.relaySettings': 'Configuración de Relays', 'settings.useWotRelays': 'Usar Relays Web of Trust', 'settings.useWotRelaysDesc': 'Conectar a relays Web of Trust para mejor filtrado de spam', 'settings.saveSettings': 'Guardar Configuración', 'settings.resetDefaults': 'Restablecer Valores', 'settings.notificationSettings': 'Configuración de Notificaciones',
+        'settings.title': 'Configuración', 'settings.language': 'Idioma', 'settings.languageDesc': 'Elige tu idioma preferido', 'settings.saveToNostr': 'Guardar en Nostr', 'settings.saveToNostrDesc': 'Sincronizar configuración en todas las instancias de Goblinbox', 'settings.darkMode': 'Modo Oscuro', 'settings.darkModeDesc': 'Cambiar entre tema claro y oscuro', 'settings.contentWarnings': 'Preferencias de Advertencias de Contenido', 'settings.contentWarning': 'Preferencias de Advertencias de Contenido', 'settings.showNSFW': 'Mostrar advertencias NSFW', 'settings.showNSFWDesc': 'Mostrar verificación de edad para contenido NSFW', 'settings.showNsfwWarnings': 'Mostrar advertencias NSFW', 'settings.showNsfwWarningsDesc': 'Mostrar verificación de edad para contenido NSFW', 'settings.showCommunity': 'Mostrar advertencias de la comunidad', 'settings.showCommunityDesc': 'Mostrar advertencias para contenido marcado o con muchos votos negativos', 'settings.showCommunityWarnings': 'Mostrar advertencias de la comunidad', 'settings.showCommunityWarningsDesc': 'Mostrar advertencias para contenido marcado o con muchos votos negativos', 'settings.showFollowsReport': 'Mostrar advertencias de reportes de seguidos', 'settings.showFollowsReportDesc': 'Mostrar advertencias cuando 5+ personas que sigues han reportado contenido', 'settings.showFollowsReportWarnings': 'Mostrar advertencias de reportes de seguidos', 'settings.showFollowsReportWarningsDesc': 'Mostrar advertencias cuando 5+ personas que sigues han reportado contenido', 'settings.filterPacks': 'Paquetes de Filtros de Contenido', 'settings.filterPacksDesc': 'Habilita paquetes de filtros para ocultar automáticamente contenido que coincida con palabras clave específicas.', 'settings.customKeywords': 'Filtro de Palabras Clave Personalizado', 'settings.customKeywordsPlaceholder': 'Ingresa palabras clave o frases separadas por comas', 'settings.customKeywordsDesc': 'Agrega tus propias palabras clave para filtrar (separadas por comas)', 'settings.customKeywordFilter': 'Filtro de Palabras Clave Personalizado', 'settings.customKeywordFilterPlaceholder': 'Ingresa palabras clave o frases separadas por comas\nEjemplo: spam, contenido no deseado, frase específica', 'settings.customKeywordFilterDesc': 'Agrega tus propias palabras clave para filtrar (separadas por comas)', 'settings.mutedUsers': 'Usuarios Silenciados', 'settings.mutedUsersDesc': 'Los usuarios que silencies no aparecerán en tu feed o comentarios.', 'settings.blossomSettings': 'Configuración del Servidor Blossom', 'settings.premiumBlossom': 'Servidor Blossom Premium (NostrMedia.com)', 'settings.premiumBlossomDesc': 'Usa NostrMedia.com si eres usuario suscrito', 'settings.customBlossom': 'Servidores Blossom Personalizados', 'settings.customBlossomDesc': 'Agrega tus propios servidores Blossom (separados por comas)', 'settings.relaySettings': 'Configuración de Relays', 'settings.useWotRelays': 'Usar Relays Web of Trust', 'settings.useWotRelaysDesc': 'Conectar a relays Web of Trust para mejor filtrado de spam', 'settings.saveSettings': 'Guardar Configuración', 'settings.resetDefaults': 'Restablecer Valores', 'settings.notificationSettings': 'Configuración de Notificaciones',
         // Upload Modal
         'upload.title': 'Subir Video', 'upload.videoFile': 'Archivo de Video', 'upload.recordFromCamera': 'Grabar desde Cámara', 'upload.stop': 'Detener', 'upload.recordHint': 'Graba un video vertical (hasta 60 segundos)', 'upload.or': 'o', 'upload.clickToSelect': 'Haz clic para seleccionar video o arrastra y suelta', 'upload.fileTypes': 'MP4, AVI, MOV, etc (máx 2GB entrada, se comprimirá a <100MB)', 'upload.preparing': 'Preparando...', 'upload.thumbnail': 'Miniatura', 'upload.thumbnailHint': 'Haz clic para seleccionar o auto-generar del video', 'upload.uploading': 'Subiendo...', 'upload.titleLabel': 'Título', 'upload.titlePlaceholder': 'Ingresa el título del video', 'upload.descriptionLabel': 'Descripción', 'upload.descriptionPlaceholder': 'Cuéntale a los espectadores sobre tu video', 'upload.tagsLabel': 'Etiquetas (separadas por comas)', 'upload.tagsPlaceholder': 'bitcoin, nostr, tutorial', 'upload.markNsfw': 'Marcar como NSFW (18+)', 'upload.nsfwDesc': 'El contenido que contiene material adulto debe marcarse como NSFW', 'upload.saveDraft': 'Guardar como Borrador', 'upload.publish': 'Publicar', 'upload.selectVideo': 'Selecciona un video para subir', 'upload.optional': '(opcional)', 'upload.remove': 'Eliminar', 'upload.removeThumbnail': 'Eliminar y subir diferente miniatura', 'upload.removeVideo': 'Eliminar y subir diferente video', 'upload.qualityHigh': 'Alta', 'upload.backToCreate': 'Volver a Crear',
         // Create Modal
@@ -1212,7 +1212,7 @@ const translations = {
         // Video Page
         'video.views': 'vistas', 'video.view': 'vista', 'video.followers': 'seguidores', 'video.follower': 'seguidor', 'video.follow': 'Seguir', 'video.unfollow': 'Dejar de Seguir', 'video.share': 'Compartir', 'video.comments': 'Comentarios', 'video.writeComment': 'Escribe un comentario...', 'video.noComments': 'Sin comentarios aún. ¡Sé el primero!', 'video.reply': 'Responder', 'video.report': 'Reportar', 'video.mute': 'Silenciar Usuario',
         // Toast Messages
-        'toast.loggedIn': '¡Sesión iniciada!', 'toast.settingsSaved': '¡Configuración guardada!', 'toast.settingsLocal': 'Configuración guardada localmente. No se pudo guardar en Nostr.', 'toast.settingsLocalOnly': '¡Configuración guardada localmente!', 'toast.settingsReset': '¡Configuración restablecida!', 'toast.avatarUploaded': '¡Avatar subido exitosamente!', 'toast.profileUpdated': '¡Perfil actualizado exitosamente!', 'toast.copied': '¡Copiado al portapapeles!', 'toast.copyFailed': 'Error al copiar. Por favor copia manualmente.', 'toast.installExtension': 'Por favor instala una extensión de navegador Nostr como Alby o nos2x', 'toast.loginFailed': 'Error al iniciar sesión con la extensión. Intenta de nuevo.', 'toast.invalidKey': 'Clave privada inválida. Por favor verifica e intenta de nuevo.', 'toast.enterKey': 'Por favor ingresa tu clave privada', 'toast.enterUsername': 'Por favor ingresa un nombre de usuario', 'toast.accountCreated': '¡Bienvenido a Plebs! Has iniciado sesión.', 'toast.keyCopied': '¡Clave privada copiada al portapapeles!', 'toast.unmuted': 'Usuario desilenciado', 'toast.unmuteFailed': 'Error al desilenciar usuario', 'toast.selectImage': 'Por favor selecciona un archivo de imagen', 'toast.imageTooLarge': 'La imagen debe ser menor a 5MB', 'toast.avatarFailed': 'Error al subir avatar. Por favor intenta de nuevo.', 'toast.mustBeLoggedIn': 'Debes iniciar sesión para editar tu perfil', 'toast.enterDisplayName': 'Por favor ingresa un nombre para mostrar', 'toast.profileFailed': 'Error al guardar perfil. Por favor intenta de nuevo.', 'toast.invalidBunker': 'Por favor ingresa una URL bunker válida', 'toast.connectFailed': 'Error al conectar', 'toast.showingFiltered': 'Mostrando contenido filtrado', 'toast.reportSubmitted': 'Reporte enviado exitosamente', 'toast.draftSaved': '¡Borrador guardado! Puedes continuar después desde Mis Videos.', 'toast.draftLoaded': 'Borrador cargado. Completa tu subida y publica.', 'toast.draftDeleted': 'Borrador eliminado', 'toast.languageChanged': 'Idioma cambiado', 'toast.videoBlocked': 'Video bloqueado y publicado en Nostr', 'toast.waitForUpload': 'Por favor espera a que se complete la subida del video', 'toast.enterTitle': 'Por favor ingresa un título', 'toast.publishing': 'Publicando video en Nostr...',
+        'toast.loggedIn': '¡Sesión iniciada!', 'toast.settingsSaved': '¡Configuración guardada!', 'toast.settingsLocal': 'Configuración guardada localmente. No se pudo guardar en Nostr.', 'toast.settingsLocalOnly': '¡Configuración guardada localmente!', 'toast.settingsReset': '¡Configuración restablecida!', 'toast.avatarUploaded': '¡Avatar subido exitosamente!', 'toast.profileUpdated': '¡Perfil actualizado exitosamente!', 'toast.copied': '¡Copiado al portapapeles!', 'toast.copyFailed': 'Error al copiar. Por favor copia manualmente.', 'toast.installExtension': 'Por favor instala una extensión de navegador Nostr como Alby o nos2x', 'toast.loginFailed': 'Error al iniciar sesión con la extensión. Intenta de nuevo.', 'toast.invalidKey': 'Clave privada inválida. Por favor verifica e intenta de nuevo.', 'toast.enterKey': 'Por favor ingresa tu clave privada', 'toast.enterUsername': 'Por favor ingresa un nombre de usuario', 'toast.accountCreated': '¡Bienvenido a Goblinbox! Has iniciado sesión.', 'toast.keyCopied': '¡Clave privada copiada al portapapeles!', 'toast.unmuted': 'Usuario desilenciado', 'toast.unmuteFailed': 'Error al desilenciar usuario', 'toast.selectImage': 'Por favor selecciona un archivo de imagen', 'toast.imageTooLarge': 'La imagen debe ser menor a 5MB', 'toast.avatarFailed': 'Error al subir avatar. Por favor intenta de nuevo.', 'toast.mustBeLoggedIn': 'Debes iniciar sesión para editar tu perfil', 'toast.enterDisplayName': 'Por favor ingresa un nombre para mostrar', 'toast.profileFailed': 'Error al guardar perfil. Por favor intenta de nuevo.', 'toast.invalidBunker': 'Por favor ingresa una URL bunker válida', 'toast.connectFailed': 'Error al conectar', 'toast.showingFiltered': 'Mostrando contenido filtrado', 'toast.reportSubmitted': 'Reporte enviado exitosamente', 'toast.draftSaved': '¡Borrador guardado! Puedes continuar después desde Mis Videos.', 'toast.draftLoaded': 'Borrador cargado. Completa tu subida y publica.', 'toast.draftDeleted': 'Borrador eliminado', 'toast.languageChanged': 'Idioma cambiado', 'toast.videoBlocked': 'Video bloqueado y publicado en Nostr', 'toast.waitForUpload': 'Por favor espera a que se complete la subida del video', 'toast.enterTitle': 'Por favor ingresa un título', 'toast.publishing': 'Publicando video en Nostr...',
         // Time
         'time.justNow': 'ahora mismo', 'time.secondAgo': 'hace 1 segundo', 'time.secondsAgo': 'hace {n} segundos', 'time.minuteAgo': 'hace 1 minuto', 'time.minutesAgo': 'hace {n} minutos', 'time.hourAgo': 'hace 1 hora', 'time.hoursAgo': 'hace {n} horas', 'time.dayAgo': 'hace 1 día', 'time.daysAgo': 'hace {n} días', 'time.weekAgo': 'hace 1 semana', 'time.weeksAgo': 'hace {n} semanas', 'time.monthAgo': 'hace 1 mes', 'time.monthsAgo': 'hace {n} meses', 'time.yearAgo': 'hace 1 año', 'time.yearsAgo': 'hace {n} años',
         // Empty States
@@ -1261,15 +1261,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA y Política de Contenido',
         'dmca.lastUpdated': 'Última actualización: Diciembre 2024',
-        'dmca.architectureTitle': 'Entendiendo la Arquitectura de Plebs',
-        'dmca.architectureDesc': 'Plebs es una interfaz de plataforma de video descentralizada que opera diferente a los servicios tradicionales de alojamiento de video. Es importante entender cómo se distribuye el contenido en nuestra plataforma:',
-        'dmca.architectureItem1': 'Plebs no aloja ningún contenido de video o imagen.',
+        'dmca.architectureTitle': 'Entendiendo la Arquitectura de Goblinbox',
+        'dmca.architectureDesc': 'Goblinbox es una interfaz de plataforma de video descentralizada que opera diferente a los servicios tradicionales de alojamiento de video. Es importante entender cómo se distribuye el contenido en nuestra plataforma:',
+        'dmca.architectureItem1': 'Goblinbox no aloja ningún contenido de video o imagen.',
         'dmca.architectureItem1Desc': 'Somos un cliente/interfaz que muestra contenido almacenado en otro lugar.',
         'dmca.architectureItem2': 'Todos los archivos multimedia (videos, imágenes, miniaturas) se almacenan en servidores Blossom independientes operados por terceros.',
         'dmca.architectureItem3': 'Los metadatos de video (títulos, descripciones, etc.) se publican en relays Nostr, que también son operados independientemente.',
-        'dmca.architectureItem4': 'Plebs simplemente agrega y muestra este contenido distribuido a través de una interfaz fácil de usar.',
+        'dmca.architectureItem4': 'Goblinbox simplemente agrega y muestra este contenido distribuido a través de una interfaz fácil de usar.',
         'dmca.filingTitle': 'Presentar una Reclamación DMCA',
-        'dmca.filingDesc': 'Debido a que Plebs no aloja contenido, no podemos eliminar directamente material infractor. Para abordar la infracción de derechos de autor, debe contactar a las partes apropiadas:',
+        'dmca.filingDesc': 'Debido a que Goblinbox no aloja contenido, no podemos eliminar directamente material infractor. Para abordar la infracción de derechos de autor, debe contactar a las partes apropiadas:',
         'dmca.forVideoTitle': '1. Para Contenido de Video/Imagen',
         'dmca.forVideoDesc': 'Los archivos multimedia se almacenan en servidores Blossom. Necesita:',
         'dmca.forVideoItem1': 'Identificar qué servidor Blossom está alojando el contenido (la URL lo indicará)',
@@ -1280,7 +1280,7 @@ const translations = {
         'dmca.forMetadataItem1': 'Esta información se almacena en relays Nostr',
         'dmca.forMetadataItem2': 'Contacte a los operadores específicos del relay Nostr donde aparece el contenido',
         'dmca.forMetadataItem3': 'Múltiples relays pueden almacenar los mismos datos debido a la naturaleza distribuida de Nostr',
-        'dmca.whatWeCanDoTitle': 'Lo que Plebs Puede Hacer',
+        'dmca.whatWeCanDoTitle': 'Lo que Goblinbox Puede Hacer',
         'dmca.whatWeCanDoDesc': 'Aunque no alojamos contenido, podemos:',
         'dmca.whatWeCanDoItem1': 'Ayudarle a identificar qué servidores Blossom o relays están alojando contenido específico',
         'dmca.whatWeCanDoItem2': 'Agregar contenido a una lista de bloqueo local para que no aparezca en nuestra interfaz (nota: esto solo afecta a plebs.app, no a otros clientes Nostr)',
@@ -1393,9 +1393,9 @@ const translations = {
         'analytics.shortsTab': 'Shorts ({count})',
         'analytics.streamsTab': 'Transmisiones ({count})',
         // About Page
-        'about.title': 'Acerca de Plebs',
-        'about.whatIs': '¿Qué es Plebs?',
-        'about.whatIsDesc': 'Plebs es una plataforma de videos descentralizada y resistente a la censura construida sobre el <a href="https://nostr.com" target="_blank" rel="noopener">protocolo Nostr</a>. A diferencia de las plataformas tradicionales controladas por corporaciones, Plebs te da verdadera propiedad de tu contenido e identidad.',
+        'about.title': 'Acerca de Goblinbox',
+        'about.whatIs': '¿Qué es Goblinbox?',
+        'about.whatIsDesc': 'Goblinbox es una plataforma de videos descentralizada y resistente a la censura construida sobre el <a href="https://nostr.com" target="_blank" rel="noopener">protocolo Nostr</a>. A diferencia de las plataformas tradicionales controladas por corporaciones, Goblinbox te da verdadera propiedad de tu contenido e identidad.',
         'about.whyNostr': '¿Por qué Nostr?',
         'about.whyNostrDesc': 'Nostr (Notes and Other Stuff Transmitted by Relays) es un protocolo simple y abierto que permite una red social verdaderamente descentralizada. Los beneficios clave incluyen:',
         'about.benefit1': 'Resistencia a la Censura:',
@@ -1407,7 +1407,7 @@ const translations = {
         'about.benefit4': 'Identidad Criptográfica:',
         'about.benefit4Desc': 'Tus claves prueban que eres quien dices ser',
         'about.howItWorks': 'Cómo Funciona',
-        'about.howItWorksDesc': 'Los videos en Plebs se almacenan usando <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, un sistema de almacenamiento distribuido, mientras que los metadatos e interacciones sociales se transmiten a relays Nostr. Esto significa que tu contenido no se almacena en nuestros servidores - está distribuido en la red.',
+        'about.howItWorksDesc': 'Los videos en Goblinbox se almacenan usando <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, un sistema de almacenamiento distribuido, mientras que los metadatos e interacciones sociales se transmiten a relays Nostr. Esto significa que tu contenido no se almacena en nuestros servidores - está distribuido en la red.',
         'about.features': 'Características',
         'about.feature1': 'Sube y comparte videos con la comunidad Nostr',
         'about.feature2': 'Da me gusta, comenta y comparte videos usando reacciones Nostr',
@@ -1416,10 +1416,10 @@ const translations = {
         'about.feature5': 'Explora temas y descubre nuevo contenido',
         'about.feature6': 'Funciona con cualquier identidad Nostr (usa claves existentes)',
         'about.openSource': 'Código Abierto',
-        'about.openSourceDesc': 'Plebs es software de código abierto. Puedes ver el código, contribuir o ejecutar tu propia instancia:',
+        'about.openSourceDesc': 'Goblinbox es software de código abierto. Puedes ver el código, contribuir o ejecutar tu propia instancia:',
         'about.githubRepo': 'Repositorio GitHub',
         'about.builtBy': 'Desarrollado Por',
-        'about.builtByDesc': 'Plebs es desarrollado por <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, una empresa dedicada a construir herramientas para el ecosistema Bitcoin y Nostr.',
+        'about.builtByDesc': 'Goblinbox es desarrollado por <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, una empresa dedicada a construir herramientas para el ecosistema Bitcoin y Nostr.',
         // Contact Page
         'contact.title': 'Contáctanos',
         'contact.getInTouch': 'Ponte en Contacto',
@@ -1430,14 +1430,14 @@ const translations = {
         'contact.githubDesc': 'Para reportar errores, solicitar funciones o problemas técnicos, abre un issue en nuestro repositorio:',
         'contact.githubIssues': 'Issues de GitHub',
         'contact.company': 'Empresa',
-        'contact.companyDesc': 'Plebs es desarrollado por 21 Million LLC',
+        'contact.companyDesc': 'Goblinbox es desarrollado por 21 Million LLC',
         // Terms of Service
         'terms.title': 'Términos de Servicio',
         'terms.lastUpdated': 'Última actualización: Diciembre 2024',
         'terms.section1Title': '1. Aceptación de Términos',
-        'terms.section1Desc': 'Al acceder y usar Plebs ("el Servicio"), aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses el Servicio.',
+        'terms.section1Desc': 'Al acceder y usar Goblinbox ("el Servicio"), aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses el Servicio.',
         'terms.section2Title': '2. Descripción del Servicio',
-        'terms.section2Desc': 'Plebs es una plataforma de videos descentralizada construida sobre el protocolo Nostr. El Servicio proporciona una interfaz para navegar, subir e interactuar con contenido de video almacenado en redes distribuidas. Plebs no aloja ni almacena contenido de video en servidores centralizados.',
+        'terms.section2Desc': 'Goblinbox es una plataforma de videos descentralizada construida sobre el protocolo Nostr. El Servicio proporciona una interfaz para navegar, subir e interactuar con contenido de video almacenado en redes distribuidas. Goblinbox no aloja ni almacena contenido de video en servidores centralizados.',
         'terms.section3Title': '3. Responsabilidades del Usuario',
         'terms.section3Desc': 'Eres responsable de:',
         'terms.section3Item1': 'Mantener la seguridad de tus claves privadas Nostr',
@@ -1460,7 +1460,7 @@ const translations = {
         'terms.section6Title': '6. Sin Garantía',
         'terms.section6Desc': 'El Servicio se proporciona "tal cual" sin garantías de ningún tipo. No garantizamos acceso continuo e ininterrumpido al Servicio.',
         'terms.section7Title': '7. Limitación de Responsabilidad',
-        'terms.section7Desc': 'En la máxima medida permitida por la ley, Plebs y sus operadores no serán responsables de ningún daño indirecto, incidental, especial o consecuente derivado de tu uso del Servicio.',
+        'terms.section7Desc': 'En la máxima medida permitida por la ley, Goblinbox y sus operadores no serán responsables de ningún daño indirecto, incidental, especial o consecuente derivado de tu uso del Servicio.',
         'terms.section8Title': '8. Cambios a los Términos',
         'terms.section8Desc': 'Nos reservamos el derecho de modificar estos términos en cualquier momento. El uso continuado del Servicio después de los cambios constituye aceptación de los nuevos términos.',
         'terms.section9Title': '9. Contacto',
@@ -1469,9 +1469,9 @@ const translations = {
         'privacy.title': 'Política de Privacidad',
         'privacy.lastUpdated': 'Última actualización: Diciembre 2024',
         'privacy.section1Title': '1. Resumen',
-        'privacy.section1Desc': 'Plebs está comprometido con proteger tu privacidad. Esta política explica cómo manejamos la información cuando usas nuestra plataforma de videos descentralizada.',
+        'privacy.section1Desc': 'Goblinbox está comprometido con proteger tu privacidad. Esta política explica cómo manejamos la información cuando usas nuestra plataforma de videos descentralizada.',
         'privacy.section2Title': '2. Arquitectura Descentralizada',
-        'privacy.section2Desc': 'Plebs está construido sobre Nostr, un protocolo descentralizado. Esto significa:',
+        'privacy.section2Desc': 'Goblinbox está construido sobre Nostr, un protocolo descentralizado. Esto significa:',
         'privacy.section2Item1': 'Tu contenido se transmite a relays públicos, no se almacena en nuestros servidores',
         'privacy.section2Item2': 'Tu clave pública Nostr sirve como tu identidad',
         'privacy.section2Item3': 'Los videos se almacenan en servidores Blossom distribuidos',
@@ -1493,9 +1493,9 @@ const translations = {
         'privacy.section4Item4': 'A quién sigues',
         'privacy.section4Item5': 'Zaps (pagos Lightning) que envías o recibes',
         'privacy.section5Title': '5. Almacenamiento de Datos',
-        'privacy.section5Desc': 'Los datos locales se almacenan en el localStorage de tu navegador. Puedes borrar estos datos en cualquier momento a través de la configuración de tu navegador. El contenido publicado en Nostr se distribuye a través de relays y no puede ser controlado o eliminado por Plebs.',
+        'privacy.section5Desc': 'Los datos locales se almacenan en el localStorage de tu navegador. Puedes borrar estos datos en cualquier momento a través de la configuración de tu navegador. El contenido publicado en Nostr se distribuye a través de relays y no puede ser controlado o eliminado por Goblinbox.',
         'privacy.section6Title': '6. Servicios de Terceros',
-        'privacy.section6Desc': 'Plebs interactúa con:',
+        'privacy.section6Desc': 'Goblinbox interactúa con:',
         'privacy.section6Item1': 'Relays Nostr (para datos sociales)',
         'privacy.section6Item2': 'Servidores Blossom (para almacenamiento de video)',
         'privacy.section6Item3': 'Lightning Network (para zaps/pagos)',
@@ -1517,19 +1517,19 @@ const translations = {
         'privacy.section10Desc': 'Para preguntas relacionadas con privacidad, por favor <a href="#/contact" class="accent-link">contáctanos</a>.',
         // FAQ Page
         'faq.title': 'Preguntas Frecuentes',
-        'faq.aboutPlebs': 'Acerca de Plebs',
+        'faq.aboutGoblinbox': 'Acerca de Goblinbox',
         'faq.nostrProtocol': 'Protocolo Nostr',
         'faq.videoStorage': 'Almacenamiento de Video y Blossom',
         'faq.featuresUsage': 'Características y Uso',
-        'faq.q1': '¿Qué es Plebs?',
-        'faq.a1': 'Plebs es una plataforma de videos descentralizada y resistente a la censura construida sobre el protocolo Nostr. A diferencia de las plataformas tradicionales controladas por corporaciones, Plebs te da verdadera propiedad de tu contenido e identidad. No hay servidores centrales que puedan banearte o eliminar tu contenido.',
-        'faq.q2': '¿Es Plebs gratis?',
-        'faq.a2': 'Sí, Plebs es completamente gratis para ver videos. Puedes navegar y ver contenido sin crear una cuenta. Para subir videos, comentar, dar me gusta o interactuar con otros usuarios, necesitarás una identidad Nostr (que también es gratis).',
-        'faq.q3': '¿Quién desarrolla Plebs?',
-        'faq.a3': 'Plebs es desarrollado por <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, una empresa dedicada a construir herramientas para el ecosistema Bitcoin y Nostr. Plebs es de código abierto, y puedes ver el código o contribuir en <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
+        'faq.q1': '¿Qué es Goblinbox?',
+        'faq.a1': 'Goblinbox es una plataforma de videos descentralizada y resistente a la censura construida sobre el protocolo Nostr. A diferencia de las plataformas tradicionales controladas por corporaciones, Goblinbox te da verdadera propiedad de tu contenido e identidad. No hay servidores centrales que puedan banearte o eliminar tu contenido.',
+        'faq.q2': '¿Es Goblinbox gratis?',
+        'faq.a2': 'Sí, Goblinbox es completamente gratis para ver videos. Puedes navegar y ver contenido sin crear una cuenta. Para subir videos, comentar, dar me gusta o interactuar con otros usuarios, necesitarás una identidad Nostr (que también es gratis).',
+        'faq.q3': '¿Quién desarrolla Goblinbox?',
+        'faq.a3': 'Goblinbox es desarrollado por <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, una empresa dedicada a construir herramientas para el ecosistema Bitcoin y Nostr. Goblinbox es de código abierto, y puedes ver el código o contribuir en <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
         'faq.q4': '¿Qué es Nostr?',
         'faq.a4': 'Nostr significa "Notes and Other Stuff Transmitted by Relays." Es un protocolo simple y abierto que permite una red social verdaderamente descentralizada. A diferencia de las plataformas tradicionales, Nostr no depende de ningún servidor central. En su lugar, usa una red de relays para transmitir mensajes entre usuarios, y claves criptográficas para identidad.',
-        'faq.q5': '¿Por qué Plebs usa Nostr?',
+        'faq.q5': '¿Por qué Goblinbox usa Nostr?',
         'faq.a5Title': 'Nostr proporciona varios beneficios clave:',
         'faq.a5Item1': 'Resistencia a la Censura:',
         'faq.a5Item1Desc': 'Ninguna entidad puede banearte o eliminar tu contenido',
@@ -1542,15 +1542,15 @@ const translations = {
         'faq.q6': '¿Qué son las claves Nostr (npub/nsec)?',
         'faq.a6': 'Tu identidad Nostr consiste en dos claves: una clave pública (npub) y una clave privada (nsec). Tu npub es como tu nombre de usuario - puedes compartirla con cualquiera. Tu nsec es como tu contraseña - ¡nunca la compartas! Cualquiera con tu nsec puede publicar como tú y acceder a tu cuenta. Recomendamos usar una extensión de navegador como Alby o nos2x para gestionar tus claves de forma segura.',
         'faq.q7': '¿Puedo usar mi cuenta Nostr existente?',
-        'faq.a7': '¡Absolutamente! Si ya tienes una identidad Nostr de apps como Damus, Primal, Amethyst u otro cliente Nostr, puedes usar las mismas claves para iniciar sesión en Plebs. Tus seguidores, perfil y reputación se transfieren automáticamente.',
+        'faq.a7': '¡Absolutamente! Si ya tienes una identidad Nostr de apps como Damus, Primal, Amethyst u otro cliente Nostr, puedes usar las mismas claves para iniciar sesión en Goblinbox. Tus seguidores, perfil y reputación se transfieren automáticamente.',
         'faq.q8': '¿Qué son los relays Nostr?',
         'faq.a8': 'Los relays son servidores que almacenan y transmiten mensajes Nostr. Cuando publicas algo, se envía a múltiples relays. Otros usuarios se conectan a relays para leer mensajes. Como hay muchos relays independientes, ninguno puede censurarte - si un relay te bloquea, tu contenido sigue existiendo en otros.',
         'faq.q9': '¿Dónde se almacenan los videos?',
-        'faq.a9': 'Los videos se almacenan en servidores Blossom, no en Plebs. Blossom es un sistema de almacenamiento distribuido diseñado para funcionar con Nostr. Cuando subes un video, va a uno o más servidores Blossom de tu elección. Los metadatos del video (título, descripción, etc.) se publican en relays Nostr.',
+        'faq.a9': 'Los videos se almacenan en servidores Blossom, no en Goblinbox. Blossom es un sistema de almacenamiento distribuido diseñado para funcionar con Nostr. Cuando subes un video, va a uno o más servidores Blossom de tu elección. Los metadatos del video (título, descripción, etc.) se publican en relays Nostr.',
         'faq.q10': '¿Qué es Blossom?',
         'faq.a10': 'Blossom es un protocolo abierto para almacenar y servir archivos multimedia de forma descentralizada. Los archivos se identifican por su hash SHA-256, lo que significa que el mismo archivo tendrá la misma dirección independientemente de qué servidor lo aloje. Esto permite redundancia - tus archivos pueden existir en múltiples servidores. Aprende más en <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom GitHub</a>.',
-        'faq.q11': '¿Plebs aloja mis videos?',
-        'faq.a11': 'No. Plebs es un cliente/interfaz que te ayuda a navegar y subir contenido, pero no almacena ningún archivo de video o imagen. Todos los medios se almacenan en servidores Blossom independientes. Plebs simplemente muestra contenido de estos proveedores de almacenamiento distribuido.',
+        'faq.q11': '¿Goblinbox aloja mis videos?',
+        'faq.a11': 'No. Goblinbox es un cliente/interfaz que te ayuda a navegar y subir contenido, pero no almacena ningún archivo de video o imagen. Todos los medios se almacenan en servidores Blossom independientes. Goblinbox simplemente muestra contenido de estos proveedores de almacenamiento distribuido.',
         'faq.q12': '¿Puedo elegir qué servidor Blossom usar?',
         'faq.a12': '¡Sí! Puedes configurar qué servidores Blossom quieres usar para subir en tu configuración. Incluso puedes ejecutar tu propio servidor Blossom si quieres control completo sobre tu almacenamiento de medios.',
         'faq.q13': '¿Cómo creo una cuenta?',
@@ -1575,7 +1575,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Auto-Moderación',
         'faq.q16': '¿Cómo funciona la moderación en una plataforma descentralizada?',
-        'faq.a16': 'A diferencia de las plataformas tradicionales con moderadores centralizados, Plebs te da el control de lo que ves. Proporcionamos poderosas herramientas de auto-moderación que incluyen paquetes de filtros de contenido, silenciamiento de usuarios, advertencias de la comunidad e indicadores de videos con muchos votos negativos. Tú decides qué contenido es apropiado para ti - no hay una autoridad central tomando esas decisiones.',
+        'faq.a16': 'A diferencia de las plataformas tradicionales con moderadores centralizados, Goblinbox te da el control de lo que ves. Proporcionamos poderosas herramientas de auto-moderación que incluyen paquetes de filtros de contenido, silenciamiento de usuarios, advertencias de la comunidad e indicadores de videos con muchos votos negativos. Tú decides qué contenido es apropiado para ti - no hay una autoridad central tomando esas decisiones.',
         'faq.q17': '¿Qué son los Paquetes de Filtros de Contenido?',
         'faq.a17Intro': 'Los Paquetes de Filtros de Contenido son filtros de palabras clave predefinidos que puedes habilitar para ocultar tipos específicos de contenido. Los paquetes disponibles incluyen:',
         'faq.a17Pack1': 'Racismo y Discurso de Odio:',
@@ -1606,7 +1606,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Privacidad y Seguridad',
         'faq.q22': '¿Es mi actividad privada?',
-        'faq.a22': 'En Nostr, la mayoría de la actividad es pública por diseño. Tus me gusta, comentarios, seguidos y zaps son visibles en la red pública. Sin embargo, Plebs almacena tu historial de visualización localmente en tu navegador - nunca se envía a ningún servidor. Puedes borrar tus datos locales en cualquier momento.',
+        'faq.a22': 'En Nostr, la mayoría de la actividad es pública por diseño. Tus me gusta, comentarios, seguidos y zaps son visibles en la red pública. Sin embargo, Goblinbox almacena tu historial de visualización localmente en tu navegador - nunca se envía a ningún servidor. Puedes borrar tus datos locales en cualquier momento.',
         'faq.q23': '¿Cómo mantengo mi cuenta segura?',
         'faq.a23': 'Nunca compartas tu clave privada (nsec) con nadie. Recomendamos encarecidamente usar una extensión de navegador Nostr como Alby, nos2x o un firmante de hardware. Estos mantienen tu clave privada segura y solo firman eventos cuando los apruebas. Evita almacenar tu nsec directamente en sitios web.',
         'faq.q24': '¿Puedo eliminar mi contenido?',
@@ -1617,7 +1617,7 @@ const translations = {
         'faq.a25Intro': 'Si los videos no se cargan, prueba estos pasos:',
         'faq.a25Item1': 'Actualiza la página',
         'faq.a25Item2': 'Verifica tu conexión a internet',
-        'faq.a25Item3': 'El servidor Blossom que aloja el video podría estar caído - esto es independiente de Plebs',
+        'faq.a25Item3': 'El servidor Blossom que aloja el video podría estar caído - esto es independiente de Goblinbox',
         'faq.a25Item4': 'Intenta deshabilitar extensiones del navegador que puedan bloquear contenido',
         'faq.a25Item5': 'Borra la caché de tu navegador e intenta de nuevo',
         'faq.q26': 'Perdí mi clave privada - ¿pueden ayudarme a recuperarla?',
@@ -1625,7 +1625,7 @@ const translations = {
         'faq.q27': '¿Cómo reporto un error o solicito una función?',
         'faq.a27': 'Puedes reportar errores o solicitar funciones en nuestra página de <a href="https://github.com/Spl0itable/plebs-app/issues" target="_blank" rel="noopener">GitHub Issues</a>. También puedes contactarnos en Nostr - visita nuestra página de <a href="#/contact">Contacto</a> para más detalles.',
         // Page Titles
-        'pageTitle.following': 'Siguiendo', 'pageTitle.myVideos': 'Mis Videos', 'pageTitle.likedVideos': 'Videos que Me Gustan', 'pageTitle.watchHistory': 'Historial de Reproducción', 'pageTitle.liveStreams': 'Transmisiones en Vivo', 'pageTitle.suffix': '- Plebs', 'pageTitle.liveSuffix': '- En Vivo en Plebs',
+        'pageTitle.following': 'Siguiendo', 'pageTitle.myVideos': 'Mis Videos', 'pageTitle.likedVideos': 'Videos que Me Gustan', 'pageTitle.watchHistory': 'Historial de Reproducción', 'pageTitle.liveStreams': 'Transmisiones en Vivo', 'pageTitle.suffix': '- Goblinbox', 'pageTitle.liveSuffix': '- En Vivo en Goblinbox',
         // Home Page Sections
         'section.trending': 'Tendencias', 'section.recommended': 'Recomendado Para Ti', 'section.shorts': 'Shorts', 'section.live': 'En Vivo', 'section.liveNow': 'En Vivo Ahora', 'section.latestVideos': 'Últimos Videos', 'section.videos': 'Videos', 'section.usersYouFollow': 'Usuarios que Sigues',
         // Trending Period
@@ -1646,17 +1646,17 @@ const translations = {
         'nav.home': 'Accueil', 'nav.following': 'Abonnements', 'nav.myVideos': 'Mes Vidéos', 'nav.liked': 'Aimés', 'nav.history': 'Historique', 'nav.topics': 'SUJETS', 'nav.live': 'En Direct', 'nav.bitcoin': 'Bitcoin', 'nav.nostr': 'Nostr', 'nav.technology': 'Technologie', 'nav.gaming': 'Jeux', 'nav.tutorials': 'Tutoriels', 'nav.podcasts': 'Podcasts', 'nav.music': 'Musique', 'nav.nsfw': 'NSFW', 'nav.about': 'À Propos', 'nav.contact': 'Contact', 'nav.terms': 'Conditions', 'nav.privacy': 'Confidentialité', 'nav.faq': 'FAQ', 'nav.dmca': 'DMCA', 'nav.playlists': 'Playlists', 'nav.downloads': 'Téléchargements', 'nav.subscriptions': 'Abonnements', 'nav.trending': 'Tendances', 'nav.explore': 'Explorer', 'nav.categories': 'Catégories', 'nav.liveStreams': 'Diffusions en Direct', 'nav.github': 'GitHub',
         'header.search': 'Rechercher des vidéos...', 'header.notifications': 'Notifications', 'header.settings': 'Paramètres', 'header.create': 'Créer', 'header.admin': 'Admin', 'header.viewProfile': 'Voir le Profil', 'header.logout': 'Déconnexion',
         // Login Modal
-        'login.title': 'Connexion avec Nostr', 'login.extension': 'Connexion avec Extension', 'login.extensionDesc': 'Utilisez Alby, nos2x ou d\'autres extensions Nostr', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Connectez-vous avec des signataires distants comme Amber, nsec.app', 'login.privateKey': 'Clé Privée', 'login.privateKeyDesc': 'Entrez votre nsec ou clé hex (local uniquement)', 'login.newToNostr': 'Nouveau sur Nostr?', 'login.createAccount': 'Créer un Compte', 'login.createAccountDesc': 'Commencez avec une nouvelle identité Nostr pour utiliser sur Plebs',
+        'login.title': 'Connexion avec Nostr', 'login.extension': 'Connexion avec Extension', 'login.extensionDesc': 'Utilisez Alby, nos2x ou d\'autres extensions Nostr', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Connectez-vous avec des signataires distants comme Amber, nsec.app', 'login.privateKey': 'Clé Privée', 'login.privateKeyDesc': 'Entrez votre nsec ou clé hex (local uniquement)', 'login.newToNostr': 'Nouveau sur Nostr?', 'login.createAccount': 'Créer un Compte', 'login.createAccountDesc': 'Commencez avec une nouvelle identité Nostr pour utiliser sur Goblinbox',
         // Connect Modal
         'connect.title': 'Connexion avec Nostr', 'connect.option1': 'Option 1: Utilisez cette chaîne de connexion', 'connect.option1Desc': 'Copiez et collez ceci dans n\'importe quelle app compatible NIP-46 (nsec.app, Amber, etc.)', 'connect.copyString': 'Copier la Chaîne de Connexion', 'connect.showQR': 'Afficher le Code QR', 'connect.listening': 'En attente de connexion...', 'connect.option2': 'Option 2: Coller une URL bunker', 'connect.option2Desc': 'Si vous avez déjà une URL bunker:// d\'un signataire distant', 'connect.withBunker': 'Connecter avec Bunker', 'connect.popularSigners': 'Signataires NIP-46 populaires:', 'connect.webSigner': 'Signataire web', 'connect.androidApp': 'App Android', 'connect.builtInSigner': 'Signataire intégré', 'connect.or': 'OU', 'connect.bunkerPlaceholder': 'bunker://...',
         // Private Key Modal
         'privateKey.title': 'Connexion avec Clé Privée', 'privateKey.warning': 'Avertissement de Sécurité', 'privateKey.warningText': 'Votre clé privée sera stockée localement dans votre navigateur. Pour plus de sécurité, envisagez d\'utiliser une extension de navigateur ou Nostr Connect.', 'privateKey.label': 'Clé Privée (nsec ou hex)', 'privateKey.showKey': 'Afficher la clé', 'privateKey.login': 'Connexion', 'privateKey.placeholder': 'nsec1...',
         // Signup Modal
-        'signup.title': 'Créer un Compte Nostr', 'signup.whatIsNostr': 'Qu\'est-ce que Nostr?', 'signup.nostrExplanation': 'Nostr est un protocole social décentralisé qui vous donne la propriété de votre identité et de votre contenu. Contrairement aux plateformes traditionnelles, aucune entreprise ne peut vous bannir, censurer votre contenu ou fermer votre compte.', 'signup.whyPlebs': 'Pourquoi Plebs utilise Nostr?', 'signup.plebsExplanation': 'Plebs est construit sur Nostr pour fournir un partage de vidéos résistant à la censure. Vos vidéos, commentaires et interactions sont stockés sur un réseau de relais, pas sur nos serveurs. Votre identité Nostr fonctionne sur des centaines d\'autres apps aussi!', 'signup.howItWorks': 'Comment ça marche', 'signup.keysIdentity': 'Vos clés = Votre identité.', 'signup.keysIdentityDesc': 'Vous obtiendrez une clé privée (nsec) qui prouve que vous êtes propriétaire de votre compte.', 'signup.keepSecret': 'Gardez votre clé privée secrète!', 'signup.keepSecretDesc': 'C\'est comme un mot de passe qui ne peut jamais être réinitialisé.', 'signup.oneIdentity': 'Une identité, plusieurs apps.', 'signup.oneIdentityDesc': 'Utilisez le même compte sur Damus, Primal, Amethyst et plus.', 'signup.gotIt': 'Compris, créons mon compte', 'signup.username': 'Nom d\'utilisateur', 'signup.usernamePlaceholder': 'Choisissez un nom d\'affichage', 'signup.about': 'À propos (optionnel)', 'signup.aboutPlaceholder': 'Parlez de vous aux autres', 'signup.profilePicture': 'Photo de Profil (optionnel)', 'signup.uploadPhoto': 'Télécharger une Photo', 'signup.remove': 'Supprimer', 'signup.avatarHint': 'Les images carrées fonctionnent mieux. Max 5Mo.', 'signup.uploading': 'Téléchargement...', 'signup.lightningAddress': 'Adresse Lightning (optionnel)', 'signup.lightningPlaceholder': 'vous@walletofsatoshi.com', 'signup.lightningHint': 'Ajoutez une adresse Lightning pour recevoir des zaps (pourboires Bitcoin) sur vos vidéos et profil.', 'signup.nostrAddress': 'Adresse Nostr', 'signup.nostrAddressPlaceholder': 'utilisateur', 'signup.nostrAddressHint': 'Votre adresse Nostr facilite la recherche de votre profil. Lettres minuscules, chiffres, _ et - uniquement.', 'signup.nostrAddressRequired': 'Veuillez entrer une adresse Nostr', 'signup.nostrAddressAvailable': 'Disponible!', 'signup.nostrAddressUnavailable': 'Déjà pris', 'signup.nostrAddressChecking': 'Vérification...', 'signup.nostrAddressInvalid': 'Format de nom d\'utilisateur invalide', 'signup.nostrAddressRegistering': 'Enregistrement de votre adresse Nostr...', 'signup.nostrAddressSuccess': 'Adresse Nostr enregistrée!', 'signup.nostrAddressFailed': 'Impossible d\'enregistrer l\'adresse Nostr', 'signup.yourUsername': 'Votre Nom d\'utilisateur', 'signup.yourBio': 'Votre bio apparaîtra ici', 'signup.createAccountBtn': 'Créer le Compte', 'signup.termsAgree': 'En créant un compte, vous acceptez nos', 'signup.and': 'et', 'signup.success': 'Compte Créé avec Succès!', 'signup.yourPrivateKey': 'Votre Clé Privée (nsec)', 'signup.keyWarning': 'C\'est la SEULE façon d\'accéder à votre compte. Gardez-la en sécurité!', 'signup.copyPrivateKey': 'Copier la Clé Privée', 'signup.howToUseKey': 'Comment utiliser votre clé privée', 'signup.continueToPlebs': 'Continuer vers Plebs',
+        'signup.title': 'Créer un Compte Nostr', 'signup.whatIsNostr': 'Qu\'est-ce que Nostr?', 'signup.nostrExplanation': 'Nostr est un protocole social décentralisé qui vous donne la propriété de votre identité et de votre contenu. Contrairement aux plateformes traditionnelles, aucune entreprise ne peut vous bannir, censurer votre contenu ou fermer votre compte.', 'signup.whyGoblinbox': 'Pourquoi Goblinbox utilise Nostr?', 'signup.plebsExplanation': 'Goblinbox est construit sur Nostr pour fournir un partage de vidéos résistant à la censure. Vos vidéos, commentaires et interactions sont stockés sur un réseau de relais, pas sur nos serveurs. Votre identité Nostr fonctionne sur des centaines d\'autres apps aussi!', 'signup.howItWorks': 'Comment ça marche', 'signup.keysIdentity': 'Vos clés = Votre identité.', 'signup.keysIdentityDesc': 'Vous obtiendrez une clé privée (nsec) qui prouve que vous êtes propriétaire de votre compte.', 'signup.keepSecret': 'Gardez votre clé privée secrète!', 'signup.keepSecretDesc': 'C\'est comme un mot de passe qui ne peut jamais être réinitialisé.', 'signup.oneIdentity': 'Une identité, plusieurs apps.', 'signup.oneIdentityDesc': 'Utilisez le même compte sur Damus, Primal, Amethyst et plus.', 'signup.gotIt': 'Compris, créons mon compte', 'signup.username': 'Nom d\'utilisateur', 'signup.usernamePlaceholder': 'Choisissez un nom d\'affichage', 'signup.about': 'À propos (optionnel)', 'signup.aboutPlaceholder': 'Parlez de vous aux autres', 'signup.profilePicture': 'Photo de Profil (optionnel)', 'signup.uploadPhoto': 'Télécharger une Photo', 'signup.remove': 'Supprimer', 'signup.avatarHint': 'Les images carrées fonctionnent mieux. Max 5Mo.', 'signup.uploading': 'Téléchargement...', 'signup.lightningAddress': 'Adresse Lightning (optionnel)', 'signup.lightningPlaceholder': 'vous@walletofsatoshi.com', 'signup.lightningHint': 'Ajoutez une adresse Lightning pour recevoir des zaps (pourboires Bitcoin) sur vos vidéos et profil.', 'signup.nostrAddress': 'Adresse Nostr', 'signup.nostrAddressPlaceholder': 'utilisateur', 'signup.nostrAddressHint': 'Votre adresse Nostr facilite la recherche de votre profil. Lettres minuscules, chiffres, _ et - uniquement.', 'signup.nostrAddressRequired': 'Veuillez entrer une adresse Nostr', 'signup.nostrAddressAvailable': 'Disponible!', 'signup.nostrAddressUnavailable': 'Déjà pris', 'signup.nostrAddressChecking': 'Vérification...', 'signup.nostrAddressInvalid': 'Format de nom d\'utilisateur invalide', 'signup.nostrAddressRegistering': 'Enregistrement de votre adresse Nostr...', 'signup.nostrAddressSuccess': 'Adresse Nostr enregistrée!', 'signup.nostrAddressFailed': 'Impossible d\'enregistrer l\'adresse Nostr', 'signup.yourUsername': 'Votre Nom d\'utilisateur', 'signup.yourBio': 'Votre bio apparaîtra ici', 'signup.createAccountBtn': 'Créer le Compte', 'signup.termsAgree': 'En créant un compte, vous acceptez nos', 'signup.and': 'et', 'signup.success': 'Compte Créé avec Succès!', 'signup.yourPrivateKey': 'Votre Clé Privée (nsec)', 'signup.keyWarning': 'C\'est la SEULE façon d\'accéder à votre compte. Gardez-la en sécurité!', 'signup.copyPrivateKey': 'Copier la Clé Privée', 'signup.howToUseKey': 'Comment utiliser votre clé privée', 'signup.continueToGoblinbox': 'Continuer vers Goblinbox',
         // Notifications
         'notifications.title': 'Notifications', 'notifications.settings': 'Paramètres de Notifications', 'notifications.reactions': 'Réactions (j\'aime/je n\'aime pas)', 'notifications.replies': 'Commentaires & Réponses', 'notifications.zaps': 'Zaps', 'notifications.chatMentions': 'Mentions en Chat en Direct', 'notifications.newFollowers': 'Nouveaux Abonnés', 'notifications.syncNote': 'Les paramètres sont synchronisés entre appareils via Nostr',
         // Settings Modal
-        'settings.title': 'Paramètres', 'settings.language': 'Langue', 'settings.languageDesc': 'Choisissez votre langue préférée', 'settings.saveToNostr': 'Enregistrer sur Nostr', 'settings.saveToNostrDesc': 'Synchroniser les paramètres sur toutes les instances Plebs', 'settings.darkMode': 'Mode Sombre', 'settings.darkModeDesc': 'Basculer entre thème clair et sombre', 'settings.contentWarning': 'Préférences d\'avertissement de contenu', 'settings.showNsfwWarnings': 'Afficher les avertissements NSFW', 'settings.showNsfwWarningsDesc': 'Afficher la vérification d\'âge pour le contenu NSFW', 'settings.showCommunityWarnings': 'Afficher les avertissements de la communauté', 'settings.showCommunityWarningsDesc': 'Afficher les avertissements pour le contenu signalé ou fortement négatif', 'settings.showFollowsReportWarnings': 'Afficher les avertissements des rapports suivis', 'settings.showFollowsReportWarningsDesc': 'Afficher les avertissements lorsque 5+ personnes que vous suivez ont signalé du contenu', 'settings.filterPacks': 'Packs de filtres de contenu', 'settings.filterPacksDesc': 'Activez les packs de filtres pour masquer automatiquement le contenu correspondant à des mots-clés spécifiques.', 'settings.customKeywordFilter': 'Filtre de mots-clés personnalisé', 'settings.customKeywordFilterPlaceholder': 'Entrez des mots-clés ou phrases séparés par des virgules\nExemple: spam, contenu indésirable, phrase spécifique', 'settings.customKeywordFilterDesc': 'Ajoutez vos propres mots-clés à filtrer (séparés par des virgules)', 'settings.saveSettings': 'Enregistrer les Paramètres', 'settings.resetDefaults': 'Réinitialiser', 'settings.notificationSettings': 'Paramètres de Notification',
+        'settings.title': 'Paramètres', 'settings.language': 'Langue', 'settings.languageDesc': 'Choisissez votre langue préférée', 'settings.saveToNostr': 'Enregistrer sur Nostr', 'settings.saveToNostrDesc': 'Synchroniser les paramètres sur toutes les instances Goblinbox', 'settings.darkMode': 'Mode Sombre', 'settings.darkModeDesc': 'Basculer entre thème clair et sombre', 'settings.contentWarning': 'Préférences d\'avertissement de contenu', 'settings.showNsfwWarnings': 'Afficher les avertissements NSFW', 'settings.showNsfwWarningsDesc': 'Afficher la vérification d\'âge pour le contenu NSFW', 'settings.showCommunityWarnings': 'Afficher les avertissements de la communauté', 'settings.showCommunityWarningsDesc': 'Afficher les avertissements pour le contenu signalé ou fortement négatif', 'settings.showFollowsReportWarnings': 'Afficher les avertissements des rapports suivis', 'settings.showFollowsReportWarningsDesc': 'Afficher les avertissements lorsque 5+ personnes que vous suivez ont signalé du contenu', 'settings.filterPacks': 'Packs de filtres de contenu', 'settings.filterPacksDesc': 'Activez les packs de filtres pour masquer automatiquement le contenu correspondant à des mots-clés spécifiques.', 'settings.customKeywordFilter': 'Filtre de mots-clés personnalisé', 'settings.customKeywordFilterPlaceholder': 'Entrez des mots-clés ou phrases séparés par des virgules\nExemple: spam, contenu indésirable, phrase spécifique', 'settings.customKeywordFilterDesc': 'Ajoutez vos propres mots-clés à filtrer (séparés par des virgules)', 'settings.saveSettings': 'Enregistrer les Paramètres', 'settings.resetDefaults': 'Réinitialiser', 'settings.notificationSettings': 'Paramètres de Notification',
         // Upload Modal
         'upload.title': 'Télécharger une Vidéo', 'upload.videoFile': 'Fichier Vidéo', 'upload.clickToSelect': 'Cliquez pour sélectionner une vidéo ou glissez-déposez', 'upload.fileTypes': 'MP4, AVI, MOV, etc (max 2Go entrée, sera compressé à <100Mo)', 'upload.preparing': 'Préparation...', 'upload.thumbnail': 'Miniature', 'upload.thumbnailHint': 'Cliquez pour sélectionner ou auto-générer depuis la vidéo', 'upload.uploading': 'Téléchargement...', 'upload.titleLabel': 'Titre', 'upload.titlePlaceholder': 'Entrez le titre de la vidéo', 'upload.descriptionLabel': 'Description', 'upload.descriptionPlaceholder': 'Parlez de votre vidéo aux spectateurs', 'upload.tagsLabel': 'Tags (séparés par des virgules)', 'upload.tagsPlaceholder': 'bitcoin, nostr, tutoriel', 'upload.markNsfw': 'Marquer comme NSFW (18+)', 'upload.nsfwDesc': 'Le contenu pour adultes doit être marqué comme NSFW', 'upload.saveDraft': 'Enregistrer comme Brouillon', 'upload.publish': 'Publier', 'upload.selectVideo': 'Sélectionnez une vidéo à télécharger', 'upload.optional': '(optionnel)', 'upload.remove': 'Supprimer', 'upload.qualityHigh': 'Haute',
         // Create Modal
@@ -1683,7 +1683,7 @@ const translations = {
         // Video Page
         'video.views': 'vues', 'video.view': 'vue', 'video.followers': 'abonnés', 'video.follower': 'abonné', 'video.follow': 'S\'abonner', 'video.unfollow': 'Se désabonner', 'video.share': 'Partager', 'video.comments': 'Commentaires', 'video.writeComment': 'Écrire un commentaire...', 'video.noComments': 'Pas encore de commentaires. Soyez le premier!',
         // Toast Messages
-        'toast.loggedIn': 'Connexion réussie!', 'toast.settingsSaved': 'Paramètres enregistrés!', 'toast.settingsLocal': 'Paramètres enregistrés localement. Impossible de sauvegarder sur Nostr.', 'toast.settingsLocalOnly': 'Paramètres enregistrés localement!', 'toast.settingsReset': 'Paramètres réinitialisés!', 'toast.avatarUploaded': 'Avatar téléchargé avec succès!', 'toast.profileUpdated': 'Profil mis à jour avec succès!', 'toast.copied': 'Copié dans le presse-papiers!', 'toast.copyFailed': 'Échec de la copie. Veuillez copier manuellement.', 'toast.installExtension': 'Veuillez installer une extension Nostr comme Alby ou nos2x', 'toast.loginFailed': 'Échec de connexion avec l\'extension. Veuillez réessayer.', 'toast.invalidKey': 'Clé privée invalide. Veuillez vérifier et réessayer.', 'toast.enterKey': 'Veuillez entrer votre clé privée', 'toast.enterUsername': 'Veuillez entrer un nom d\'utilisateur', 'toast.accountCreated': 'Bienvenue sur Plebs! Vous êtes connecté.', 'toast.keyCopied': 'Clé privée copiée dans le presse-papiers!', 'toast.unmuted': 'Utilisateur réactivé', 'toast.unmuteFailed': 'Échec de la réactivation de l\'utilisateur', 'toast.selectImage': 'Veuillez sélectionner un fichier image', 'toast.imageTooLarge': 'L\'image doit faire moins de 5 Mo', 'toast.avatarFailed': 'Échec du téléchargement de l\'avatar. Veuillez réessayer.', 'toast.mustBeLoggedIn': 'Vous devez être connecté pour modifier votre profil', 'toast.enterDisplayName': 'Veuillez entrer un nom d\'affichage', 'toast.profileFailed': 'Échec de la sauvegarde du profil. Veuillez réessayer.', 'toast.invalidBunker': 'Veuillez entrer une URL bunker valide', 'toast.connectFailed': 'Échec de la connexion', 'toast.showingFiltered': 'Affichage du contenu filtré', 'toast.reportSubmitted': 'Signalement envoyé avec succès', 'toast.draftSaved': 'Brouillon enregistré! Vous pouvez continuer plus tard depuis Mes Vidéos.', 'toast.draftLoaded': 'Brouillon chargé. Complétez votre téléchargement et publiez.', 'toast.draftDeleted': 'Brouillon supprimé', 'toast.languageChanged': 'Langue modifiée', 'toast.videoBlocked': 'Vidéo bloquée et publiée sur Nostr', 'toast.waitForUpload': 'Veuillez attendre la fin du téléchargement de la vidéo', 'toast.enterTitle': 'Veuillez entrer un titre', 'toast.publishing': 'Publication de la vidéo sur Nostr...',
+        'toast.loggedIn': 'Connexion réussie!', 'toast.settingsSaved': 'Paramètres enregistrés!', 'toast.settingsLocal': 'Paramètres enregistrés localement. Impossible de sauvegarder sur Nostr.', 'toast.settingsLocalOnly': 'Paramètres enregistrés localement!', 'toast.settingsReset': 'Paramètres réinitialisés!', 'toast.avatarUploaded': 'Avatar téléchargé avec succès!', 'toast.profileUpdated': 'Profil mis à jour avec succès!', 'toast.copied': 'Copié dans le presse-papiers!', 'toast.copyFailed': 'Échec de la copie. Veuillez copier manuellement.', 'toast.installExtension': 'Veuillez installer une extension Nostr comme Alby ou nos2x', 'toast.loginFailed': 'Échec de connexion avec l\'extension. Veuillez réessayer.', 'toast.invalidKey': 'Clé privée invalide. Veuillez vérifier et réessayer.', 'toast.enterKey': 'Veuillez entrer votre clé privée', 'toast.enterUsername': 'Veuillez entrer un nom d\'utilisateur', 'toast.accountCreated': 'Bienvenue sur Goblinbox! Vous êtes connecté.', 'toast.keyCopied': 'Clé privée copiée dans le presse-papiers!', 'toast.unmuted': 'Utilisateur réactivé', 'toast.unmuteFailed': 'Échec de la réactivation de l\'utilisateur', 'toast.selectImage': 'Veuillez sélectionner un fichier image', 'toast.imageTooLarge': 'L\'image doit faire moins de 5 Mo', 'toast.avatarFailed': 'Échec du téléchargement de l\'avatar. Veuillez réessayer.', 'toast.mustBeLoggedIn': 'Vous devez être connecté pour modifier votre profil', 'toast.enterDisplayName': 'Veuillez entrer un nom d\'affichage', 'toast.profileFailed': 'Échec de la sauvegarde du profil. Veuillez réessayer.', 'toast.invalidBunker': 'Veuillez entrer une URL bunker valide', 'toast.connectFailed': 'Échec de la connexion', 'toast.showingFiltered': 'Affichage du contenu filtré', 'toast.reportSubmitted': 'Signalement envoyé avec succès', 'toast.draftSaved': 'Brouillon enregistré! Vous pouvez continuer plus tard depuis Mes Vidéos.', 'toast.draftLoaded': 'Brouillon chargé. Complétez votre téléchargement et publiez.', 'toast.draftDeleted': 'Brouillon supprimé', 'toast.languageChanged': 'Langue modifiée', 'toast.videoBlocked': 'Vidéo bloquée et publiée sur Nostr', 'toast.waitForUpload': 'Veuillez attendre la fin du téléchargement de la vidéo', 'toast.enterTitle': 'Veuillez entrer un titre', 'toast.publishing': 'Publication de la vidéo sur Nostr...',
         // Time
         'time.justNow': 'à l\'instant', 'time.secondAgo': 'il y a 1 seconde', 'time.secondsAgo': 'il y a {n} secondes', 'time.minuteAgo': 'il y a 1 minute', 'time.minutesAgo': 'il y a {n} minutes', 'time.hourAgo': 'il y a 1 heure', 'time.hoursAgo': 'il y a {n} heures', 'time.dayAgo': 'il y a 1 jour', 'time.daysAgo': 'il y a {n} jours', 'time.weekAgo': 'il y a 1 semaine', 'time.weeksAgo': 'il y a {n} semaines', 'time.monthAgo': 'il y a 1 mois', 'time.monthsAgo': 'il y a {n} mois', 'time.yearAgo': 'il y a 1 an', 'time.yearsAgo': 'il y a {n} ans',
         // Empty States
@@ -1732,15 +1732,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA et Politique de Contenu',
         'dmca.lastUpdated': 'Dernière mise à jour : Décembre 2024',
-        'dmca.architectureTitle': 'Comprendre l\'Architecture de Plebs',
-        'dmca.architectureDesc': 'Plebs est une interface de plateforme vidéo décentralisée qui fonctionne différemment des services d\'hébergement vidéo traditionnels.',
-        'dmca.architectureItem1': 'Plebs n\'héberge aucun contenu vidéo ou image.',
+        'dmca.architectureTitle': 'Comprendre l\'Architecture de Goblinbox',
+        'dmca.architectureDesc': 'Goblinbox est une interface de plateforme vidéo décentralisée qui fonctionne différemment des services d\'hébergement vidéo traditionnels.',
+        'dmca.architectureItem1': 'Goblinbox n\'héberge aucun contenu vidéo ou image.',
         'dmca.architectureItem1Desc': 'Nous sommes un client/interface qui affiche du contenu stocké ailleurs.',
         'dmca.architectureItem2': 'Tous les fichiers multimédias sont stockés sur des serveurs Blossom indépendants.',
         'dmca.architectureItem3': 'Les métadonnées vidéo sont publiées sur des relais Nostr.',
-        'dmca.architectureItem4': 'Plebs agrège et affiche simplement ce contenu distribué.',
+        'dmca.architectureItem4': 'Goblinbox agrège et affiche simplement ce contenu distribué.',
         'dmca.filingTitle': 'Déposer une Réclamation DMCA',
-        'dmca.filingDesc': 'Puisque Plebs n\'héberge pas de contenu, nous ne pouvons pas supprimer directement le matériel contrefaisant.',
+        'dmca.filingDesc': 'Puisque Goblinbox n\'héberge pas de contenu, nous ne pouvons pas supprimer directement le matériel contrefaisant.',
         'dmca.forVideoTitle': '1. Pour le Contenu Vidéo/Image',
         'dmca.forVideoDesc': 'Les fichiers multimédias sont stockés sur des serveurs Blossom.',
         'dmca.forVideoItem1': 'Identifier quel serveur Blossom héberge le contenu',
@@ -1751,7 +1751,7 @@ const translations = {
         'dmca.forMetadataItem1': 'Ces informations sont stockées sur les relais Nostr',
         'dmca.forMetadataItem2': 'Contactez les opérateurs de relais Nostr spécifiques',
         'dmca.forMetadataItem3': 'Plusieurs relais peuvent stocker les mêmes données',
-        'dmca.whatWeCanDoTitle': 'Ce que Plebs Peut Faire',
+        'dmca.whatWeCanDoTitle': 'Ce que Goblinbox Peut Faire',
         'dmca.whatWeCanDoDesc': 'Bien que nous n\'hébergeons pas de contenu, nous pouvons:',
         'dmca.whatWeCanDoItem1': 'Vous aider à identifier quels serveurs hébergent du contenu spécifique',
         'dmca.whatWeCanDoItem2': 'Ajouter du contenu à une liste de blocage locale',
@@ -1864,9 +1864,9 @@ const translations = {
         'analytics.shortsTab': 'Shorts ({count})',
         'analytics.streamsTab': 'Streams ({count})',
         // About Page
-        'about.title': 'À Propos de Plebs',
-        'about.whatIs': 'Qu\'est-ce que Plebs?',
-        'about.whatIsDesc': 'Plebs est une plateforme vidéo décentralisée et résistante à la censure construite sur le <a href="https://nostr.com" target="_blank" rel="noopener">protocole Nostr</a>. Contrairement aux plateformes traditionnelles contrôlées par des entreprises, Plebs vous donne la vraie propriété de votre contenu et identité.',
+        'about.title': 'À Propos de Goblinbox',
+        'about.whatIs': 'Qu\'est-ce que Goblinbox?',
+        'about.whatIsDesc': 'Goblinbox est une plateforme vidéo décentralisée et résistante à la censure construite sur le <a href="https://nostr.com" target="_blank" rel="noopener">protocole Nostr</a>. Contrairement aux plateformes traditionnelles contrôlées par des entreprises, Goblinbox vous donne la vraie propriété de votre contenu et identité.',
         'about.whyNostr': 'Pourquoi Nostr?',
         'about.whyNostrDesc': 'Nostr (Notes and Other Stuff Transmitted by Relays) est un protocole simple et ouvert qui permet un réseau social vraiment décentralisé. Les avantages clés incluent:',
         'about.benefit1': 'Résistance à la Censure:',
@@ -1878,7 +1878,7 @@ const translations = {
         'about.benefit4': 'Identité Cryptographique:',
         'about.benefit4Desc': 'Vos clés prouvent que vous êtes qui vous dites être',
         'about.howItWorks': 'Comment Ça Marche',
-        'about.howItWorksDesc': 'Les vidéos sur Plebs sont stockées en utilisant <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, un système de stockage distribué, tandis que les métadonnées et interactions sociales sont diffusées aux relais Nostr. Cela signifie que votre contenu n\'est pas stocké sur nos serveurs - il est distribué sur le réseau.',
+        'about.howItWorksDesc': 'Les vidéos sur Goblinbox sont stockées en utilisant <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, un système de stockage distribué, tandis que les métadonnées et interactions sociales sont diffusées aux relais Nostr. Cela signifie que votre contenu n\'est pas stocké sur nos serveurs - il est distribué sur le réseau.',
         'about.features': 'Fonctionnalités',
         'about.feature1': 'Téléchargez et partagez des vidéos avec la communauté Nostr',
         'about.feature2': 'Aimez, commentez et partagez des vidéos avec les réactions Nostr',
@@ -1887,10 +1887,10 @@ const translations = {
         'about.feature5': 'Parcourez les sujets et découvrez du nouveau contenu',
         'about.feature6': 'Fonctionne avec n\'importe quelle identité Nostr (utilisez vos clés existantes)',
         'about.openSource': 'Open Source',
-        'about.openSourceDesc': 'Plebs est un logiciel open source. Vous pouvez voir le code, contribuer ou exécuter votre propre instance:',
+        'about.openSourceDesc': 'Goblinbox est un logiciel open source. Vous pouvez voir le code, contribuer ou exécuter votre propre instance:',
         'about.githubRepo': 'Dépôt GitHub',
         'about.builtBy': 'Développé Par',
-        'about.builtByDesc': 'Plebs est développé par <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, une entreprise dédiée à la création d\'outils pour l\'écosystème Bitcoin et Nostr.',
+        'about.builtByDesc': 'Goblinbox est développé par <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, une entreprise dédiée à la création d\'outils pour l\'écosystème Bitcoin et Nostr.',
         // Contact Page
         'contact.title': 'Contactez-nous',
         'contact.getInTouch': 'Entrer en Contact',
@@ -1901,14 +1901,14 @@ const translations = {
         'contact.githubDesc': 'Pour signaler des bugs, demander des fonctionnalités ou des problèmes techniques, ouvrez un issue sur notre dépôt:',
         'contact.githubIssues': 'Issues GitHub',
         'contact.company': 'Entreprise',
-        'contact.companyDesc': 'Plebs est développé par 21 Million LLC',
+        'contact.companyDesc': 'Goblinbox est développé par 21 Million LLC',
         // Terms of Service
         'terms.title': 'Conditions d\'Utilisation',
         'terms.lastUpdated': 'Dernière mise à jour: Décembre 2024',
         'terms.section1Title': '1. Acceptation des Conditions',
-        'terms.section1Desc': 'En accédant et en utilisant Plebs ("le Service"), vous acceptez d\'être lié par ces Conditions d\'Utilisation. Si vous n\'acceptez pas ces conditions, veuillez ne pas utiliser le Service.',
+        'terms.section1Desc': 'En accédant et en utilisant Goblinbox ("le Service"), vous acceptez d\'être lié par ces Conditions d\'Utilisation. Si vous n\'acceptez pas ces conditions, veuillez ne pas utiliser le Service.',
         'terms.section2Title': '2. Description du Service',
-        'terms.section2Desc': 'Plebs est une plateforme vidéo décentralisée construite sur le protocole Nostr. Le Service fournit une interface pour parcourir, télécharger et interagir avec du contenu vidéo stocké sur des réseaux distribués. Plebs n\'héberge pas et ne stocke pas de contenu vidéo sur des serveurs centralisés.',
+        'terms.section2Desc': 'Goblinbox est une plateforme vidéo décentralisée construite sur le protocole Nostr. Le Service fournit une interface pour parcourir, télécharger et interagir avec du contenu vidéo stocké sur des réseaux distribués. Goblinbox n\'héberge pas et ne stocke pas de contenu vidéo sur des serveurs centralisés.',
         'terms.section3Title': '3. Responsabilités de l\'Utilisateur',
         'terms.section3Desc': 'Vous êtes responsable de:',
         'terms.section3Item1': 'Maintenir la sécurité de vos clés privées Nostr',
@@ -1931,7 +1931,7 @@ const translations = {
         'terms.section6Title': '6. Aucune Garantie',
         'terms.section6Desc': 'Le Service est fourni "tel quel" sans garanties d\'aucune sorte. Nous ne garantissons pas un accès continu et ininterrompu au Service.',
         'terms.section7Title': '7. Limitation de Responsabilité',
-        'terms.section7Desc': 'Dans la mesure maximale permise par la loi, Plebs et ses opérateurs ne seront pas responsables de tout dommage indirect, accessoire, spécial ou consécutif découlant de votre utilisation du Service.',
+        'terms.section7Desc': 'Dans la mesure maximale permise par la loi, Goblinbox et ses opérateurs ne seront pas responsables de tout dommage indirect, accessoire, spécial ou consécutif découlant de votre utilisation du Service.',
         'terms.section8Title': '8. Modifications des Conditions',
         'terms.section8Desc': 'Nous nous réservons le droit de modifier ces conditions à tout moment. L\'utilisation continue du Service après les modifications constitue l\'acceptation des nouvelles conditions.',
         'terms.section9Title': '9. Contact',
@@ -1940,9 +1940,9 @@ const translations = {
         'privacy.title': 'Politique de Confidentialité',
         'privacy.lastUpdated': 'Dernière mise à jour: Décembre 2024',
         'privacy.section1Title': '1. Aperçu',
-        'privacy.section1Desc': 'Plebs s\'engage à protéger votre vie privée. Cette politique explique comment nous traitons les informations lorsque vous utilisez notre plateforme vidéo décentralisée.',
+        'privacy.section1Desc': 'Goblinbox s\'engage à protéger votre vie privée. Cette politique explique comment nous traitons les informations lorsque vous utilisez notre plateforme vidéo décentralisée.',
         'privacy.section2Title': '2. Architecture Décentralisée',
-        'privacy.section2Desc': 'Plebs est construit sur Nostr, un protocole décentralisé. Cela signifie:',
+        'privacy.section2Desc': 'Goblinbox est construit sur Nostr, un protocole décentralisé. Cela signifie:',
         'privacy.section2Item1': 'Votre contenu est diffusé aux relais publics, pas stocké sur nos serveurs',
         'privacy.section2Item2': 'Votre clé publique Nostr sert d\'identité',
         'privacy.section2Item3': 'Les vidéos sont stockées sur des serveurs Blossom distribués',
@@ -1964,9 +1964,9 @@ const translations = {
         'privacy.section4Item4': 'Qui vous suivez',
         'privacy.section4Item5': 'Zaps (paiements Lightning) que vous envoyez ou recevez',
         'privacy.section5Title': '5. Stockage des Données',
-        'privacy.section5Desc': 'Les données locales sont stockées dans le localStorage de votre navigateur. Vous pouvez effacer ces données à tout moment via les paramètres de votre navigateur. Le contenu publié sur Nostr est distribué sur les relais et ne peut pas être contrôlé ou supprimé par Plebs.',
+        'privacy.section5Desc': 'Les données locales sont stockées dans le localStorage de votre navigateur. Vous pouvez effacer ces données à tout moment via les paramètres de votre navigateur. Le contenu publié sur Nostr est distribué sur les relais et ne peut pas être contrôlé ou supprimé par Goblinbox.',
         'privacy.section6Title': '6. Services Tiers',
-        'privacy.section6Desc': 'Plebs interagit avec:',
+        'privacy.section6Desc': 'Goblinbox interagit avec:',
         'privacy.section6Item1': 'Relais Nostr (pour les données sociales)',
         'privacy.section6Item2': 'Serveurs Blossom (pour le stockage vidéo)',
         'privacy.section6Item3': 'Lightning Network (pour les zaps/paiements)',
@@ -1988,19 +1988,19 @@ const translations = {
         'privacy.section10Desc': 'Pour des questions relatives à la confidentialité, veuillez <a href="#/contact" class="accent-link">nous contacter</a>.',
         // FAQ Page
         'faq.title': 'Questions Fréquemment Posées',
-        'faq.aboutPlebs': 'À Propos de Plebs',
+        'faq.aboutGoblinbox': 'À Propos de Goblinbox',
         'faq.nostrProtocol': 'Protocole Nostr',
         'faq.videoStorage': 'Stockage Vidéo et Blossom',
         'faq.featuresUsage': 'Fonctionnalités et Utilisation',
-        'faq.q1': 'Qu\'est-ce que Plebs?',
-        'faq.a1': 'Plebs est une plateforme vidéo décentralisée et résistante à la censure construite sur le protocole Nostr. Contrairement aux plateformes traditionnelles contrôlées par des entreprises, Plebs vous donne la vraie propriété de votre contenu et identité. Il n\'y a pas de serveurs centraux qui peuvent vous bannir ou supprimer votre contenu.',
-        'faq.q2': 'Plebs est-il gratuit?',
-        'faq.a2': 'Oui, Plebs est entièrement gratuit pour regarder des vidéos. Vous pouvez parcourir et regarder du contenu sans créer de compte. Pour télécharger des vidéos, commenter, aimer ou interagir avec d\'autres utilisateurs, vous aurez besoin d\'une identité Nostr (qui est également gratuite).',
-        'faq.q3': 'Qui développe Plebs?',
-        'faq.a3': 'Plebs est développé par <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, une entreprise dédiée à la création d\'outils pour l\'écosystème Bitcoin et Nostr. Plebs est open source, et vous pouvez voir le code ou contribuer sur <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
+        'faq.q1': 'Qu\'est-ce que Goblinbox?',
+        'faq.a1': 'Goblinbox est une plateforme vidéo décentralisée et résistante à la censure construite sur le protocole Nostr. Contrairement aux plateformes traditionnelles contrôlées par des entreprises, Goblinbox vous donne la vraie propriété de votre contenu et identité. Il n\'y a pas de serveurs centraux qui peuvent vous bannir ou supprimer votre contenu.',
+        'faq.q2': 'Goblinbox est-il gratuit?',
+        'faq.a2': 'Oui, Goblinbox est entièrement gratuit pour regarder des vidéos. Vous pouvez parcourir et regarder du contenu sans créer de compte. Pour télécharger des vidéos, commenter, aimer ou interagir avec d\'autres utilisateurs, vous aurez besoin d\'une identité Nostr (qui est également gratuite).',
+        'faq.q3': 'Qui développe Goblinbox?',
+        'faq.a3': 'Goblinbox est développé par <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, une entreprise dédiée à la création d\'outils pour l\'écosystème Bitcoin et Nostr. Goblinbox est open source, et vous pouvez voir le code ou contribuer sur <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
         'faq.q4': 'Qu\'est-ce que Nostr?',
         'faq.a4': 'Nostr signifie "Notes and Other Stuff Transmitted by Relays." C\'est un protocole simple et ouvert qui permet un réseau social vraiment décentralisé. Contrairement aux plateformes traditionnelles, Nostr ne dépend d\'aucun serveur central. Au lieu de cela, il utilise un réseau de relais pour transmettre des messages entre utilisateurs, et des clés cryptographiques pour l\'identité.',
-        'faq.q5': 'Pourquoi Plebs utilise-t-il Nostr?',
+        'faq.q5': 'Pourquoi Goblinbox utilise-t-il Nostr?',
         'faq.a5Title': 'Nostr offre plusieurs avantages clés:',
         'faq.a5Item1': 'Résistance à la Censure:',
         'faq.a5Item1Desc': 'Aucune entité ne peut vous bannir ou supprimer votre contenu',
@@ -2013,15 +2013,15 @@ const translations = {
         'faq.q6': 'Que sont les clés Nostr (npub/nsec)?',
         'faq.a6': 'Votre identité Nostr se compose de deux clés: une clé publique (npub) et une clé privée (nsec). Votre npub est comme votre nom d\'utilisateur - vous pouvez la partager avec n\'importe qui. Votre nsec est comme votre mot de passe - ne la partagez jamais! Quiconque ayant votre nsec peut publier en votre nom et accéder à votre compte. Nous recommandons d\'utiliser une extension de navigateur comme Alby ou nos2x pour gérer vos clés en toute sécurité.',
         'faq.q7': 'Puis-je utiliser mon compte Nostr existant?',
-        'faq.a7': 'Absolument! Si vous avez déjà une identité Nostr d\'apps comme Damus, Primal, Amethyst ou tout autre client Nostr, vous pouvez utiliser les mêmes clés pour vous connecter à Plebs. Vos abonnés, profil et réputation se transfèrent automatiquement.',
+        'faq.a7': 'Absolument! Si vous avez déjà une identité Nostr d\'apps comme Damus, Primal, Amethyst ou tout autre client Nostr, vous pouvez utiliser les mêmes clés pour vous connecter à Goblinbox. Vos abonnés, profil et réputation se transfèrent automatiquement.',
         'faq.q8': 'Que sont les relais Nostr?',
         'faq.a8': 'Les relais sont des serveurs qui stockent et transmettent les messages Nostr. Lorsque vous publiez quelque chose, il est envoyé à plusieurs relais. D\'autres utilisateurs se connectent aux relais pour lire les messages. Parce qu\'il y a de nombreux relais indépendants, aucun ne peut vous censurer - si un relais vous bloque, votre contenu existe toujours sur d\'autres.',
         'faq.q9': 'Où sont stockées les vidéos?',
-        'faq.a9': 'Les vidéos sont stockées sur des serveurs Blossom, pas sur Plebs lui-même. Blossom est un système de stockage distribué conçu pour fonctionner avec Nostr. Lorsque vous téléchargez une vidéo, elle va sur un ou plusieurs serveurs Blossom de votre choix. Les métadonnées vidéo (titre, description, etc.) sont publiées sur les relais Nostr.',
+        'faq.a9': 'Les vidéos sont stockées sur des serveurs Blossom, pas sur Goblinbox lui-même. Blossom est un système de stockage distribué conçu pour fonctionner avec Nostr. Lorsque vous téléchargez une vidéo, elle va sur un ou plusieurs serveurs Blossom de votre choix. Les métadonnées vidéo (titre, description, etc.) sont publiées sur les relais Nostr.',
         'faq.q10': 'Qu\'est-ce que Blossom?',
         'faq.a10': 'Blossom est un protocole ouvert pour stocker et servir des fichiers multimédias de manière décentralisée. Les fichiers sont identifiés par leur hash SHA-256, ce qui signifie que le même fichier aura la même adresse quel que soit le serveur qui l\'héberge. Cela permet la redondance - vos fichiers peuvent exister sur plusieurs serveurs. En savoir plus sur <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom GitHub</a>.',
-        'faq.q11': 'Plebs héberge-t-il mes vidéos?',
-        'faq.a11': 'Non. Plebs est un client/interface qui vous aide à parcourir et télécharger du contenu, mais il ne stocke aucun fichier vidéo ou image. Tous les médias sont stockés sur des serveurs Blossom indépendants. Plebs affiche simplement le contenu de ces fournisseurs de stockage distribués.',
+        'faq.q11': 'Goblinbox héberge-t-il mes vidéos?',
+        'faq.a11': 'Non. Goblinbox est un client/interface qui vous aide à parcourir et télécharger du contenu, mais il ne stocke aucun fichier vidéo ou image. Tous les médias sont stockés sur des serveurs Blossom indépendants. Goblinbox affiche simplement le contenu de ces fournisseurs de stockage distribués.',
         'faq.q12': 'Puis-je choisir quel serveur Blossom utiliser?',
         'faq.a12': 'Oui! Vous pouvez configurer quels serveurs Blossom vous voulez utiliser pour le téléchargement dans vos paramètres. Vous pouvez même exécuter votre propre serveur Blossom si vous voulez un contrôle complet sur votre stockage multimédia.',
         'faq.q13': 'Comment créer un compte?',
@@ -2046,7 +2046,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Auto-Modération',
         'faq.q16': 'Comment fonctionne la modération sur une plateforme décentralisée?',
-        'faq.a16': 'Contrairement aux plateformes traditionnelles avec des modérateurs centralisés, Plebs vous met en contrôle de ce que vous voyez. Nous fournissons des outils d\'auto-modération puissants incluant des packs de filtres de contenu, la mise en sourdine d\'utilisateurs, des avertissements de la communauté et des indicateurs de vidéos fortement négativées. Vous décidez quel contenu est approprié pour vous - il n\'y a pas d\'autorité centrale prenant ces décisions.',
+        'faq.a16': 'Contrairement aux plateformes traditionnelles avec des modérateurs centralisés, Goblinbox vous met en contrôle de ce que vous voyez. Nous fournissons des outils d\'auto-modération puissants incluant des packs de filtres de contenu, la mise en sourdine d\'utilisateurs, des avertissements de la communauté et des indicateurs de vidéos fortement négativées. Vous décidez quel contenu est approprié pour vous - il n\'y a pas d\'autorité centrale prenant ces décisions.',
         'faq.q17': 'Que sont les Packs de Filtres de Contenu?',
         'faq.a17Intro': 'Les Packs de Filtres de Contenu sont des filtres de mots-clés prédéfinis que vous pouvez activer pour masquer des types spécifiques de contenu. Les packs disponibles incluent:',
         'faq.a17Pack1': 'Racisme et Discours de Haine:',
@@ -2077,7 +2077,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Confidentialité et Sécurité',
         'faq.q22': 'Mon activité est-elle privée?',
-        'faq.a22': 'Sur Nostr, la plupart des activités sont publiques par conception. Vos j\'aime, commentaires, abonnements et zaps sont visibles sur le réseau public. Cependant, Plebs stocke votre historique de visionnage localement dans votre navigateur - il n\'est jamais envoyé à un serveur. Vous pouvez effacer vos données locales à tout moment.',
+        'faq.a22': 'Sur Nostr, la plupart des activités sont publiques par conception. Vos j\'aime, commentaires, abonnements et zaps sont visibles sur le réseau public. Cependant, Goblinbox stocke votre historique de visionnage localement dans votre navigateur - il n\'est jamais envoyé à un serveur. Vous pouvez effacer vos données locales à tout moment.',
         'faq.q23': 'Comment garder mon compte sécurisé?',
         'faq.a23': 'Ne partagez jamais votre clé privée (nsec) avec quiconque. Nous recommandons fortement d\'utiliser une extension de navigateur Nostr comme Alby, nos2x ou un signataire matériel. Ceux-ci gardent votre clé privée sécurisée et ne signent les événements que lorsque vous les approuvez. Évitez de stocker votre nsec directement dans les sites web.',
         'faq.q24': 'Puis-je supprimer mon contenu?',
@@ -2088,7 +2088,7 @@ const translations = {
         'faq.a25Intro': 'Si les vidéos ne se chargent pas, essayez ces étapes:',
         'faq.a25Item1': 'Actualisez la page',
         'faq.a25Item2': 'Vérifiez votre connexion Internet',
-        'faq.a25Item3': 'Le serveur Blossom hébergeant la vidéo pourrait être hors ligne - ceci est indépendant de Plebs',
+        'faq.a25Item3': 'Le serveur Blossom hébergeant la vidéo pourrait être hors ligne - ceci est indépendant de Goblinbox',
         'faq.a25Item4': 'Essayez de désactiver les extensions de navigateur qui pourraient bloquer le contenu',
         'faq.a25Item5': 'Effacez le cache de votre navigateur et réessayez',
         'faq.q26': 'J\'ai perdu ma clé privée - pouvez-vous m\'aider à la récupérer?',
@@ -2096,7 +2096,7 @@ const translations = {
         'faq.q27': 'Comment signaler un bug ou demander une fonctionnalité?',
         'faq.a27': 'Vous pouvez signaler des bugs ou demander des fonctionnalités sur notre page <a href="https://github.com/Spl0itable/plebs-app/issues" target="_blank" rel="noopener">GitHub Issues</a>. Vous pouvez également nous contacter sur Nostr - visitez notre page <a href="#/contact">Contact</a> pour plus de détails.',
         // Page Titles
-        'pageTitle.following': 'Abonnements', 'pageTitle.myVideos': 'Mes Vidéos', 'pageTitle.likedVideos': 'Vidéos Aimées', 'pageTitle.watchHistory': 'Historique de Visionnage', 'pageTitle.liveStreams': 'Diffusions en Direct', 'pageTitle.suffix': '- Plebs', 'pageTitle.liveSuffix': '- En Direct sur Plebs',
+        'pageTitle.following': 'Abonnements', 'pageTitle.myVideos': 'Mes Vidéos', 'pageTitle.likedVideos': 'Vidéos Aimées', 'pageTitle.watchHistory': 'Historique de Visionnage', 'pageTitle.liveStreams': 'Diffusions en Direct', 'pageTitle.suffix': '- Goblinbox', 'pageTitle.liveSuffix': '- En Direct sur Goblinbox',
         // Home Page Sections
         'section.trending': 'Tendances', 'section.recommended': 'Recommandé Pour Vous', 'section.shorts': 'Shorts', 'section.live': 'En Direct', 'section.liveNow': 'En Direct Maintenant', 'section.latestVideos': 'Dernières Vidéos', 'section.videos': 'Vidéos', 'section.usersYouFollow': 'Utilisateurs Que Vous Suivez',
         // Trending Period
@@ -2117,17 +2117,17 @@ const translations = {
         'nav.home': 'Startseite', 'nav.following': 'Abonniert', 'nav.myVideos': 'Meine Videos', 'nav.liked': 'Gefällt mir', 'nav.history': 'Verlauf', 'nav.topics': 'THEMEN', 'nav.live': 'Live', 'nav.bitcoin': 'Bitcoin', 'nav.nostr': 'Nostr', 'nav.technology': 'Technologie', 'nav.gaming': 'Gaming', 'nav.tutorials': 'Tutorials', 'nav.podcasts': 'Podcasts', 'nav.music': 'Musik', 'nav.nsfw': 'NSFW', 'nav.about': 'Über', 'nav.contact': 'Kontakt', 'nav.terms': 'AGB', 'nav.privacy': 'Datenschutz', 'nav.faq': 'FAQ', 'nav.dmca': 'DMCA', 'nav.playlists': 'Playlists', 'nav.downloads': 'Downloads', 'nav.subscriptions': 'Abonnements', 'nav.trending': 'Trends', 'nav.explore': 'Entdecken', 'nav.categories': 'Kategorien', 'nav.liveStreams': 'Live-Streams', 'nav.github': 'GitHub',
         'header.search': 'Videos suchen...', 'header.notifications': 'Benachrichtigungen', 'header.settings': 'Einstellungen', 'header.create': 'Erstellen', 'header.admin': 'Admin', 'header.viewProfile': 'Profil anzeigen', 'header.logout': 'Abmelden',
         // Login Modal
-        'login.title': 'Mit Nostr anmelden', 'login.extension': 'Mit Erweiterung anmelden', 'login.extensionDesc': 'Verwenden Sie Alby, nos2x oder andere Nostr-Erweiterungen', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Mit Remote-Signern wie Amber, nsec.app verbinden', 'login.privateKey': 'Privater Schlüssel', 'login.privateKeyDesc': 'Geben Sie Ihren nsec oder hex-Schlüssel ein (nur lokal)', 'login.newToNostr': 'Neu bei Nostr?', 'login.createAccount': 'Konto erstellen', 'login.createAccountDesc': 'Starten Sie mit einer neuen Nostr-Identität für Plebs',
+        'login.title': 'Mit Nostr anmelden', 'login.extension': 'Mit Erweiterung anmelden', 'login.extensionDesc': 'Verwenden Sie Alby, nos2x oder andere Nostr-Erweiterungen', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Mit Remote-Signern wie Amber, nsec.app verbinden', 'login.privateKey': 'Privater Schlüssel', 'login.privateKeyDesc': 'Geben Sie Ihren nsec oder hex-Schlüssel ein (nur lokal)', 'login.newToNostr': 'Neu bei Nostr?', 'login.createAccount': 'Konto erstellen', 'login.createAccountDesc': 'Starten Sie mit einer neuen Nostr-Identität für Goblinbox',
         // Connect Modal
         'connect.title': 'Mit Nostr verbinden', 'connect.option1': 'Option 1: Verwenden Sie diese Verbindungszeichenfolge', 'connect.option1Desc': 'Kopieren Sie dies in eine NIP-46 kompatible App (nsec.app, Amber, etc.)', 'connect.copyString': 'Verbindungsstring kopieren', 'connect.showQR': 'QR-Code anzeigen', 'connect.listening': 'Warte auf Verbindung...', 'connect.option2': 'Option 2: Bunker-URL einfügen', 'connect.option2Desc': 'Falls Sie bereits eine bunker:// URL von einem Remote-Signer haben', 'connect.withBunker': 'Mit Bunker verbinden', 'connect.or': 'ODER', 'connect.bunkerPlaceholder': 'bunker://...',
         // Private Key Modal
         'privateKey.title': 'Mit privatem Schlüssel anmelden', 'privateKey.warning': 'Sicherheitswarnung', 'privateKey.warningText': 'Ihr privater Schlüssel wird lokal in Ihrem Browser gespeichert. Für mehr Sicherheit verwenden Sie eine Browsererweiterung oder Nostr Connect.', 'privateKey.label': 'Privater Schlüssel (nsec oder hex)', 'privateKey.showKey': 'Schlüssel anzeigen', 'privateKey.login': 'Anmelden', 'privateKey.placeholder': 'nsec1...',
         // Signup Modal
-        'signup.title': 'Nostr-Konto erstellen', 'signup.whatIsNostr': 'Was ist Nostr?', 'signup.nostrExplanation': 'Nostr ist ein dezentrales soziales Protokoll, das Ihnen die Kontrolle über Ihre Identität und Inhalte gibt. Anders als bei herkömmlichen Plattformen kann Sie kein Unternehmen sperren, zensieren oder Ihr Konto schließen.', 'signup.whyPlebs': 'Warum verwendet Plebs Nostr?', 'signup.plebsExplanation': 'Plebs basiert auf Nostr, um zensurresistentes Video-Sharing zu ermöglichen. Ihre Videos, Kommentare und Interaktionen werden in einem Netzwerk von Relays gespeichert, nicht auf unseren Servern.', 'signup.howItWorks': 'So funktioniert es', 'signup.keysIdentity': 'Ihre Schlüssel = Ihre Identität.', 'signup.keysIdentityDesc': 'Sie erhalten einen privaten Schlüssel (nsec), der beweist, dass Sie der Besitzer Ihres Kontos sind.', 'signup.keepSecret': 'Halten Sie Ihren privaten Schlüssel geheim!', 'signup.keepSecretDesc': 'Er ist wie ein Passwort, das niemals zurückgesetzt werden kann.', 'signup.oneIdentity': 'Eine Identität, viele Apps.', 'signup.oneIdentityDesc': 'Verwenden Sie dasselbe Konto auf Damus, Primal, Amethyst und mehr.', 'signup.gotIt': 'Verstanden, Konto erstellen', 'signup.username': 'Benutzername', 'signup.usernamePlaceholder': 'Wählen Sie einen Anzeigenamen', 'signup.about': 'Über mich (optional)', 'signup.aboutPlaceholder': 'Erzählen Sie anderen von sich', 'signup.profilePicture': 'Profilbild (optional)', 'signup.uploadPhoto': 'Foto hochladen', 'signup.remove': 'Entfernen', 'signup.avatarHint': 'Quadratische Bilder funktionieren am besten. Max 5MB.', 'signup.uploading': 'Wird hochgeladen...', 'signup.lightningAddress': 'Lightning-Adresse (optional)', 'signup.lightningPlaceholder': 'du@walletofsatoshi.com', 'signup.lightningHint': 'Fügen Sie eine Lightning-Adresse hinzu, um Zaps (Bitcoin-Trinkgelder) zu erhalten.', 'signup.nostrAddress': 'Nostr-Adresse', 'signup.nostrAddressPlaceholder': 'benutzername', 'signup.nostrAddressHint': 'Ihre Nostr-Adresse erleichtert das Finden Ihres Profils. Nur Kleinbuchstaben, Zahlen, _ und -.', 'signup.nostrAddressRequired': 'Bitte geben Sie eine Nostr-Adresse ein', 'signup.nostrAddressAvailable': 'Verfügbar!', 'signup.nostrAddressUnavailable': 'Bereits vergeben', 'signup.nostrAddressChecking': 'Wird überprüft...', 'signup.nostrAddressInvalid': 'Ungültiges Benutzernamenformat', 'signup.nostrAddressRegistering': 'Nostr-Adresse wird registriert...', 'signup.nostrAddressSuccess': 'Nostr-Adresse registriert!', 'signup.nostrAddressFailed': 'Nostr-Adresse konnte nicht registriert werden', 'signup.yourUsername': 'Ihr Benutzername', 'signup.yourBio': 'Ihre Bio erscheint hier', 'signup.createAccountBtn': 'Konto erstellen', 'signup.termsAgree': 'Mit der Erstellung eines Kontos akzeptieren Sie unsere', 'signup.and': 'und', 'signup.success': 'Konto erfolgreich erstellt!', 'signup.yourPrivateKey': 'Ihr privater Schlüssel (nsec)', 'signup.keyWarning': 'Dies ist die EINZIGE Möglichkeit, auf Ihr Konto zuzugreifen. Bewahren Sie ihn sicher auf!', 'signup.copyPrivateKey': 'Privaten Schlüssel kopieren', 'signup.howToUseKey': 'So verwenden Sie Ihren privaten Schlüssel', 'signup.continueToPlebs': 'Weiter zu Plebs',
+        'signup.title': 'Nostr-Konto erstellen', 'signup.whatIsNostr': 'Was ist Nostr?', 'signup.nostrExplanation': 'Nostr ist ein dezentrales soziales Protokoll, das Ihnen die Kontrolle über Ihre Identität und Inhalte gibt. Anders als bei herkömmlichen Plattformen kann Sie kein Unternehmen sperren, zensieren oder Ihr Konto schließen.', 'signup.whyGoblinbox': 'Warum verwendet Goblinbox Nostr?', 'signup.plebsExplanation': 'Goblinbox basiert auf Nostr, um zensurresistentes Video-Sharing zu ermöglichen. Ihre Videos, Kommentare und Interaktionen werden in einem Netzwerk von Relays gespeichert, nicht auf unseren Servern.', 'signup.howItWorks': 'So funktioniert es', 'signup.keysIdentity': 'Ihre Schlüssel = Ihre Identität.', 'signup.keysIdentityDesc': 'Sie erhalten einen privaten Schlüssel (nsec), der beweist, dass Sie der Besitzer Ihres Kontos sind.', 'signup.keepSecret': 'Halten Sie Ihren privaten Schlüssel geheim!', 'signup.keepSecretDesc': 'Er ist wie ein Passwort, das niemals zurückgesetzt werden kann.', 'signup.oneIdentity': 'Eine Identität, viele Apps.', 'signup.oneIdentityDesc': 'Verwenden Sie dasselbe Konto auf Damus, Primal, Amethyst und mehr.', 'signup.gotIt': 'Verstanden, Konto erstellen', 'signup.username': 'Benutzername', 'signup.usernamePlaceholder': 'Wählen Sie einen Anzeigenamen', 'signup.about': 'Über mich (optional)', 'signup.aboutPlaceholder': 'Erzählen Sie anderen von sich', 'signup.profilePicture': 'Profilbild (optional)', 'signup.uploadPhoto': 'Foto hochladen', 'signup.remove': 'Entfernen', 'signup.avatarHint': 'Quadratische Bilder funktionieren am besten. Max 5MB.', 'signup.uploading': 'Wird hochgeladen...', 'signup.lightningAddress': 'Lightning-Adresse (optional)', 'signup.lightningPlaceholder': 'du@walletofsatoshi.com', 'signup.lightningHint': 'Fügen Sie eine Lightning-Adresse hinzu, um Zaps (Bitcoin-Trinkgelder) zu erhalten.', 'signup.nostrAddress': 'Nostr-Adresse', 'signup.nostrAddressPlaceholder': 'benutzername', 'signup.nostrAddressHint': 'Ihre Nostr-Adresse erleichtert das Finden Ihres Profils. Nur Kleinbuchstaben, Zahlen, _ und -.', 'signup.nostrAddressRequired': 'Bitte geben Sie eine Nostr-Adresse ein', 'signup.nostrAddressAvailable': 'Verfügbar!', 'signup.nostrAddressUnavailable': 'Bereits vergeben', 'signup.nostrAddressChecking': 'Wird überprüft...', 'signup.nostrAddressInvalid': 'Ungültiges Benutzernamenformat', 'signup.nostrAddressRegistering': 'Nostr-Adresse wird registriert...', 'signup.nostrAddressSuccess': 'Nostr-Adresse registriert!', 'signup.nostrAddressFailed': 'Nostr-Adresse konnte nicht registriert werden', 'signup.yourUsername': 'Ihr Benutzername', 'signup.yourBio': 'Ihre Bio erscheint hier', 'signup.createAccountBtn': 'Konto erstellen', 'signup.termsAgree': 'Mit der Erstellung eines Kontos akzeptieren Sie unsere', 'signup.and': 'und', 'signup.success': 'Konto erfolgreich erstellt!', 'signup.yourPrivateKey': 'Ihr privater Schlüssel (nsec)', 'signup.keyWarning': 'Dies ist die EINZIGE Möglichkeit, auf Ihr Konto zuzugreifen. Bewahren Sie ihn sicher auf!', 'signup.copyPrivateKey': 'Privaten Schlüssel kopieren', 'signup.howToUseKey': 'So verwenden Sie Ihren privaten Schlüssel', 'signup.continueToGoblinbox': 'Weiter zu Goblinbox',
         // Notifications
         'notifications.title': 'Benachrichtigungen', 'notifications.settings': 'Benachrichtigungseinstellungen', 'notifications.reactions': 'Reaktionen (Gefällt mir/Gefällt mir nicht)', 'notifications.replies': 'Kommentare & Antworten', 'notifications.zaps': 'Zaps', 'notifications.chatMentions': 'Live-Chat-Erwähnungen', 'notifications.newFollowers': 'Neue Abonnenten', 'notifications.syncNote': 'Einstellungen werden über Nostr zwischen Geräten synchronisiert',
         // Settings Modal
-        'settings.title': 'Einstellungen', 'settings.language': 'Sprache', 'settings.languageDesc': 'Wählen Sie Ihre bevorzugte Sprache', 'settings.saveToNostr': 'Auf Nostr speichern', 'settings.saveToNostrDesc': 'Einstellungen über alle Plebs-Instanzen synchronisieren', 'settings.darkMode': 'Dunkelmodus', 'settings.darkModeDesc': 'Zwischen hellem und dunklem Design wechseln', 'settings.contentWarning': 'Inhaltswarnungseinstellungen', 'settings.showNsfwWarnings': 'NSFW-Warnungen anzeigen', 'settings.showNsfwWarningsDesc': 'Altersverifizierung für NSFW-Inhalte anzeigen', 'settings.showCommunityWarnings': 'Community-Warnungen anzeigen', 'settings.showCommunityWarningsDesc': 'Warnungen für markierte oder stark negativ bewertete Inhalte anzeigen', 'settings.showFollowsReportWarnings': 'Warnungen von gefolgten Berichten anzeigen', 'settings.showFollowsReportWarningsDesc': 'Warnungen anzeigen, wenn 5+ Personen, denen Sie folgen, Inhalte gemeldet haben', 'settings.filterPacks': 'Inhaltsfilter-Pakete', 'settings.filterPacksDesc': 'Aktivieren Sie Filterpakete, um Inhalte mit bestimmten Schlüsselwörtern automatisch auszublenden.', 'settings.customKeywordFilter': 'Benutzerdefinierter Schlüsselwortfilter', 'settings.customKeywordFilterPlaceholder': 'Geben Sie Schlüsselwörter oder Phrasen durch Kommas getrennt ein\nBeispiel: Spam, unerwünschter Inhalt, bestimmter Ausdruck', 'settings.customKeywordFilterDesc': 'Fügen Sie Ihre eigenen Schlüsselwörter zum Filtern hinzu (durch Kommas getrennt)', 'settings.saveSettings': 'Einstellungen speichern', 'settings.resetDefaults': 'Zurücksetzen', 'settings.notificationSettings': 'Benachrichtigungseinstellungen',
+        'settings.title': 'Einstellungen', 'settings.language': 'Sprache', 'settings.languageDesc': 'Wählen Sie Ihre bevorzugte Sprache', 'settings.saveToNostr': 'Auf Nostr speichern', 'settings.saveToNostrDesc': 'Einstellungen über alle Goblinbox-Instanzen synchronisieren', 'settings.darkMode': 'Dunkelmodus', 'settings.darkModeDesc': 'Zwischen hellem und dunklem Design wechseln', 'settings.contentWarning': 'Inhaltswarnungseinstellungen', 'settings.showNsfwWarnings': 'NSFW-Warnungen anzeigen', 'settings.showNsfwWarningsDesc': 'Altersverifizierung für NSFW-Inhalte anzeigen', 'settings.showCommunityWarnings': 'Community-Warnungen anzeigen', 'settings.showCommunityWarningsDesc': 'Warnungen für markierte oder stark negativ bewertete Inhalte anzeigen', 'settings.showFollowsReportWarnings': 'Warnungen von gefolgten Berichten anzeigen', 'settings.showFollowsReportWarningsDesc': 'Warnungen anzeigen, wenn 5+ Personen, denen Sie folgen, Inhalte gemeldet haben', 'settings.filterPacks': 'Inhaltsfilter-Pakete', 'settings.filterPacksDesc': 'Aktivieren Sie Filterpakete, um Inhalte mit bestimmten Schlüsselwörtern automatisch auszublenden.', 'settings.customKeywordFilter': 'Benutzerdefinierter Schlüsselwortfilter', 'settings.customKeywordFilterPlaceholder': 'Geben Sie Schlüsselwörter oder Phrasen durch Kommas getrennt ein\nBeispiel: Spam, unerwünschter Inhalt, bestimmter Ausdruck', 'settings.customKeywordFilterDesc': 'Fügen Sie Ihre eigenen Schlüsselwörter zum Filtern hinzu (durch Kommas getrennt)', 'settings.saveSettings': 'Einstellungen speichern', 'settings.resetDefaults': 'Zurücksetzen', 'settings.notificationSettings': 'Benachrichtigungseinstellungen',
         // Upload Modal
         'upload.title': 'Video hochladen', 'upload.videoFile': 'Videodatei', 'upload.clickToSelect': 'Klicken zum Auswählen oder per Drag & Drop', 'upload.fileTypes': 'MP4, AVI, MOV, etc (max 2GB Eingabe, wird auf <100MB komprimiert)', 'upload.preparing': 'Vorbereitung...', 'upload.thumbnail': 'Thumbnail', 'upload.thumbnailHint': 'Klicken zum Auswählen oder automatisch aus Video generieren', 'upload.uploading': 'Wird hochgeladen...', 'upload.titleLabel': 'Titel', 'upload.titlePlaceholder': 'Videotitel eingeben', 'upload.descriptionLabel': 'Beschreibung', 'upload.descriptionPlaceholder': 'Erzählen Sie den Zuschauern von Ihrem Video', 'upload.tagsLabel': 'Tags (kommagetrennt)', 'upload.tagsPlaceholder': 'bitcoin, nostr, tutorial', 'upload.markNsfw': 'Als NSFW markieren (18+)', 'upload.nsfwDesc': 'Inhalte für Erwachsene sollten als NSFW markiert werden', 'upload.saveDraft': 'Als Entwurf speichern', 'upload.publish': 'Veröffentlichen', 'upload.selectVideo': 'Video zum Hochladen auswählen', 'upload.optional': '(optional)', 'upload.remove': 'Entfernen', 'upload.qualityHigh': 'Hoch',
         // Create Modal
@@ -2155,7 +2155,7 @@ const translations = {
         // Video Page
         'video.views': 'Aufrufe', 'video.view': 'Aufruf', 'video.followers': 'Abonnenten', 'video.follower': 'Abonnent', 'video.follow': 'Abonnieren', 'video.unfollow': 'Deabonnieren', 'video.share': 'Teilen', 'video.comments': 'Kommentare', 'video.writeComment': 'Kommentar schreiben...', 'video.noComments': 'Noch keine Kommentare. Seien Sie der Erste!',
         // Toast Messages
-        'toast.loggedIn': 'Erfolgreich angemeldet!', 'toast.settingsSaved': 'Einstellungen gespeichert!', 'toast.settingsLocal': 'Einstellungen lokal gespeichert. Konnte nicht auf Nostr speichern.', 'toast.settingsLocalOnly': 'Einstellungen lokal gespeichert!', 'toast.settingsReset': 'Einstellungen zurückgesetzt!', 'toast.avatarUploaded': 'Avatar erfolgreich hochgeladen!', 'toast.profileUpdated': 'Profil erfolgreich aktualisiert!', 'toast.copied': 'In Zwischenablage kopiert!', 'toast.copyFailed': 'Kopieren fehlgeschlagen. Bitte manuell kopieren.', 'toast.installExtension': 'Bitte installieren Sie eine Nostr-Browsererweiterung wie Alby oder nos2x', 'toast.loginFailed': 'Anmeldung mit Erweiterung fehlgeschlagen. Bitte erneut versuchen.', 'toast.invalidKey': 'Ungültiger privater Schlüssel. Bitte überprüfen und erneut versuchen.', 'toast.enterKey': 'Bitte geben Sie Ihren privaten Schlüssel ein', 'toast.enterUsername': 'Bitte geben Sie einen Benutzernamen ein', 'toast.accountCreated': 'Willkommen bei Plebs! Sie sind jetzt angemeldet.', 'toast.keyCopied': 'Privater Schlüssel in Zwischenablage kopiert!', 'toast.unmuted': 'Benutzer entstummt', 'toast.unmuteFailed': 'Entstummen des Benutzers fehlgeschlagen', 'toast.selectImage': 'Bitte wählen Sie eine Bilddatei', 'toast.imageTooLarge': 'Bild muss kleiner als 5 MB sein', 'toast.avatarFailed': 'Avatar-Upload fehlgeschlagen. Bitte erneut versuchen.', 'toast.mustBeLoggedIn': 'Sie müssen angemeldet sein, um Ihr Profil zu bearbeiten', 'toast.enterDisplayName': 'Bitte geben Sie einen Anzeigenamen ein', 'toast.profileFailed': 'Profil speichern fehlgeschlagen. Bitte erneut versuchen.', 'toast.invalidBunker': 'Bitte geben Sie eine gültige Bunker-URL ein', 'toast.connectFailed': 'Verbindung fehlgeschlagen', 'toast.showingFiltered': 'Zeige gefilterten Inhalt', 'toast.reportSubmitted': 'Meldung erfolgreich gesendet', 'toast.draftSaved': 'Entwurf gespeichert! Sie können später von Meine Videos fortfahren.', 'toast.draftLoaded': 'Entwurf geladen. Schließen Sie Ihren Upload ab und veröffentlichen Sie.', 'toast.draftDeleted': 'Entwurf gelöscht', 'toast.languageChanged': 'Sprache geändert', 'toast.videoBlocked': 'Video blockiert und auf Nostr veröffentlicht', 'toast.waitForUpload': 'Bitte warten Sie, bis der Video-Upload abgeschlossen ist', 'toast.enterTitle': 'Bitte geben Sie einen Titel ein', 'toast.publishing': 'Video wird auf Nostr veröffentlicht...',
+        'toast.loggedIn': 'Erfolgreich angemeldet!', 'toast.settingsSaved': 'Einstellungen gespeichert!', 'toast.settingsLocal': 'Einstellungen lokal gespeichert. Konnte nicht auf Nostr speichern.', 'toast.settingsLocalOnly': 'Einstellungen lokal gespeichert!', 'toast.settingsReset': 'Einstellungen zurückgesetzt!', 'toast.avatarUploaded': 'Avatar erfolgreich hochgeladen!', 'toast.profileUpdated': 'Profil erfolgreich aktualisiert!', 'toast.copied': 'In Zwischenablage kopiert!', 'toast.copyFailed': 'Kopieren fehlgeschlagen. Bitte manuell kopieren.', 'toast.installExtension': 'Bitte installieren Sie eine Nostr-Browsererweiterung wie Alby oder nos2x', 'toast.loginFailed': 'Anmeldung mit Erweiterung fehlgeschlagen. Bitte erneut versuchen.', 'toast.invalidKey': 'Ungültiger privater Schlüssel. Bitte überprüfen und erneut versuchen.', 'toast.enterKey': 'Bitte geben Sie Ihren privaten Schlüssel ein', 'toast.enterUsername': 'Bitte geben Sie einen Benutzernamen ein', 'toast.accountCreated': 'Willkommen bei Goblinbox! Sie sind jetzt angemeldet.', 'toast.keyCopied': 'Privater Schlüssel in Zwischenablage kopiert!', 'toast.unmuted': 'Benutzer entstummt', 'toast.unmuteFailed': 'Entstummen des Benutzers fehlgeschlagen', 'toast.selectImage': 'Bitte wählen Sie eine Bilddatei', 'toast.imageTooLarge': 'Bild muss kleiner als 5 MB sein', 'toast.avatarFailed': 'Avatar-Upload fehlgeschlagen. Bitte erneut versuchen.', 'toast.mustBeLoggedIn': 'Sie müssen angemeldet sein, um Ihr Profil zu bearbeiten', 'toast.enterDisplayName': 'Bitte geben Sie einen Anzeigenamen ein', 'toast.profileFailed': 'Profil speichern fehlgeschlagen. Bitte erneut versuchen.', 'toast.invalidBunker': 'Bitte geben Sie eine gültige Bunker-URL ein', 'toast.connectFailed': 'Verbindung fehlgeschlagen', 'toast.showingFiltered': 'Zeige gefilterten Inhalt', 'toast.reportSubmitted': 'Meldung erfolgreich gesendet', 'toast.draftSaved': 'Entwurf gespeichert! Sie können später von Meine Videos fortfahren.', 'toast.draftLoaded': 'Entwurf geladen. Schließen Sie Ihren Upload ab und veröffentlichen Sie.', 'toast.draftDeleted': 'Entwurf gelöscht', 'toast.languageChanged': 'Sprache geändert', 'toast.videoBlocked': 'Video blockiert und auf Nostr veröffentlicht', 'toast.waitForUpload': 'Bitte warten Sie, bis der Video-Upload abgeschlossen ist', 'toast.enterTitle': 'Bitte geben Sie einen Titel ein', 'toast.publishing': 'Video wird auf Nostr veröffentlicht...',
         // Time
         'time.justNow': 'gerade eben', 'time.secondAgo': 'vor 1 Sekunde', 'time.secondsAgo': 'vor {n} Sekunden', 'time.minuteAgo': 'vor 1 Minute', 'time.minutesAgo': 'vor {n} Minuten', 'time.hourAgo': 'vor 1 Stunde', 'time.hoursAgo': 'vor {n} Stunden', 'time.dayAgo': 'vor 1 Tag', 'time.daysAgo': 'vor {n} Tagen', 'time.weekAgo': 'vor 1 Woche', 'time.weeksAgo': 'vor {n} Wochen', 'time.monthAgo': 'vor 1 Monat', 'time.monthsAgo': 'vor {n} Monaten', 'time.yearAgo': 'vor 1 Jahr', 'time.yearsAgo': 'vor {n} Jahren',
         // Empty States
@@ -2204,15 +2204,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA und Inhaltsrichtlinie',
         'dmca.lastUpdated': 'Zuletzt aktualisiert: Dezember 2024',
-        'dmca.architectureTitle': 'Verständnis der Plebs-Architektur',
-        'dmca.architectureDesc': 'Plebs ist eine dezentrale Video-Plattform-Schnittstelle, die anders funktioniert als traditionelle Video-Hosting-Dienste. Es ist wichtig zu verstehen, wie Inhalte auf unserer Plattform verteilt werden:',
-        'dmca.architectureItem1': 'Plebs hostet keine Video- oder Bildinhalte.',
+        'dmca.architectureTitle': 'Verständnis der Goblinbox-Architektur',
+        'dmca.architectureDesc': 'Goblinbox ist eine dezentrale Video-Plattform-Schnittstelle, die anders funktioniert als traditionelle Video-Hosting-Dienste. Es ist wichtig zu verstehen, wie Inhalte auf unserer Plattform verteilt werden:',
+        'dmca.architectureItem1': 'Goblinbox hostet keine Video- oder Bildinhalte.',
         'dmca.architectureItem1Desc': 'Wir sind ein Client/eine Schnittstelle, die anderswo gespeicherte Inhalte anzeigt.',
         'dmca.architectureItem2': 'Alle Mediendateien (Videos, Bilder, Miniaturansichten) werden auf unabhängigen Blossom-Servern gespeichert, die von Dritten betrieben werden.',
         'dmca.architectureItem3': 'Video-Metadaten (Titel, Beschreibungen usw.) werden auf Nostr-Relays veröffentlicht, die ebenfalls unabhängig betrieben werden.',
-        'dmca.architectureItem4': 'Plebs aggregiert und zeigt diese verteilten Inhalte einfach über eine benutzerfreundliche Oberfläche an.',
+        'dmca.architectureItem4': 'Goblinbox aggregiert und zeigt diese verteilten Inhalte einfach über eine benutzerfreundliche Oberfläche an.',
         'dmca.filingTitle': 'Einreichen einer DMCA-Beschwerde',
-        'dmca.filingDesc': 'Da Plebs keine Inhalte hostet, können wir rechtsverletzende Materialien nicht direkt entfernen. Um Urheberrechtsverletzungen zu behandeln, müssen Sie die entsprechenden Parteien kontaktieren:',
+        'dmca.filingDesc': 'Da Goblinbox keine Inhalte hostet, können wir rechtsverletzende Materialien nicht direkt entfernen. Um Urheberrechtsverletzungen zu behandeln, müssen Sie die entsprechenden Parteien kontaktieren:',
         'dmca.forVideoTitle': '1. Für Video-/Bildinhalte',
         'dmca.forVideoDesc': 'Mediendateien werden auf Blossom-Servern gespeichert. Sie müssen:',
         'dmca.forVideoItem1': 'Identifizieren Sie, welcher Blossom-Server den Inhalt hostet (die URL zeigt dies an)',
@@ -2223,7 +2223,7 @@ const translations = {
         'dmca.forMetadataItem1': 'Diese Informationen werden auf Nostr-Relays gespeichert',
         'dmca.forMetadataItem2': 'Kontaktieren Sie die spezifischen Nostr-Relay-Betreiber, auf denen der Inhalt erscheint',
         'dmca.forMetadataItem3': 'Mehrere Relays können aufgrund der verteilten Natur von Nostr dieselben Daten speichern',
-        'dmca.whatWeCanDoTitle': 'Was Plebs tun kann',
+        'dmca.whatWeCanDoTitle': 'Was Goblinbox tun kann',
         'dmca.whatWeCanDoDesc': 'Obwohl wir keine Inhalte hosten, können wir:',
         'dmca.whatWeCanDoItem1': 'Ihnen helfen zu identifizieren, welche Blossom-Server oder Relays bestimmte Inhalte hosten',
         'dmca.whatWeCanDoItem2': 'Inhalte zu einer lokalen Sperrliste hinzufügen, damit sie nicht in unserer Schnittstelle erscheinen (Hinweis: Dies betrifft nur plebs.app, nicht andere Nostr-Clients)',
@@ -2336,9 +2336,9 @@ const translations = {
         'analytics.shortsTab': 'Shorts ({count})',
         'analytics.streamsTab': 'Streams ({count})',
         // About Page
-        'about.title': 'Über Plebs',
-        'about.whatIs': 'Was ist Plebs?',
-        'about.whatIsDesc': 'Plebs ist eine dezentrale und zensurresistente Video-Plattform, die auf dem <a href="https://nostr.com" target="_blank" rel="noopener">Nostr-Protokoll</a> basiert. Anders als traditionelle unternehmensgesteuerte Plattformen gibt Ihnen Plebs echtes Eigentum an Ihren Inhalten und Ihrer Identität.',
+        'about.title': 'Über Goblinbox',
+        'about.whatIs': 'Was ist Goblinbox?',
+        'about.whatIsDesc': 'Goblinbox ist eine dezentrale und zensurresistente Video-Plattform, die auf dem <a href="https://nostr.com" target="_blank" rel="noopener">Nostr-Protokoll</a> basiert. Anders als traditionelle unternehmensgesteuerte Plattformen gibt Ihnen Goblinbox echtes Eigentum an Ihren Inhalten und Ihrer Identität.',
         'about.whyNostr': 'Warum Nostr?',
         'about.whyNostrDesc': 'Nostr (Notes and Other Stuff Transmitted by Relays) ist ein einfaches, offenes Protokoll, das ein wirklich dezentrales soziales Netzwerk ermöglicht. Die wichtigsten Vorteile sind:',
         'about.benefit1': 'Zensurresistenz:',
@@ -2350,7 +2350,7 @@ const translations = {
         'about.benefit4': 'Kryptographische Identität:',
         'about.benefit4Desc': 'Ihre Schlüssel beweisen, dass Sie sind, wer Sie sagen',
         'about.howItWorks': 'Wie es funktioniert',
-        'about.howItWorksDesc': 'Videos auf Plebs werden mit <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a> gespeichert, einem verteilten Speichersystem, während Metadaten und soziale Interaktionen zu Nostr-Relays gesendet werden. Das bedeutet, dass Ihre Inhalte nicht auf unseren Servern gespeichert werden - sie sind über das Netzwerk verteilt.',
+        'about.howItWorksDesc': 'Videos auf Goblinbox werden mit <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a> gespeichert, einem verteilten Speichersystem, während Metadaten und soziale Interaktionen zu Nostr-Relays gesendet werden. Das bedeutet, dass Ihre Inhalte nicht auf unseren Servern gespeichert werden - sie sind über das Netzwerk verteilt.',
         'about.features': 'Funktionen',
         'about.feature1': 'Videos hochladen und mit der Nostr-Community teilen',
         'about.feature2': 'Videos mit Nostr-Reaktionen liken, kommentieren und teilen',
@@ -2359,10 +2359,10 @@ const translations = {
         'about.feature5': 'Themen durchsuchen und neue Inhalte entdecken',
         'about.feature6': 'Funktioniert mit jeder Nostr-Identität (verwenden Sie bestehende Schlüssel)',
         'about.openSource': 'Open Source',
-        'about.openSourceDesc': 'Plebs ist Open-Source-Software. Sie können den Code einsehen, beitragen oder Ihre eigene Instanz betreiben:',
+        'about.openSourceDesc': 'Goblinbox ist Open-Source-Software. Sie können den Code einsehen, beitragen oder Ihre eigene Instanz betreiben:',
         'about.githubRepo': 'GitHub Repository',
         'about.builtBy': 'Entwickelt von',
-        'about.builtByDesc': 'Plebs wird von <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a> entwickelt, einem Unternehmen, das sich dem Aufbau von Tools für das Bitcoin- und Nostr-Ökosystem widmet.',
+        'about.builtByDesc': 'Goblinbox wird von <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a> entwickelt, einem Unternehmen, das sich dem Aufbau von Tools für das Bitcoin- und Nostr-Ökosystem widmet.',
         // Contact Page
         'contact.title': 'Kontakt',
         'contact.getInTouch': 'Kontaktieren Sie uns',
@@ -2373,14 +2373,14 @@ const translations = {
         'contact.githubDesc': 'Für Bug-Reports, Feature-Anfragen oder technische Probleme öffnen Sie bitte ein Issue in unserem Repository:',
         'contact.githubIssues': 'GitHub Issues',
         'contact.company': 'Unternehmen',
-        'contact.companyDesc': 'Plebs wird von 21 Million LLC entwickelt',
+        'contact.companyDesc': 'Goblinbox wird von 21 Million LLC entwickelt',
         // Terms of Service
         'terms.title': 'Nutzungsbedingungen',
         'terms.lastUpdated': 'Letzte Aktualisierung: Dezember 2024',
         'terms.section1Title': '1. Annahme der Bedingungen',
-        'terms.section1Desc': 'Durch den Zugriff auf und die Nutzung von Plebs ("der Dienst") erklären Sie sich damit einverstanden, an diese Nutzungsbedingungen gebunden zu sein. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie den Dienst bitte nicht.',
+        'terms.section1Desc': 'Durch den Zugriff auf und die Nutzung von Goblinbox ("der Dienst") erklären Sie sich damit einverstanden, an diese Nutzungsbedingungen gebunden zu sein. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie den Dienst bitte nicht.',
         'terms.section2Title': '2. Beschreibung des Dienstes',
-        'terms.section2Desc': 'Plebs ist eine dezentrale Video-Plattform, die auf dem Nostr-Protokoll basiert. Der Dienst bietet eine Schnittstelle zum Durchsuchen, Hochladen und Interagieren mit Videoinhalten, die in verteilten Netzwerken gespeichert sind. Plebs hostet oder speichert keine Videoinhalte auf zentralisierten Servern.',
+        'terms.section2Desc': 'Goblinbox ist eine dezentrale Video-Plattform, die auf dem Nostr-Protokoll basiert. Der Dienst bietet eine Schnittstelle zum Durchsuchen, Hochladen und Interagieren mit Videoinhalten, die in verteilten Netzwerken gespeichert sind. Goblinbox hostet oder speichert keine Videoinhalte auf zentralisierten Servern.',
         'terms.section3Title': '3. Verantwortlichkeiten der Nutzer',
         'terms.section3Desc': 'Sie sind verantwortlich für:',
         'terms.section3Item1': 'Die Sicherheit Ihrer privaten Nostr-Schlüssel',
@@ -2403,7 +2403,7 @@ const translations = {
         'terms.section6Title': '6. Keine Garantie',
         'terms.section6Desc': 'Der Dienst wird "wie besehen" ohne jegliche Garantien bereitgestellt. Wir garantieren keinen kontinuierlichen und ununterbrochenen Zugang zum Dienst.',
         'terms.section7Title': '7. Haftungsbeschränkung',
-        'terms.section7Desc': 'Im maximal gesetzlich zulässigen Umfang haften Plebs und seine Betreiber nicht für indirekte, zufällige, spezielle oder Folgeschäden, die sich aus Ihrer Nutzung des Dienstes ergeben.',
+        'terms.section7Desc': 'Im maximal gesetzlich zulässigen Umfang haften Goblinbox und seine Betreiber nicht für indirekte, zufällige, spezielle oder Folgeschäden, die sich aus Ihrer Nutzung des Dienstes ergeben.',
         'terms.section8Title': '8. Änderungen der Bedingungen',
         'terms.section8Desc': 'Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Die fortgesetzte Nutzung des Dienstes nach Änderungen stellt die Annahme der neuen Bedingungen dar.',
         'terms.section9Title': '9. Kontakt',
@@ -2412,9 +2412,9 @@ const translations = {
         'privacy.title': 'Datenschutzrichtlinie',
         'privacy.lastUpdated': 'Letzte Aktualisierung: Dezember 2024',
         'privacy.section1Title': '1. Übersicht',
-        'privacy.section1Desc': 'Plebs verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Richtlinie erklärt, wie wir Informationen verarbeiten, wenn Sie unsere dezentrale Video-Plattform nutzen.',
+        'privacy.section1Desc': 'Goblinbox verpflichtet sich, Ihre Privatsphäre zu schützen. Diese Richtlinie erklärt, wie wir Informationen verarbeiten, wenn Sie unsere dezentrale Video-Plattform nutzen.',
         'privacy.section2Title': '2. Dezentrale Architektur',
-        'privacy.section2Desc': 'Plebs basiert auf Nostr, einem dezentralen Protokoll. Das bedeutet:',
+        'privacy.section2Desc': 'Goblinbox basiert auf Nostr, einem dezentralen Protokoll. Das bedeutet:',
         'privacy.section2Item1': 'Ihre Inhalte werden an öffentliche Relays gesendet, nicht auf unseren Servern gespeichert',
         'privacy.section2Item2': 'Ihr öffentlicher Nostr-Schlüssel dient als Ihre Identität',
         'privacy.section2Item3': 'Videos werden auf verteilten Blossom-Servern gespeichert',
@@ -2436,9 +2436,9 @@ const translations = {
         'privacy.section4Item4': 'Wem Sie folgen',
         'privacy.section4Item5': 'Zaps (Lightning-Zahlungen), die Sie senden oder empfangen',
         'privacy.section5Title': '5. Datenspeicherung',
-        'privacy.section5Desc': 'Lokale Daten werden im localStorage Ihres Browsers gespeichert. Sie können diese Daten jederzeit über Ihre Browsereinstellungen löschen. Auf Nostr veröffentlichte Inhalte werden über Relays verteilt und können von Plebs nicht kontrolliert oder gelöscht werden.',
+        'privacy.section5Desc': 'Lokale Daten werden im localStorage Ihres Browsers gespeichert. Sie können diese Daten jederzeit über Ihre Browsereinstellungen löschen. Auf Nostr veröffentlichte Inhalte werden über Relays verteilt und können von Goblinbox nicht kontrolliert oder gelöscht werden.',
         'privacy.section6Title': '6. Dienste Dritter',
-        'privacy.section6Desc': 'Plebs interagiert mit:',
+        'privacy.section6Desc': 'Goblinbox interagiert mit:',
         'privacy.section6Item1': 'Nostr-Relays (für soziale Daten)',
         'privacy.section6Item2': 'Blossom-Servern (für Videospeicherung)',
         'privacy.section6Item3': 'Lightning Network (für Zaps/Zahlungen)',
@@ -2460,19 +2460,19 @@ const translations = {
         'privacy.section10Desc': 'Bei datenschutzbezogenen Fragen <a href="#/contact" class="accent-link">kontaktieren Sie uns bitte</a>.',
         // FAQ Page
         'faq.title': 'Häufig gestellte Fragen',
-        'faq.aboutPlebs': 'Über Plebs',
+        'faq.aboutGoblinbox': 'Über Goblinbox',
         'faq.nostrProtocol': 'Nostr-Protokoll',
         'faq.videoStorage': 'Videospeicherung und Blossom',
         'faq.featuresUsage': 'Funktionen und Nutzung',
-        'faq.q1': 'Was ist Plebs?',
-        'faq.a1': 'Plebs ist eine dezentrale und zensurresistente Video-Plattform, die auf dem Nostr-Protokoll basiert. Anders als traditionelle unternehmensgesteuerte Plattformen gibt Ihnen Plebs echtes Eigentum an Ihren Inhalten und Ihrer Identität. Es gibt keine zentralen Server, die Sie sperren oder Ihre Inhalte löschen können.',
-        'faq.q2': 'Ist Plebs kostenlos?',
-        'faq.a2': 'Ja, Plebs ist völlig kostenlos zum Ansehen von Videos. Sie können Inhalte durchsuchen und ansehen, ohne ein Konto zu erstellen. Um Videos hochzuladen, zu kommentieren, zu liken oder mit anderen Nutzern zu interagieren, benötigen Sie eine Nostr-Identität (die ebenfalls kostenlos ist).',
-        'faq.q3': 'Wer entwickelt Plebs?',
-        'faq.a3': 'Plebs wird von <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a> entwickelt, einem Unternehmen, das sich dem Aufbau von Tools für das Bitcoin- und Nostr-Ökosystem widmet. Plebs ist Open Source, und Sie können den Code einsehen oder auf <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a> beitragen.',
+        'faq.q1': 'Was ist Goblinbox?',
+        'faq.a1': 'Goblinbox ist eine dezentrale und zensurresistente Video-Plattform, die auf dem Nostr-Protokoll basiert. Anders als traditionelle unternehmensgesteuerte Plattformen gibt Ihnen Goblinbox echtes Eigentum an Ihren Inhalten und Ihrer Identität. Es gibt keine zentralen Server, die Sie sperren oder Ihre Inhalte löschen können.',
+        'faq.q2': 'Ist Goblinbox kostenlos?',
+        'faq.a2': 'Ja, Goblinbox ist völlig kostenlos zum Ansehen von Videos. Sie können Inhalte durchsuchen und ansehen, ohne ein Konto zu erstellen. Um Videos hochzuladen, zu kommentieren, zu liken oder mit anderen Nutzern zu interagieren, benötigen Sie eine Nostr-Identität (die ebenfalls kostenlos ist).',
+        'faq.q3': 'Wer entwickelt Goblinbox?',
+        'faq.a3': 'Goblinbox wird von <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a> entwickelt, einem Unternehmen, das sich dem Aufbau von Tools für das Bitcoin- und Nostr-Ökosystem widmet. Goblinbox ist Open Source, und Sie können den Code einsehen oder auf <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a> beitragen.',
         'faq.q4': 'Was ist Nostr?',
         'faq.a4': 'Nostr steht für "Notes and Other Stuff Transmitted by Relays". Es ist ein einfaches, offenes Protokoll, das ein wirklich dezentrales soziales Netzwerk ermöglicht. Anders als traditionelle Plattformen verlässt sich Nostr nicht auf einen zentralen Server. Stattdessen nutzt es ein Netzwerk von Relays, um Nachrichten zwischen Nutzern zu übertragen, und kryptographische Schlüssel für die Identität.',
-        'faq.q5': 'Warum nutzt Plebs Nostr?',
+        'faq.q5': 'Warum nutzt Goblinbox Nostr?',
         'faq.a5Title': 'Nostr bietet mehrere wichtige Vorteile:',
         'faq.a5Item1': 'Zensurresistenz:',
         'faq.a5Item1Desc': 'Keine Instanz kann Sie sperren oder Ihre Inhalte löschen',
@@ -2485,15 +2485,15 @@ const translations = {
         'faq.q6': 'Was sind Nostr-Schlüssel (npub/nsec)?',
         'faq.a6': 'Ihre Nostr-Identität besteht aus zwei Schlüsseln: einem öffentlichen Schlüssel (npub) und einem privaten Schlüssel (nsec). Ihr npub ist wie Ihr Benutzername - Sie können ihn mit jedem teilen. Ihr nsec ist wie Ihr Passwort - teilen Sie ihn niemals! Jeder mit Ihrem nsec kann in Ihrem Namen posten und auf Ihr Konto zugreifen. Wir empfehlen die Verwendung einer Browsererweiterung wie Alby oder nos2x zur sicheren Verwaltung Ihrer Schlüssel.',
         'faq.q7': 'Kann ich mein bestehendes Nostr-Konto verwenden?',
-        'faq.a7': 'Absolut! Wenn Sie bereits eine Nostr-Identität von Apps wie Damus, Primal, Amethyst oder einem anderen Nostr-Client haben, können Sie dieselben Schlüssel verwenden, um sich bei Plebs anzumelden. Ihre Follower, Ihr Profil und Ihre Reputation werden automatisch übertragen.',
+        'faq.a7': 'Absolut! Wenn Sie bereits eine Nostr-Identität von Apps wie Damus, Primal, Amethyst oder einem anderen Nostr-Client haben, können Sie dieselben Schlüssel verwenden, um sich bei Goblinbox anzumelden. Ihre Follower, Ihr Profil und Ihre Reputation werden automatisch übertragen.',
         'faq.q8': 'Was sind Nostr-Relays?',
         'faq.a8': 'Relays sind Server, die Nostr-Nachrichten speichern und übertragen. Wenn Sie etwas posten, wird es an mehrere Relays gesendet. Andere Nutzer verbinden sich mit Relays, um Nachrichten zu lesen. Da es viele unabhängige Relays gibt, kann Sie keines zensieren - wenn ein Relay Sie blockiert, existieren Ihre Inhalte immer noch auf anderen.',
         'faq.q9': 'Wo werden Videos gespeichert?',
-        'faq.a9': 'Videos werden auf Blossom-Servern gespeichert, nicht auf Plebs selbst. Blossom ist ein verteiltes Speichersystem, das für die Zusammenarbeit mit Nostr entwickelt wurde. Wenn Sie ein Video hochladen, gelangt es zu einem oder mehreren Blossom-Servern Ihrer Wahl. Video-Metadaten (Titel, Beschreibung usw.) werden auf Nostr-Relays veröffentlicht.',
+        'faq.a9': 'Videos werden auf Blossom-Servern gespeichert, nicht auf Goblinbox selbst. Blossom ist ein verteiltes Speichersystem, das für die Zusammenarbeit mit Nostr entwickelt wurde. Wenn Sie ein Video hochladen, gelangt es zu einem oder mehreren Blossom-Servern Ihrer Wahl. Video-Metadaten (Titel, Beschreibung usw.) werden auf Nostr-Relays veröffentlicht.',
         'faq.q10': 'Was ist Blossom?',
         'faq.a10': 'Blossom ist ein offenes Protokoll zum dezentralen Speichern und Bereitstellen von Mediendateien. Dateien werden durch ihren SHA-256-Hash identifiziert, was bedeutet, dass dieselbe Datei dieselbe Adresse hat, unabhängig davon, welcher Server sie hostet. Dies ermöglicht Redundanz - Ihre Dateien können auf mehreren Servern existieren. Erfahren Sie mehr auf <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom GitHub</a>.',
-        'faq.q11': 'Hostet Plebs meine Videos?',
-        'faq.a11': 'Nein. Plebs ist ein Client/Interface, der Ihnen beim Durchsuchen und Hochladen von Inhalten hilft, aber keine Video- oder Bilddateien speichert. Alle Medien werden auf unabhängigen Blossom-Servern gespeichert. Plebs zeigt einfach Inhalte von diesen verteilten Speicheranbietern an.',
+        'faq.q11': 'Hostet Goblinbox meine Videos?',
+        'faq.a11': 'Nein. Goblinbox ist ein Client/Interface, der Ihnen beim Durchsuchen und Hochladen von Inhalten hilft, aber keine Video- oder Bilddateien speichert. Alle Medien werden auf unabhängigen Blossom-Servern gespeichert. Goblinbox zeigt einfach Inhalte von diesen verteilten Speicheranbietern an.',
         'faq.q12': 'Kann ich wählen, welchen Blossom-Server ich verwende?',
         'faq.a12': 'Ja! Sie können in Ihren Einstellungen konfigurieren, welche Blossom-Server Sie zum Hochladen verwenden möchten. Sie können sogar Ihren eigenen Blossom-Server betreiben, wenn Sie vollständige Kontrolle über Ihre Medienspeicherung wünschen.',
         'faq.q13': 'Wie erstelle ich ein Konto?',
@@ -2518,7 +2518,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Selbst-Moderation',
         'faq.q16': 'Wie funktioniert die Moderation auf einer dezentralen Plattform?',
-        'faq.a16': 'Im Gegensatz zu traditionellen Plattformen mit zentralisierten Moderatoren gibt Ihnen Plebs die Kontrolle darüber, was Sie sehen. Wir bieten leistungsstarke Selbst-Moderationstools einschließlich Inhaltsfilter-Paketen, Benutzer-Stummschaltung, Community-Warnungen und Indikatoren für stark negativ bewertete Videos. Sie entscheiden, welche Inhalte für Sie angemessen sind - es gibt keine zentrale Autorität, die diese Entscheidungen trifft.',
+        'faq.a16': 'Im Gegensatz zu traditionellen Plattformen mit zentralisierten Moderatoren gibt Ihnen Goblinbox die Kontrolle darüber, was Sie sehen. Wir bieten leistungsstarke Selbst-Moderationstools einschließlich Inhaltsfilter-Paketen, Benutzer-Stummschaltung, Community-Warnungen und Indikatoren für stark negativ bewertete Videos. Sie entscheiden, welche Inhalte für Sie angemessen sind - es gibt keine zentrale Autorität, die diese Entscheidungen trifft.',
         'faq.q17': 'Was sind Inhaltsfilter-Pakete?',
         'faq.a17Intro': 'Inhaltsfilter-Pakete sind vordefinierte Schlüsselwort-Filter, die Sie aktivieren können, um bestimmte Arten von Inhalten auszublenden. Verfügbare Pakete umfassen:',
         'faq.a17Pack1': 'Rassismus & Hassrede:',
@@ -2549,7 +2549,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Privatsphäre & Sicherheit',
         'faq.q22': 'Ist meine Aktivität privat?',
-        'faq.a22': 'Auf Nostr ist die meiste Aktivität standardmäßig öffentlich. Ihre Likes, Kommentare, Follower und Zaps sind im öffentlichen Netzwerk sichtbar. Allerdings speichert Plebs Ihren Wiedergabeverlauf lokal in Ihrem Browser - er wird niemals an einen Server gesendet. Sie können Ihre lokalen Daten jederzeit löschen.',
+        'faq.a22': 'Auf Nostr ist die meiste Aktivität standardmäßig öffentlich. Ihre Likes, Kommentare, Follower und Zaps sind im öffentlichen Netzwerk sichtbar. Allerdings speichert Goblinbox Ihren Wiedergabeverlauf lokal in Ihrem Browser - er wird niemals an einen Server gesendet. Sie können Ihre lokalen Daten jederzeit löschen.',
         'faq.q23': 'Wie halte ich mein Konto sicher?',
         'faq.a23': 'Teilen Sie niemals Ihren privaten Schlüssel (nsec) mit jemandem. Wir empfehlen dringend, eine Nostr-Browsererweiterung wie Alby, nos2x oder einen Hardware-Signer zu verwenden. Diese halten Ihren privaten Schlüssel sicher und signieren Ereignisse nur, wenn Sie sie genehmigen. Vermeiden Sie es, Ihren nsec direkt auf Websites zu speichern.',
         'faq.q24': 'Kann ich meine Inhalte löschen?',
@@ -2560,7 +2560,7 @@ const translations = {
         'faq.a25Intro': 'Wenn Videos nicht geladen werden, versuchen Sie diese Schritte:',
         'faq.a25Item1': 'Seite aktualisieren',
         'faq.a25Item2': 'Internetverbindung überprüfen',
-        'faq.a25Item3': 'Der Blossom-Server, der das Video hostet, könnte ausgefallen sein - dies ist unabhängig von Plebs',
+        'faq.a25Item3': 'Der Blossom-Server, der das Video hostet, könnte ausgefallen sein - dies ist unabhängig von Goblinbox',
         'faq.a25Item4': 'Versuchen Sie, Browsererweiterungen zu deaktivieren, die Inhalte blockieren könnten',
         'faq.a25Item5': 'Browser-Cache löschen und erneut versuchen',
         'faq.q26': 'Ich habe meinen privaten Schlüssel verloren - können Sie mir helfen, ihn wiederherzustellen?',
@@ -2568,7 +2568,7 @@ const translations = {
         'faq.q27': 'Wie melde ich einen Fehler oder fordere eine Funktion an?',
         'faq.a27': 'Sie können Fehler melden oder Funktionen auf unserer <a href="https://github.com/Spl0itable/plebs-app/issues" target="_blank" rel="noopener">GitHub Issues</a>-Seite anfordern. Sie können uns auch auf Nostr erreichen - besuchen Sie unsere <a href="#/contact">Kontakt</a>-Seite für Details.',
         // Page Titles
-        'pageTitle.following': 'Abonniert', 'pageTitle.myVideos': 'Meine Videos', 'pageTitle.likedVideos': 'Gelikte Videos', 'pageTitle.watchHistory': 'Wiedergabeverlauf', 'pageTitle.liveStreams': 'Livestreams', 'pageTitle.suffix': '- Plebs', 'pageTitle.liveSuffix': '- Live auf Plebs',
+        'pageTitle.following': 'Abonniert', 'pageTitle.myVideos': 'Meine Videos', 'pageTitle.likedVideos': 'Gelikte Videos', 'pageTitle.watchHistory': 'Wiedergabeverlauf', 'pageTitle.liveStreams': 'Livestreams', 'pageTitle.suffix': '- Goblinbox', 'pageTitle.liveSuffix': '- Live auf Goblinbox',
         // Home Page Sections
         'section.trending': 'Trends', 'section.recommended': 'Für Dich Empfohlen', 'section.shorts': 'Shorts', 'section.live': 'Live', 'section.liveNow': 'Jetzt Live', 'section.latestVideos': 'Neueste Videos', 'section.videos': 'Videos', 'section.usersYouFollow': 'Benutzer, Denen Du Folgst',
         // Trending Period
@@ -2589,17 +2589,17 @@ const translations = {
         'nav.home': 'Início', 'nav.following': 'Seguindo', 'nav.myVideos': 'Meus Vídeos', 'nav.liked': 'Curtidos', 'nav.history': 'Histórico', 'nav.topics': 'TÓPICOS', 'nav.live': 'Ao Vivo', 'nav.bitcoin': 'Bitcoin', 'nav.nostr': 'Nostr', 'nav.technology': 'Tecnologia', 'nav.gaming': 'Jogos', 'nav.tutorials': 'Tutoriais', 'nav.podcasts': 'Podcasts', 'nav.music': 'Música', 'nav.nsfw': 'NSFW', 'nav.about': 'Sobre', 'nav.contact': 'Contato', 'nav.terms': 'Termos', 'nav.privacy': 'Privacidade', 'nav.faq': 'FAQ', 'nav.dmca': 'DMCA', 'nav.playlists': 'Playlists', 'nav.downloads': 'Downloads', 'nav.subscriptions': 'Inscrições', 'nav.trending': 'Em Alta', 'nav.explore': 'Explorar', 'nav.categories': 'Categorias', 'nav.liveStreams': 'Transmissões ao Vivo', 'nav.github': 'GitHub',
         'header.search': 'Pesquisar vídeos...', 'header.notifications': 'Notificações', 'header.settings': 'Configurações', 'header.create': 'Criar', 'header.admin': 'Admin', 'header.viewProfile': 'Ver Perfil', 'header.logout': 'Sair',
         // Login Modal
-        'login.title': 'Entrar com Nostr', 'login.extension': 'Entrar com Extensão', 'login.extensionDesc': 'Use Alby, nos2x ou outras extensões Nostr', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Conecte com assinantes remotos como Amber, nsec.app', 'login.privateKey': 'Chave Privada', 'login.privateKeyDesc': 'Digite sua nsec ou chave hex (somente local)', 'login.newToNostr': 'Novo no Nostr?', 'login.createAccount': 'Criar Conta', 'login.createAccountDesc': 'Comece com uma nova identidade Nostr para usar no Plebs',
+        'login.title': 'Entrar com Nostr', 'login.extension': 'Entrar com Extensão', 'login.extensionDesc': 'Use Alby, nos2x ou outras extensões Nostr', 'login.connect': 'Nostr Connect', 'login.connectDesc': 'Conecte com assinantes remotos como Amber, nsec.app', 'login.privateKey': 'Chave Privada', 'login.privateKeyDesc': 'Digite sua nsec ou chave hex (somente local)', 'login.newToNostr': 'Novo no Nostr?', 'login.createAccount': 'Criar Conta', 'login.createAccountDesc': 'Comece com uma nova identidade Nostr para usar no Goblinbox',
         // Connect Modal
         'connect.title': 'Conectar com Nostr', 'connect.option1': 'Opção 1: Use esta string de conexão', 'connect.option1Desc': 'Copie e cole isso em qualquer app compatível com NIP-46 (nsec.app, Amber, etc.)', 'connect.copyString': 'Copiar String de Conexão', 'connect.showQR': 'Mostrar Código QR', 'connect.listening': 'Aguardando conexão...', 'connect.option2': 'Opção 2: Colar uma URL bunker', 'connect.option2Desc': 'Se você já tem uma URL bunker:// de um assinante remoto', 'connect.withBunker': 'Conectar com Bunker', 'connect.or': 'OU', 'connect.bunkerPlaceholder': 'bunker://...',
         // Private Key Modal
         'privateKey.title': 'Entrar com Chave Privada', 'privateKey.warning': 'Aviso de Segurança', 'privateKey.warningText': 'Sua chave privada será armazenada localmente no seu navegador. Para maior segurança, considere usar uma extensão de navegador ou Nostr Connect.', 'privateKey.label': 'Chave Privada (nsec ou hex)', 'privateKey.showKey': 'Mostrar chave', 'privateKey.login': 'Entrar', 'privateKey.placeholder': 'nsec1...',
         // Signup Modal
-        'signup.title': 'Criar Conta Nostr', 'signup.whatIsNostr': 'O que é Nostr?', 'signup.nostrExplanation': 'Nostr é um protocolo social descentralizado que dá a você a propriedade de sua identidade e conteúdo. Diferente das plataformas tradicionais, nenhuma empresa pode bani-lo, censurar seu conteúdo ou fechar sua conta.', 'signup.whyPlebs': 'Por que o Plebs usa Nostr?', 'signup.plebsExplanation': 'Plebs é construído no Nostr para fornecer compartilhamento de vídeos resistente à censura. Seus vídeos, comentários e interações são armazenados em uma rede de relays, não em nossos servidores.', 'signup.howItWorks': 'Como funciona', 'signup.keysIdentity': 'Suas chaves = Sua identidade.', 'signup.keysIdentityDesc': 'Você receberá uma chave privada (nsec) que prova que você é dono da sua conta.', 'signup.keepSecret': 'Mantenha sua chave privada em segredo!', 'signup.keepSecretDesc': 'É como uma senha que nunca pode ser redefinida.', 'signup.oneIdentity': 'Uma identidade, vários apps.', 'signup.oneIdentityDesc': 'Use a mesma conta no Damus, Primal, Amethyst e mais.', 'signup.gotIt': 'Entendi, vamos criar minha conta', 'signup.username': 'Nome de Usuário', 'signup.usernamePlaceholder': 'Escolha um nome de exibição', 'signup.about': 'Sobre (opcional)', 'signup.aboutPlaceholder': 'Conte aos outros sobre você', 'signup.profilePicture': 'Foto de Perfil (opcional)', 'signup.uploadPhoto': 'Enviar Foto', 'signup.remove': 'Remover', 'signup.avatarHint': 'Imagens quadradas funcionam melhor. Máx 5MB.', 'signup.uploading': 'Enviando...', 'signup.lightningAddress': 'Endereço Lightning (opcional)', 'signup.lightningPlaceholder': 'voce@walletofsatoshi.com', 'signup.lightningHint': 'Adicione um endereço Lightning para receber zaps (gorjetas em Bitcoin) em seus vídeos e perfil.', 'signup.nostrAddress': 'Endereço Nostr', 'signup.nostrAddressPlaceholder': 'usuario', 'signup.nostrAddressHint': 'Seu endereço Nostr facilita encontrar seu perfil. Apenas letras minúsculas, números, _ e -.', 'signup.nostrAddressRequired': 'Por favor, insira um endereço Nostr', 'signup.nostrAddressAvailable': 'Disponível!', 'signup.nostrAddressUnavailable': 'Já está em uso', 'signup.nostrAddressChecking': 'Verificando...', 'signup.nostrAddressInvalid': 'Formato de nome de usuário inválido', 'signup.nostrAddressRegistering': 'Registrando seu endereço Nostr...', 'signup.nostrAddressSuccess': 'Endereço Nostr registrado!', 'signup.nostrAddressFailed': 'Não foi possível registrar o endereço Nostr', 'signup.yourUsername': 'Seu Nome de Usuário', 'signup.yourBio': 'Sua bio aparecerá aqui', 'signup.createAccountBtn': 'Criar Conta', 'signup.termsAgree': 'Ao criar uma conta, você concorda com nossos', 'signup.and': 'e', 'signup.success': 'Conta Criada com Sucesso!', 'signup.yourPrivateKey': 'Sua Chave Privada (nsec)', 'signup.keyWarning': 'Esta é a ÚNICA forma de acessar sua conta. Guarde-a em segurança!', 'signup.copyPrivateKey': 'Copiar Chave Privada', 'signup.howToUseKey': 'Como usar sua chave privada', 'signup.continueToPlebs': 'Continuar para o Plebs',
+        'signup.title': 'Criar Conta Nostr', 'signup.whatIsNostr': 'O que é Nostr?', 'signup.nostrExplanation': 'Nostr é um protocolo social descentralizado que dá a você a propriedade de sua identidade e conteúdo. Diferente das plataformas tradicionais, nenhuma empresa pode bani-lo, censurar seu conteúdo ou fechar sua conta.', 'signup.whyGoblinbox': 'Por que o Goblinbox usa Nostr?', 'signup.plebsExplanation': 'Goblinbox é construído no Nostr para fornecer compartilhamento de vídeos resistente à censura. Seus vídeos, comentários e interações são armazenados em uma rede de relays, não em nossos servidores.', 'signup.howItWorks': 'Como funciona', 'signup.keysIdentity': 'Suas chaves = Sua identidade.', 'signup.keysIdentityDesc': 'Você receberá uma chave privada (nsec) que prova que você é dono da sua conta.', 'signup.keepSecret': 'Mantenha sua chave privada em segredo!', 'signup.keepSecretDesc': 'É como uma senha que nunca pode ser redefinida.', 'signup.oneIdentity': 'Uma identidade, vários apps.', 'signup.oneIdentityDesc': 'Use a mesma conta no Damus, Primal, Amethyst e mais.', 'signup.gotIt': 'Entendi, vamos criar minha conta', 'signup.username': 'Nome de Usuário', 'signup.usernamePlaceholder': 'Escolha um nome de exibição', 'signup.about': 'Sobre (opcional)', 'signup.aboutPlaceholder': 'Conte aos outros sobre você', 'signup.profilePicture': 'Foto de Perfil (opcional)', 'signup.uploadPhoto': 'Enviar Foto', 'signup.remove': 'Remover', 'signup.avatarHint': 'Imagens quadradas funcionam melhor. Máx 5MB.', 'signup.uploading': 'Enviando...', 'signup.lightningAddress': 'Endereço Lightning (opcional)', 'signup.lightningPlaceholder': 'voce@walletofsatoshi.com', 'signup.lightningHint': 'Adicione um endereço Lightning para receber zaps (gorjetas em Bitcoin) em seus vídeos e perfil.', 'signup.nostrAddress': 'Endereço Nostr', 'signup.nostrAddressPlaceholder': 'usuario', 'signup.nostrAddressHint': 'Seu endereço Nostr facilita encontrar seu perfil. Apenas letras minúsculas, números, _ e -.', 'signup.nostrAddressRequired': 'Por favor, insira um endereço Nostr', 'signup.nostrAddressAvailable': 'Disponível!', 'signup.nostrAddressUnavailable': 'Já está em uso', 'signup.nostrAddressChecking': 'Verificando...', 'signup.nostrAddressInvalid': 'Formato de nome de usuário inválido', 'signup.nostrAddressRegistering': 'Registrando seu endereço Nostr...', 'signup.nostrAddressSuccess': 'Endereço Nostr registrado!', 'signup.nostrAddressFailed': 'Não foi possível registrar o endereço Nostr', 'signup.yourUsername': 'Seu Nome de Usuário', 'signup.yourBio': 'Sua bio aparecerá aqui', 'signup.createAccountBtn': 'Criar Conta', 'signup.termsAgree': 'Ao criar uma conta, você concorda com nossos', 'signup.and': 'e', 'signup.success': 'Conta Criada com Sucesso!', 'signup.yourPrivateKey': 'Sua Chave Privada (nsec)', 'signup.keyWarning': 'Esta é a ÚNICA forma de acessar sua conta. Guarde-a em segurança!', 'signup.copyPrivateKey': 'Copiar Chave Privada', 'signup.howToUseKey': 'Como usar sua chave privada', 'signup.continueToGoblinbox': 'Continuar para o Goblinbox',
         // Notifications
         'notifications.title': 'Notificações', 'notifications.settings': 'Configurações de Notificações', 'notifications.reactions': 'Reações (curtir/não curtir)', 'notifications.replies': 'Comentários & Respostas', 'notifications.zaps': 'Zaps', 'notifications.chatMentions': 'Menções no Chat ao Vivo', 'notifications.newFollowers': 'Novos Seguidores', 'notifications.syncNote': 'Configurações são sincronizadas entre dispositivos via Nostr',
         // Settings Modal
-        'settings.title': 'Configurações', 'settings.language': 'Idioma', 'settings.languageDesc': 'Escolha seu idioma preferido', 'settings.saveToNostr': 'Salvar no Nostr', 'settings.saveToNostrDesc': 'Sincronizar configurações em todas as instâncias do Plebs', 'settings.darkMode': 'Modo Escuro', 'settings.darkModeDesc': 'Alternar entre tema claro e escuro', 'settings.contentWarning': 'Preferências de Aviso de Conteúdo', 'settings.showNsfwWarnings': 'Mostrar avisos NSFW', 'settings.showNsfwWarningsDesc': 'Exibir verificação de idade para conteúdo NSFW', 'settings.showCommunityWarnings': 'Mostrar avisos da comunidade', 'settings.showCommunityWarningsDesc': 'Exibir avisos para conteúdo sinalizado ou com muitos votos negativos', 'settings.showFollowsReportWarnings': 'Mostrar avisos de relatórios de seguidos', 'settings.showFollowsReportWarningsDesc': 'Exibir avisos quando 5+ pessoas que você segue reportaram conteúdo', 'settings.filterPacks': 'Pacotes de Filtros de Conteúdo', 'settings.filterPacksDesc': 'Ative pacotes de filtros para ocultar automaticamente conteúdo com palavras-chave específicas.', 'settings.customKeywordFilter': 'Filtro de Palavras-chave Personalizado', 'settings.customKeywordFilterPlaceholder': 'Digite palavras-chave ou frases separadas por vírgulas\nExemplo: spam, conteúdo indesejado, frase específica', 'settings.customKeywordFilterDesc': 'Adicione suas próprias palavras-chave para filtrar (separadas por vírgulas)', 'settings.saveSettings': 'Salvar Configurações', 'settings.resetDefaults': 'Redefinir', 'settings.notificationSettings': 'Configurações de Notificação',
+        'settings.title': 'Configurações', 'settings.language': 'Idioma', 'settings.languageDesc': 'Escolha seu idioma preferido', 'settings.saveToNostr': 'Salvar no Nostr', 'settings.saveToNostrDesc': 'Sincronizar configurações em todas as instâncias do Goblinbox', 'settings.darkMode': 'Modo Escuro', 'settings.darkModeDesc': 'Alternar entre tema claro e escuro', 'settings.contentWarning': 'Preferências de Aviso de Conteúdo', 'settings.showNsfwWarnings': 'Mostrar avisos NSFW', 'settings.showNsfwWarningsDesc': 'Exibir verificação de idade para conteúdo NSFW', 'settings.showCommunityWarnings': 'Mostrar avisos da comunidade', 'settings.showCommunityWarningsDesc': 'Exibir avisos para conteúdo sinalizado ou com muitos votos negativos', 'settings.showFollowsReportWarnings': 'Mostrar avisos de relatórios de seguidos', 'settings.showFollowsReportWarningsDesc': 'Exibir avisos quando 5+ pessoas que você segue reportaram conteúdo', 'settings.filterPacks': 'Pacotes de Filtros de Conteúdo', 'settings.filterPacksDesc': 'Ative pacotes de filtros para ocultar automaticamente conteúdo com palavras-chave específicas.', 'settings.customKeywordFilter': 'Filtro de Palavras-chave Personalizado', 'settings.customKeywordFilterPlaceholder': 'Digite palavras-chave ou frases separadas por vírgulas\nExemplo: spam, conteúdo indesejado, frase específica', 'settings.customKeywordFilterDesc': 'Adicione suas próprias palavras-chave para filtrar (separadas por vírgulas)', 'settings.saveSettings': 'Salvar Configurações', 'settings.resetDefaults': 'Redefinir', 'settings.notificationSettings': 'Configurações de Notificação',
         // Upload Modal
         'upload.title': 'Enviar Vídeo', 'upload.videoFile': 'Arquivo de Vídeo', 'upload.clickToSelect': 'Clique para selecionar vídeo ou arraste e solte', 'upload.fileTypes': 'MP4, AVI, MOV, etc (máx 2GB entrada, será comprimido para <100MB)', 'upload.preparing': 'Preparando...', 'upload.thumbnail': 'Miniatura', 'upload.thumbnailHint': 'Clique para selecionar ou gerar automaticamente do vídeo', 'upload.uploading': 'Enviando...', 'upload.titleLabel': 'Título', 'upload.titlePlaceholder': 'Digite o título do vídeo', 'upload.descriptionLabel': 'Descrição', 'upload.descriptionPlaceholder': 'Conte aos espectadores sobre seu vídeo', 'upload.tagsLabel': 'Tags (separadas por vírgula)', 'upload.tagsPlaceholder': 'bitcoin, nostr, tutorial', 'upload.markNsfw': 'Marcar como NSFW (18+)', 'upload.nsfwDesc': 'Conteúdo adulto deve ser marcado como NSFW', 'upload.saveDraft': 'Salvar como Rascunho', 'upload.publish': 'Publicar', 'upload.selectVideo': 'Selecione um vídeo para enviar', 'upload.optional': '(opcional)', 'upload.remove': 'Remover', 'upload.qualityHigh': 'Alta',
         // Create Modal
@@ -2627,7 +2627,7 @@ const translations = {
         // Video Page
         'video.views': 'visualizações', 'video.view': 'visualização', 'video.followers': 'seguidores', 'video.follower': 'seguidor', 'video.follow': 'Seguir', 'video.unfollow': 'Deixar de Seguir', 'video.share': 'Compartilhar', 'video.comments': 'Comentários', 'video.writeComment': 'Escrever um comentário...', 'video.noComments': 'Ainda não há comentários. Seja o primeiro!',
         // Toast Messages
-        'toast.loggedIn': 'Login realizado!', 'toast.settingsSaved': 'Configurações salvas!', 'toast.settingsLocal': 'Configurações salvas localmente. Não foi possível salvar no Nostr.', 'toast.settingsLocalOnly': 'Configurações salvas localmente!', 'toast.settingsReset': 'Configurações redefinidas!', 'toast.avatarUploaded': 'Avatar enviado com sucesso!', 'toast.profileUpdated': 'Perfil atualizado com sucesso!', 'toast.copied': 'Copiado para a área de transferência!', 'toast.copyFailed': 'Falha ao copiar. Por favor, copie manualmente.', 'toast.installExtension': 'Por favor, instale uma extensão Nostr como Alby ou nos2x', 'toast.loginFailed': 'Falha no login com a extensão. Por favor, tente novamente.', 'toast.invalidKey': 'Chave privada inválida. Por favor, verifique e tente novamente.', 'toast.enterKey': 'Por favor, insira sua chave privada', 'toast.enterUsername': 'Por favor, insira um nome de usuário', 'toast.accountCreated': 'Bem-vindo ao Plebs! Você está conectado.', 'toast.keyCopied': 'Chave privada copiada para a área de transferência!', 'toast.unmuted': 'Usuário reativado', 'toast.unmuteFailed': 'Falha ao reativar usuário', 'toast.selectImage': 'Por favor, selecione um arquivo de imagem', 'toast.imageTooLarge': 'A imagem deve ter menos de 5MB', 'toast.avatarFailed': 'Falha ao enviar avatar. Por favor, tente novamente.', 'toast.mustBeLoggedIn': 'Você precisa estar logado para editar seu perfil', 'toast.enterDisplayName': 'Por favor, insira um nome de exibição', 'toast.profileFailed': 'Falha ao salvar perfil. Por favor, tente novamente.', 'toast.invalidBunker': 'Por favor, insira uma URL bunker válida', 'toast.connectFailed': 'Falha na conexão', 'toast.showingFiltered': 'Mostrando conteúdo filtrado', 'toast.reportSubmitted': 'Denúncia enviada com sucesso', 'toast.draftSaved': 'Rascunho salvo! Você pode continuar depois em Meus Vídeos.', 'toast.draftLoaded': 'Rascunho carregado. Complete seu upload e publique.', 'toast.draftDeleted': 'Rascunho excluído', 'toast.languageChanged': 'Idioma alterado', 'toast.videoBlocked': 'Vídeo bloqueado e publicado no Nostr', 'toast.waitForUpload': 'Por favor, aguarde o upload do vídeo terminar', 'toast.enterTitle': 'Por favor, insira um título', 'toast.publishing': 'Publicando vídeo no Nostr...',
+        'toast.loggedIn': 'Login realizado!', 'toast.settingsSaved': 'Configurações salvas!', 'toast.settingsLocal': 'Configurações salvas localmente. Não foi possível salvar no Nostr.', 'toast.settingsLocalOnly': 'Configurações salvas localmente!', 'toast.settingsReset': 'Configurações redefinidas!', 'toast.avatarUploaded': 'Avatar enviado com sucesso!', 'toast.profileUpdated': 'Perfil atualizado com sucesso!', 'toast.copied': 'Copiado para a área de transferência!', 'toast.copyFailed': 'Falha ao copiar. Por favor, copie manualmente.', 'toast.installExtension': 'Por favor, instale uma extensão Nostr como Alby ou nos2x', 'toast.loginFailed': 'Falha no login com a extensão. Por favor, tente novamente.', 'toast.invalidKey': 'Chave privada inválida. Por favor, verifique e tente novamente.', 'toast.enterKey': 'Por favor, insira sua chave privada', 'toast.enterUsername': 'Por favor, insira um nome de usuário', 'toast.accountCreated': 'Bem-vindo ao Goblinbox! Você está conectado.', 'toast.keyCopied': 'Chave privada copiada para a área de transferência!', 'toast.unmuted': 'Usuário reativado', 'toast.unmuteFailed': 'Falha ao reativar usuário', 'toast.selectImage': 'Por favor, selecione um arquivo de imagem', 'toast.imageTooLarge': 'A imagem deve ter menos de 5MB', 'toast.avatarFailed': 'Falha ao enviar avatar. Por favor, tente novamente.', 'toast.mustBeLoggedIn': 'Você precisa estar logado para editar seu perfil', 'toast.enterDisplayName': 'Por favor, insira um nome de exibição', 'toast.profileFailed': 'Falha ao salvar perfil. Por favor, tente novamente.', 'toast.invalidBunker': 'Por favor, insira uma URL bunker válida', 'toast.connectFailed': 'Falha na conexão', 'toast.showingFiltered': 'Mostrando conteúdo filtrado', 'toast.reportSubmitted': 'Denúncia enviada com sucesso', 'toast.draftSaved': 'Rascunho salvo! Você pode continuar depois em Meus Vídeos.', 'toast.draftLoaded': 'Rascunho carregado. Complete seu upload e publique.', 'toast.draftDeleted': 'Rascunho excluído', 'toast.languageChanged': 'Idioma alterado', 'toast.videoBlocked': 'Vídeo bloqueado e publicado no Nostr', 'toast.waitForUpload': 'Por favor, aguarde o upload do vídeo terminar', 'toast.enterTitle': 'Por favor, insira um título', 'toast.publishing': 'Publicando vídeo no Nostr...',
         // Time
         'time.justNow': 'agora mesmo', 'time.secondAgo': 'há 1 segundo', 'time.secondsAgo': 'há {n} segundos', 'time.minuteAgo': 'há 1 minuto', 'time.minutesAgo': 'há {n} minutos', 'time.hourAgo': 'há 1 hora', 'time.hoursAgo': 'há {n} horas', 'time.dayAgo': 'há 1 dia', 'time.daysAgo': 'há {n} dias', 'time.weekAgo': 'há 1 semana', 'time.weeksAgo': 'há {n} semanas', 'time.monthAgo': 'há 1 mês', 'time.monthsAgo': 'há {n} meses', 'time.yearAgo': 'há 1 ano', 'time.yearsAgo': 'há {n} anos',
         // Empty States
@@ -2676,15 +2676,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA e Política de Conteúdo',
         'dmca.lastUpdated': 'Última atualização: Dezembro 2024',
-        'dmca.architectureTitle': 'Entendendo a Arquitetura do Plebs',
-        'dmca.architectureDesc': 'Plebs é uma interface de plataforma de vídeo descentralizada que opera diferente dos serviços tradicionais.',
-        'dmca.architectureItem1': 'Plebs não hospeda nenhum conteúdo de vídeo ou imagem.',
+        'dmca.architectureTitle': 'Entendendo a Arquitetura do Goblinbox',
+        'dmca.architectureDesc': 'Goblinbox é uma interface de plataforma de vídeo descentralizada que opera diferente dos serviços tradicionais.',
+        'dmca.architectureItem1': 'Goblinbox não hospeda nenhum conteúdo de vídeo ou imagem.',
         'dmca.architectureItem1Desc': 'Somos um cliente/interface que exibe conteúdo armazenado em outro lugar.',
         'dmca.architectureItem2': 'Todos os arquivos de mídia são armazenados em servidores Blossom independentes.',
         'dmca.architectureItem3': 'Os metadados de vídeo são publicados em relays Nostr.',
-        'dmca.architectureItem4': 'Plebs simplesmente agrega e exibe este conteúdo distribuído.',
+        'dmca.architectureItem4': 'Goblinbox simplesmente agrega e exibe este conteúdo distribuído.',
         'dmca.filingTitle': 'Apresentar uma Reclamação DMCA',
-        'dmca.filingDesc': 'Como o Plebs não hospeda conteúdo, não podemos remover diretamente material infrator.',
+        'dmca.filingDesc': 'Como o Goblinbox não hospeda conteúdo, não podemos remover diretamente material infrator.',
         'dmca.forVideoTitle': '1. Para Conteúdo de Vídeo/Imagem',
         'dmca.forVideoDesc': 'Os arquivos de mídia são armazenados em servidores Blossom.',
         'dmca.forVideoItem1': 'Identificar qual servidor Blossom hospeda o conteúdo',
@@ -2695,7 +2695,7 @@ const translations = {
         'dmca.forMetadataItem1': 'Estas informações são armazenadas em relays Nostr',
         'dmca.forMetadataItem2': 'Contate os operadores de relay Nostr específicos',
         'dmca.forMetadataItem3': 'Múltiplos relays podem armazenar os mesmos dados',
-        'dmca.whatWeCanDoTitle': 'O que o Plebs Pode Fazer',
+        'dmca.whatWeCanDoTitle': 'O que o Goblinbox Pode Fazer',
         'dmca.whatWeCanDoDesc': 'Embora não hospedemos conteúdo, podemos:',
         'dmca.whatWeCanDoItem1': 'Ajudá-lo a identificar quais servidores hospedam conteúdo específico',
         'dmca.whatWeCanDoItem2': 'Adicionar conteúdo a uma lista de bloqueio local',
@@ -2808,9 +2808,9 @@ const translations = {
         'analytics.shortsTab': 'Shorts ({count})',
         'analytics.streamsTab': 'Transmissões ({count})',
         // About Page
-        'about.title': 'Sobre o Plebs',
-        'about.whatIs': 'O que é o Plebs?',
-        'about.whatIsDesc': 'Plebs é uma plataforma de vídeos descentralizada e resistente à censura construída sobre o <a href="https://nostr.com" target="_blank" rel="noopener">protocolo Nostr</a>. Diferente das plataformas tradicionais controladas por corporações, o Plebs te dá verdadeira propriedade do seu conteúdo e identidade.',
+        'about.title': 'Sobre o Goblinbox',
+        'about.whatIs': 'O que é o Goblinbox?',
+        'about.whatIsDesc': 'Goblinbox é uma plataforma de vídeos descentralizada e resistente à censura construída sobre o <a href="https://nostr.com" target="_blank" rel="noopener">protocolo Nostr</a>. Diferente das plataformas tradicionais controladas por corporações, o Goblinbox te dá verdadeira propriedade do seu conteúdo e identidade.',
         'about.whyNostr': 'Por que Nostr?',
         'about.whyNostrDesc': 'Nostr (Notes and Other Stuff Transmitted by Relays) é um protocolo simples e aberto que permite uma rede social verdadeiramente descentralizada. Os principais benefícios incluem:',
         'about.benefit1': 'Resistência à Censura:',
@@ -2822,7 +2822,7 @@ const translations = {
         'about.benefit4': 'Identidade Criptográfica:',
         'about.benefit4Desc': 'Suas chaves provam que você é quem diz ser',
         'about.howItWorks': 'Como Funciona',
-        'about.howItWorksDesc': 'Os vídeos no Plebs são armazenados usando <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, um sistema de armazenamento distribuído, enquanto os metadados e interações sociais são transmitidos para relays Nostr. Isso significa que seu conteúdo não é armazenado em nossos servidores - está distribuído pela rede.',
+        'about.howItWorksDesc': 'Os vídeos no Goblinbox são armazenados usando <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, um sistema de armazenamento distribuído, enquanto os metadados e interações sociais são transmitidos para relays Nostr. Isso significa que seu conteúdo não é armazenado em nossos servidores - está distribuído pela rede.',
         'about.features': 'Recursos',
         'about.feature1': 'Envie e compartilhe vídeos com a comunidade Nostr',
         'about.feature2': 'Curta, comente e compartilhe vídeos usando reações Nostr',
@@ -2831,10 +2831,10 @@ const translations = {
         'about.feature5': 'Explore tópicos e descubra novo conteúdo',
         'about.feature6': 'Funciona com qualquer identidade Nostr (use chaves existentes)',
         'about.openSource': 'Código Aberto',
-        'about.openSourceDesc': 'Plebs é software de código aberto. Você pode ver o código, contribuir ou executar sua própria instância:',
+        'about.openSourceDesc': 'Goblinbox é software de código aberto. Você pode ver o código, contribuir ou executar sua própria instância:',
         'about.githubRepo': 'Repositório GitHub',
         'about.builtBy': 'Desenvolvido Por',
-        'about.builtByDesc': 'Plebs é desenvolvido pela <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, uma empresa dedicada a construir ferramentas para o ecossistema Bitcoin e Nostr.',
+        'about.builtByDesc': 'Goblinbox é desenvolvido pela <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, uma empresa dedicada a construir ferramentas para o ecossistema Bitcoin e Nostr.',
         // Contact Page
         'contact.title': 'Entre em Contato',
         'contact.getInTouch': 'Fale Conosco',
@@ -2845,14 +2845,14 @@ const translations = {
         'contact.githubDesc': 'Para reportar bugs, solicitar recursos ou problemas técnicos, abra uma issue em nosso repositório:',
         'contact.githubIssues': 'Issues do GitHub',
         'contact.company': 'Empresa',
-        'contact.companyDesc': 'Plebs é desenvolvido pela 21 Million LLC',
+        'contact.companyDesc': 'Goblinbox é desenvolvido pela 21 Million LLC',
         // Terms of Service
         'terms.title': 'Termos de Serviço',
         'terms.lastUpdated': 'Última atualização: Dezembro 2024',
         'terms.section1Title': '1. Aceitação dos Termos',
-        'terms.section1Desc': 'Ao acessar e usar o Plebs ("o Serviço"), você concorda em estar sujeito a estes Termos de Serviço. Se você não concorda com estes termos, por favor não use o Serviço.',
+        'terms.section1Desc': 'Ao acessar e usar o Goblinbox ("o Serviço"), você concorda em estar sujeito a estes Termos de Serviço. Se você não concorda com estes termos, por favor não use o Serviço.',
         'terms.section2Title': '2. Descrição do Serviço',
-        'terms.section2Desc': 'Plebs é uma plataforma de vídeos descentralizada construída sobre o protocolo Nostr. O Serviço fornece uma interface para navegar, enviar e interagir com conteúdo de vídeo armazenado em redes distribuídas. Plebs não hospeda nem armazena conteúdo de vídeo em servidores centralizados.',
+        'terms.section2Desc': 'Goblinbox é uma plataforma de vídeos descentralizada construída sobre o protocolo Nostr. O Serviço fornece uma interface para navegar, enviar e interagir com conteúdo de vídeo armazenado em redes distribuídas. Goblinbox não hospeda nem armazena conteúdo de vídeo em servidores centralizados.',
         'terms.section3Title': '3. Responsabilidades do Usuário',
         'terms.section3Desc': 'Você é responsável por:',
         'terms.section3Item1': 'Manter a segurança de suas chaves privadas Nostr',
@@ -2875,7 +2875,7 @@ const translations = {
         'terms.section6Title': '6. Sem Garantia',
         'terms.section6Desc': 'O Serviço é fornecido "como está" sem garantias de qualquer tipo. Não garantimos acesso contínuo e ininterrupto ao Serviço.',
         'terms.section7Title': '7. Limitação de Responsabilidade',
-        'terms.section7Desc': 'Na máxima extensão permitida pela lei, Plebs e seus operadores não serão responsáveis por quaisquer danos indiretos, incidentais, especiais ou consequenciais decorrentes do seu uso do Serviço.',
+        'terms.section7Desc': 'Na máxima extensão permitida pela lei, Goblinbox e seus operadores não serão responsáveis por quaisquer danos indiretos, incidentais, especiais ou consequenciais decorrentes do seu uso do Serviço.',
         'terms.section8Title': '8. Alterações nos Termos',
         'terms.section8Desc': 'Reservamo-nos o direito de modificar estes termos a qualquer momento. O uso continuado do Serviço após as alterações constitui aceitação dos novos termos.',
         'terms.section9Title': '9. Contato',
@@ -2884,9 +2884,9 @@ const translations = {
         'privacy.title': 'Política de Privacidade',
         'privacy.lastUpdated': 'Última atualização: Dezembro 2024',
         'privacy.section1Title': '1. Resumo',
-        'privacy.section1Desc': 'Plebs está comprometido em proteger sua privacidade. Esta política explica como lidamos com informações quando você usa nossa plataforma de vídeos descentralizada.',
+        'privacy.section1Desc': 'Goblinbox está comprometido em proteger sua privacidade. Esta política explica como lidamos com informações quando você usa nossa plataforma de vídeos descentralizada.',
         'privacy.section2Title': '2. Arquitetura Descentralizada',
-        'privacy.section2Desc': 'Plebs é construído sobre Nostr, um protocolo descentralizado. Isso significa:',
+        'privacy.section2Desc': 'Goblinbox é construído sobre Nostr, um protocolo descentralizado. Isso significa:',
         'privacy.section2Item1': 'Seu conteúdo é transmitido para relays públicos, não armazenado em nossos servidores',
         'privacy.section2Item2': 'Sua chave pública Nostr serve como sua identidade',
         'privacy.section2Item3': 'Os vídeos são armazenados em servidores Blossom distribuídos',
@@ -2908,9 +2908,9 @@ const translations = {
         'privacy.section4Item4': 'Quem você segue',
         'privacy.section4Item5': 'Zaps (pagamentos Lightning) que você envia ou recebe',
         'privacy.section5Title': '5. Armazenamento de Dados',
-        'privacy.section5Desc': 'Os dados locais são armazenados no localStorage do seu navegador. Você pode limpar esses dados a qualquer momento através das configurações do navegador. O conteúdo publicado no Nostr é distribuído através de relays e não pode ser controlado ou removido pelo Plebs.',
+        'privacy.section5Desc': 'Os dados locais são armazenados no localStorage do seu navegador. Você pode limpar esses dados a qualquer momento através das configurações do navegador. O conteúdo publicado no Nostr é distribuído através de relays e não pode ser controlado ou removido pelo Goblinbox.',
         'privacy.section6Title': '6. Serviços de Terceiros',
-        'privacy.section6Desc': 'Plebs interage com:',
+        'privacy.section6Desc': 'Goblinbox interage com:',
         'privacy.section6Item1': 'Relays Nostr (para dados sociais)',
         'privacy.section6Item2': 'Servidores Blossom (para armazenamento de vídeo)',
         'privacy.section6Item3': 'Lightning Network (para zaps/pagamentos)',
@@ -2932,19 +2932,19 @@ const translations = {
         'privacy.section10Desc': 'Para questões relacionadas à privacidade, por favor <a href="#/contact" class="accent-link">entre em contato conosco</a>.',
         // FAQ Page
         'faq.title': 'Perguntas Frequentes',
-        'faq.aboutPlebs': 'Sobre o Plebs',
+        'faq.aboutGoblinbox': 'Sobre o Goblinbox',
         'faq.nostrProtocol': 'Protocolo Nostr',
         'faq.videoStorage': 'Armazenamento de Vídeo e Blossom',
         'faq.featuresUsage': 'Recursos e Uso',
-        'faq.q1': 'O que é o Plebs?',
-        'faq.a1': 'Plebs é uma plataforma de vídeos descentralizada e resistente à censura construída sobre o protocolo Nostr. Diferente das plataformas tradicionais controladas por corporações, o Plebs te dá verdadeira propriedade do seu conteúdo e identidade. Não há servidores centrais que possam te banir ou remover seu conteúdo.',
-        'faq.q2': 'O Plebs é gratuito?',
-        'faq.a2': 'Sim, o Plebs é completamente gratuito para assistir vídeos. Você pode navegar e assistir conteúdo sem criar uma conta. Para enviar vídeos, comentar, curtir ou interagir com outros usuários, você precisará de uma identidade Nostr (que também é gratuita).',
-        'faq.q3': 'Quem desenvolve o Plebs?',
-        'faq.a3': 'Plebs é desenvolvido pela <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, uma empresa dedicada a construir ferramentas para o ecossistema Bitcoin e Nostr. Plebs é de código aberto, e você pode ver o código ou contribuir no <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
+        'faq.q1': 'O que é o Goblinbox?',
+        'faq.a1': 'Goblinbox é uma plataforma de vídeos descentralizada e resistente à censura construída sobre o protocolo Nostr. Diferente das plataformas tradicionais controladas por corporações, o Goblinbox te dá verdadeira propriedade do seu conteúdo e identidade. Não há servidores centrais que possam te banir ou remover seu conteúdo.',
+        'faq.q2': 'O Goblinbox é gratuito?',
+        'faq.a2': 'Sim, o Goblinbox é completamente gratuito para assistir vídeos. Você pode navegar e assistir conteúdo sem criar uma conta. Para enviar vídeos, comentar, curtir ou interagir com outros usuários, você precisará de uma identidade Nostr (que também é gratuita).',
+        'faq.q3': 'Quem desenvolve o Goblinbox?',
+        'faq.a3': 'Goblinbox é desenvolvido pela <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, uma empresa dedicada a construir ferramentas para o ecossistema Bitcoin e Nostr. Goblinbox é de código aberto, e você pode ver o código ou contribuir no <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
         'faq.q4': 'O que é Nostr?',
         'faq.a4': 'Nostr significa "Notes and Other Stuff Transmitted by Relays." É um protocolo simples e aberto que permite uma rede social verdadeiramente descentralizada. Diferente das plataformas tradicionais, Nostr não depende de nenhum servidor central. Em vez disso, usa uma rede de relays para transmitir mensagens entre usuários, e chaves criptográficas para identidade.',
-        'faq.q5': 'Por que o Plebs usa Nostr?',
+        'faq.q5': 'Por que o Goblinbox usa Nostr?',
         'faq.a5Title': 'Nostr fornece vários benefícios importantes:',
         'faq.a5Item1': 'Resistência à Censura:',
         'faq.a5Item1Desc': 'Nenhuma entidade pode te banir ou remover seu conteúdo',
@@ -2957,15 +2957,15 @@ const translations = {
         'faq.q6': 'O que são as chaves Nostr (npub/nsec)?',
         'faq.a6': 'Sua identidade Nostr consiste em duas chaves: uma chave pública (npub) e uma chave privada (nsec). Sua npub é como seu nome de usuário - você pode compartilhá-la com qualquer pessoa. Sua nsec é como sua senha - nunca a compartilhe! Qualquer pessoa com sua nsec pode publicar como você e acessar sua conta. Recomendamos usar uma extensão de navegador como Alby ou nos2x para gerenciar suas chaves com segurança.',
         'faq.q7': 'Posso usar minha conta Nostr existente?',
-        'faq.a7': 'Absolutamente! Se você já tem uma identidade Nostr de apps como Damus, Primal, Amethyst ou outro cliente Nostr, pode usar as mesmas chaves para fazer login no Plebs. Seus seguidores, perfil e reputação são transferidos automaticamente.',
+        'faq.a7': 'Absolutamente! Se você já tem uma identidade Nostr de apps como Damus, Primal, Amethyst ou outro cliente Nostr, pode usar as mesmas chaves para fazer login no Goblinbox. Seus seguidores, perfil e reputação são transferidos automaticamente.',
         'faq.q8': 'O que são relays Nostr?',
         'faq.a8': 'Relays são servidores que armazenam e transmitem mensagens Nostr. Quando você publica algo, é enviado para múltiplos relays. Outros usuários se conectam aos relays para ler mensagens. Como há muitos relays independentes, nenhum pode censurar você - se um relay te bloquear, seu conteúdo ainda existe em outros.',
         'faq.q9': 'Onde os vídeos são armazenados?',
-        'faq.a9': 'Os vídeos são armazenados em servidores Blossom, não no Plebs. Blossom é um sistema de armazenamento distribuído projetado para funcionar com Nostr. Quando você envia um vídeo, ele vai para um ou mais servidores Blossom de sua escolha. Os metadados do vídeo (título, descrição, etc.) são publicados em relays Nostr.',
+        'faq.a9': 'Os vídeos são armazenados em servidores Blossom, não no Goblinbox. Blossom é um sistema de armazenamento distribuído projetado para funcionar com Nostr. Quando você envia um vídeo, ele vai para um ou mais servidores Blossom de sua escolha. Os metadados do vídeo (título, descrição, etc.) são publicados em relays Nostr.',
         'faq.q10': 'O que é Blossom?',
         'faq.a10': 'Blossom é um protocolo aberto para armazenar e servir arquivos de mídia de forma descentralizada. Os arquivos são identificados por seu hash SHA-256, o que significa que o mesmo arquivo terá o mesmo endereço independentemente de qual servidor o hospede. Isso permite redundância - seus arquivos podem existir em múltiplos servidores. Saiba mais em <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom GitHub</a>.',
-        'faq.q11': 'O Plebs hospeda meus vídeos?',
-        'faq.a11': 'Não. Plebs é um cliente/interface que te ajuda a navegar e enviar conteúdo, mas não armazena nenhum arquivo de vídeo ou imagem. Todas as mídias são armazenadas em servidores Blossom independentes. Plebs simplesmente exibe conteúdo desses provedores de armazenamento distribuído.',
+        'faq.q11': 'O Goblinbox hospeda meus vídeos?',
+        'faq.a11': 'Não. Goblinbox é um cliente/interface que te ajuda a navegar e enviar conteúdo, mas não armazena nenhum arquivo de vídeo ou imagem. Todas as mídias são armazenadas em servidores Blossom independentes. Goblinbox simplesmente exibe conteúdo desses provedores de armazenamento distribuído.',
         'faq.q12': 'Posso escolher qual servidor Blossom usar?',
         'faq.a12': 'Sim! Você pode configurar quais servidores Blossom quer usar para envios em suas configurações. Você pode até executar seu próprio servidor Blossom se quiser controle total sobre seu armazenamento de mídia.',
         'faq.q13': 'Como criar uma conta?',
@@ -2990,7 +2990,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Auto-Moderação',
         'faq.q16': 'Como funciona a moderação em uma plataforma descentralizada?',
-        'faq.a16': 'Diferente das plataformas tradicionais com moderadores centralizados, o Plebs coloca você no controle do que você vê. Fornecemos ferramentas poderosas de auto-moderação incluindo pacotes de filtros de conteúdo, silenciamento de usuários, avisos da comunidade e indicadores de vídeos com proporção negativa. Você decide qual conteúdo é apropriado para você - não há autoridade central tomando essas decisões.',
+        'faq.a16': 'Diferente das plataformas tradicionais com moderadores centralizados, o Goblinbox coloca você no controle do que você vê. Fornecemos ferramentas poderosas de auto-moderação incluindo pacotes de filtros de conteúdo, silenciamento de usuários, avisos da comunidade e indicadores de vídeos com proporção negativa. Você decide qual conteúdo é apropriado para você - não há autoridade central tomando essas decisões.',
         'faq.q17': 'O que são Pacotes de Filtros de Conteúdo?',
         'faq.a17Intro': 'Pacotes de Filtros de Conteúdo são filtros de palavras-chave predefinidos que você pode habilitar para ocultar tipos específicos de conteúdo. Os pacotes disponíveis incluem:',
         'faq.a17Pack1': 'Racismo e Discurso de Ódio:',
@@ -3021,7 +3021,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Privacidade e Segurança',
         'faq.q22': 'Minha atividade é privada?',
-        'faq.a22': 'No Nostr, a maior parte da atividade é pública por design. Suas curtidas, comentários, seguidas e zaps são visíveis na rede pública. No entanto, o Plebs armazena seu histórico de visualização localmente no seu navegador - nunca é enviado para nenhum servidor. Você pode limpar seus dados locais a qualquer momento.',
+        'faq.a22': 'No Nostr, a maior parte da atividade é pública por design. Suas curtidas, comentários, seguidas e zaps são visíveis na rede pública. No entanto, o Goblinbox armazena seu histórico de visualização localmente no seu navegador - nunca é enviado para nenhum servidor. Você pode limpar seus dados locais a qualquer momento.',
         'faq.q23': 'Como manter minha conta segura?',
         'faq.a23': 'Nunca compartilhe sua chave privada (nsec) com ninguém. Recomendamos fortemente usar uma extensão de navegador Nostr como Alby, nos2x ou um assinante de hardware. Estes mantêm sua chave privada segura e apenas assinam eventos quando você os aprova. Evite armazenar sua nsec diretamente em sites.',
         'faq.q24': 'Posso deletar meu conteúdo?',
@@ -3032,7 +3032,7 @@ const translations = {
         'faq.a25Intro': 'Se os vídeos não estiverem carregando, tente estas etapas:',
         'faq.a25Item1': 'Atualize a página',
         'faq.a25Item2': 'Verifique sua conexão com a internet',
-        'faq.a25Item3': 'O servidor Blossom hospedando o vídeo pode estar fora do ar - isso é independente do Plebs',
+        'faq.a25Item3': 'O servidor Blossom hospedando o vídeo pode estar fora do ar - isso é independente do Goblinbox',
         'faq.a25Item4': 'Tente desabilitar extensões do navegador que possam bloquear conteúdo',
         'faq.a25Item5': 'Limpe o cache do navegador e tente novamente',
         'faq.q26': 'Perdi minha chave privada - você pode me ajudar a recuperá-la?',
@@ -3045,8 +3045,8 @@ const translations = {
         'pageTitle.likedVideos': 'Vídeos Curtidos',
         'pageTitle.watchHistory': 'Histórico de Visualização',
         'pageTitle.liveStreams': 'Transmissões ao Vivo',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Ao Vivo no Plebs',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Ao Vivo no Goblinbox',
         // Home Page Sections
         'section.trending': 'Em Alta',
         'section.recommended': 'Recomendado Para Você',
@@ -3099,7 +3099,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': 'Ваш приватный ключ', 'privateKey.warning': 'ВАЖНО: Сохраните это в безопасном месте. Если вы потеряете этот ключ, вы потеряете доступ к аккаунту. Никогда никому его не показывайте!', 'privateKey.show': 'Показать приватный ключ', 'privateKey.hide': 'Скрыть приватный ключ', 'privateKey.copy': 'Копировать', 'privateKey.saved': 'Я сохранил(а) свой ключ', 'privateKey.yourPublicKey': 'Ваш публичный ключ (npub):', 'privateKey.yourPrivateKey': 'Ваш приватный ключ (nsec):',
         // Signup Modal
-        'signup.title': 'Создать аккаунт Nostr', 'signup.whatIsNostr': 'Что такое Nostr?', 'signup.nostrDescription': 'Nostr — это децентрализованный протокол, который даёт вам контроль над вашей идентичностью и данными. Нет центрального сервера — ваш аккаунт — это криптографическая пара ключей.', 'signup.whyNostr': 'Почему Nostr?', 'signup.benefit1': 'Владейте своей идентичностью', 'signup.benefit2': 'Нет цензуры', 'signup.benefit3': 'Портативность между платформами', 'signup.createNew': 'Создать новый аккаунт', 'signup.haveAccount': 'Уже есть аккаунт?', 'signup.login': 'Войти', 'signup.createButton': 'Создать аккаунт', 'signup.generating': 'Генерация ключей...', 'signup.displayName': 'Имя', 'signup.displayNamePlaceholder': 'Введите имя', 'signup.username': 'Имя пользователя', 'signup.usernamePlaceholder': 'Введите имя пользователя', 'signup.about': 'О себе (необязательно)', 'signup.profilePicture': 'Фото профиля (необязательно)', 'signup.lightningAddress': 'Lightning адрес (необязательно)', 'signup.nostrAddress': 'Nostr адрес', 'signup.nostrAddressPlaceholder': 'имяпользователя', 'signup.nostrAddressHint': 'Ваш Nostr адрес упрощает поиск вашего профиля. Только строчные буквы, цифры, _ и -.', 'signup.nostrAddressRequired': 'Пожалуйста, введите Nostr адрес', 'signup.nostrAddressAvailable': 'Доступно!', 'signup.nostrAddressUnavailable': 'Уже занято', 'signup.nostrAddressChecking': 'Проверка...', 'signup.nostrAddressInvalid': 'Неверный формат имени пользователя', 'signup.nostrAddressRegistering': 'Регистрация вашего Nostr адреса...', 'signup.nostrAddressSuccess': 'Nostr адрес зарегистрирован!', 'signup.nostrAddressFailed': 'Не удалось зарегистрировать Nostr адрес', 'signup.createAccountBtn': 'Создать аккаунт', 'signup.termsAgree': 'Создавая аккаунт, вы соглашаетесь с нашими', 'signup.and': 'и', 'signup.success': 'Аккаунт успешно создан!', 'signup.yourPrivateKey': 'Ваш приватный ключ (nsec)', 'signup.keyWarning': 'Это ЕДИНСТВЕННЫЙ способ получить доступ к вашему аккаунту. Сохраните его в безопасном месте!', 'signup.copyPrivateKey': 'Копировать приватный ключ', 'signup.howToUseKey': 'Как использовать ваш приватный ключ', 'signup.continueToPlebs': 'Продолжить на Plebs', 'signup.step1': 'Сохраните надёжно:', 'signup.step1Desc': 'Храните nsec в менеджере паролей, запишите или сохраните в зашифрованном файле. Никогда не делитесь публично!', 'signup.step2': 'Для повторного входа:', 'signup.step2Desc': 'Нажмите "Приватный ключ" на экране входа и вставьте nsec. Работает как пароль.', 'signup.step3': 'Использование в других приложениях:', 'signup.step3Desc': 'Ваш nsec работает во всех Nostr приложениях - Damus, Primal, Amethyst и сотнях других!', 'signup.step4': 'Рассмотрите приложение для подписи:', 'signup.step4Desc': 'Для большей безопасности используйте приложения как Amber (Android) или расширение браузера Alby.',
+        'signup.title': 'Создать аккаунт Nostr', 'signup.whatIsNostr': 'Что такое Nostr?', 'signup.nostrDescription': 'Nostr — это децентрализованный протокол, который даёт вам контроль над вашей идентичностью и данными. Нет центрального сервера — ваш аккаунт — это криптографическая пара ключей.', 'signup.whyNostr': 'Почему Nostr?', 'signup.benefit1': 'Владейте своей идентичностью', 'signup.benefit2': 'Нет цензуры', 'signup.benefit3': 'Портативность между платформами', 'signup.createNew': 'Создать новый аккаунт', 'signup.haveAccount': 'Уже есть аккаунт?', 'signup.login': 'Войти', 'signup.createButton': 'Создать аккаунт', 'signup.generating': 'Генерация ключей...', 'signup.displayName': 'Имя', 'signup.displayNamePlaceholder': 'Введите имя', 'signup.username': 'Имя пользователя', 'signup.usernamePlaceholder': 'Введите имя пользователя', 'signup.about': 'О себе (необязательно)', 'signup.profilePicture': 'Фото профиля (необязательно)', 'signup.lightningAddress': 'Lightning адрес (необязательно)', 'signup.nostrAddress': 'Nostr адрес', 'signup.nostrAddressPlaceholder': 'имяпользователя', 'signup.nostrAddressHint': 'Ваш Nostr адрес упрощает поиск вашего профиля. Только строчные буквы, цифры, _ и -.', 'signup.nostrAddressRequired': 'Пожалуйста, введите Nostr адрес', 'signup.nostrAddressAvailable': 'Доступно!', 'signup.nostrAddressUnavailable': 'Уже занято', 'signup.nostrAddressChecking': 'Проверка...', 'signup.nostrAddressInvalid': 'Неверный формат имени пользователя', 'signup.nostrAddressRegistering': 'Регистрация вашего Nostr адреса...', 'signup.nostrAddressSuccess': 'Nostr адрес зарегистрирован!', 'signup.nostrAddressFailed': 'Не удалось зарегистрировать Nostr адрес', 'signup.createAccountBtn': 'Создать аккаунт', 'signup.termsAgree': 'Создавая аккаунт, вы соглашаетесь с нашими', 'signup.and': 'и', 'signup.success': 'Аккаунт успешно создан!', 'signup.yourPrivateKey': 'Ваш приватный ключ (nsec)', 'signup.keyWarning': 'Это ЕДИНСТВЕННЫЙ способ получить доступ к вашему аккаунту. Сохраните его в безопасном месте!', 'signup.copyPrivateKey': 'Копировать приватный ключ', 'signup.howToUseKey': 'Как использовать ваш приватный ключ', 'signup.continueToGoblinbox': 'Продолжить на Goblinbox', 'signup.step1': 'Сохраните надёжно:', 'signup.step1Desc': 'Храните nsec в менеджере паролей, запишите или сохраните в зашифрованном файле. Никогда не делитесь публично!', 'signup.step2': 'Для повторного входа:', 'signup.step2Desc': 'Нажмите "Приватный ключ" на экране входа и вставьте nsec. Работает как пароль.', 'signup.step3': 'Использование в других приложениях:', 'signup.step3Desc': 'Ваш nsec работает во всех Nostr приложениях - Damus, Primal, Amethyst и сотнях других!', 'signup.step4': 'Рассмотрите приложение для подписи:', 'signup.step4Desc': 'Для большей безопасности используйте приложения как Amber (Android) или расширение браузера Alby.',
         // Notifications
         'notifications.title': 'Уведомления', 'notifications.empty': 'Пока нет уведомлений', 'notifications.viewAll': 'Смотреть все уведомления', 'notifications.markAllRead': 'Отметить все как прочитанные', 'notifications.settings': 'Настройки уведомлений', 'notifications.loading': 'Загрузка уведомлений...', 'notifications.zap': 'отправил(а) вам зап', 'notifications.like': 'понравился ваш контент', 'notifications.comment': 'оставил(а) комментарий', 'notifications.follow': 'подписался(ась) на вас', 'notifications.repost': 'сделал(а) репост', 'notifications.mention': 'упомянул(а) вас',
         // Settings Modal
@@ -3132,7 +3132,7 @@ const translations = {
         // Video Page
         'video.views': 'просмотров', 'video.like': 'Нравится', 'video.dislike': 'Не нравится', 'video.share': 'Поделиться', 'video.save': 'Сохранить', 'video.report': 'Пожаловаться', 'video.follow': 'Подписаться', 'video.unfollow': 'Отписаться', 'video.subscribe': 'Подписаться', 'video.subscribed': 'Подписан(а)', 'video.comments': 'Комментарии', 'video.addComment': 'Добавить комментарий...', 'video.reply': 'Ответить', 'video.replies': 'ответов', 'video.loadMore': 'Загрузить ещё', 'video.noComments': 'Комментариев пока нет. Будьте первым!', 'video.zap': 'Зап', 'video.zapAmount': 'Сумма зап (сатоши)', 'video.sendZap': 'Отправить зап', 'video.boost': 'Буст', 'video.description': 'Описание', 'video.showMore': 'Показать больше', 'video.showLess': 'Показать меньше', 'video.publishedOn': 'Опубликовано',
         // Toast Messages
-        'toast.loggedIn': 'Вход выполнен!', 'toast.loggedOut': 'Выход выполнен', 'toast.settingsSaved': 'Настройки сохранены!', 'toast.settingsLocal': 'Настройки сохранены локально. Не удалось сохранить в Nostr.', 'toast.settingsLocalOnly': 'Настройки сохранены локально!', 'toast.settingsReset': 'Настройки сброшены', 'toast.avatarUploaded': 'Аватар загружен!', 'toast.videoUploaded': 'Видео загружено!', 'toast.videoDeleted': 'Видео удалено', 'toast.profileUpdated': 'Профиль обновлён!', 'toast.copied': 'Скопировано в буфер обмена!', 'toast.copyFailed': 'Ошибка копирования. Скопируйте вручную.', 'toast.linkCopied': 'Ссылка скопирована!', 'toast.embedCopied': 'Код скопирован!', 'toast.installExtension': 'Установите расширение Nostr, например Alby или nos2x', 'toast.loginFailed': 'Ошибка входа. Попробуйте снова.', 'toast.invalidKey': 'Неверный приватный ключ. Проверьте и попробуйте снова.', 'toast.enterKey': 'Введите приватный ключ', 'toast.enterUsername': 'Введите имя пользователя', 'toast.accountCreated': 'Добро пожаловать в Plebs! Вы вошли в систему.', 'toast.keyCopied': 'Ключ скопирован!', 'toast.unmuted': 'Пользователь разблокирован', 'toast.unmuteFailed': 'Не удалось разблокировать пользователя', 'toast.selectImage': 'Выберите файл изображения', 'toast.imageTooLarge': 'Изображение должно быть менее 5 МБ', 'toast.avatarFailed': 'Ошибка загрузки аватара. Попробуйте снова.', 'toast.mustBeLoggedIn': 'Войдите, чтобы редактировать профиль', 'toast.enterDisplayName': 'Введите отображаемое имя', 'toast.profileFailed': 'Ошибка сохранения профиля. Попробуйте снова.', 'toast.invalidBunker': 'Введите действительный URL bunker', 'toast.connectFailed': 'Ошибка подключения', 'toast.showingFiltered': 'Показан отфильтрованный контент', 'toast.reportSubmitted': 'Жалоба отправлена', 'toast.draftSaved': 'Черновик сохранён! Продолжите позже из Моих видео.', 'toast.draftLoaded': 'Черновик загружен. Завершите загрузку и опубликуйте.', 'toast.draftDeleted': 'Черновик удалён', 'toast.zapSent': 'Зап отправлен!', 'toast.followed': 'Вы подписались!', 'toast.unfollowed': 'Вы отписались', 'toast.reported': 'Жалоба отправлена', 'toast.saved': 'Сохранено!', 'toast.error': 'Произошла ошибка', 'toast.networkError': 'Ошибка сети. Попробуйте снова.', 'toast.uploadError': 'Ошибка загрузки. Попробуйте снова.', 'toast.languageChanged': 'Язык изменён', 'toast.videoBlocked': 'Видео заблокировано и опубликовано в Nostr', 'toast.waitForUpload': 'Дождитесь завершения загрузки видео', 'toast.enterTitle': 'Введите заголовок', 'toast.publishing': 'Публикация видео в Nostr...', 'toast.commentPosted': 'Комментарий опубликован',
+        'toast.loggedIn': 'Вход выполнен!', 'toast.loggedOut': 'Выход выполнен', 'toast.settingsSaved': 'Настройки сохранены!', 'toast.settingsLocal': 'Настройки сохранены локально. Не удалось сохранить в Nostr.', 'toast.settingsLocalOnly': 'Настройки сохранены локально!', 'toast.settingsReset': 'Настройки сброшены', 'toast.avatarUploaded': 'Аватар загружен!', 'toast.videoUploaded': 'Видео загружено!', 'toast.videoDeleted': 'Видео удалено', 'toast.profileUpdated': 'Профиль обновлён!', 'toast.copied': 'Скопировано в буфер обмена!', 'toast.copyFailed': 'Ошибка копирования. Скопируйте вручную.', 'toast.linkCopied': 'Ссылка скопирована!', 'toast.embedCopied': 'Код скопирован!', 'toast.installExtension': 'Установите расширение Nostr, например Alby или nos2x', 'toast.loginFailed': 'Ошибка входа. Попробуйте снова.', 'toast.invalidKey': 'Неверный приватный ключ. Проверьте и попробуйте снова.', 'toast.enterKey': 'Введите приватный ключ', 'toast.enterUsername': 'Введите имя пользователя', 'toast.accountCreated': 'Добро пожаловать в Goblinbox! Вы вошли в систему.', 'toast.keyCopied': 'Ключ скопирован!', 'toast.unmuted': 'Пользователь разблокирован', 'toast.unmuteFailed': 'Не удалось разблокировать пользователя', 'toast.selectImage': 'Выберите файл изображения', 'toast.imageTooLarge': 'Изображение должно быть менее 5 МБ', 'toast.avatarFailed': 'Ошибка загрузки аватара. Попробуйте снова.', 'toast.mustBeLoggedIn': 'Войдите, чтобы редактировать профиль', 'toast.enterDisplayName': 'Введите отображаемое имя', 'toast.profileFailed': 'Ошибка сохранения профиля. Попробуйте снова.', 'toast.invalidBunker': 'Введите действительный URL bunker', 'toast.connectFailed': 'Ошибка подключения', 'toast.showingFiltered': 'Показан отфильтрованный контент', 'toast.reportSubmitted': 'Жалоба отправлена', 'toast.draftSaved': 'Черновик сохранён! Продолжите позже из Моих видео.', 'toast.draftLoaded': 'Черновик загружен. Завершите загрузку и опубликуйте.', 'toast.draftDeleted': 'Черновик удалён', 'toast.zapSent': 'Зап отправлен!', 'toast.followed': 'Вы подписались!', 'toast.unfollowed': 'Вы отписались', 'toast.reported': 'Жалоба отправлена', 'toast.saved': 'Сохранено!', 'toast.error': 'Произошла ошибка', 'toast.networkError': 'Ошибка сети. Попробуйте снова.', 'toast.uploadError': 'Ошибка загрузки. Попробуйте снова.', 'toast.languageChanged': 'Язык изменён', 'toast.videoBlocked': 'Видео заблокировано и опубликовано в Nostr', 'toast.waitForUpload': 'Дождитесь завершения загрузки видео', 'toast.enterTitle': 'Введите заголовок', 'toast.publishing': 'Публикация видео в Nostr...', 'toast.commentPosted': 'Комментарий опубликован',
         // Time
         'time.justNow': 'только что', 'time.secondAgo': '1 сек. назад', 'time.secondsAgo': '{n} сек. назад', 'time.minuteAgo': '1 мин. назад', 'time.minutesAgo': '{n} мин. назад', 'time.hourAgo': '1 ч. назад', 'time.hoursAgo': '{n} ч. назад', 'time.dayAgo': '1 дн. назад', 'time.daysAgo': '{n} дн. назад', 'time.weekAgo': '1 нед. назад', 'time.weeksAgo': '{n} нед. назад', 'time.monthAgo': '1 мес. назад', 'time.monthsAgo': '{n} мес. назад', 'time.yearAgo': '1 г. назад', 'time.yearsAgo': '{n} г. назад',
         // Empty States
@@ -3181,15 +3181,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA и Политика Контента',
         'dmca.lastUpdated': 'Последнее обновление: Декабрь 2024',
-        'dmca.architectureTitle': 'Понимание Архитектуры Plebs',
-        'dmca.architectureDesc': 'Plebs — это децентрализованный интерфейс видеоплатформы, который работает иначе, чем традиционные сервисы.',
-        'dmca.architectureItem1': 'Plebs не размещает никакого видео- или изображенческого контента.',
+        'dmca.architectureTitle': 'Понимание Архитектуры Goblinbox',
+        'dmca.architectureDesc': 'Goblinbox — это децентрализованный интерфейс видеоплатформы, который работает иначе, чем традиционные сервисы.',
+        'dmca.architectureItem1': 'Goblinbox не размещает никакого видео- или изображенческого контента.',
         'dmca.architectureItem1Desc': 'Мы — клиент/интерфейс, который отображает контент, хранящийся в другом месте.',
         'dmca.architectureItem2': 'Все медиафайлы хранятся на независимых серверах Blossom.',
         'dmca.architectureItem3': 'Метаданные видео публикуются на релеях Nostr.',
-        'dmca.architectureItem4': 'Plebs просто агрегирует и отображает этот распределённый контент.',
+        'dmca.architectureItem4': 'Goblinbox просто агрегирует и отображает этот распределённый контент.',
         'dmca.filingTitle': 'Подача Жалобы DMCA',
-        'dmca.filingDesc': 'Поскольку Plebs не размещает контент, мы не можем напрямую удалять нарушающий материал.',
+        'dmca.filingDesc': 'Поскольку Goblinbox не размещает контент, мы не можем напрямую удалять нарушающий материал.',
         'dmca.forVideoTitle': '1. Для Видео/Изображений',
         'dmca.forVideoDesc': 'Медиафайлы хранятся на серверах Blossom.',
         'dmca.forVideoItem1': 'Определите, какой сервер Blossom размещает контент',
@@ -3200,7 +3200,7 @@ const translations = {
         'dmca.forMetadataItem1': 'Эта информация хранится на релеях Nostr',
         'dmca.forMetadataItem2': 'Свяжитесь с конкретными операторами релеев Nostr',
         'dmca.forMetadataItem3': 'Несколько релеев могут хранить одни и те же данные',
-        'dmca.whatWeCanDoTitle': 'Что Может Сделать Plebs',
+        'dmca.whatWeCanDoTitle': 'Что Может Сделать Goblinbox',
         'dmca.whatWeCanDoDesc': 'Хотя мы не размещаем контент, мы можем:',
         'dmca.whatWeCanDoItem1': 'Помочь вам определить, какие серверы размещают конкретный контент',
         'dmca.whatWeCanDoItem2': 'Добавить контент в локальный список блокировки',
@@ -3313,9 +3313,9 @@ const translations = {
         'analytics.shortsTab': 'Shorts ({count})',
         'analytics.streamsTab': 'Стримы ({count})',
         // About
-        'about.title': 'О Plebs',
-        'about.whatIs': 'Что такое Plebs?',
-        'about.whatIsDesc': 'Plebs — это децентрализованная платформа видео, устойчивая к цензуре, построенная на <a href="https://nostr.com" target="_blank" rel="noopener">протоколе Nostr</a>. В отличие от традиционных видеоплатформ, контролируемых корпорациями, Plebs даёт вам истинное владение вашим контентом и личностью.',
+        'about.title': 'О Goblinbox',
+        'about.whatIs': 'Что такое Goblinbox?',
+        'about.whatIsDesc': 'Goblinbox — это децентрализованная платформа видео, устойчивая к цензуре, построенная на <a href="https://nostr.com" target="_blank" rel="noopener">протоколе Nostr</a>. В отличие от традиционных видеоплатформ, контролируемых корпорациями, Goblinbox даёт вам истинное владение вашим контентом и личностью.',
         'about.whyNostr': 'Почему Nostr?',
         'about.whyNostrDesc': 'Nostr (Notes and Other Stuff Transmitted by Relays) — это простой, открытый протокол, который обеспечивает действительно децентрализованную социальную сеть. Ключевые преимущества включают:',
         'about.benefit1': 'Устойчивость к Цензуре:',
@@ -3327,7 +3327,7 @@ const translations = {
         'about.benefit4': 'Криптографическая Личность:',
         'about.benefit4Desc': 'Ваши ключи доказывают, что вы — это вы',
         'about.howItWorks': 'Как Это Работает',
-        'about.howItWorksDesc': 'Видео на Plebs хранятся с использованием <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, распределённой системы хранения файлов, в то время как метаданные видео и социальные взаимодействия транслируются на релеи Nostr. Это означает, что ваш контент не хранится на наших серверах — он распределён по сети.',
+        'about.howItWorksDesc': 'Видео на Goblinbox хранятся с использованием <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom</a>, распределённой системы хранения файлов, в то время как метаданные видео и социальные взаимодействия транслируются на релеи Nostr. Это означает, что ваш контент не хранится на наших серверах — он распределён по сети.',
         'about.features': 'Возможности',
         'about.feature1': 'Загружайте и делитесь видео с сообществом Nostr',
         'about.feature2': 'Ставьте лайки, комментируйте и делитесь видео, используя реакции Nostr',
@@ -3336,10 +3336,10 @@ const translations = {
         'about.feature5': 'Просматривайте темы и открывайте новый контент',
         'about.feature6': 'Работает с любой личностью Nostr (используйте существующие ключи)',
         'about.openSource': 'Открытый Исходный Код',
-        'about.openSourceDesc': 'Plebs — это программное обеспечение с открытым исходным кодом. Вы можете просмотреть код, внести свой вклад или запустить собственный экземпляр:',
+        'about.openSourceDesc': 'Goblinbox — это программное обеспечение с открытым исходным кодом. Вы можете просмотреть код, внести свой вклад или запустить собственный экземпляр:',
         'about.githubRepo': 'Репозиторий GitHub',
         'about.builtBy': 'Создано',
-        'about.builtByDesc': 'Plebs разработан <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, компанией, посвящённой созданию инструментов для экосистемы Bitcoin и Nostr.',
+        'about.builtByDesc': 'Goblinbox разработан <a href="https://nostrservices.com" target="_blank" rel="noopener" class="accent-link">21 Million LLC</a>, компанией, посвящённой созданию инструментов для экосистемы Bitcoin и Nostr.',
         // Contact
         'contact.title': 'Связаться с Нами',
         'contact.getInTouch': 'Связаться',
@@ -3350,14 +3350,14 @@ const translations = {
         'contact.githubDesc': 'Для сообщений об ошибках, запросов функций или технических проблем, пожалуйста, откройте issue в нашем репозитории GitHub:',
         'contact.githubIssues': 'GitHub Issues',
         'contact.company': 'Компания',
-        'contact.companyDesc': 'Plebs разработан 21 Million LLC',
+        'contact.companyDesc': 'Goblinbox разработан 21 Million LLC',
         // Terms
         'terms.title': 'Условия Использования',
         'terms.lastUpdated': 'Последнее обновление: Декабрь 2024',
         'terms.section1Title': '1. Принятие Условий',
-        'terms.section1Desc': 'Получая доступ и используя Plebs ("Сервис"), вы соглашаетесь соблюдать эти Условия Использования. Если вы не согласны с этими условиями, пожалуйста, не используйте Сервис.',
+        'terms.section1Desc': 'Получая доступ и используя Goblinbox ("Сервис"), вы соглашаетесь соблюдать эти Условия Использования. Если вы не согласны с этими условиями, пожалуйста, не используйте Сервис.',
         'terms.section2Title': '2. Описание Сервиса',
-        'terms.section2Desc': 'Plebs — это децентрализованная видеоплатформа, построенная на протоколе Nostr. Сервис предоставляет интерфейс для просмотра, загрузки и взаимодействия с видеоконтентом, хранящимся в распределённых сетях. Plebs не размещает и не хранит видеоконтент на централизованных серверах.',
+        'terms.section2Desc': 'Goblinbox — это децентрализованная видеоплатформа, построенная на протоколе Nostr. Сервис предоставляет интерфейс для просмотра, загрузки и взаимодействия с видеоконтентом, хранящимся в распределённых сетях. Goblinbox не размещает и не хранит видеоконтент на централизованных серверах.',
         'terms.section3Title': '3. Обязанности Пользователя',
         'terms.section3Desc': 'Вы несёте ответственность за:',
         'terms.section3Item1': 'Обеспечение безопасности ваших приватных ключей Nostr',
@@ -3380,7 +3380,7 @@ const translations = {
         'terms.section6Title': '6. Отсутствие Гарантий',
         'terms.section6Desc': 'Сервис предоставляется "как есть" без каких-либо гарантий. Мы не гарантируем непрерывный, бесперебойный доступ к Сервису.',
         'terms.section7Title': '7. Ограничение Ответственности',
-        'terms.section7Desc': 'В максимальной степени, разрешённой законом, Plebs и его операторы не несут ответственности за любые косвенные, случайные, особые или последующие убытки, возникающие в результате вашего использования Сервиса.',
+        'terms.section7Desc': 'В максимальной степени, разрешённой законом, Goblinbox и его операторы не несут ответственности за любые косвенные, случайные, особые или последующие убытки, возникающие в результате вашего использования Сервиса.',
         'terms.section8Title': '8. Изменения Условий',
         'terms.section8Desc': 'Мы оставляем за собой право изменять эти условия в любое время. Продолжение использования Сервиса после изменений означает принятие новых условий.',
         'terms.section9Title': '9. Контакт',
@@ -3389,9 +3389,9 @@ const translations = {
         'privacy.title': 'Политика Конфиденциальности',
         'privacy.lastUpdated': 'Последнее обновление: Декабрь 2024',
         'privacy.section1Title': '1. Обзор',
-        'privacy.section1Desc': 'Plebs привержен защите вашей конфиденциальности. Эта политика объясняет, как мы обрабатываем информацию при использовании нашей децентрализованной видеоплатформы.',
+        'privacy.section1Desc': 'Goblinbox привержен защите вашей конфиденциальности. Эта политика объясняет, как мы обрабатываем информацию при использовании нашей децентрализованной видеоплатформы.',
         'privacy.section2Title': '2. Децентрализованная Архитектура',
-        'privacy.section2Desc': 'Plebs построен на Nostr, децентрализованном протоколе. Это означает:',
+        'privacy.section2Desc': 'Goblinbox построен на Nostr, децентрализованном протоколе. Это означает:',
         'privacy.section2Item1': 'Ваш контент транслируется на публичные релеи, а не хранится на наших серверах',
         'privacy.section2Item2': 'Ваш публичный ключ Nostr служит вашей личностью',
         'privacy.section2Item3': 'Видео хранятся на распределённых серверах Blossom',
@@ -3413,9 +3413,9 @@ const translations = {
         'privacy.section4Item4': 'На кого вы подписаны',
         'privacy.section4Item5': 'Zaps (платежи Lightning), которые вы отправляете или получаете',
         'privacy.section5Title': '5. Хранение Данных',
-        'privacy.section5Desc': 'Локальные данные хранятся в localStorage вашего браузера. Вы можете очистить эти данные в любое время через настройки браузера. Контент, опубликованный в Nostr, распределяется по релеям и не может контролироваться или удаляться Plebs.',
+        'privacy.section5Desc': 'Локальные данные хранятся в localStorage вашего браузера. Вы можете очистить эти данные в любое время через настройки браузера. Контент, опубликованный в Nostr, распределяется по релеям и не может контролироваться или удаляться Goblinbox.',
         'privacy.section6Title': '6. Сторонние Сервисы',
-        'privacy.section6Desc': 'Plebs взаимодействует с:',
+        'privacy.section6Desc': 'Goblinbox взаимодействует с:',
         'privacy.section6Item1': 'Релеями Nostr (для социальных данных)',
         'privacy.section6Item2': 'Серверами Blossom (для хранения видео)',
         'privacy.section6Item3': 'Lightning Network (для zaps/платежей)',
@@ -3437,19 +3437,19 @@ const translations = {
         'privacy.section10Desc': 'По вопросам, связанным с конфиденциальностью, пожалуйста, <a href="#/contact" class="accent-link">свяжитесь с нами</a>.',
         // FAQ
         'faq.title': 'Часто Задаваемые Вопросы',
-        'faq.aboutPlebs': 'О Plebs',
+        'faq.aboutGoblinbox': 'О Goblinbox',
         'faq.nostrProtocol': 'Протокол Nostr',
         'faq.videoStorage': 'Хранение Видео и Blossom',
         'faq.featuresUsage': 'Функции и Использование',
-        'faq.q1': 'Что такое Plebs?',
-        'faq.a1': 'Plebs — это децентрализованная платформа видео, устойчивая к цензуре, построенная на протоколе Nostr. В отличие от традиционных видеоплатформ, контролируемых корпорациями, Plebs даёт вам истинное владение вашим контентом и личностью. Нет центральных серверов, которые могут забанить вас или удалить ваш контент.',
-        'faq.q2': 'Бесплатен ли Plebs?',
-        'faq.a2': 'Да, Plebs полностью бесплатен для просмотра видео. Вы можете просматривать и смотреть контент без создания учётной записи. Для загрузки видео, комментирования, лайков или взаимодействия с другими пользователями вам понадобится личность Nostr (которая также бесплатна).',
-        'faq.q3': 'Кто разрабатывает Plebs?',
-        'faq.a3': 'Plebs разработан <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, компанией, посвящённой созданию инструментов для экосистемы Bitcoin и Nostr. Plebs имеет открытый исходный код, и вы можете просмотреть код или внести свой вклад на <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
+        'faq.q1': 'Что такое Goblinbox?',
+        'faq.a1': 'Goblinbox — это децентрализованная платформа видео, устойчивая к цензуре, построенная на протоколе Nostr. В отличие от традиционных видеоплатформ, контролируемых корпорациями, Goblinbox даёт вам истинное владение вашим контентом и личностью. Нет центральных серверов, которые могут забанить вас или удалить ваш контент.',
+        'faq.q2': 'Бесплатен ли Goblinbox?',
+        'faq.a2': 'Да, Goblinbox полностью бесплатен для просмотра видео. Вы можете просматривать и смотреть контент без создания учётной записи. Для загрузки видео, комментирования, лайков или взаимодействия с другими пользователями вам понадобится личность Nostr (которая также бесплатна).',
+        'faq.q3': 'Кто разрабатывает Goblinbox?',
+        'faq.a3': 'Goblinbox разработан <a href="https://nostrservices.com" target="_blank" rel="noopener">21 Million LLC</a>, компанией, посвящённой созданию инструментов для экосистемы Bitcoin и Nostr. Goblinbox имеет открытый исходный код, и вы можете просмотреть код или внести свой вклад на <a href="https://github.com/Spl0itable/plebs-app" target="_blank" rel="noopener">GitHub</a>.',
         'faq.q4': 'Что такое Nostr?',
         'faq.a4': 'Nostr означает "Notes and Other Stuff Transmitted by Relays." Это простой, открытый протокол, который обеспечивает действительно децентрализованную социальную сеть. В отличие от традиционных платформ, Nostr не полагается на какой-либо центральный сервер. Вместо этого он использует сеть релеев для передачи сообщений между пользователями и криптографические ключи для идентификации.',
-        'faq.q5': 'Почему Plebs использует Nostr?',
+        'faq.q5': 'Почему Goblinbox использует Nostr?',
         'faq.a5Title': 'Nostr предоставляет несколько ключевых преимуществ:',
         'faq.a5Item1': 'Устойчивость к Цензуре:',
         'faq.a5Item1Desc': 'Ни одна организация не может забанить вас или удалить ваш контент',
@@ -3462,15 +3462,15 @@ const translations = {
         'faq.q6': 'Что такое ключи Nostr (npub/nsec)?',
         'faq.a6': 'Ваша личность Nostr состоит из двух ключей: публичного ключа (npub) и приватного ключа (nsec). Ваш npub похож на ваше имя пользователя — вы можете делиться им с кем угодно. Ваш nsec похож на ваш пароль — никогда не делитесь им! Любой, у кого есть ваш nsec, может публиковать от вашего имени и получать доступ к вашей учётной записи. Мы рекомендуем использовать расширение браузера, такое как Alby или nos2x, для безопасного управления вашими ключами.',
         'faq.q7': 'Могу ли я использовать свою существующую учётную запись Nostr?',
-        'faq.a7': 'Абсолютно! Если у вас уже есть личность Nostr из приложений, таких как Damus, Primal, Amethyst или любого другого клиента Nostr, вы можете использовать те же ключи для входа в Plebs. Ваши подписчики, профиль и репутация переносятся автоматически.',
+        'faq.a7': 'Абсолютно! Если у вас уже есть личность Nostr из приложений, таких как Damus, Primal, Amethyst или любого другого клиента Nostr, вы можете использовать те же ключи для входа в Goblinbox. Ваши подписчики, профиль и репутация переносятся автоматически.',
         'faq.q8': 'Что такое релеи Nostr?',
         'faq.a8': 'Релеи — это серверы, которые хранят и передают сообщения Nostr. Когда вы публикуете что-то, оно отправляется на несколько релеев. Другие пользователи подключаются к релеям для чтения сообщений. Поскольку существует множество независимых релеев, ни один из них не может подвергнуть вас цензуре — если один релей блокирует вас, ваш контент всё ещё существует на других.',
         'faq.q9': 'Где хранятся видео?',
-        'faq.a9': 'Видео хранятся на серверах Blossom, а не на самом Plebs. Blossom — это распределённая система хранения файлов, разработанная для работы с Nostr. Когда вы загружаете видео, оно попадает на один или несколько серверов Blossom по вашему выбору. Метаданные видео (название, описание и т.д.) публикуются на релеях Nostr.',
+        'faq.a9': 'Видео хранятся на серверах Blossom, а не на самом Goblinbox. Blossom — это распределённая система хранения файлов, разработанная для работы с Nostr. Когда вы загружаете видео, оно попадает на один или несколько серверов Blossom по вашему выбору. Метаданные видео (название, описание и т.д.) публикуются на релеях Nostr.',
         'faq.q10': 'Что такое Blossom?',
         'faq.a10': 'Blossom — это открытый протокол для хранения и обслуживания медиафайлов децентрализованным способом. Файлы идентифицируются по их хешу SHA-256, что означает, что один и тот же файл будет иметь один и тот же адрес независимо от того, какой сервер его размещает. Это обеспечивает избыточность — ваши файлы могут существовать на нескольких серверах. Узнайте больше на <a href="https://github.com/hzrd149/blossom" target="_blank" rel="noopener">Blossom GitHub</a>.',
-        'faq.q11': 'Размещает ли Plebs мои видео?',
-        'faq.a11': 'Нет. Plebs — это клиент/интерфейс, который помогает вам просматривать и загружать контент, но он не хранит никаких видео- или изображений. Все медиа хранятся на независимых серверах Blossom. Plebs просто отображает контент от этих распределённых провайдеров хранилища.',
+        'faq.q11': 'Размещает ли Goblinbox мои видео?',
+        'faq.a11': 'Нет. Goblinbox — это клиент/интерфейс, который помогает вам просматривать и загружать контент, но он не хранит никаких видео- или изображений. Все медиа хранятся на независимых серверах Blossom. Goblinbox просто отображает контент от этих распределённых провайдеров хранилища.',
         'faq.q12': 'Могу ли я выбрать, какой сервер Blossom использовать?',
         'faq.a12': 'Да! Вы можете настроить, какие серверы Blossom вы хотите использовать для загрузки в своих настройках. Вы даже можете запустить свой собственный сервер Blossom, если хотите полный контроль над хранением ваших медиа.',
         'faq.q13': 'Как создать учётную запись?',
@@ -3495,7 +3495,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Самомодерация',
         'faq.q16': 'Как работает модерация на децентрализованной платформе?',
-        'faq.a16': 'В отличие от традиционных платформ с централизованными модераторами, Plebs даёт вам контроль над тем, что вы видите. Мы предоставляем мощные инструменты самомодерации, включая пакеты фильтров контента, отключение пользователей, предупреждения сообщества и индикаторы видео с негативным соотношением. Вы решаете, какой контент для вас приемлем - нет центральной власти, принимающей эти решения.',
+        'faq.a16': 'В отличие от традиционных платформ с централизованными модераторами, Goblinbox даёт вам контроль над тем, что вы видите. Мы предоставляем мощные инструменты самомодерации, включая пакеты фильтров контента, отключение пользователей, предупреждения сообщества и индикаторы видео с негативным соотношением. Вы решаете, какой контент для вас приемлем - нет центральной власти, принимающей эти решения.',
         'faq.q17': 'Что такое Пакеты Фильтров Контента?',
         'faq.a17Intro': 'Пакеты Фильтров Контента - это предопределённые фильтры ключевых слов, которые вы можете включить, чтобы скрыть определённые типы контента. Доступные пакеты включают:',
         'faq.a17Pack1': 'Расизм и разжигание ненависти:',
@@ -3526,7 +3526,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Конфиденциальность и Безопасность',
         'faq.q22': 'Является ли моя активность приватной?',
-        'faq.a22': 'В Nostr большая часть активности является публичной по дизайну. Ваши лайки, комментарии, подписки и зап видны в публичной сети. Однако Plebs хранит вашу историю просмотров локально в вашем браузере - она никогда не отправляется на какой-либо сервер. Вы можете очистить свои локальные данные в любое время.',
+        'faq.a22': 'В Nostr большая часть активности является публичной по дизайну. Ваши лайки, комментарии, подписки и зап видны в публичной сети. Однако Goblinbox хранит вашу историю просмотров локально в вашем браузере - она никогда не отправляется на какой-либо сервер. Вы можете очистить свои локальные данные в любое время.',
         'faq.q23': 'Как сохранить мой аккаунт в безопасности?',
         'faq.a23': 'Никогда не делитесь своим приватным ключом (nsec) ни с кем. Мы настоятельно рекомендуем использовать расширение для браузера Nostr, такое как Alby, nos2x или аппаратный подписчик. Они хранят ваш приватный ключ в безопасности и подписывают события только когда вы их одобряете. Избегайте хранения вашего nsec непосредственно на веб-сайтах.',
         'faq.q24': 'Могу ли я удалить свой контент?',
@@ -3537,7 +3537,7 @@ const translations = {
         'faq.a25Intro': 'Если видео не загружаются, попробуйте эти шаги:',
         'faq.a25Item1': 'Обновите страницу',
         'faq.a25Item2': 'Проверьте ваше интернет-соединение',
-        'faq.a25Item3': 'Сервер Blossom, хостящий видео, может быть недоступен - это независимо от Plebs',
+        'faq.a25Item3': 'Сервер Blossom, хостящий видео, может быть недоступен - это независимо от Goblinbox',
         'faq.a25Item4': 'Попробуйте отключить расширения браузера, которые могут блокировать контент',
         'faq.a25Item5': 'Очистите кеш браузера и попробуйте снова',
         'faq.q26': 'Я потерял свой приватный ключ - можете помочь мне восстановить его?',
@@ -3550,8 +3550,8 @@ const translations = {
         'pageTitle.likedVideos': 'Понравившиеся Видео',
         'pageTitle.watchHistory': 'История Просмотров',
         'pageTitle.liveStreams': 'Прямые Трансляции',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Прямой эфир на Plebs',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Прямой эфир на Goblinbox',
         // Home Page Sections
         'section.trending': 'В тренде',
         'section.recommended': 'Рекомендовано для вас',
@@ -3604,7 +3604,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': '您的私钥', 'privateKey.warning': '重要：请将此保存在安全的地方。如果您丢失此密钥，您将失去对账户的访问权限。切勿与任何人分享！', 'privateKey.show': '显示私钥', 'privateKey.hide': '隐藏私钥', 'privateKey.copy': '复制', 'privateKey.saved': '我已保存我的密钥', 'privateKey.yourPublicKey': '您的公钥 (npub)：', 'privateKey.yourPrivateKey': '您的私钥 (nsec)：',
         // Signup Modal
-        'signup.title': '创建 Nostr 账户', 'signup.whatIsNostr': '什么是 Nostr？', 'signup.nostrDescription': 'Nostr 是一个去中心化协议，让您掌控自己的身份和数据。没有中央服务器 - 您的账户就是一对加密密钥。', 'signup.whyNostr': '为什么选择 Nostr？', 'signup.benefit1': '掌控您的身份', 'signup.benefit2': '无审查', 'signup.benefit3': '跨平台可移植', 'signup.createNew': '创建新账户', 'signup.haveAccount': '已有账户？', 'signup.login': '登录', 'signup.createButton': '创建账户', 'signup.generating': '正在生成密钥...', 'signup.displayName': '显示名称', 'signup.displayNamePlaceholder': '输入显示名称', 'signup.username': '用户名', 'signup.usernamePlaceholder': '输入用户名', 'signup.about': '简介（可选）', 'signup.profilePicture': '头像（可选）', 'signup.lightningAddress': '闪电地址（可选）', 'signup.nostrAddress': 'Nostr 地址', 'signup.nostrAddressPlaceholder': '用户名', 'signup.nostrAddressHint': '您的 Nostr 地址使您的个人资料更容易被找到。仅限小写字母、数字、_ 和 -。', 'signup.nostrAddressRequired': '请输入 Nostr 地址', 'signup.nostrAddressAvailable': '可用！', 'signup.nostrAddressUnavailable': '已被使用', 'signup.nostrAddressChecking': '检查中...', 'signup.nostrAddressInvalid': '用户名格式无效', 'signup.nostrAddressRegistering': '正在注册您的 Nostr 地址...', 'signup.nostrAddressSuccess': 'Nostr 地址已注册！', 'signup.nostrAddressFailed': '无法注册 Nostr 地址', 'signup.createAccountBtn': '创建账户', 'signup.termsAgree': '创建账户即表示您同意我们的', 'signup.and': '和', 'signup.success': '账户创建成功！', 'signup.yourPrivateKey': '您的私钥 (nsec)', 'signup.keyWarning': '这是访问您账户的唯一方式。请妥善保管！', 'signup.copyPrivateKey': '复制私钥', 'signup.howToUseKey': '如何使用您的私钥', 'signup.continueToPlebs': '继续前往 Plebs', 'signup.step1': '安全保存：', 'signup.step1Desc': '将 nsec 保存在密码管理器中，写下来或保存在加密文件中。切勿公开分享！', 'signup.step2': '再次登录：', 'signup.step2Desc': '点击登录屏幕上的"私钥"并粘贴您的 nsec。它就像密码一样工作。', 'signup.step3': '在其他应用中使用：', 'signup.step3Desc': '您的 nsec 适用于所有 Nostr 应用 - Damus、Primal、Amethyst 等数百个！', 'signup.step4': '考虑使用签名应用：', 'signup.step4Desc': '为了更安全，使用 Amber（Android）或 Alby 等浏览器扩展来管理您的密钥。',
+        'signup.title': '创建 Nostr 账户', 'signup.whatIsNostr': '什么是 Nostr？', 'signup.nostrDescription': 'Nostr 是一个去中心化协议，让您掌控自己的身份和数据。没有中央服务器 - 您的账户就是一对加密密钥。', 'signup.whyNostr': '为什么选择 Nostr？', 'signup.benefit1': '掌控您的身份', 'signup.benefit2': '无审查', 'signup.benefit3': '跨平台可移植', 'signup.createNew': '创建新账户', 'signup.haveAccount': '已有账户？', 'signup.login': '登录', 'signup.createButton': '创建账户', 'signup.generating': '正在生成密钥...', 'signup.displayName': '显示名称', 'signup.displayNamePlaceholder': '输入显示名称', 'signup.username': '用户名', 'signup.usernamePlaceholder': '输入用户名', 'signup.about': '简介（可选）', 'signup.profilePicture': '头像（可选）', 'signup.lightningAddress': '闪电地址（可选）', 'signup.nostrAddress': 'Nostr 地址', 'signup.nostrAddressPlaceholder': '用户名', 'signup.nostrAddressHint': '您的 Nostr 地址使您的个人资料更容易被找到。仅限小写字母、数字、_ 和 -。', 'signup.nostrAddressRequired': '请输入 Nostr 地址', 'signup.nostrAddressAvailable': '可用！', 'signup.nostrAddressUnavailable': '已被使用', 'signup.nostrAddressChecking': '检查中...', 'signup.nostrAddressInvalid': '用户名格式无效', 'signup.nostrAddressRegistering': '正在注册您的 Nostr 地址...', 'signup.nostrAddressSuccess': 'Nostr 地址已注册！', 'signup.nostrAddressFailed': '无法注册 Nostr 地址', 'signup.createAccountBtn': '创建账户', 'signup.termsAgree': '创建账户即表示您同意我们的', 'signup.and': '和', 'signup.success': '账户创建成功！', 'signup.yourPrivateKey': '您的私钥 (nsec)', 'signup.keyWarning': '这是访问您账户的唯一方式。请妥善保管！', 'signup.copyPrivateKey': '复制私钥', 'signup.howToUseKey': '如何使用您的私钥', 'signup.continueToGoblinbox': '继续前往 Goblinbox', 'signup.step1': '安全保存：', 'signup.step1Desc': '将 nsec 保存在密码管理器中，写下来或保存在加密文件中。切勿公开分享！', 'signup.step2': '再次登录：', 'signup.step2Desc': '点击登录屏幕上的"私钥"并粘贴您的 nsec。它就像密码一样工作。', 'signup.step3': '在其他应用中使用：', 'signup.step3Desc': '您的 nsec 适用于所有 Nostr 应用 - Damus、Primal、Amethyst 等数百个！', 'signup.step4': '考虑使用签名应用：', 'signup.step4Desc': '为了更安全，使用 Amber（Android）或 Alby 等浏览器扩展来管理您的密钥。',
         // Notifications
         'notifications.title': '通知', 'notifications.empty': '暂无通知', 'notifications.viewAll': '查看全部通知', 'notifications.markAllRead': '全部标记为已读', 'notifications.settings': '通知设置', 'notifications.loading': '加载通知中...', 'notifications.zap': '给您发送了打赏', 'notifications.like': '喜欢了您的内容', 'notifications.comment': '评论了', 'notifications.follow': '关注了您', 'notifications.repost': '转发了', 'notifications.mention': '提到了您',
         // Settings Modal
@@ -3639,7 +3639,7 @@ const translations = {
         // Video Page
         'video.views': '次观看', 'video.like': '点赞', 'video.dislike': '踩', 'video.share': '分享', 'video.save': '保存', 'video.report': '举报', 'video.follow': '关注', 'video.unfollow': '取消关注', 'video.subscribe': '订阅', 'video.subscribed': '已订阅', 'video.comments': '评论', 'video.addComment': '添加评论...', 'video.reply': '回复', 'video.replies': '条回复', 'video.loadMore': '加载更多', 'video.noComments': '暂无评论。成为第一个评论的人！', 'video.zap': '打赏', 'video.zapAmount': '打赏金额 (聪)', 'video.sendZap': '发送打赏', 'video.boost': '推广', 'video.description': '描述', 'video.showMore': '展开', 'video.showLess': '收起', 'video.publishedOn': '发布于',
         // Toast Messages
-        'toast.loggedIn': '登录成功！', 'toast.loggedOut': '已登出', 'toast.settingsSaved': '设置已保存！', 'toast.settingsLocal': '设置已保存到本地。无法保存到 Nostr。', 'toast.settingsLocalOnly': '设置已保存到本地！', 'toast.settingsReset': '设置已重置', 'toast.avatarUploaded': '头像上传成功！', 'toast.videoUploaded': '视频已上传！', 'toast.videoDeleted': '视频已删除', 'toast.profileUpdated': '个人资料已更新！', 'toast.copied': '已复制到剪贴板！', 'toast.copyFailed': '复制失败。请手动复制。', 'toast.linkCopied': '链接已复制！', 'toast.embedCopied': '嵌入代码已复制！', 'toast.installExtension': '请安装 Nostr 浏览器扩展，如 Alby 或 nos2x', 'toast.loginFailed': '登录失败。请重试。', 'toast.invalidKey': '私钥无效。请检查后重试。', 'toast.enterKey': '请输入您的私钥', 'toast.enterUsername': '请输入用户名', 'toast.accountCreated': '欢迎来到 Plebs！您已登录。', 'toast.keyCopied': '密钥已复制！', 'toast.unmuted': '用户已取消静音', 'toast.unmuteFailed': '取消静音失败', 'toast.selectImage': '请选择图片文件', 'toast.imageTooLarge': '图片必须小于 5MB', 'toast.avatarFailed': '头像上传失败。请重试。', 'toast.mustBeLoggedIn': '请先登录才能编辑个人资料', 'toast.enterDisplayName': '请输入显示名称', 'toast.profileFailed': '保存个人资料失败。请重试。', 'toast.invalidBunker': '请输入有效的 bunker URL', 'toast.connectFailed': '连接失败', 'toast.showingFiltered': '正在显示筛选内容', 'toast.reportSubmitted': '举报已提交', 'toast.draftSaved': '草稿已保存！您可以稍后从我的视频继续。', 'toast.draftLoaded': '草稿已加载。完成上传并发布。', 'toast.draftDeleted': '草稿已删除', 'toast.zapSent': '打赏已发送！', 'toast.followed': '已关注！', 'toast.unfollowed': '已取消关注', 'toast.reported': '举报已提交', 'toast.saved': '已保存！', 'toast.error': '发生错误', 'toast.networkError': '网络错误。请重试。', 'toast.uploadError': '上传失败。请重试。', 'toast.languageChanged': '语言已更改', 'toast.videoBlocked': '视频已屏蔽并发布到 Nostr', 'toast.waitForUpload': '请等待视频上传完成', 'toast.enterTitle': '请输入标题', 'toast.publishing': '正在发布视频到 Nostr...', 'toast.commentPosted': '评论已发布',
+        'toast.loggedIn': '登录成功！', 'toast.loggedOut': '已登出', 'toast.settingsSaved': '设置已保存！', 'toast.settingsLocal': '设置已保存到本地。无法保存到 Nostr。', 'toast.settingsLocalOnly': '设置已保存到本地！', 'toast.settingsReset': '设置已重置', 'toast.avatarUploaded': '头像上传成功！', 'toast.videoUploaded': '视频已上传！', 'toast.videoDeleted': '视频已删除', 'toast.profileUpdated': '个人资料已更新！', 'toast.copied': '已复制到剪贴板！', 'toast.copyFailed': '复制失败。请手动复制。', 'toast.linkCopied': '链接已复制！', 'toast.embedCopied': '嵌入代码已复制！', 'toast.installExtension': '请安装 Nostr 浏览器扩展，如 Alby 或 nos2x', 'toast.loginFailed': '登录失败。请重试。', 'toast.invalidKey': '私钥无效。请检查后重试。', 'toast.enterKey': '请输入您的私钥', 'toast.enterUsername': '请输入用户名', 'toast.accountCreated': '欢迎来到 Goblinbox！您已登录。', 'toast.keyCopied': '密钥已复制！', 'toast.unmuted': '用户已取消静音', 'toast.unmuteFailed': '取消静音失败', 'toast.selectImage': '请选择图片文件', 'toast.imageTooLarge': '图片必须小于 5MB', 'toast.avatarFailed': '头像上传失败。请重试。', 'toast.mustBeLoggedIn': '请先登录才能编辑个人资料', 'toast.enterDisplayName': '请输入显示名称', 'toast.profileFailed': '保存个人资料失败。请重试。', 'toast.invalidBunker': '请输入有效的 bunker URL', 'toast.connectFailed': '连接失败', 'toast.showingFiltered': '正在显示筛选内容', 'toast.reportSubmitted': '举报已提交', 'toast.draftSaved': '草稿已保存！您可以稍后从我的视频继续。', 'toast.draftLoaded': '草稿已加载。完成上传并发布。', 'toast.draftDeleted': '草稿已删除', 'toast.zapSent': '打赏已发送！', 'toast.followed': '已关注！', 'toast.unfollowed': '已取消关注', 'toast.reported': '举报已提交', 'toast.saved': '已保存！', 'toast.error': '发生错误', 'toast.networkError': '网络错误。请重试。', 'toast.uploadError': '上传失败。请重试。', 'toast.languageChanged': '语言已更改', 'toast.videoBlocked': '视频已屏蔽并发布到 Nostr', 'toast.waitForUpload': '请等待视频上传完成', 'toast.enterTitle': '请输入标题', 'toast.publishing': '正在发布视频到 Nostr...', 'toast.commentPosted': '评论已发布',
         // Time
         'time.justNow': '刚刚', 'time.secondAgo': '1 秒前', 'time.secondsAgo': '{n} 秒前', 'time.minuteAgo': '1 分钟前', 'time.minutesAgo': '{n} 分钟前', 'time.hourAgo': '1 小时前', 'time.hoursAgo': '{n} 小时前', 'time.dayAgo': '1 天前', 'time.daysAgo': '{n} 天前', 'time.weekAgo': '1 周前', 'time.weeksAgo': '{n} 周前', 'time.monthAgo': '1 个月前', 'time.monthsAgo': '{n} 个月前', 'time.yearAgo': '1 年前', 'time.yearsAgo': '{n} 年前',
         // Empty States
@@ -3688,15 +3688,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA 与内容政策',
         'dmca.lastUpdated': '最后更新: 2024年12月',
-        'dmca.architectureTitle': '了解 Plebs 架构',
-        'dmca.architectureDesc': 'Plebs 是一个去中心化视频平台界面，其运作方式与传统视频托管服务不同。了解我们平台上的内容是如何分发的很重要：',
-        'dmca.architectureItem1': 'Plebs 不托管任何视频或图片内容。',
+        'dmca.architectureTitle': '了解 Goblinbox 架构',
+        'dmca.architectureDesc': 'Goblinbox 是一个去中心化视频平台界面，其运作方式与传统视频托管服务不同。了解我们平台上的内容是如何分发的很重要：',
+        'dmca.architectureItem1': 'Goblinbox 不托管任何视频或图片内容。',
         'dmca.architectureItem1Desc': '我们是一个客户端/界面，展示存储在其他地方的内容。',
         'dmca.architectureItem2': '所有媒体文件（视频、图片、缩略图）存储在由第三方运营的独立 Blossom 服务器上。',
         'dmca.architectureItem3': '视频元数据（标题、描述等）发布到独立运营的 Nostr 中继。',
-        'dmca.architectureItem4': 'Plebs 只是通过用户友好的界面聚合和显示这些分布式内容。',
+        'dmca.architectureItem4': 'Goblinbox 只是通过用户友好的界面聚合和显示这些分布式内容。',
         'dmca.filingTitle': '提交 DMCA 申诉',
-        'dmca.filingDesc': '由于 Plebs 不托管内容，我们无法直接删除侵权材料。要处理版权侵权，您必须联系相应的方：',
+        'dmca.filingDesc': '由于 Goblinbox 不托管内容，我们无法直接删除侵权材料。要处理版权侵权，您必须联系相应的方：',
         'dmca.forVideoTitle': '1. 针对视频/图片内容',
         'dmca.forVideoDesc': '媒体文件存储在 Blossom 服务器上。您需要：',
         'dmca.forVideoItem1': '确定哪个 Blossom 服务器托管该内容（URL 会显示）',
@@ -3707,7 +3707,7 @@ const translations = {
         'dmca.forMetadataItem1': '此信息存储在 Nostr 中继上',
         'dmca.forMetadataItem2': '联系内容出现的特定 Nostr 中继运营商',
         'dmca.forMetadataItem3': '由于 Nostr 的分布式特性，多个中继可能存储相同数据',
-        'dmca.whatWeCanDoTitle': 'Plebs 能做什么',
+        'dmca.whatWeCanDoTitle': 'Goblinbox 能做什么',
         'dmca.whatWeCanDoDesc': '虽然我们不托管内容，但我们可以：',
         'dmca.whatWeCanDoItem1': '帮助您确定哪些 Blossom 服务器或中继托管特定内容',
         'dmca.whatWeCanDoItem2': '将内容添加到本地屏蔽列表，使其不在我们的界面中显示（注意：这仅影响 plebs.app，不影响其他 Nostr 客户端）',
@@ -3727,7 +3727,7 @@ const translations = {
         'dmca.considerationsItem3': '基于哈希的存储：',
         'dmca.considerationsItem3Desc': 'Blossom 使用内容寻址存储。相同的文件在任何服务器上都有相同的哈希值。',
         'dmca.considerationsItem4': '无中央控制：',
-        'dmca.considerationsItem4Desc': 'Plebs 和任何单一实体都没有能力从整个网络中删除内容。',
+        'dmca.considerationsItem4Desc': 'Goblinbox 和任何单一实体都没有能力从整个网络中删除内容。',
         'dmca.counterNotificationTitle': '反通知',
         'dmca.counterNotificationDesc': '如果您认为您的内容被错误地从 Blossom 服务器删除，您应该直接联系该服务器运营商提交反通知。',
         'dmca.contactTitle': '联系方式',
@@ -3772,10 +3772,10 @@ const translations = {
         'analytics.noVideosDesc': '上传您的第一个视频以开始追踪表现。',
 
         // About Page
-        'about.title': '关于 Plebs.place',
+        'about.title': '关于 Goblinbox.place',
         'about.subtitle': '去中心化视频平台',
-        'about.welcome': '欢迎来到 Plebs.place',
-        'about.description': 'Plebs.place 是一个建立在 Nostr 协议上的去中心化视频共享平台，让创作者能够完全掌控自己的内容和受众。',
+        'about.welcome': '欢迎来到 Goblinbox.place',
+        'about.description': 'Goblinbox.place 是一个建立在 Nostr 协议上的去中心化视频共享平台，让创作者能够完全掌控自己的内容和受众。',
         'about.feature1Title': '去中心化',
         'about.feature1Desc': '建立在 Nostr 上，确保抗审查并实现真正的内容所有权。',
         'about.feature2Title': '创作者优先',
@@ -3804,13 +3804,13 @@ const translations = {
         'terms.title': '服务条款',
         'terms.lastUpdated': '最后更新',
         'terms.section1Title': '1. 条款接受',
-        'terms.section1Content': '使用 Plebs.place 即表示您同意受这些条款的约束。如果您不同意这些条款，请不要使用该平台。',
+        'terms.section1Content': '使用 Goblinbox.place 即表示您同意受这些条款的约束。如果您不同意这些条款，请不要使用该平台。',
         'terms.section2Title': '2. 服务描述',
-        'terms.section2Content': 'Plebs.place 是一个利用 Nostr 协议的去中心化视频共享平台。我们提供视频托管、共享和通过闪电网络进行变现的工具。',
+        'terms.section2Content': 'Goblinbox.place 是一个利用 Nostr 协议的去中心化视频共享平台。我们提供视频托管、共享和通过闪电网络进行变现的工具。',
         'terms.section3Title': '3. 用户责任',
         'terms.section3Content': '您对通过平台发布的所有内容负责。您同意不上传任何非法、有害或侵犯他人权利的内容。',
         'terms.section4Title': '4. 内容所有权',
-        'terms.section4Content': '您保留对内容的完全所有权。上传即表示您授予 Plebs.place 一个有限许可来托管和提供您的视频。',
+        'terms.section4Content': '您保留对内容的完全所有权。上传即表示您授予 Goblinbox.place 一个有限许可来托管和提供您的视频。',
         'terms.section5Title': '5. 禁止使用',
         'terms.section5Content': '您不得将平台用于任何非法活动、骚扰、垃圾信息或散布恶意内容。',
         'terms.section6Title': '6. 账户管理',
@@ -3818,7 +3818,7 @@ const translations = {
         'terms.section7Title': '7. 支付条款',
         'terms.section7Content': '所有支付均通过闪电网络进行。交易是最终的，无法撤销。请确保交易前仔细核实所有支付详情。',
         'terms.section8Title': '8. 责任限制',
-        'terms.section8Content': 'Plebs.place 按"原样"提供，不作任何保证。我们对任何损失、损害或服务中断概不负责。',
+        'terms.section8Content': 'Goblinbox.place 按"原样"提供，不作任何保证。我们对任何损失、损害或服务中断概不负责。',
         'terms.section9Title': '9. 条款变更',
         'terms.section9Content': '我们可能会不时更新这些条款。继续使用即表示接受更新后的条款。',
 
@@ -3826,7 +3826,7 @@ const translations = {
         'privacy.title': '隐私政策',
         'privacy.lastUpdated': '最后更新',
         'privacy.section1Title': '1. 引言',
-        'privacy.section1Content': '本隐私政策解释了 Plebs.place 如何处理与您对我们去中心化视频平台的使用相关的信息。',
+        'privacy.section1Content': '本隐私政策解释了 Goblinbox.place 如何处理与您对我们去中心化视频平台的使用相关的信息。',
         'privacy.section2Title': '2. 我们收集的信息',
         'privacy.section2Content': '作为去中心化平台，我们收集的数据极少。您的 Nostr 公钥用于身份验证，视频元数据存储在 Nostr 中继上。',
         'privacy.section3Title': '3. 数据存储',
@@ -3842,7 +3842,7 @@ const translations = {
         'privacy.section8Title': '8. 您的权利',
         'privacy.section8Content': '您完全控制您的数据。您可以随时删除内容或停止使用该平台。',
         'privacy.section9Title': '9. 儿童隐私',
-        'privacy.section9Content': 'Plebs.place 不适用于 13 岁以下的儿童。我们不会有意收集未成年人的信息。',
+        'privacy.section9Content': 'Goblinbox.place 不适用于 13 岁以下的儿童。我们不会有意收集未成年人的信息。',
         'privacy.section10Title': '10. 隐私政策变更',
         'privacy.section10Content': '我们可能会更新本隐私政策。变更将在此页面上发布，并附有更新日期。',
 
@@ -3853,11 +3853,11 @@ const translations = {
         'faq.technical': '技术问题',
         'faq.monetization': '变现',
         'faq.content': '内容',
-        'faq.q1': 'Plebs.place 是什么？',
-        'faq.a1': 'Plebs.place 是一个建立在 Nostr 协议上的去中心化视频共享平台，让您完全拥有自己的内容和受众。',
-        'faq.q2': 'Plebs.place 是如何工作的？',
+        'faq.q1': 'Goblinbox.place 是什么？',
+        'faq.a1': 'Goblinbox.place 是一个建立在 Nostr 协议上的去中心化视频共享平台，让您完全拥有自己的内容和受众。',
+        'faq.q2': 'Goblinbox.place 是如何工作的？',
         'faq.a2': '平台使用 Nostr 进行身份验证和社交功能，使用去中心化存储托管视频，使用闪电网络进行即时支付。',
-        'faq.q3': '使用 Plebs.place 是免费的吗？',
+        'faq.q3': '使用 Goblinbox.place 是免费的吗？',
         'faq.a3': '是的，创建账户、上传和观看视频都是免费的。您只需要一个 Nostr 密钥即可开始。',
         'faq.q4': '什么是 Nostr？',
         'faq.a4': 'Nostr 是一种去中心化的通信协议，让您能够控制自己的身份和数据，无需依赖中心化平台。',
@@ -3886,7 +3886,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': '自我审核',
         'faq.q16': '去中心化平台上的审核是如何工作的？',
-        'faq.a16': '与拥有中心化审核员的传统平台不同，Plebs 让您掌控自己看到的内容。我们提供强大的自我审核工具，包括内容过滤包、用户屏蔽、社区警告和负面反应视频指示器。您决定什么内容适合您 - 没有中央机构做出这些决定。',
+        'faq.a16': '与拥有中心化审核员的传统平台不同，Goblinbox 让您掌控自己看到的内容。我们提供强大的自我审核工具，包括内容过滤包、用户屏蔽、社区警告和负面反应视频指示器。您决定什么内容适合您 - 没有中央机构做出这些决定。',
         'faq.q17': '什么是内容过滤包？',
         'faq.a17Intro': '内容过滤包是预定义的关键词过滤器，您可以启用它们来隐藏特定类型的内容。可用的过滤包包括：',
         'faq.a17Pack1': '种族主义和仇恨言论：',
@@ -3917,7 +3917,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': '隐私与安全',
         'faq.q22': '我的活动是私密的吗？',
-        'faq.a22': '在 Nostr 上，大多数活动在设计上是公开的。您的点赞、评论、关注和 zap 在公共网络上是可见的。然而，Plebs 将您的观看历史本地存储在浏览器中 - 它从不发送到任何服务器。您可以随时清除本地数据。',
+        'faq.a22': '在 Nostr 上，大多数活动在设计上是公开的。您的点赞、评论、关注和 zap 在公共网络上是可见的。然而，Goblinbox 将您的观看历史本地存储在浏览器中 - 它从不发送到任何服务器。您可以随时清除本地数据。',
         'faq.q23': '如何保持账户安全？',
         'faq.a23': '永远不要与任何人分享您的私钥（nsec）。我们强烈建议使用 Nostr 浏览器扩展，如 Alby、nos2x 或硬件签名器。这些工具会安全地保存您的私钥，并且只在您批准时签署事件。避免直接在网站上存储您的 nsec。',
         'faq.q24': '我可以删除我的内容吗？',
@@ -3928,7 +3928,7 @@ const translations = {
         'faq.a25Intro': '如果视频无法加载，请尝试以下步骤：',
         'faq.a25Item1': '刷新页面',
         'faq.a25Item2': '检查您的互联网连接',
-        'faq.a25Item3': '托管视频的 Blossom 服务器可能已关闭 - 这与 Plebs 无关',
+        'faq.a25Item3': '托管视频的 Blossom 服务器可能已关闭 - 这与 Goblinbox 无关',
         'faq.a25Item4': '尝试禁用可能阻止内容的浏览器扩展',
         'faq.a25Item5': '清除浏览器缓存并重试',
         'faq.q26': '我丢失了私钥 - 您能帮我恢复吗？',
@@ -3941,8 +3941,8 @@ const translations = {
         'pageTitle.likedVideos': '已赞视频',
         'pageTitle.watchHistory': '观看历史',
         'pageTitle.liveStreams': '直播',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Plebs 直播',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Goblinbox 直播',
         // Home Page Sections
         'section.trending': '热门',
         'section.recommended': '为您推荐',
@@ -3995,7 +3995,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': 'あなたの秘密鍵', 'privateKey.warning': '重要：これを安全な場所に保存してください。この鍵を紛失すると、アカウントにアクセスできなくなります。絶対に誰にも共有しないでください！', 'privateKey.show': '秘密鍵を表示', 'privateKey.hide': '秘密鍵を隠す', 'privateKey.copy': 'コピー', 'privateKey.saved': '鍵を保存しました', 'privateKey.yourPublicKey': 'あなたの公開鍵 (npub):', 'privateKey.yourPrivateKey': 'あなたの秘密鍵 (nsec):',
         // Signup Modal
-        'signup.title': 'Nostrアカウント作成', 'signup.whatIsNostr': 'Nostrとは？', 'signup.nostrDescription': 'Nostrは分散型プロトコルで、あなた自身のアイデンティティとデータを管理できます。中央サーバーはなく、アカウントは暗号鍵ペアです。', 'signup.whyNostr': 'なぜNostr？', 'signup.benefit1': 'アイデンティティの所有', 'signup.benefit2': '検閲なし', 'signup.benefit3': 'プラットフォーム間で移植可能', 'signup.createNew': '新規アカウント作成', 'signup.haveAccount': 'アカウントをお持ちですか？', 'signup.login': 'ログイン', 'signup.createButton': 'アカウント作成', 'signup.generating': '鍵を生成中...', 'signup.displayName': '表示名', 'signup.displayNamePlaceholder': '表示名を入力', 'signup.username': 'ユーザー名', 'signup.usernamePlaceholder': 'ユーザー名を入力', 'signup.about': '自己紹介（任意）', 'signup.profilePicture': 'プロフィール画像（任意）', 'signup.lightningAddress': 'Lightningアドレス（任意）', 'signup.nostrAddress': 'Nostrアドレス', 'signup.nostrAddressPlaceholder': 'ユーザー名', 'signup.nostrAddressHint': 'Nostrアドレスでプロフィールが見つけやすくなります。小文字、数字、_、-のみ使用可能。', 'signup.nostrAddressRequired': 'Nostrアドレスを入力してください', 'signup.nostrAddressAvailable': '利用可能！', 'signup.nostrAddressUnavailable': '既に使用されています', 'signup.nostrAddressChecking': '確認中...', 'signup.nostrAddressInvalid': '無効なユーザー名形式', 'signup.nostrAddressRegistering': 'Nostrアドレスを登録中...', 'signup.nostrAddressSuccess': 'Nostrアドレスが登録されました！', 'signup.nostrAddressFailed': 'Nostrアドレスを登録できませんでした', 'signup.createAccountBtn': 'アカウント作成', 'signup.termsAgree': 'アカウントを作成することで、', 'signup.and': 'と', 'signup.success': 'アカウントが正常に作成されました！', 'signup.yourPrivateKey': 'あなたの秘密鍵 (nsec)', 'signup.keyWarning': 'これがアカウントにアクセスする唯一の方法です。安全に保管してください！', 'signup.copyPrivateKey': '秘密鍵をコピー', 'signup.howToUseKey': '秘密鍵の使い方', 'signup.continueToPlebs': 'Plebsへ続ける', 'signup.step1': '安全に保存：', 'signup.step1Desc': 'nsecをパスワードマネージャーに保存するか、書き留めるか、暗号化ファイルに保存してください。公開しないでください！', 'signup.step2': '再ログイン：', 'signup.step2Desc': 'ログイン画面で「秘密鍵」をクリックしてnsecを貼り付けます。パスワードのように機能します。', 'signup.step3': '他のアプリで使用：', 'signup.step3Desc': 'nsecはすべてのNostrアプリ（Damus、Primal、Amethystなど）で使用できます！', 'signup.step4': '署名アプリの検討：', 'signup.step4Desc': 'より安全に、Amber（Android）やAlbyなどのブラウザ拡張機能で鍵を管理しましょう。',
+        'signup.title': 'Nostrアカウント作成', 'signup.whatIsNostr': 'Nostrとは？', 'signup.nostrDescription': 'Nostrは分散型プロトコルで、あなた自身のアイデンティティとデータを管理できます。中央サーバーはなく、アカウントは暗号鍵ペアです。', 'signup.whyNostr': 'なぜNostr？', 'signup.benefit1': 'アイデンティティの所有', 'signup.benefit2': '検閲なし', 'signup.benefit3': 'プラットフォーム間で移植可能', 'signup.createNew': '新規アカウント作成', 'signup.haveAccount': 'アカウントをお持ちですか？', 'signup.login': 'ログイン', 'signup.createButton': 'アカウント作成', 'signup.generating': '鍵を生成中...', 'signup.displayName': '表示名', 'signup.displayNamePlaceholder': '表示名を入力', 'signup.username': 'ユーザー名', 'signup.usernamePlaceholder': 'ユーザー名を入力', 'signup.about': '自己紹介（任意）', 'signup.profilePicture': 'プロフィール画像（任意）', 'signup.lightningAddress': 'Lightningアドレス（任意）', 'signup.nostrAddress': 'Nostrアドレス', 'signup.nostrAddressPlaceholder': 'ユーザー名', 'signup.nostrAddressHint': 'Nostrアドレスでプロフィールが見つけやすくなります。小文字、数字、_、-のみ使用可能。', 'signup.nostrAddressRequired': 'Nostrアドレスを入力してください', 'signup.nostrAddressAvailable': '利用可能！', 'signup.nostrAddressUnavailable': '既に使用されています', 'signup.nostrAddressChecking': '確認中...', 'signup.nostrAddressInvalid': '無効なユーザー名形式', 'signup.nostrAddressRegistering': 'Nostrアドレスを登録中...', 'signup.nostrAddressSuccess': 'Nostrアドレスが登録されました！', 'signup.nostrAddressFailed': 'Nostrアドレスを登録できませんでした', 'signup.createAccountBtn': 'アカウント作成', 'signup.termsAgree': 'アカウントを作成することで、', 'signup.and': 'と', 'signup.success': 'アカウントが正常に作成されました！', 'signup.yourPrivateKey': 'あなたの秘密鍵 (nsec)', 'signup.keyWarning': 'これがアカウントにアクセスする唯一の方法です。安全に保管してください！', 'signup.copyPrivateKey': '秘密鍵をコピー', 'signup.howToUseKey': '秘密鍵の使い方', 'signup.continueToGoblinbox': 'Goblinboxへ続ける', 'signup.step1': '安全に保存：', 'signup.step1Desc': 'nsecをパスワードマネージャーに保存するか、書き留めるか、暗号化ファイルに保存してください。公開しないでください！', 'signup.step2': '再ログイン：', 'signup.step2Desc': 'ログイン画面で「秘密鍵」をクリックしてnsecを貼り付けます。パスワードのように機能します。', 'signup.step3': '他のアプリで使用：', 'signup.step3Desc': 'nsecはすべてのNostrアプリ（Damus、Primal、Amethystなど）で使用できます！', 'signup.step4': '署名アプリの検討：', 'signup.step4Desc': 'より安全に、Amber（Android）やAlbyなどのブラウザ拡張機能で鍵を管理しましょう。',
         // Notifications
         'notifications.title': '通知', 'notifications.empty': '通知はありません', 'notifications.viewAll': 'すべての通知を見る', 'notifications.markAllRead': 'すべて既読にする', 'notifications.settings': '通知設定', 'notifications.loading': '通知を読み込み中...', 'notifications.zap': 'Zapを送りました', 'notifications.like': 'いいねしました', 'notifications.comment': 'コメントしました', 'notifications.follow': 'フォローしました', 'notifications.repost': 'リポストしました', 'notifications.mention': 'メンションしました',
         // Settings Modal
@@ -4030,7 +4030,7 @@ const translations = {
         // Video Page
         'video.views': '回視聴', 'video.like': 'いいね', 'video.dislike': '低評価', 'video.share': '共有', 'video.save': '保存', 'video.report': '報告', 'video.follow': 'フォロー', 'video.unfollow': 'フォロー解除', 'video.subscribe': '登録', 'video.subscribed': '登録済み', 'video.comments': 'コメント', 'video.addComment': 'コメントを追加...', 'video.reply': '返信', 'video.replies': '件の返信', 'video.loadMore': 'もっと見る', 'video.noComments': 'コメントはありません。最初のコメントを投稿しましょう！', 'video.zap': 'Zap', 'video.zapAmount': 'Zap金額 (sats)', 'video.sendZap': 'Zapを送る', 'video.boost': 'ブースト', 'video.description': '説明', 'video.showMore': 'もっと見る', 'video.showLess': '折りたたむ', 'video.publishedOn': '公開日',
         // Toast Messages
-        'toast.loggedIn': 'ログインしました！', 'toast.settingsSaved': '設定を保存しました！', 'toast.settingsLocal': '設定をローカルに保存しました。Nostrへの保存に失敗しました。', 'toast.settingsLocalOnly': '設定をローカルに保存しました！', 'toast.settingsReset': '設定を初期値に戻しました！', 'toast.avatarUploaded': 'アバターをアップロードしました！', 'toast.profileUpdated': 'プロフィールを更新しました！', 'toast.copied': 'クリップボードにコピーしました！', 'toast.copyFailed': 'コピーに失敗しました。手動でコピーしてください。', 'toast.installExtension': 'AlbyやNos2xなどのNostrブラウザ拡張をインストールしてください', 'toast.loginFailed': '拡張機能でのログインに失敗しました。再試行してください。', 'toast.invalidKey': '無効な秘密鍵です。確認して再試行してください。', 'toast.enterKey': '秘密鍵を入力してください', 'toast.enterUsername': 'ユーザー名を入力してください', 'toast.accountCreated': 'Plebsへようこそ！ログインしました。', 'toast.keyCopied': '秘密鍵をコピーしました！', 'toast.unmuted': 'ユーザーのミュートを解除しました', 'toast.unmuteFailed': 'ミュート解除に失敗しました', 'toast.selectImage': '画像ファイルを選択してください', 'toast.imageTooLarge': '画像は5MB以下にしてください', 'toast.avatarFailed': 'アバターのアップロードに失敗しました。再試行してください。', 'toast.mustBeLoggedIn': 'プロフィールを編集するにはログインが必要です', 'toast.enterDisplayName': '表示名を入力してください', 'toast.profileFailed': 'プロフィールの保存に失敗しました。再試行してください。', 'toast.invalidBunker': '有効なバンカーURLを入力してください', 'toast.connectFailed': '接続に失敗しました', 'toast.showingFiltered': 'フィルタリングされたコンテンツを表示中', 'toast.reportSubmitted': '報告を送信しました', 'toast.draftSaved': '下書きを保存しました！マイ動画から続けられます。', 'toast.draftLoaded': '下書きを読み込みました。アップロードを完了して公開してください。', 'toast.draftDeleted': '下書きを削除しました', 'toast.languageChanged': '言語を変更しました', 'toast.videoBlocked': '動画をブロックしてNostrに公開しました', 'toast.waitForUpload': '動画のアップロード完了をお待ちください', 'toast.enterTitle': 'タイトルを入力してください', 'toast.publishing': '動画をNostrに公開中...',
+        'toast.loggedIn': 'ログインしました！', 'toast.settingsSaved': '設定を保存しました！', 'toast.settingsLocal': '設定をローカルに保存しました。Nostrへの保存に失敗しました。', 'toast.settingsLocalOnly': '設定をローカルに保存しました！', 'toast.settingsReset': '設定を初期値に戻しました！', 'toast.avatarUploaded': 'アバターをアップロードしました！', 'toast.profileUpdated': 'プロフィールを更新しました！', 'toast.copied': 'クリップボードにコピーしました！', 'toast.copyFailed': 'コピーに失敗しました。手動でコピーしてください。', 'toast.installExtension': 'AlbyやNos2xなどのNostrブラウザ拡張をインストールしてください', 'toast.loginFailed': '拡張機能でのログインに失敗しました。再試行してください。', 'toast.invalidKey': '無効な秘密鍵です。確認して再試行してください。', 'toast.enterKey': '秘密鍵を入力してください', 'toast.enterUsername': 'ユーザー名を入力してください', 'toast.accountCreated': 'Goblinboxへようこそ！ログインしました。', 'toast.keyCopied': '秘密鍵をコピーしました！', 'toast.unmuted': 'ユーザーのミュートを解除しました', 'toast.unmuteFailed': 'ミュート解除に失敗しました', 'toast.selectImage': '画像ファイルを選択してください', 'toast.imageTooLarge': '画像は5MB以下にしてください', 'toast.avatarFailed': 'アバターのアップロードに失敗しました。再試行してください。', 'toast.mustBeLoggedIn': 'プロフィールを編集するにはログインが必要です', 'toast.enterDisplayName': '表示名を入力してください', 'toast.profileFailed': 'プロフィールの保存に失敗しました。再試行してください。', 'toast.invalidBunker': '有効なバンカーURLを入力してください', 'toast.connectFailed': '接続に失敗しました', 'toast.showingFiltered': 'フィルタリングされたコンテンツを表示中', 'toast.reportSubmitted': '報告を送信しました', 'toast.draftSaved': '下書きを保存しました！マイ動画から続けられます。', 'toast.draftLoaded': '下書きを読み込みました。アップロードを完了して公開してください。', 'toast.draftDeleted': '下書きを削除しました', 'toast.languageChanged': '言語を変更しました', 'toast.videoBlocked': '動画をブロックしてNostrに公開しました', 'toast.waitForUpload': '動画のアップロード完了をお待ちください', 'toast.enterTitle': 'タイトルを入力してください', 'toast.publishing': '動画をNostrに公開中...',
         // Time
         'time.justNow': 'たった今', 'time.secondAgo': '1秒前', 'time.secondsAgo': '{n}秒前', 'time.minuteAgo': '1分前', 'time.minutesAgo': '{n}分前', 'time.hourAgo': '1時間前', 'time.hoursAgo': '{n}時間前', 'time.dayAgo': '1日前', 'time.daysAgo': '{n}日前', 'time.weekAgo': '1週間前', 'time.weeksAgo': '{n}週間前', 'time.monthAgo': '1ヶ月前', 'time.monthsAgo': '{n}ヶ月前', 'time.yearAgo': '1年前', 'time.yearsAgo': '{n}年前',
         // Empty States
@@ -4079,15 +4079,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA とコンテンツポリシー',
         'dmca.lastUpdated': '最終更新: 2024年12月',
-        'dmca.architectureTitle': 'Plebs のアーキテクチャを理解する',
-        'dmca.architectureDesc': 'Plebs は従来の動画ホスティングサービスとは異なる方法で動作する分散型ビデオプラットフォームインターフェースです。当プラットフォームでのコンテンツの配信方法を理解することが重要です：',
-        'dmca.architectureItem1': 'Plebs は動画や画像コンテンツをホストしていません。',
+        'dmca.architectureTitle': 'Goblinbox のアーキテクチャを理解する',
+        'dmca.architectureDesc': 'Goblinbox は従来の動画ホスティングサービスとは異なる方法で動作する分散型ビデオプラットフォームインターフェースです。当プラットフォームでのコンテンツの配信方法を理解することが重要です：',
+        'dmca.architectureItem1': 'Goblinbox は動画や画像コンテンツをホストしていません。',
         'dmca.architectureItem1Desc': '私たちは他の場所に保存されたコンテンツを表示するクライアント/インターフェースです。',
         'dmca.architectureItem2': 'すべてのメディアファイル（動画、画像、サムネイル）は第三者が運営する独立したBlossomサーバーに保存されています。',
         'dmca.architectureItem3': '動画のメタデータ（タイトル、説明など）は独立して運営されるNostrリレーに公開されます。',
-        'dmca.architectureItem4': 'Plebs は単にこれらの分散コンテンツをユーザーフレンドリーなインターフェースを通じて集約・表示しています。',
+        'dmca.architectureItem4': 'Goblinbox は単にこれらの分散コンテンツをユーザーフレンドリーなインターフェースを通じて集約・表示しています。',
         'dmca.filingTitle': 'DMCA 申請の提出',
-        'dmca.filingDesc': 'Plebs はコンテンツをホストしていないため、侵害コンテンツを直接削除することはできません。著作権侵害に対処するには、適切な当事者に連絡する必要があります：',
+        'dmca.filingDesc': 'Goblinbox はコンテンツをホストしていないため、侵害コンテンツを直接削除することはできません。著作権侵害に対処するには、適切な当事者に連絡する必要があります：',
         'dmca.forVideoTitle': '1. 動画/画像コンテンツについて',
         'dmca.forVideoDesc': 'メディアファイルはBlossomサーバーに保存されています。以下が必要です：',
         'dmca.forVideoItem1': 'コンテンツをホストしているBlossomサーバーを特定する（URLに表示されます）',
@@ -4098,7 +4098,7 @@ const translations = {
         'dmca.forMetadataItem1': 'この情報はNostrリレーに保存されています',
         'dmca.forMetadataItem2': 'コンテンツが表示される特定のNostrリレーオペレーターに連絡してください',
         'dmca.forMetadataItem3': 'Nostrの分散型の性質により、複数のリレーが同じデータを保存している場合があります',
-        'dmca.whatWeCanDoTitle': 'Plebs ができること',
+        'dmca.whatWeCanDoTitle': 'Goblinbox ができること',
         'dmca.whatWeCanDoDesc': 'コンテンツをホストしていませんが、以下のことができます：',
         'dmca.whatWeCanDoItem1': '特定のコンテンツをホストしているBlossomサーバーやリレーの特定を支援',
         'dmca.whatWeCanDoItem2': 'コンテンツをローカルブロックリストに追加し、当インターフェースに表示されないようにする（注意：これはplebs.appにのみ影響し、他のNostrクライアントには影響しません）',
@@ -4118,7 +4118,7 @@ const translations = {
         'dmca.considerationsItem3': 'ハッシュベースのストレージ：',
         'dmca.considerationsItem3Desc': 'Blossomはコンテンツアドレス型ストレージを使用しています。同じファイルはどのサーバーでも同じハッシュを持ちます。',
         'dmca.considerationsItem4': '中央管理なし：',
-        'dmca.considerationsItem4Desc': 'Plebsも他の単一の組織も、ネットワーク全体からコンテンツを削除する能力を持っていません。',
+        'dmca.considerationsItem4Desc': 'Goblinboxも他の単一の組織も、ネットワーク全体からコンテンツを削除する能力を持っていません。',
         'dmca.counterNotificationTitle': '対抗通知',
         'dmca.counterNotificationDesc': 'コンテンツがBlossomサーバーから誤って削除されたと思われる場合は、そのサーバーオペレーターに直接連絡して対抗通知を提出してください。',
         'dmca.contactTitle': 'お問い合わせ',
@@ -4163,10 +4163,10 @@ const translations = {
         'analytics.noVideosDesc': '最初の動画をアップロードしてパフォーマンスを追跡しましょう。',
 
         // About Page
-        'about.title': 'Plebs.placeについて',
+        'about.title': 'Goblinbox.placeについて',
         'about.subtitle': '分散型ビデオプラットフォーム',
-        'about.welcome': 'Plebs.placeへようこそ',
-        'about.description': 'Plebs.placeはNostrプロトコル上に構築された分散型ビデオ共有プラットフォームで、クリエイターがコンテンツと視聴者を完全にコントロールできます。',
+        'about.welcome': 'Goblinbox.placeへようこそ',
+        'about.description': 'Goblinbox.placeはNostrプロトコル上に構築された分散型ビデオ共有プラットフォームで、クリエイターがコンテンツと視聴者を完全にコントロールできます。',
         'about.feature1Title': '分散型',
         'about.feature1Desc': 'Nostr上に構築されており、検閲耐性と真のコンテンツ所有権を確保します。',
         'about.feature2Title': 'クリエイター優先',
@@ -4195,13 +4195,13 @@ const translations = {
         'terms.title': '利用規約',
         'terms.lastUpdated': '最終更新日',
         'terms.section1Title': '1. 規約への同意',
-        'terms.section1Content': 'Plebs.placeを使用することで、これらの規約に拘束されることに同意したものとみなされます。同意されない場合は、プラットフォームを使用しないでください。',
+        'terms.section1Content': 'Goblinbox.placeを使用することで、これらの規約に拘束されることに同意したものとみなされます。同意されない場合は、プラットフォームを使用しないでください。',
         'terms.section2Title': '2. サービスの説明',
-        'terms.section2Content': 'Plebs.placeはNostrプロトコルを活用した分散型ビデオ共有プラットフォームです。動画のホスティング、共有、ライトニングネットワークによる収益化ツールを提供しています。',
+        'terms.section2Content': 'Goblinbox.placeはNostrプロトコルを活用した分散型ビデオ共有プラットフォームです。動画のホスティング、共有、ライトニングネットワークによる収益化ツールを提供しています。',
         'terms.section3Title': '3. ユーザーの責任',
         'terms.section3Content': 'プラットフォームを通じて投稿するすべてのコンテンツについて、あなたが責任を負います。違法、有害、または他者の権利を侵害するコンテンツをアップロードしないことに同意するものとします。',
         'terms.section4Title': '4. コンテンツの所有権',
-        'terms.section4Content': 'あなたのコンテンツの完全な所有権はあなたにあります。アップロードすることで、Plebs.placeにあなたの動画をホストし提供するための限定的なライセンスを付与します。',
+        'terms.section4Content': 'あなたのコンテンツの完全な所有権はあなたにあります。アップロードすることで、Goblinbox.placeにあなたの動画をホストし提供するための限定的なライセンスを付与します。',
         'terms.section5Title': '5. 禁止事項',
         'terms.section5Content': '違法行為、ハラスメント、スパム、有害コンテンツの配布にプラットフォームを使用することはできません。',
         'terms.section6Title': '6. アカウント管理',
@@ -4209,7 +4209,7 @@ const translations = {
         'terms.section7Title': '7. 支払い条件',
         'terms.section7Content': 'すべての支払いはライトニングネットワークを通じて処理されます。取引は最終的で不可逆です。支払い前にすべての詳細を確認してください。',
         'terms.section8Title': '8. 責任の制限',
-        'terms.section8Content': 'Plebs.placeは保証なしで「現状のまま」提供されます。いかなる損失、損害、またはサービスの中断についても責任を負いません。',
+        'terms.section8Content': 'Goblinbox.placeは保証なしで「現状のまま」提供されます。いかなる損失、損害、またはサービスの中断についても責任を負いません。',
         'terms.section9Title': '9. 規約の変更',
         'terms.section9Content': 'これらの規約は随時更新される場合があります。継続して使用することは、更新された規約への同意を意味します。',
 
@@ -4217,7 +4217,7 @@ const translations = {
         'privacy.title': 'プライバシーポリシー',
         'privacy.lastUpdated': '最終更新日',
         'privacy.section1Title': '1. はじめに',
-        'privacy.section1Content': 'このプライバシーポリシーは、Plebs.placeの分散型ビデオプラットフォームの使用に関連する情報の取り扱いについて説明します。',
+        'privacy.section1Content': 'このプライバシーポリシーは、Goblinbox.placeの分散型ビデオプラットフォームの使用に関連する情報の取り扱いについて説明します。',
         'privacy.section2Title': '2. 収集する情報',
         'privacy.section2Content': '分散型プラットフォームとして、最小限のデータのみを収集します。Nostr公開鍵は認証に使用され、動画メタデータはNostrリレーに保存されます。',
         'privacy.section3Title': '3. データの保存',
@@ -4233,7 +4233,7 @@ const translations = {
         'privacy.section8Title': '8. あなたの権利',
         'privacy.section8Content': 'あなたのデータを完全にコントロールできます。いつでもコンテンツを削除したり、プラットフォームの使用を停止したりできます。',
         'privacy.section9Title': '9. 子どものプライバシー',
-        'privacy.section9Content': 'Plebs.placeは13歳未満のお子様向けではありません。未成年者の情報を意図的に収集することはありません。',
+        'privacy.section9Content': 'Goblinbox.placeは13歳未満のお子様向けではありません。未成年者の情報を意図的に収集することはありません。',
         'privacy.section10Title': '10. ポリシーの変更',
         'privacy.section10Content': 'このプライバシーポリシーを更新する場合があります。変更はこのページに更新日とともに掲載されます。',
 
@@ -4244,11 +4244,11 @@ const translations = {
         'faq.technical': '技術',
         'faq.monetization': '収益化',
         'faq.content': 'コンテンツ',
-        'faq.q1': 'Plebs.placeとは何ですか？',
-        'faq.a1': 'Plebs.placeはNostrプロトコル上に構築された分散型ビデオ共有プラットフォームで、コンテンツと視聴者を完全に所有できます。',
-        'faq.q2': 'Plebs.placeはどのように機能しますか？',
+        'faq.q1': 'Goblinbox.placeとは何ですか？',
+        'faq.a1': 'Goblinbox.placeはNostrプロトコル上に構築された分散型ビデオ共有プラットフォームで、コンテンツと視聴者を完全に所有できます。',
+        'faq.q2': 'Goblinbox.placeはどのように機能しますか？',
         'faq.a2': 'プラットフォームはNostrで認証とソーシャル機能、分散型ストレージで動画ホスティング、ライトニングネットワークで即時支払いを行います。',
-        'faq.q3': 'Plebs.placeは無料で使えますか？',
+        'faq.q3': 'Goblinbox.placeは無料で使えますか？',
         'faq.a3': 'はい、アカウント作成、アップロード、視聴は無料です。始めるにはNostrキーが必要です。',
         'faq.q4': 'Nostrとは何ですか？',
         'faq.a4': 'Nostrは分散型通信プロトコルで、中央集権的なプラットフォームに依存せずにアイデンティティとデータをコントロールできます。',
@@ -4277,7 +4277,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'セルフモデレーション',
         'faq.q16': '分散型プラットフォームではモデレーションはどのように機能しますか？',
-        'faq.a16': '中央管理者を持つ従来のプラットフォームとは異なり、Plebsはあなたが見るものをコントロールします。コンテンツフィルターパック、ユーザーミュート、コミュニティ警告、レシオ動画インジケーターなど、強力なセルフモデレーションツールを提供しています。何が適切なコンテンツかを決めるのはあなた自身です - 中央権限がその決定を下すことはありません。',
+        'faq.a16': '中央管理者を持つ従来のプラットフォームとは異なり、Goblinboxはあなたが見るものをコントロールします。コンテンツフィルターパック、ユーザーミュート、コミュニティ警告、レシオ動画インジケーターなど、強力なセルフモデレーションツールを提供しています。何が適切なコンテンツかを決めるのはあなた自身です - 中央権限がその決定を下すことはありません。',
         'faq.q17': 'コンテンツフィルターパックとは何ですか？',
         'faq.a17Intro': 'コンテンツフィルターパックは、特定の種類のコンテンツを非表示にするために有効にできる事前定義されたキーワードフィルターです。利用可能なパックには以下が含まれます：',
         'faq.a17Pack1': '人種差別とヘイトスピーチ：',
@@ -4308,7 +4308,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'プライバシーとセキュリティ',
         'faq.q22': '私の活動はプライベートですか？',
-        'faq.a22': 'Nostrでは、ほとんどの活動は設計上公開されています。いいね、コメント、フォロー、Zapは公開ネットワーク上で表示されます。ただし、Plebsは視聴履歴をブラウザにローカルに保存します - サーバーに送信されることはありません。いつでもローカルデータをクリアできます。',
+        'faq.a22': 'Nostrでは、ほとんどの活動は設計上公開されています。いいね、コメント、フォロー、Zapは公開ネットワーク上で表示されます。ただし、Goblinboxは視聴履歴をブラウザにローカルに保存します - サーバーに送信されることはありません。いつでもローカルデータをクリアできます。',
         'faq.q23': 'アカウントを安全に保つにはどうすればいいですか？',
         'faq.a23': '秘密鍵（nsec）を誰とも共有しないでください。Alby、nos2x、またはハードウェア署名者などのNostrブラウザ拡張機能の使用を強くお勧めします。これらは秘密鍵を安全に保ち、承認したときにのみイベントに署名します。ウェブサイトに直接nsecを保存することは避けてください。',
         'faq.q24': 'コンテンツを削除できますか？',
@@ -4319,7 +4319,7 @@ const translations = {
         'faq.a25Intro': '動画が読み込まれない場合は、以下の手順を試してください：',
         'faq.a25Item1': 'ページを更新',
         'faq.a25Item2': 'インターネット接続を確認',
-        'faq.a25Item3': '動画をホストしているBlossomサーバーがダウンしている可能性があります - これはPlebsとは独立しています',
+        'faq.a25Item3': '動画をホストしているBlossomサーバーがダウンしている可能性があります - これはGoblinboxとは独立しています',
         'faq.a25Item4': 'コンテンツをブロックする可能性のあるブラウザ拡張機能を無効にしてみる',
         'faq.a25Item5': 'ブラウザのキャッシュをクリアして再試行',
         'faq.q26': '秘密鍵を紛失しました - 復旧を手伝ってもらえますか？',
@@ -4333,8 +4333,8 @@ const translations = {
         'pageTitle.likedVideos': 'いいねした動画',
         'pageTitle.watchHistory': '視聴履歴',
         'pageTitle.liveStreams': 'ライブ配信',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Plebsでライブ配信中',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Goblinboxでライブ配信中',
         // Home Page Sections
         'section.trending': 'トレンド',
         'section.recommended': 'おすすめ',
@@ -4387,7 +4387,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': '개인 키', 'privateKey.warning': '중요: 안전한 곳에 저장하세요. 이 키를 잃어버리면 계정에 접근할 수 없습니다. 절대 다른 사람과 공유하지 마세요!', 'privateKey.show': '개인 키 표시', 'privateKey.hide': '개인 키 숨기기', 'privateKey.copy': '복사', 'privateKey.saved': '키를 저장했습니다', 'privateKey.yourPublicKey': '공개 키 (npub):', 'privateKey.yourPrivateKey': '개인 키 (nsec):',
         // Signup Modal
-        'signup.title': 'Nostr 계정 만들기', 'signup.whatIsNostr': 'Nostr란?', 'signup.nostrDescription': 'Nostr는 자신의 신원과 데이터를 제어할 수 있는 분산형 프로토콜입니다. 중앙 서버가 없으며 계정은 암호화 키 쌍입니다.', 'signup.whyNostr': '왜 Nostr인가?', 'signup.benefit1': '신원 소유권', 'signup.benefit2': '검열 없음', 'signup.benefit3': '플랫폼 간 이식성', 'signup.createNew': '새 계정 만들기', 'signup.haveAccount': '이미 계정이 있으신가요?', 'signup.login': '로그인', 'signup.createButton': '계정 만들기', 'signup.generating': '키 생성 중...', 'signup.displayName': '표시 이름', 'signup.displayNamePlaceholder': '표시 이름 입력', 'signup.username': '사용자 이름', 'signup.usernamePlaceholder': '사용자 이름 입력', 'signup.about': '소개 (선택사항)', 'signup.profilePicture': '프로필 사진 (선택사항)', 'signup.lightningAddress': 'Lightning 주소 (선택사항)', 'signup.nostrAddress': 'Nostr 주소', 'signup.nostrAddressPlaceholder': '사용자이름', 'signup.nostrAddressHint': 'Nostr 주소로 프로필을 더 쉽게 찾을 수 있습니다. 소문자, 숫자, _, -만 사용 가능.', 'signup.nostrAddressRequired': 'Nostr 주소를 입력해주세요', 'signup.nostrAddressAvailable': '사용 가능!', 'signup.nostrAddressUnavailable': '이미 사용 중', 'signup.nostrAddressChecking': '확인 중...', 'signup.nostrAddressInvalid': '잘못된 사용자 이름 형식', 'signup.nostrAddressRegistering': 'Nostr 주소 등록 중...', 'signup.nostrAddressSuccess': 'Nostr 주소가 등록되었습니다!', 'signup.nostrAddressFailed': 'Nostr 주소를 등록할 수 없습니다', 'signup.createAccountBtn': '계정 만들기', 'signup.termsAgree': '계정을 만들면 다음에 동의하게 됩니다', 'signup.and': '및', 'signup.success': '계정이 성공적으로 생성되었습니다!', 'signup.yourPrivateKey': '개인 키 (nsec)', 'signup.keyWarning': '이것이 계정에 접근하는 유일한 방법입니다. 안전하게 보관하세요!', 'signup.copyPrivateKey': '개인 키 복사', 'signup.howToUseKey': '개인 키 사용 방법', 'signup.continueToPlebs': 'Plebs로 계속', 'signup.step1': '안전하게 저장:', 'signup.step1Desc': 'nsec를 비밀번호 관리자에 저장하거나, 적어두거나, 암호화된 파일에 저장하세요. 절대 공개하지 마세요!', 'signup.step2': '다시 로그인:', 'signup.step2Desc': '로그인 화면에서 "개인 키"를 클릭하고 nsec를 붙여넣으세요. 비밀번호처럼 작동합니다.', 'signup.step3': '다른 앱에서 사용:', 'signup.step3Desc': 'nsec는 모든 Nostr 앱에서 사용할 수 있습니다 - Damus, Primal, Amethyst 등!', 'signup.step4': '서명 앱 고려:', 'signup.step4Desc': '더 나은 보안을 위해 Amber (Android) 또는 Alby와 같은 브라우저 확장 프로그램을 사용하세요.',
+        'signup.title': 'Nostr 계정 만들기', 'signup.whatIsNostr': 'Nostr란?', 'signup.nostrDescription': 'Nostr는 자신의 신원과 데이터를 제어할 수 있는 분산형 프로토콜입니다. 중앙 서버가 없으며 계정은 암호화 키 쌍입니다.', 'signup.whyNostr': '왜 Nostr인가?', 'signup.benefit1': '신원 소유권', 'signup.benefit2': '검열 없음', 'signup.benefit3': '플랫폼 간 이식성', 'signup.createNew': '새 계정 만들기', 'signup.haveAccount': '이미 계정이 있으신가요?', 'signup.login': '로그인', 'signup.createButton': '계정 만들기', 'signup.generating': '키 생성 중...', 'signup.displayName': '표시 이름', 'signup.displayNamePlaceholder': '표시 이름 입력', 'signup.username': '사용자 이름', 'signup.usernamePlaceholder': '사용자 이름 입력', 'signup.about': '소개 (선택사항)', 'signup.profilePicture': '프로필 사진 (선택사항)', 'signup.lightningAddress': 'Lightning 주소 (선택사항)', 'signup.nostrAddress': 'Nostr 주소', 'signup.nostrAddressPlaceholder': '사용자이름', 'signup.nostrAddressHint': 'Nostr 주소로 프로필을 더 쉽게 찾을 수 있습니다. 소문자, 숫자, _, -만 사용 가능.', 'signup.nostrAddressRequired': 'Nostr 주소를 입력해주세요', 'signup.nostrAddressAvailable': '사용 가능!', 'signup.nostrAddressUnavailable': '이미 사용 중', 'signup.nostrAddressChecking': '확인 중...', 'signup.nostrAddressInvalid': '잘못된 사용자 이름 형식', 'signup.nostrAddressRegistering': 'Nostr 주소 등록 중...', 'signup.nostrAddressSuccess': 'Nostr 주소가 등록되었습니다!', 'signup.nostrAddressFailed': 'Nostr 주소를 등록할 수 없습니다', 'signup.createAccountBtn': '계정 만들기', 'signup.termsAgree': '계정을 만들면 다음에 동의하게 됩니다', 'signup.and': '및', 'signup.success': '계정이 성공적으로 생성되었습니다!', 'signup.yourPrivateKey': '개인 키 (nsec)', 'signup.keyWarning': '이것이 계정에 접근하는 유일한 방법입니다. 안전하게 보관하세요!', 'signup.copyPrivateKey': '개인 키 복사', 'signup.howToUseKey': '개인 키 사용 방법', 'signup.continueToGoblinbox': 'Goblinbox로 계속', 'signup.step1': '안전하게 저장:', 'signup.step1Desc': 'nsec를 비밀번호 관리자에 저장하거나, 적어두거나, 암호화된 파일에 저장하세요. 절대 공개하지 마세요!', 'signup.step2': '다시 로그인:', 'signup.step2Desc': '로그인 화면에서 "개인 키"를 클릭하고 nsec를 붙여넣으세요. 비밀번호처럼 작동합니다.', 'signup.step3': '다른 앱에서 사용:', 'signup.step3Desc': 'nsec는 모든 Nostr 앱에서 사용할 수 있습니다 - Damus, Primal, Amethyst 등!', 'signup.step4': '서명 앱 고려:', 'signup.step4Desc': '더 나은 보안을 위해 Amber (Android) 또는 Alby와 같은 브라우저 확장 프로그램을 사용하세요.',
         // Notifications
         'notifications.title': '알림', 'notifications.empty': '알림이 없습니다', 'notifications.viewAll': '모든 알림 보기', 'notifications.markAllRead': '모두 읽음으로 표시', 'notifications.settings': '알림 설정', 'notifications.loading': '알림 로딩 중...', 'notifications.zap': 'Zap을 보냈습니다', 'notifications.like': '좋아요를 눌렀습니다', 'notifications.comment': '댓글을 달았습니다', 'notifications.follow': '팔로우했습니다', 'notifications.repost': '리포스트했습니다', 'notifications.mention': '멘션했습니다',
         // Settings Modal
@@ -4422,7 +4422,7 @@ const translations = {
         // Video Page
         'video.views': '조회', 'video.like': '좋아요', 'video.dislike': '싫어요', 'video.share': '공유', 'video.save': '저장', 'video.report': '신고', 'video.follow': '팔로우', 'video.unfollow': '언팔로우', 'video.subscribe': '구독', 'video.subscribed': '구독 중', 'video.comments': '댓글', 'video.addComment': '댓글 추가...', 'video.reply': '답글', 'video.replies': '개의 답글', 'video.loadMore': '더 보기', 'video.noComments': '댓글이 없습니다. 첫 번째로 댓글을 달아보세요!', 'video.zap': 'Zap', 'video.zapAmount': 'Zap 금액 (sats)', 'video.sendZap': 'Zap 보내기', 'video.boost': '부스트', 'video.description': '설명', 'video.showMore': '더 보기', 'video.showLess': '접기', 'video.publishedOn': '게시일',
         // Toast Messages
-        'toast.loggedIn': '로그인 성공!', 'toast.settingsSaved': '설정 저장됨!', 'toast.settingsLocal': '설정이 로컬에 저장됨. Nostr에 저장 실패.', 'toast.settingsLocalOnly': '설정이 로컬에 저장됨!', 'toast.settingsReset': '설정이 기본값으로 초기화됨!', 'toast.avatarUploaded': '아바타 업로드 성공!', 'toast.profileUpdated': '프로필 업데이트 성공!', 'toast.copied': '클립보드에 복사됨!', 'toast.copyFailed': '복사 실패. 수동으로 복사하세요.', 'toast.installExtension': 'Alby 또는 nos2x와 같은 Nostr 브라우저 확장 프로그램을 설치하세요', 'toast.loginFailed': '확장 프로그램으로 로그인 실패. 다시 시도하세요.', 'toast.invalidKey': '잘못된 개인 키입니다. 확인 후 다시 시도하세요.', 'toast.enterKey': '개인 키를 입력하세요', 'toast.enterUsername': '사용자 이름을 입력하세요', 'toast.accountCreated': 'Plebs에 오신 것을 환영합니다! 로그인되었습니다.', 'toast.keyCopied': '개인 키가 클립보드에 복사됨!', 'toast.unmuted': '사용자 음소거 해제됨', 'toast.unmuteFailed': '음소거 해제 실패', 'toast.selectImage': '이미지 파일을 선택하세요', 'toast.imageTooLarge': '이미지는 5MB 미만이어야 합니다', 'toast.avatarFailed': '아바타 업로드 실패. 다시 시도하세요.', 'toast.mustBeLoggedIn': '프로필을 편집하려면 로그인이 필요합니다', 'toast.enterDisplayName': '표시 이름을 입력하세요', 'toast.profileFailed': '프로필 저장 실패. 다시 시도하세요.', 'toast.invalidBunker': '유효한 벙커 URL을 입력하세요', 'toast.connectFailed': '연결 실패', 'toast.showingFiltered': '필터링된 콘텐츠 표시 중', 'toast.reportSubmitted': '신고가 성공적으로 제출됨', 'toast.draftSaved': '임시 저장됨! 내 동영상에서 계속할 수 있습니다.', 'toast.draftLoaded': '임시 저장 불러옴. 업로드를 완료하고 게시하세요.', 'toast.draftDeleted': '임시 저장 삭제됨', 'toast.languageChanged': '언어가 변경됨', 'toast.videoBlocked': '동영상이 차단되고 Nostr에 게시됨', 'toast.waitForUpload': '동영상 업로드가 완료될 때까지 기다려주세요', 'toast.enterTitle': '제목을 입력하세요', 'toast.publishing': '동영상을 Nostr에 게시 중...',
+        'toast.loggedIn': '로그인 성공!', 'toast.settingsSaved': '설정 저장됨!', 'toast.settingsLocal': '설정이 로컬에 저장됨. Nostr에 저장 실패.', 'toast.settingsLocalOnly': '설정이 로컬에 저장됨!', 'toast.settingsReset': '설정이 기본값으로 초기화됨!', 'toast.avatarUploaded': '아바타 업로드 성공!', 'toast.profileUpdated': '프로필 업데이트 성공!', 'toast.copied': '클립보드에 복사됨!', 'toast.copyFailed': '복사 실패. 수동으로 복사하세요.', 'toast.installExtension': 'Alby 또는 nos2x와 같은 Nostr 브라우저 확장 프로그램을 설치하세요', 'toast.loginFailed': '확장 프로그램으로 로그인 실패. 다시 시도하세요.', 'toast.invalidKey': '잘못된 개인 키입니다. 확인 후 다시 시도하세요.', 'toast.enterKey': '개인 키를 입력하세요', 'toast.enterUsername': '사용자 이름을 입력하세요', 'toast.accountCreated': 'Goblinbox에 오신 것을 환영합니다! 로그인되었습니다.', 'toast.keyCopied': '개인 키가 클립보드에 복사됨!', 'toast.unmuted': '사용자 음소거 해제됨', 'toast.unmuteFailed': '음소거 해제 실패', 'toast.selectImage': '이미지 파일을 선택하세요', 'toast.imageTooLarge': '이미지는 5MB 미만이어야 합니다', 'toast.avatarFailed': '아바타 업로드 실패. 다시 시도하세요.', 'toast.mustBeLoggedIn': '프로필을 편집하려면 로그인이 필요합니다', 'toast.enterDisplayName': '표시 이름을 입력하세요', 'toast.profileFailed': '프로필 저장 실패. 다시 시도하세요.', 'toast.invalidBunker': '유효한 벙커 URL을 입력하세요', 'toast.connectFailed': '연결 실패', 'toast.showingFiltered': '필터링된 콘텐츠 표시 중', 'toast.reportSubmitted': '신고가 성공적으로 제출됨', 'toast.draftSaved': '임시 저장됨! 내 동영상에서 계속할 수 있습니다.', 'toast.draftLoaded': '임시 저장 불러옴. 업로드를 완료하고 게시하세요.', 'toast.draftDeleted': '임시 저장 삭제됨', 'toast.languageChanged': '언어가 변경됨', 'toast.videoBlocked': '동영상이 차단되고 Nostr에 게시됨', 'toast.waitForUpload': '동영상 업로드가 완료될 때까지 기다려주세요', 'toast.enterTitle': '제목을 입력하세요', 'toast.publishing': '동영상을 Nostr에 게시 중...',
         // Time
         'time.justNow': '방금 전', 'time.secondAgo': '1초 전', 'time.secondsAgo': '{n}초 전', 'time.minuteAgo': '1분 전', 'time.minutesAgo': '{n}분 전', 'time.hourAgo': '1시간 전', 'time.hoursAgo': '{n}시간 전', 'time.dayAgo': '1일 전', 'time.daysAgo': '{n}일 전', 'time.weekAgo': '1주 전', 'time.weeksAgo': '{n}주 전', 'time.monthAgo': '1개월 전', 'time.monthsAgo': '{n}개월 전', 'time.yearAgo': '1년 전', 'time.yearsAgo': '{n}년 전',
         // Empty States
@@ -4471,15 +4471,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA 및 콘텐츠 정책',
         'dmca.lastUpdated': '최종 업데이트: 2024년 12월',
-        'dmca.architectureTitle': 'Plebs 아키텍처 이해하기',
-        'dmca.architectureDesc': 'Plebs는 기존 동영상 호스팅 서비스와 다르게 운영되는 분산형 비디오 플랫폼 인터페이스입니다. 플랫폼에서 콘텐츠가 어떻게 배포되는지 이해하는 것이 중요합니다:',
-        'dmca.architectureItem1': 'Plebs는 동영상이나 이미지 콘텐츠를 호스팅하지 않습니다.',
+        'dmca.architectureTitle': 'Goblinbox 아키텍처 이해하기',
+        'dmca.architectureDesc': 'Goblinbox는 기존 동영상 호스팅 서비스와 다르게 운영되는 분산형 비디오 플랫폼 인터페이스입니다. 플랫폼에서 콘텐츠가 어떻게 배포되는지 이해하는 것이 중요합니다:',
+        'dmca.architectureItem1': 'Goblinbox는 동영상이나 이미지 콘텐츠를 호스팅하지 않습니다.',
         'dmca.architectureItem1Desc': '우리는 다른 곳에 저장된 콘텐츠를 표시하는 클라이언트/인터페이스입니다.',
         'dmca.architectureItem2': '모든 미디어 파일(동영상, 이미지, 썸네일)은 제3자가 운영하는 독립적인 Blossom 서버에 저장됩니다.',
         'dmca.architectureItem3': '동영상 메타데이터(제목, 설명 등)는 독립적으로 운영되는 Nostr 릴레이에 게시됩니다.',
-        'dmca.architectureItem4': 'Plebs는 단순히 이러한 분산 콘텐츠를 사용자 친화적인 인터페이스를 통해 집계하고 표시합니다.',
+        'dmca.architectureItem4': 'Goblinbox는 단순히 이러한 분산 콘텐츠를 사용자 친화적인 인터페이스를 통해 집계하고 표시합니다.',
         'dmca.filingTitle': 'DMCA 신고 제출',
-        'dmca.filingDesc': 'Plebs는 콘텐츠를 호스팅하지 않으므로 침해 자료를 직접 삭제할 수 없습니다. 저작권 침해에 대응하려면 적절한 당사자에게 연락해야 합니다:',
+        'dmca.filingDesc': 'Goblinbox는 콘텐츠를 호스팅하지 않으므로 침해 자료를 직접 삭제할 수 없습니다. 저작권 침해에 대응하려면 적절한 당사자에게 연락해야 합니다:',
         'dmca.forVideoTitle': '1. 동영상/이미지 콘텐츠의 경우',
         'dmca.forVideoDesc': '미디어 파일은 Blossom 서버에 저장됩니다. 다음이 필요합니다:',
         'dmca.forVideoItem1': '콘텐츠를 호스팅하는 Blossom 서버 식별(URL에 표시됨)',
@@ -4490,7 +4490,7 @@ const translations = {
         'dmca.forMetadataItem1': '이 정보는 Nostr 릴레이에 저장됩니다',
         'dmca.forMetadataItem2': '콘텐츠가 표시되는 특정 Nostr 릴레이 운영자에게 연락하세요',
         'dmca.forMetadataItem3': 'Nostr의 분산 특성으로 인해 여러 릴레이가 동일한 데이터를 저장할 수 있습니다',
-        'dmca.whatWeCanDoTitle': 'Plebs가 할 수 있는 것',
+        'dmca.whatWeCanDoTitle': 'Goblinbox가 할 수 있는 것',
         'dmca.whatWeCanDoDesc': '콘텐츠를 호스팅하지 않지만 다음을 할 수 있습니다:',
         'dmca.whatWeCanDoItem1': '특정 콘텐츠를 호스팅하는 Blossom 서버 또는 릴레이 식별 지원',
         'dmca.whatWeCanDoItem2': '콘텐츠를 로컬 차단 목록에 추가하여 인터페이스에 표시되지 않도록 함(참고: plebs.app에만 영향을 미치며 다른 Nostr 클라이언트에는 영향을 미치지 않음)',
@@ -4510,7 +4510,7 @@ const translations = {
         'dmca.considerationsItem3': '해시 기반 저장:',
         'dmca.considerationsItem3Desc': 'Blossom은 콘텐츠 주소 저장을 사용합니다. 동일한 파일은 어느 서버에서나 동일한 해시를 갖습니다.',
         'dmca.considerationsItem4': '중앙 통제 없음:',
-        'dmca.considerationsItem4Desc': 'Plebs나 다른 단일 조직 모두 전체 네트워크에서 콘텐츠를 제거할 수 있는 능력이 없습니다.',
+        'dmca.considerationsItem4Desc': 'Goblinbox나 다른 단일 조직 모두 전체 네트워크에서 콘텐츠를 제거할 수 있는 능력이 없습니다.',
         'dmca.counterNotificationTitle': '이의 신청',
         'dmca.counterNotificationDesc': '콘텐츠가 Blossom 서버에서 잘못 제거되었다고 생각되면 해당 서버 운영자에게 직접 연락하여 이의 신청을 제출해야 합니다.',
         'dmca.contactTitle': '연락처',
@@ -4555,10 +4555,10 @@ const translations = {
         'analytics.noVideosDesc': '첫 번째 동영상을 업로드하여 성과 추적을 시작하세요.',
 
         // About Page
-        'about.title': 'Plebs.place 소개',
+        'about.title': 'Goblinbox.place 소개',
         'about.subtitle': '탈중앙화 비디오 플랫폼',
-        'about.welcome': 'Plebs.place에 오신 것을 환영합니다',
-        'about.description': 'Plebs.place는 Nostr 프로토콜 기반의 탈중앙화 비디오 공유 플랫폼으로, 크리에이터가 콘텐츠와 시청자를 완전히 제어할 수 있습니다.',
+        'about.welcome': 'Goblinbox.place에 오신 것을 환영합니다',
+        'about.description': 'Goblinbox.place는 Nostr 프로토콜 기반의 탈중앙화 비디오 공유 플랫폼으로, 크리에이터가 콘텐츠와 시청자를 완전히 제어할 수 있습니다.',
         'about.feature1Title': '탈중앙화',
         'about.feature1Desc': 'Nostr 기반으로 검열 저항성과 진정한 콘텐츠 소유권을 보장합니다.',
         'about.feature2Title': '크리에이터 우선',
@@ -4587,13 +4587,13 @@ const translations = {
         'terms.title': '이용약관',
         'terms.lastUpdated': '최종 업데이트',
         'terms.section1Title': '1. 약관 동의',
-        'terms.section1Content': 'Plebs.place를 사용함으로써 이 약관에 구속됨에 동의합니다. 동의하지 않으면 플랫폼을 사용하지 마세요.',
+        'terms.section1Content': 'Goblinbox.place를 사용함으로써 이 약관에 구속됨에 동의합니다. 동의하지 않으면 플랫폼을 사용하지 마세요.',
         'terms.section2Title': '2. 서비스 설명',
-        'terms.section2Content': 'Plebs.place는 Nostr 프로토콜을 활용한 탈중앙화 비디오 공유 플랫폼입니다. 비디오 호스팅, 공유, 라이트닝 네트워크 수익화 도구를 제공합니다.',
+        'terms.section2Content': 'Goblinbox.place는 Nostr 프로토콜을 활용한 탈중앙화 비디오 공유 플랫폼입니다. 비디오 호스팅, 공유, 라이트닝 네트워크 수익화 도구를 제공합니다.',
         'terms.section3Title': '3. 사용자 책임',
         'terms.section3Content': '플랫폼을 통해 게시하는 모든 콘텐츠에 대한 책임은 사용자에게 있습니다. 불법적이거나 유해하거나 타인의 권리를 침해하는 콘텐츠를 업로드하지 않을 것에 동의합니다.',
         'terms.section4Title': '4. 콘텐츠 소유권',
-        'terms.section4Content': '콘텐츠의 완전한 소유권은 사용자에게 있습니다. 업로드함으로써 Plebs.place에 비디오를 호스팅하고 제공할 수 있는 제한적 라이선스를 부여합니다.',
+        'terms.section4Content': '콘텐츠의 완전한 소유권은 사용자에게 있습니다. 업로드함으로써 Goblinbox.place에 비디오를 호스팅하고 제공할 수 있는 제한적 라이선스를 부여합니다.',
         'terms.section5Title': '5. 금지된 사용',
         'terms.section5Content': '불법 활동, 괴롭힘, 스팸, 유해 콘텐츠 배포에 플랫폼을 사용할 수 없습니다.',
         'terms.section6Title': '6. 계정 관리',
@@ -4601,7 +4601,7 @@ const translations = {
         'terms.section7Title': '7. 결제 조건',
         'terms.section7Content': '모든 결제는 라이트닝 네트워크를 통해 처리됩니다. 거래는 최종적이며 되돌릴 수 없습니다. 결제 전 모든 세부 사항을 확인하세요.',
         'terms.section8Title': '8. 책임 제한',
-        'terms.section8Content': 'Plebs.place는 보증 없이 "있는 그대로" 제공됩니다. 손실, 손해 또는 서비스 중단에 대해 책임지지 않습니다.',
+        'terms.section8Content': 'Goblinbox.place는 보증 없이 "있는 그대로" 제공됩니다. 손실, 손해 또는 서비스 중단에 대해 책임지지 않습니다.',
         'terms.section9Title': '9. 약관 변경',
         'terms.section9Content': '이 약관은 수시로 업데이트될 수 있습니다. 계속 사용하면 업데이트된 약관에 동의한 것으로 간주됩니다.',
 
@@ -4609,7 +4609,7 @@ const translations = {
         'privacy.title': '개인정보 처리방침',
         'privacy.lastUpdated': '최종 업데이트',
         'privacy.section1Title': '1. 소개',
-        'privacy.section1Content': '이 개인정보 처리방침은 Plebs.place의 탈중앙화 비디오 플랫폼 사용과 관련된 정보 처리 방법을 설명합니다.',
+        'privacy.section1Content': '이 개인정보 처리방침은 Goblinbox.place의 탈중앙화 비디오 플랫폼 사용과 관련된 정보 처리 방법을 설명합니다.',
         'privacy.section2Title': '2. 수집하는 정보',
         'privacy.section2Content': '탈중앙화 플랫폼으로서 최소한의 데이터만 수집합니다. Nostr 공개 키는 인증에 사용되고, 비디오 메타데이터는 Nostr 릴레이에 저장됩니다.',
         'privacy.section3Title': '3. 데이터 저장',
@@ -4625,7 +4625,7 @@ const translations = {
         'privacy.section8Title': '8. 사용자의 권리',
         'privacy.section8Content': '데이터를 완전히 제어합니다. 언제든지 콘텐츠를 삭제하거나 플랫폼 사용을 중단할 수 있습니다.',
         'privacy.section9Title': '9. 아동 개인정보',
-        'privacy.section9Content': 'Plebs.place는 13세 미만 아동을 대상으로 하지 않습니다. 미성년자의 정보를 의도적으로 수집하지 않습니다.',
+        'privacy.section9Content': 'Goblinbox.place는 13세 미만 아동을 대상으로 하지 않습니다. 미성년자의 정보를 의도적으로 수집하지 않습니다.',
         'privacy.section10Title': '10. 정책 변경',
         'privacy.section10Content': '이 개인정보 처리방침을 업데이트할 수 있습니다. 변경 사항은 업데이트 날짜와 함께 이 페이지에 게시됩니다.',
 
@@ -4636,11 +4636,11 @@ const translations = {
         'faq.technical': '기술',
         'faq.monetization': '수익화',
         'faq.content': '콘텐츠',
-        'faq.q1': 'Plebs.place란 무엇인가요?',
-        'faq.a1': 'Plebs.place는 Nostr 프로토콜 기반의 탈중앙화 비디오 공유 플랫폼으로, 콘텐츠와 시청자를 완전히 소유할 수 있습니다.',
-        'faq.q2': 'Plebs.place는 어떻게 작동하나요?',
+        'faq.q1': 'Goblinbox.place란 무엇인가요?',
+        'faq.a1': 'Goblinbox.place는 Nostr 프로토콜 기반의 탈중앙화 비디오 공유 플랫폼으로, 콘텐츠와 시청자를 완전히 소유할 수 있습니다.',
+        'faq.q2': 'Goblinbox.place는 어떻게 작동하나요?',
         'faq.a2': '플랫폼은 Nostr로 인증 및 소셜, 탈중앙화 스토리지로 비디오 호스팅, 라이트닝 네트워크로 즉시 결제를 처리합니다.',
-        'faq.q3': 'Plebs.place는 무료인가요?',
+        'faq.q3': 'Goblinbox.place는 무료인가요?',
         'faq.a3': '네, 계정 생성, 업로드, 시청은 무료입니다. 시작하려면 Nostr 키만 있으면 됩니다.',
         'faq.q4': 'Nostr란 무엇인가요?',
         'faq.a4': 'Nostr는 중앙 플랫폼에 의존하지 않고 신원과 데이터를 제어할 수 있는 탈중앙화 통신 프로토콜입니다.',
@@ -4669,7 +4669,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': '자체 조정',
         'faq.q16': '탈중앙화 플랫폼에서 조정은 어떻게 작동하나요?',
-        'faq.a16': '중앙 집중식 조정자가 있는 기존 플랫폼과 달리, Plebs는 여러분이 보는 것을 제어합니다. 콘텐츠 필터 팩, 사용자 음소거, 커뮤니티 경고, 비율 동영상 표시기 등 강력한 자체 조정 도구를 제공합니다. 어떤 콘텐츠가 적절한지 결정하는 것은 여러분입니다 - 중앙 권한이 그 결정을 내리지 않습니다.',
+        'faq.a16': '중앙 집중식 조정자가 있는 기존 플랫폼과 달리, Goblinbox는 여러분이 보는 것을 제어합니다. 콘텐츠 필터 팩, 사용자 음소거, 커뮤니티 경고, 비율 동영상 표시기 등 강력한 자체 조정 도구를 제공합니다. 어떤 콘텐츠가 적절한지 결정하는 것은 여러분입니다 - 중앙 권한이 그 결정을 내리지 않습니다.',
         'faq.q17': '콘텐츠 필터 팩이란 무엇인가요?',
         'faq.a17Intro': '콘텐츠 필터 팩은 특정 유형의 콘텐츠를 숨기기 위해 활성화할 수 있는 사전 정의된 키워드 필터입니다. 사용 가능한 팩은 다음과 같습니다:',
         'faq.a17Pack1': '인종차별 및 혐오 발언:',
@@ -4700,7 +4700,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': '개인정보 보호 및 보안',
         'faq.q22': '내 활동은 비공개인가요?',
-        'faq.a22': 'Nostr에서는 대부분의 활동이 설계상 공개입니다. 좋아요, 댓글, 팔로우, Zap은 공개 네트워크에서 볼 수 있습니다. 그러나 Plebs는 시청 기록을 브라우저에 로컬로 저장합니다 - 서버로 전송되지 않습니다. 언제든지 로컬 데이터를 지울 수 있습니다.',
+        'faq.a22': 'Nostr에서는 대부분의 활동이 설계상 공개입니다. 좋아요, 댓글, 팔로우, Zap은 공개 네트워크에서 볼 수 있습니다. 그러나 Goblinbox는 시청 기록을 브라우저에 로컬로 저장합니다 - 서버로 전송되지 않습니다. 언제든지 로컬 데이터를 지울 수 있습니다.',
         'faq.q23': '계정을 안전하게 유지하려면 어떻게 하나요?',
         'faq.a23': '개인 키(nsec)를 누구와도 공유하지 마세요. Alby, nos2x 또는 하드웨어 서명자와 같은 Nostr 브라우저 확장 프로그램을 사용하는 것을 강력히 권장합니다. 이들은 개인 키를 안전하게 보관하고 승인할 때만 이벤트에 서명합니다. 웹사이트에 직접 nsec를 저장하지 마세요.',
         'faq.q24': '콘텐츠를 삭제할 수 있나요?',
@@ -4711,7 +4711,7 @@ const translations = {
         'faq.a25Intro': '동영상이 로드되지 않으면 다음 단계를 시도하세요:',
         'faq.a25Item1': '페이지 새로 고침',
         'faq.a25Item2': '인터넷 연결 확인',
-        'faq.a25Item3': '동영상을 호스팅하는 Blossom 서버가 다운되었을 수 있습니다 - 이것은 Plebs와 독립적입니다',
+        'faq.a25Item3': '동영상을 호스팅하는 Blossom 서버가 다운되었을 수 있습니다 - 이것은 Goblinbox와 독립적입니다',
         'faq.a25Item4': '콘텐츠를 차단할 수 있는 브라우저 확장 프로그램을 비활성화해 보세요',
         'faq.a25Item5': '브라우저 캐시를 지우고 다시 시도',
         'faq.q26': '개인 키를 잃어버렸습니다 - 복구를 도와주실 수 있나요?',
@@ -4725,8 +4725,8 @@ const translations = {
         'pageTitle.likedVideos': '좋아요한 동영상',
         'pageTitle.watchHistory': '시청 기록',
         'pageTitle.liveStreams': '라이브 스트림',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Plebs 라이브',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Goblinbox 라이브',
         // Home Page Sections
         'section.trending': '인기 급상승',
         'section.recommended': '추천',
@@ -4779,7 +4779,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': 'مفتاحك الخاص', 'privateKey.warning': 'مهم: احفظ هذا في مكان آمن. إذا فقدت هذا المفتاح، ستفقد الوصول إلى حسابك. لا تشاركه مع أي شخص!', 'privateKey.show': 'إظهار المفتاح الخاص', 'privateKey.hide': 'إخفاء المفتاح الخاص', 'privateKey.copy': 'نسخ', 'privateKey.saved': 'لقد حفظت مفتاحي', 'privateKey.yourPublicKey': 'مفتاحك العام (npub):', 'privateKey.yourPrivateKey': 'مفتاحك الخاص (nsec):',
         // Signup Modal
-        'signup.title': 'إنشاء حساب Nostr', 'signup.whatIsNostr': 'ما هو Nostr؟', 'signup.nostrDescription': 'Nostr هو بروتوكول لامركزي يمنحك التحكم في هويتك وبياناتك. لا يوجد خادم مركزي - حسابك هو زوج من المفاتيح المشفرة.', 'signup.whyNostr': 'لماذا Nostr؟', 'signup.benefit1': 'امتلك هويتك', 'signup.benefit2': 'بدون رقابة', 'signup.benefit3': 'قابلية النقل عبر المنصات', 'signup.createNew': 'إنشاء حساب جديد', 'signup.haveAccount': 'لديك حساب؟', 'signup.login': 'تسجيل الدخول', 'signup.createButton': 'إنشاء حساب', 'signup.generating': 'جاري إنشاء المفاتيح...', 'signup.displayName': 'الاسم المعروض', 'signup.displayNamePlaceholder': 'أدخل الاسم المعروض', 'signup.username': 'اسم المستخدم', 'signup.usernamePlaceholder': 'أدخل اسم المستخدم', 'signup.about': 'نبذة (اختياري)', 'signup.profilePicture': 'صورة الملف الشخصي (اختياري)', 'signup.lightningAddress': 'عنوان Lightning (اختياري)', 'signup.nostrAddress': 'عنوان Nostr', 'signup.nostrAddressPlaceholder': 'اسم_المستخدم', 'signup.nostrAddressHint': 'عنوان Nostr يسهل العثور على ملفك الشخصي. أحرف صغيرة وأرقام و _ و - فقط.', 'signup.nostrAddressRequired': 'الرجاء إدخال عنوان Nostr', 'signup.nostrAddressAvailable': 'متاح!', 'signup.nostrAddressUnavailable': 'مستخدم بالفعل', 'signup.nostrAddressChecking': 'جاري التحقق...', 'signup.nostrAddressInvalid': 'تنسيق اسم المستخدم غير صالح', 'signup.nostrAddressRegistering': 'جاري تسجيل عنوان Nostr...', 'signup.nostrAddressSuccess': 'تم تسجيل عنوان Nostr!', 'signup.nostrAddressFailed': 'تعذر تسجيل عنوان Nostr', 'signup.createAccountBtn': 'إنشاء حساب', 'signup.termsAgree': 'بإنشاء حساب، أنت توافق على', 'signup.and': 'و', 'signup.success': 'تم إنشاء الحساب بنجاح!', 'signup.yourPrivateKey': 'مفتاحك الخاص (nsec)', 'signup.keyWarning': 'هذه هي الطريقة الوحيدة للوصول إلى حسابك. احفظها بأمان!', 'signup.copyPrivateKey': 'نسخ المفتاح الخاص', 'signup.howToUseKey': 'كيفية استخدام مفتاحك الخاص', 'signup.continueToPlebs': 'المتابعة إلى Plebs', 'signup.step1': 'احفظه بأمان:', 'signup.step1Desc': 'احفظ nsec في مدير كلمات المرور، أو اكتبه، أو احفظه في ملف مشفر. لا تشاركه علنياً!', 'signup.step2': 'لتسجيل الدخول مرة أخرى:', 'signup.step2Desc': 'انقر على "المفتاح الخاص" في شاشة تسجيل الدخول والصق nsec. يعمل مثل كلمة المرور.', 'signup.step3': 'استخدم في تطبيقات أخرى:', 'signup.step3Desc': 'nsec يعمل في جميع تطبيقات Nostr - Damus وPrimal وAmethyst والمئات غيرها!', 'signup.step4': 'فكر في تطبيق توقيع:', 'signup.step4Desc': 'لأمان أفضل، استخدم تطبيقات مثل Amber (Android) أو إضافة متصفح مثل Alby لإدارة مفاتيحك.',
+        'signup.title': 'إنشاء حساب Nostr', 'signup.whatIsNostr': 'ما هو Nostr؟', 'signup.nostrDescription': 'Nostr هو بروتوكول لامركزي يمنحك التحكم في هويتك وبياناتك. لا يوجد خادم مركزي - حسابك هو زوج من المفاتيح المشفرة.', 'signup.whyNostr': 'لماذا Nostr؟', 'signup.benefit1': 'امتلك هويتك', 'signup.benefit2': 'بدون رقابة', 'signup.benefit3': 'قابلية النقل عبر المنصات', 'signup.createNew': 'إنشاء حساب جديد', 'signup.haveAccount': 'لديك حساب؟', 'signup.login': 'تسجيل الدخول', 'signup.createButton': 'إنشاء حساب', 'signup.generating': 'جاري إنشاء المفاتيح...', 'signup.displayName': 'الاسم المعروض', 'signup.displayNamePlaceholder': 'أدخل الاسم المعروض', 'signup.username': 'اسم المستخدم', 'signup.usernamePlaceholder': 'أدخل اسم المستخدم', 'signup.about': 'نبذة (اختياري)', 'signup.profilePicture': 'صورة الملف الشخصي (اختياري)', 'signup.lightningAddress': 'عنوان Lightning (اختياري)', 'signup.nostrAddress': 'عنوان Nostr', 'signup.nostrAddressPlaceholder': 'اسم_المستخدم', 'signup.nostrAddressHint': 'عنوان Nostr يسهل العثور على ملفك الشخصي. أحرف صغيرة وأرقام و _ و - فقط.', 'signup.nostrAddressRequired': 'الرجاء إدخال عنوان Nostr', 'signup.nostrAddressAvailable': 'متاح!', 'signup.nostrAddressUnavailable': 'مستخدم بالفعل', 'signup.nostrAddressChecking': 'جاري التحقق...', 'signup.nostrAddressInvalid': 'تنسيق اسم المستخدم غير صالح', 'signup.nostrAddressRegistering': 'جاري تسجيل عنوان Nostr...', 'signup.nostrAddressSuccess': 'تم تسجيل عنوان Nostr!', 'signup.nostrAddressFailed': 'تعذر تسجيل عنوان Nostr', 'signup.createAccountBtn': 'إنشاء حساب', 'signup.termsAgree': 'بإنشاء حساب، أنت توافق على', 'signup.and': 'و', 'signup.success': 'تم إنشاء الحساب بنجاح!', 'signup.yourPrivateKey': 'مفتاحك الخاص (nsec)', 'signup.keyWarning': 'هذه هي الطريقة الوحيدة للوصول إلى حسابك. احفظها بأمان!', 'signup.copyPrivateKey': 'نسخ المفتاح الخاص', 'signup.howToUseKey': 'كيفية استخدام مفتاحك الخاص', 'signup.continueToGoblinbox': 'المتابعة إلى Goblinbox', 'signup.step1': 'احفظه بأمان:', 'signup.step1Desc': 'احفظ nsec في مدير كلمات المرور، أو اكتبه، أو احفظه في ملف مشفر. لا تشاركه علنياً!', 'signup.step2': 'لتسجيل الدخول مرة أخرى:', 'signup.step2Desc': 'انقر على "المفتاح الخاص" في شاشة تسجيل الدخول والصق nsec. يعمل مثل كلمة المرور.', 'signup.step3': 'استخدم في تطبيقات أخرى:', 'signup.step3Desc': 'nsec يعمل في جميع تطبيقات Nostr - Damus وPrimal وAmethyst والمئات غيرها!', 'signup.step4': 'فكر في تطبيق توقيع:', 'signup.step4Desc': 'لأمان أفضل، استخدم تطبيقات مثل Amber (Android) أو إضافة متصفح مثل Alby لإدارة مفاتيحك.',
         // Notifications
         'notifications.title': 'الإشعارات', 'notifications.empty': 'لا توجد إشعارات', 'notifications.viewAll': 'عرض جميع الإشعارات', 'notifications.markAllRead': 'تحديد الكل كمقروء', 'notifications.settings': 'إعدادات الإشعارات', 'notifications.loading': 'جاري تحميل الإشعارات...', 'notifications.zap': 'أرسل لك زاب', 'notifications.like': 'أعجب بالمحتوى', 'notifications.comment': 'علق', 'notifications.follow': 'تابعك', 'notifications.repost': 'أعاد النشر', 'notifications.mention': 'ذكرك',
         // Settings Modal
@@ -4812,7 +4812,7 @@ const translations = {
         // Video Page
         'video.views': 'مشاهدات', 'video.like': 'إعجاب', 'video.dislike': 'عدم إعجاب', 'video.share': 'مشاركة', 'video.save': 'حفظ', 'video.report': 'إبلاغ', 'video.follow': 'متابعة', 'video.unfollow': 'إلغاء المتابعة', 'video.subscribe': 'اشتراك', 'video.subscribed': 'مشترك', 'video.comments': 'التعليقات', 'video.addComment': 'أضف تعليقاً...', 'video.reply': 'رد', 'video.replies': 'ردود', 'video.loadMore': 'تحميل المزيد', 'video.noComments': 'لا توجد تعليقات. كن أول من يعلق!', 'video.zap': 'زاب', 'video.zapAmount': 'مبلغ الزاب (ساتوشي)', 'video.sendZap': 'إرسال زاب', 'video.boost': 'تعزيز', 'video.description': 'الوصف', 'video.showMore': 'عرض المزيد', 'video.showLess': 'عرض أقل', 'video.publishedOn': 'نُشر في',
         // Toast Messages
-        'toast.loggedIn': 'تم تسجيل الدخول بنجاح!', 'toast.settingsSaved': 'تم حفظ الإعدادات بنجاح!', 'toast.settingsLocal': 'تم حفظ الإعدادات محلياً. تعذر الحفظ على Nostr.', 'toast.settingsLocalOnly': 'تم حفظ الإعدادات محلياً!', 'toast.settingsReset': 'تم إعادة الإعدادات إلى الافتراضي!', 'toast.avatarUploaded': 'تم رفع الصورة الرمزية بنجاح!', 'toast.profileUpdated': 'تم تحديث الملف الشخصي بنجاح!', 'toast.copied': 'تم النسخ إلى الحافظة!', 'toast.copyFailed': 'فشل النسخ. يرجى النسخ يدوياً.', 'toast.installExtension': 'يرجى تثبيت إضافة Nostr للمتصفح مثل Alby أو nos2x', 'toast.loginFailed': 'فشل تسجيل الدخول بالإضافة. حاول مرة أخرى.', 'toast.invalidKey': 'مفتاح خاص غير صالح. تحقق وحاول مرة أخرى.', 'toast.enterKey': 'يرجى إدخال المفتاح الخاص', 'toast.enterUsername': 'يرجى إدخال اسم المستخدم', 'toast.accountCreated': 'مرحباً بك في Plebs! تم تسجيل دخولك.', 'toast.keyCopied': 'تم نسخ المفتاح الخاص إلى الحافظة!', 'toast.unmuted': 'تم إلغاء كتم المستخدم', 'toast.unmuteFailed': 'فشل إلغاء الكتم', 'toast.selectImage': 'يرجى اختيار ملف صورة', 'toast.imageTooLarge': 'يجب أن تكون الصورة أقل من 5 ميجابايت', 'toast.avatarFailed': 'فشل رفع الصورة الرمزية. حاول مرة أخرى.', 'toast.mustBeLoggedIn': 'يجب تسجيل الدخول لتعديل ملفك الشخصي', 'toast.enterDisplayName': 'يرجى إدخال الاسم المعروض', 'toast.profileFailed': 'فشل حفظ الملف الشخصي. حاول مرة أخرى.', 'toast.invalidBunker': 'يرجى إدخال رابط bunker صالح', 'toast.connectFailed': 'فشل الاتصال', 'toast.showingFiltered': 'عرض المحتوى المصفى', 'toast.reportSubmitted': 'تم إرسال البلاغ بنجاح', 'toast.draftSaved': 'تم حفظ المسودة! يمكنك المتابعة لاحقاً من فيديوهاتي.', 'toast.draftLoaded': 'تم تحميل المسودة. أكمل الرفع والنشر.', 'toast.draftDeleted': 'تم حذف المسودة', 'toast.languageChanged': 'تم تغيير اللغة', 'toast.videoBlocked': 'تم حظر الفيديو ونشره على Nostr', 'toast.waitForUpload': 'يرجى الانتظار حتى اكتمال رفع الفيديو', 'toast.enterTitle': 'يرجى إدخال العنوان', 'toast.publishing': 'جار نشر الفيديو على Nostr...',
+        'toast.loggedIn': 'تم تسجيل الدخول بنجاح!', 'toast.settingsSaved': 'تم حفظ الإعدادات بنجاح!', 'toast.settingsLocal': 'تم حفظ الإعدادات محلياً. تعذر الحفظ على Nostr.', 'toast.settingsLocalOnly': 'تم حفظ الإعدادات محلياً!', 'toast.settingsReset': 'تم إعادة الإعدادات إلى الافتراضي!', 'toast.avatarUploaded': 'تم رفع الصورة الرمزية بنجاح!', 'toast.profileUpdated': 'تم تحديث الملف الشخصي بنجاح!', 'toast.copied': 'تم النسخ إلى الحافظة!', 'toast.copyFailed': 'فشل النسخ. يرجى النسخ يدوياً.', 'toast.installExtension': 'يرجى تثبيت إضافة Nostr للمتصفح مثل Alby أو nos2x', 'toast.loginFailed': 'فشل تسجيل الدخول بالإضافة. حاول مرة أخرى.', 'toast.invalidKey': 'مفتاح خاص غير صالح. تحقق وحاول مرة أخرى.', 'toast.enterKey': 'يرجى إدخال المفتاح الخاص', 'toast.enterUsername': 'يرجى إدخال اسم المستخدم', 'toast.accountCreated': 'مرحباً بك في Goblinbox! تم تسجيل دخولك.', 'toast.keyCopied': 'تم نسخ المفتاح الخاص إلى الحافظة!', 'toast.unmuted': 'تم إلغاء كتم المستخدم', 'toast.unmuteFailed': 'فشل إلغاء الكتم', 'toast.selectImage': 'يرجى اختيار ملف صورة', 'toast.imageTooLarge': 'يجب أن تكون الصورة أقل من 5 ميجابايت', 'toast.avatarFailed': 'فشل رفع الصورة الرمزية. حاول مرة أخرى.', 'toast.mustBeLoggedIn': 'يجب تسجيل الدخول لتعديل ملفك الشخصي', 'toast.enterDisplayName': 'يرجى إدخال الاسم المعروض', 'toast.profileFailed': 'فشل حفظ الملف الشخصي. حاول مرة أخرى.', 'toast.invalidBunker': 'يرجى إدخال رابط bunker صالح', 'toast.connectFailed': 'فشل الاتصال', 'toast.showingFiltered': 'عرض المحتوى المصفى', 'toast.reportSubmitted': 'تم إرسال البلاغ بنجاح', 'toast.draftSaved': 'تم حفظ المسودة! يمكنك المتابعة لاحقاً من فيديوهاتي.', 'toast.draftLoaded': 'تم تحميل المسودة. أكمل الرفع والنشر.', 'toast.draftDeleted': 'تم حذف المسودة', 'toast.languageChanged': 'تم تغيير اللغة', 'toast.videoBlocked': 'تم حظر الفيديو ونشره على Nostr', 'toast.waitForUpload': 'يرجى الانتظار حتى اكتمال رفع الفيديو', 'toast.enterTitle': 'يرجى إدخال العنوان', 'toast.publishing': 'جار نشر الفيديو على Nostr...',
         // Time
         'time.justNow': 'الآن', 'time.secondAgo': 'منذ ثانية', 'time.secondsAgo': 'منذ {n} ثانية', 'time.minuteAgo': 'منذ دقيقة', 'time.minutesAgo': 'منذ {n} دقيقة', 'time.hourAgo': 'منذ ساعة', 'time.hoursAgo': 'منذ {n} ساعة', 'time.dayAgo': 'منذ يوم', 'time.daysAgo': 'منذ {n} يوم', 'time.weekAgo': 'منذ أسبوع', 'time.weeksAgo': 'منذ {n} أسبوع', 'time.monthAgo': 'منذ شهر', 'time.monthsAgo': 'منذ {n} شهر', 'time.yearAgo': 'منذ سنة', 'time.yearsAgo': 'منذ {n} سنة',
         // Empty States
@@ -4861,15 +4861,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA وسياسة المحتوى',
         'dmca.lastUpdated': 'آخر تحديث: ديسمبر 2024',
-        'dmca.architectureTitle': 'فهم بنية Plebs',
-        'dmca.architectureDesc': 'Plebs هي واجهة منصة فيديو لامركزية تعمل بشكل مختلف عن خدمات استضافة الفيديو التقليدية.',
-        'dmca.architectureItem1': 'Plebs لا تستضيف أي محتوى فيديو أو صور.',
+        'dmca.architectureTitle': 'فهم بنية Goblinbox',
+        'dmca.architectureDesc': 'Goblinbox هي واجهة منصة فيديو لامركزية تعمل بشكل مختلف عن خدمات استضافة الفيديو التقليدية.',
+        'dmca.architectureItem1': 'Goblinbox لا تستضيف أي محتوى فيديو أو صور.',
         'dmca.architectureItem1Desc': 'نحن عميل/واجهة تعرض المحتوى المخزن في مكان آخر.',
         'dmca.architectureItem2': 'جميع ملفات الوسائط مخزنة على خوادم Blossom مستقلة.',
         'dmca.architectureItem3': 'بيانات الفيديو الوصفية تُنشر على مرحلات Nostr.',
-        'dmca.architectureItem4': 'Plebs تجمع وتعرض هذا المحتوى الموزع فقط.',
+        'dmca.architectureItem4': 'Goblinbox تجمع وتعرض هذا المحتوى الموزع فقط.',
         'dmca.filingTitle': 'تقديم مطالبة DMCA',
-        'dmca.filingDesc': 'لأن Plebs لا تستضيف المحتوى، لا يمكننا إزالة المواد المخالفة مباشرة.',
+        'dmca.filingDesc': 'لأن Goblinbox لا تستضيف المحتوى، لا يمكننا إزالة المواد المخالفة مباشرة.',
         'dmca.forVideoTitle': '1. لمحتوى الفيديو/الصور',
         'dmca.forVideoDesc': 'ملفات الوسائط مخزنة على خوادم Blossom.',
         'dmca.forVideoItem1': 'تحديد أي خادم Blossom يستضيف المحتوى',
@@ -4880,7 +4880,7 @@ const translations = {
         'dmca.forMetadataItem1': 'هذه المعلومات مخزنة على مرحلات Nostr',
         'dmca.forMetadataItem2': 'اتصل بمشغلي مرحلات Nostr المحددين',
         'dmca.forMetadataItem3': 'قد تخزن عدة مرحلات نفس البيانات',
-        'dmca.whatWeCanDoTitle': 'ما يمكن لـ Plebs فعله',
+        'dmca.whatWeCanDoTitle': 'ما يمكن لـ Goblinbox فعله',
         'dmca.whatWeCanDoDesc': 'على الرغم من أننا لا نستضيف المحتوى، يمكننا:',
         'dmca.whatWeCanDoItem1': 'مساعدتك في تحديد الخوادم التي تستضيف محتوى محدد',
         'dmca.whatWeCanDoItem2': 'إضافة المحتوى إلى قائمة حظر محلية',
@@ -4994,10 +4994,10 @@ const translations = {
         'analytics.noVideosDesc': 'حمّل أول فيديو لك لبدء تتبع الأداء.',
 
         // About Page
-        'about.title': 'حول Plebs.place',
+        'about.title': 'حول Goblinbox.place',
         'about.subtitle': 'منصة فيديو لامركزية',
-        'about.welcome': 'مرحباً بك في Plebs.place',
-        'about.description': 'Plebs.place هي منصة مشاركة فيديو لامركزية مبنية على بروتوكول Nostr، تمنح المبدعين السيطرة الكاملة على محتواهم وجمهورهم.',
+        'about.welcome': 'مرحباً بك في Goblinbox.place',
+        'about.description': 'Goblinbox.place هي منصة مشاركة فيديو لامركزية مبنية على بروتوكول Nostr، تمنح المبدعين السيطرة الكاملة على محتواهم وجمهورهم.',
         'about.feature1Title': 'لامركزية',
         'about.feature1Desc': 'مبنية على Nostr، تضمن مقاومة الرقابة والملكية الحقيقية للمحتوى.',
         'about.feature2Title': 'الأولوية للمبدعين',
@@ -5026,13 +5026,13 @@ const translations = {
         'terms.title': 'شروط الخدمة',
         'terms.lastUpdated': 'آخر تحديث',
         'terms.section1Title': '1. قبول الشروط',
-        'terms.section1Content': 'باستخدام Plebs.place، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق، يرجى عدم استخدام المنصة.',
+        'terms.section1Content': 'باستخدام Goblinbox.place، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق، يرجى عدم استخدام المنصة.',
         'terms.section2Title': '2. وصف الخدمة',
-        'terms.section2Content': 'Plebs.place هي منصة مشاركة فيديو لامركزية تستخدم بروتوكول Nostr. نوفر أدوات لاستضافة الفيديو ومشاركته وتحقيق الدخل عبر Lightning.',
+        'terms.section2Content': 'Goblinbox.place هي منصة مشاركة فيديو لامركزية تستخدم بروتوكول Nostr. نوفر أدوات لاستضافة الفيديو ومشاركته وتحقيق الدخل عبر Lightning.',
         'terms.section3Title': '3. مسؤوليات المستخدم',
         'terms.section3Content': 'أنت مسؤول عن كل المحتوى الذي تنشره عبر المنصة. توافق على عدم تحميل أي محتوى غير قانوني أو ضار أو ينتهك حقوق الآخرين.',
         'terms.section4Title': '4. ملكية المحتوى',
-        'terms.section4Content': 'تحتفظ بالملكية الكاملة لمحتواك. بالتحميل، تمنح Plebs.place ترخيصاً محدوداً لاستضافة وتقديم فيديوهاتك.',
+        'terms.section4Content': 'تحتفظ بالملكية الكاملة لمحتواك. بالتحميل، تمنح Goblinbox.place ترخيصاً محدوداً لاستضافة وتقديم فيديوهاتك.',
         'terms.section5Title': '5. الاستخدام المحظور',
         'terms.section5Content': 'لا يجوز استخدام المنصة لأي أنشطة غير قانونية أو مضايقات أو رسائل مزعجة أو توزيع محتوى ضار.',
         'terms.section6Title': '6. إدارة الحساب',
@@ -5040,7 +5040,7 @@ const translations = {
         'terms.section7Title': '7. شروط الدفع',
         'terms.section7Content': 'تتم جميع المدفوعات عبر شبكة Lightning. المعاملات نهائية ولا يمكن التراجع عنها. تأكد من التحقق من جميع تفاصيل الدفع قبل المعاملات.',
         'terms.section8Title': '8. حدود المسؤولية',
-        'terms.section8Content': 'يتم توفير Plebs.place "كما هي" بدون ضمانات. لسنا مسؤولين عن أي خسائر أو أضرار أو انقطاعات في الخدمة.',
+        'terms.section8Content': 'يتم توفير Goblinbox.place "كما هي" بدون ضمانات. لسنا مسؤولين عن أي خسائر أو أضرار أو انقطاعات في الخدمة.',
         'terms.section9Title': '9. تغييرات الشروط',
         'terms.section9Content': 'قد يتم تحديث هذه الشروط من وقت لآخر. الاستمرار في الاستخدام يعني قبول الشروط المحدثة.',
 
@@ -5048,7 +5048,7 @@ const translations = {
         'privacy.title': 'سياسة الخصوصية',
         'privacy.lastUpdated': 'آخر تحديث',
         'privacy.section1Title': '1. مقدمة',
-        'privacy.section1Content': 'توضح سياسة الخصوصية هذه كيفية تعامل Plebs.place مع المعلومات المتعلقة باستخدامك لمنصة الفيديو اللامركزية.',
+        'privacy.section1Content': 'توضح سياسة الخصوصية هذه كيفية تعامل Goblinbox.place مع المعلومات المتعلقة باستخدامك لمنصة الفيديو اللامركزية.',
         'privacy.section2Title': '2. المعلومات التي نجمعها',
         'privacy.section2Content': 'كمنصة لامركزية، نجمع الحد الأدنى من البيانات. يُستخدم مفتاحك العام على Nostr للمصادقة، وتُخزَّن بيانات الفيديو الوصفية على مرحلات Nostr.',
         'privacy.section3Title': '3. تخزين البيانات',
@@ -5064,7 +5064,7 @@ const translations = {
         'privacy.section8Title': '8. حقوقك',
         'privacy.section8Content': 'لديك السيطرة الكاملة على بياناتك. يمكنك حذف محتواك أو التوقف عن استخدام المنصة في أي وقت.',
         'privacy.section9Title': '9. خصوصية الأطفال',
-        'privacy.section9Content': 'Plebs.place ليست مخصصة للأطفال دون سن 13 عاماً. نحن لا نجمع معلومات من القاصرين عن قصد.',
+        'privacy.section9Content': 'Goblinbox.place ليست مخصصة للأطفال دون سن 13 عاماً. نحن لا نجمع معلومات من القاصرين عن قصد.',
         'privacy.section10Title': '10. تغييرات السياسة',
         'privacy.section10Content': 'قد نقوم بتحديث سياسة الخصوصية هذه. ستُنشر التغييرات على هذه الصفحة مع تاريخ التحديث.',
 
@@ -5075,11 +5075,11 @@ const translations = {
         'faq.technical': 'تقني',
         'faq.monetization': 'تحقيق الدخل',
         'faq.content': 'المحتوى',
-        'faq.q1': 'ما هو Plebs.place؟',
-        'faq.a1': 'Plebs.place هي منصة مشاركة فيديو لامركزية مبنية على بروتوكول Nostr، تمنحك الملكية الكاملة لمحتواك وجمهورك.',
-        'faq.q2': 'كيف يعمل Plebs.place؟',
+        'faq.q1': 'ما هو Goblinbox.place؟',
+        'faq.a1': 'Goblinbox.place هي منصة مشاركة فيديو لامركزية مبنية على بروتوكول Nostr، تمنحك الملكية الكاملة لمحتواك وجمهورك.',
+        'faq.q2': 'كيف يعمل Goblinbox.place؟',
         'faq.a2': 'تستخدم المنصة Nostr للمصادقة والميزات الاجتماعية، والتخزين اللامركزي لاستضافة الفيديو، وشبكة Lightning للمدفوعات الفورية.',
-        'faq.q3': 'هل Plebs.place مجاني؟',
+        'faq.q3': 'هل Goblinbox.place مجاني؟',
         'faq.a3': 'نعم، إنشاء الحساب والتحميل والمشاهدة مجاني. تحتاج فقط إلى مفتاح Nostr للبدء.',
         'faq.q4': 'ما هو Nostr؟',
         'faq.a4': 'Nostr هو بروتوكول اتصالات لامركزي يتيح لك التحكم في هويتك وبياناتك دون الاعتماد على منصات مركزية.',
@@ -5108,7 +5108,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'الإشراف الذاتي',
         'faq.q16': 'كيف يعمل الإشراف على منصة لامركزية؟',
-        'faq.a16': 'على عكس المنصات التقليدية ذات المشرفين المركزيين، يمنحك Plebs التحكم فيما تراه. نوفر أدوات إشراف ذاتي قوية بما في ذلك حزم فلاتر المحتوى، وكتم المستخدمين، وتحذيرات المجتمع، ومؤشرات الفيديوهات المنتقدة. أنت من يقرر ما هو المحتوى المناسب لك - لا توجد سلطة مركزية تتخذ هذه القرارات.',
+        'faq.a16': 'على عكس المنصات التقليدية ذات المشرفين المركزيين، يمنحك Goblinbox التحكم فيما تراه. نوفر أدوات إشراف ذاتي قوية بما في ذلك حزم فلاتر المحتوى، وكتم المستخدمين، وتحذيرات المجتمع، ومؤشرات الفيديوهات المنتقدة. أنت من يقرر ما هو المحتوى المناسب لك - لا توجد سلطة مركزية تتخذ هذه القرارات.',
         'faq.q17': 'ما هي حزم فلاتر المحتوى؟',
         'faq.a17Intro': 'حزم فلاتر المحتوى هي فلاتر كلمات رئيسية محددة مسبقاً يمكنك تفعيلها لإخفاء أنواع معينة من المحتوى. تشمل الحزم المتاحة:',
         'faq.a17Pack1': 'العنصرية وخطاب الكراهية:',
@@ -5139,7 +5139,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'الخصوصية والأمان',
         'faq.q22': 'هل نشاطي خاص؟',
-        'faq.a22': 'على Nostr، معظم الأنشطة عامة بالتصميم. إعجاباتك وتعليقاتك ومتابعاتك وزاباتك مرئية على الشبكة العامة. ومع ذلك، يخزن Plebs سجل المشاهدة محلياً في متصفحك - لا يتم إرساله إلى أي خادم أبداً. يمكنك مسح بياناتك المحلية في أي وقت.',
+        'faq.a22': 'على Nostr، معظم الأنشطة عامة بالتصميم. إعجاباتك وتعليقاتك ومتابعاتك وزاباتك مرئية على الشبكة العامة. ومع ذلك، يخزن Goblinbox سجل المشاهدة محلياً في متصفحك - لا يتم إرساله إلى أي خادم أبداً. يمكنك مسح بياناتك المحلية في أي وقت.',
         'faq.q23': 'كيف أحافظ على أمان حسابي؟',
         'faq.a23': 'لا تشارك مفتاحك الخاص (nsec) مع أي شخص أبداً. نوصي بشدة باستخدام إضافة متصفح Nostr مثل Alby أو nos2x أو موقِّع أجهزة. هذه تحافظ على مفتاحك الخاص آمناً وتوقع الأحداث فقط عند الموافقة عليها. تجنب تخزين nsec الخاص بك مباشرة في المواقع.',
         'faq.q24': 'هل يمكنني حذف المحتوى الخاص بي؟',
@@ -5150,7 +5150,7 @@ const translations = {
         'faq.a25Intro': 'إذا لم يتم تحميل مقاطع الفيديو، جرب هذه الخطوات:',
         'faq.a25Item1': 'أعد تحميل الصفحة',
         'faq.a25Item2': 'تحقق من اتصالك بالإنترنت',
-        'faq.a25Item3': 'قد يكون خادم Blossom الذي يستضيف الفيديو معطلاً - هذا مستقل عن Plebs',
+        'faq.a25Item3': 'قد يكون خادم Blossom الذي يستضيف الفيديو معطلاً - هذا مستقل عن Goblinbox',
         'faq.a25Item4': 'حاول تعطيل إضافات المتصفح التي قد تحظر المحتوى',
         'faq.a25Item5': 'امسح ذاكرة التخزين المؤقت لمتصفحك وحاول مرة أخرى',
         'faq.q26': 'فقدت مفتاحي الخاص - هل يمكنك مساعدتي في استرداده؟',
@@ -5164,8 +5164,8 @@ const translations = {
         'pageTitle.likedVideos': 'المقاطع المعجب بها',
         'pageTitle.watchHistory': 'سجل المشاهدة',
         'pageTitle.liveStreams': 'البث المباشر',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- مباشر على Plebs',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- مباشر على Goblinbox',
         // Home Page Sections
         'section.trending': 'الرائج',
         'section.recommended': 'موصى به لك',
@@ -5219,7 +5219,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': 'आपकी प्राइवेट की', 'privateKey.warning': 'महत्वपूर्ण: इसे सुरक्षित जगह पर सहेजें। यदि आप यह की खो देते हैं, तो आप अपने खाते तक पहुंच खो देंगे। इसे किसी के साथ साझा न करें!', 'privateKey.show': 'प्राइवेट की दिखाएं', 'privateKey.hide': 'प्राइवेट की छुपाएं', 'privateKey.copy': 'कॉपी करें', 'privateKey.saved': 'मैंने अपनी की सहेज ली है', 'privateKey.yourPublicKey': 'आपकी पब्लिक की (npub):', 'privateKey.yourPrivateKey': 'आपकी प्राइवेट की (nsec):',
         // Signup Modal
-        'signup.title': 'Nostr खाता बनाएं', 'signup.whatIsNostr': 'Nostr क्या है?', 'signup.nostrDescription': 'Nostr एक विकेंद्रीकृत प्रोटोकॉल है जो आपको अपनी पहचान और डेटा पर नियंत्रण देता है। कोई केंद्रीय सर्वर नहीं - आपका खाता एक क्रिप्टोग्राफिक की पेयर है।', 'signup.whyNostr': 'Nostr क्यों?', 'signup.benefit1': 'अपनी पहचान के मालिक बनें', 'signup.benefit2': 'कोई सेंसरशिप नहीं', 'signup.benefit3': 'प्लेटफॉर्म के बीच पोर्टेबिलिटी', 'signup.createNew': 'नया खाता बनाएं', 'signup.haveAccount': 'पहले से खाता है?', 'signup.login': 'लॉग इन करें', 'signup.createButton': 'खाता बनाएं', 'signup.generating': 'कीज़ जनरेट हो रही हैं...', 'signup.displayName': 'प्रदर्शित नाम', 'signup.displayNamePlaceholder': 'प्रदर्शित नाम दर्ज करें', 'signup.username': 'उपयोगकर्ता नाम', 'signup.usernamePlaceholder': 'उपयोगकर्ता नाम दर्ज करें', 'signup.about': 'परिचय (वैकल्पिक)', 'signup.profilePicture': 'प्रोफाइल फोटो (वैकल्पिक)', 'signup.lightningAddress': 'Lightning पता (वैकल्पिक)', 'signup.nostrAddress': 'Nostr पता', 'signup.nostrAddressPlaceholder': 'उपयोगकर्तानाम', 'signup.nostrAddressHint': 'आपका Nostr पता आपकी प्रोफाइल को खोजना आसान बनाता है। केवल छोटे अक्षर, अंक, _ और -।', 'signup.nostrAddressRequired': 'कृपया Nostr पता दर्ज करें', 'signup.nostrAddressAvailable': 'उपलब्ध!', 'signup.nostrAddressUnavailable': 'पहले से उपयोग में है', 'signup.nostrAddressChecking': 'जांच हो रही है...', 'signup.nostrAddressInvalid': 'अमान्य उपयोगकर्ता नाम प्रारूप', 'signup.nostrAddressRegistering': 'आपका Nostr पता पंजीकृत हो रहा है...', 'signup.nostrAddressSuccess': 'Nostr पता पंजीकृत हो गया!', 'signup.nostrAddressFailed': 'Nostr पता पंजीकृत नहीं हो सका', 'signup.createAccountBtn': 'खाता बनाएं', 'signup.termsAgree': 'खाता बनाकर, आप सहमत हैं', 'signup.and': 'और', 'signup.success': 'खाता सफलतापूर्वक बना!', 'signup.yourPrivateKey': 'आपकी प्राइवेट की (nsec)', 'signup.keyWarning': 'यह आपके खाते तक पहुंचने का एकमात्र तरीका है। इसे सुरक्षित रखें!', 'signup.copyPrivateKey': 'प्राइवेट की कॉपी करें', 'signup.howToUseKey': 'अपनी प्राइवेट की का उपयोग कैसे करें', 'signup.continueToPlebs': 'Plebs पर जारी रखें', 'signup.step1': 'सुरक्षित रूप से सहेजें:', 'signup.step1Desc': 'nsec को पासवर्ड मैनेजर में सहेजें, लिख लें, या एन्क्रिप्टेड फाइल में सहेजें। सार्वजनिक रूप से साझा न करें!', 'signup.step2': 'फिर से लॉग इन करने के लिए:', 'signup.step2Desc': 'लॉगिन स्क्रीन पर "प्राइवेट की" पर क्लिक करें और nsec पेस्ट करें। यह पासवर्ड की तरह काम करता है।', 'signup.step3': 'अन्य ऐप्स में उपयोग करें:', 'signup.step3Desc': 'आपका nsec सभी Nostr ऐप्स में काम करता है - Damus, Primal, Amethyst और सैकड़ों अन्य!', 'signup.step4': 'साइनर ऐप पर विचार करें:', 'signup.step4Desc': 'बेहतर सुरक्षा के लिए, Amber (Android) या Alby जैसे ब्राउज़र एक्सटेंशन का उपयोग करें।',
+        'signup.title': 'Nostr खाता बनाएं', 'signup.whatIsNostr': 'Nostr क्या है?', 'signup.nostrDescription': 'Nostr एक विकेंद्रीकृत प्रोटोकॉल है जो आपको अपनी पहचान और डेटा पर नियंत्रण देता है। कोई केंद्रीय सर्वर नहीं - आपका खाता एक क्रिप्टोग्राफिक की पेयर है।', 'signup.whyNostr': 'Nostr क्यों?', 'signup.benefit1': 'अपनी पहचान के मालिक बनें', 'signup.benefit2': 'कोई सेंसरशिप नहीं', 'signup.benefit3': 'प्लेटफॉर्म के बीच पोर्टेबिलिटी', 'signup.createNew': 'नया खाता बनाएं', 'signup.haveAccount': 'पहले से खाता है?', 'signup.login': 'लॉग इन करें', 'signup.createButton': 'खाता बनाएं', 'signup.generating': 'कीज़ जनरेट हो रही हैं...', 'signup.displayName': 'प्रदर्शित नाम', 'signup.displayNamePlaceholder': 'प्रदर्शित नाम दर्ज करें', 'signup.username': 'उपयोगकर्ता नाम', 'signup.usernamePlaceholder': 'उपयोगकर्ता नाम दर्ज करें', 'signup.about': 'परिचय (वैकल्पिक)', 'signup.profilePicture': 'प्रोफाइल फोटो (वैकल्पिक)', 'signup.lightningAddress': 'Lightning पता (वैकल्पिक)', 'signup.nostrAddress': 'Nostr पता', 'signup.nostrAddressPlaceholder': 'उपयोगकर्तानाम', 'signup.nostrAddressHint': 'आपका Nostr पता आपकी प्रोफाइल को खोजना आसान बनाता है। केवल छोटे अक्षर, अंक, _ और -।', 'signup.nostrAddressRequired': 'कृपया Nostr पता दर्ज करें', 'signup.nostrAddressAvailable': 'उपलब्ध!', 'signup.nostrAddressUnavailable': 'पहले से उपयोग में है', 'signup.nostrAddressChecking': 'जांच हो रही है...', 'signup.nostrAddressInvalid': 'अमान्य उपयोगकर्ता नाम प्रारूप', 'signup.nostrAddressRegistering': 'आपका Nostr पता पंजीकृत हो रहा है...', 'signup.nostrAddressSuccess': 'Nostr पता पंजीकृत हो गया!', 'signup.nostrAddressFailed': 'Nostr पता पंजीकृत नहीं हो सका', 'signup.createAccountBtn': 'खाता बनाएं', 'signup.termsAgree': 'खाता बनाकर, आप सहमत हैं', 'signup.and': 'और', 'signup.success': 'खाता सफलतापूर्वक बना!', 'signup.yourPrivateKey': 'आपकी प्राइवेट की (nsec)', 'signup.keyWarning': 'यह आपके खाते तक पहुंचने का एकमात्र तरीका है। इसे सुरक्षित रखें!', 'signup.copyPrivateKey': 'प्राइवेट की कॉपी करें', 'signup.howToUseKey': 'अपनी प्राइवेट की का उपयोग कैसे करें', 'signup.continueToGoblinbox': 'Goblinbox पर जारी रखें', 'signup.step1': 'सुरक्षित रूप से सहेजें:', 'signup.step1Desc': 'nsec को पासवर्ड मैनेजर में सहेजें, लिख लें, या एन्क्रिप्टेड फाइल में सहेजें। सार्वजनिक रूप से साझा न करें!', 'signup.step2': 'फिर से लॉग इन करने के लिए:', 'signup.step2Desc': 'लॉगिन स्क्रीन पर "प्राइवेट की" पर क्लिक करें और nsec पेस्ट करें। यह पासवर्ड की तरह काम करता है।', 'signup.step3': 'अन्य ऐप्स में उपयोग करें:', 'signup.step3Desc': 'आपका nsec सभी Nostr ऐप्स में काम करता है - Damus, Primal, Amethyst और सैकड़ों अन्य!', 'signup.step4': 'साइनर ऐप पर विचार करें:', 'signup.step4Desc': 'बेहतर सुरक्षा के लिए, Amber (Android) या Alby जैसे ब्राउज़र एक्सटेंशन का उपयोग करें।',
         // Notifications
         'notifications.title': 'सूचनाएं', 'notifications.empty': 'कोई सूचना नहीं', 'notifications.viewAll': 'सभी सूचनाएं देखें', 'notifications.markAllRead': 'सभी को पढ़ा हुआ चिह्नित करें', 'notifications.settings': 'सूचना सेटिंग्स', 'notifications.loading': 'सूचनाएं लोड हो रही हैं...', 'notifications.zap': 'ने आपको ज़ैप भेजा', 'notifications.like': 'ने आपकी सामग्री पसंद की', 'notifications.comment': 'ने टिप्पणी की', 'notifications.follow': 'ने आपको फॉलो किया', 'notifications.repost': 'ने रीपोस्ट किया', 'notifications.mention': 'ने आपका उल्लेख किया',
         // Settings Modal
@@ -5252,7 +5252,7 @@ const translations = {
         // Video Page
         'video.views': 'बार देखा गया', 'video.like': 'पसंद', 'video.dislike': 'नापसंद', 'video.share': 'साझा करें', 'video.save': 'सहेजें', 'video.report': 'रिपोर्ट करें', 'video.follow': 'फॉलो करें', 'video.unfollow': 'अनफॉलो', 'video.subscribe': 'सब्सक्राइब', 'video.subscribed': 'सब्सक्राइब्ड', 'video.comments': 'टिप्पणियाँ', 'video.addComment': 'टिप्पणी जोड़ें...', 'video.reply': 'जवाब दें', 'video.replies': 'जवाब', 'video.loadMore': 'और लोड करें', 'video.noComments': 'कोई टिप्पणी नहीं। पहले टिप्पणी करें!', 'video.zap': 'ज़ैप', 'video.zapAmount': 'ज़ैप राशि (सैट्स)', 'video.sendZap': 'ज़ैप भेजें', 'video.boost': 'बूस्ट', 'video.description': 'विवरण', 'video.showMore': 'और दिखाएं', 'video.showLess': 'कम दिखाएं', 'video.publishedOn': 'प्रकाशित',
         // Toast Messages
-        'toast.loggedIn': 'सफलतापूर्वक लॉग इन हो गए!', 'toast.settingsSaved': 'सेटिंग्स सफलतापूर्वक सहेजी गईं!', 'toast.settingsLocal': 'सेटिंग्स स्थानीय रूप से सहेजी गईं। Nostr पर सहेजने में विफल।', 'toast.settingsLocalOnly': 'सेटिंग्स स्थानीय रूप से सहेजी गईं!', 'toast.settingsReset': 'सेटिंग्स डिफ़ॉल्ट पर रीसेट हो गईं!', 'toast.avatarUploaded': 'अवतार सफलतापूर्वक अपलोड हो गया!', 'toast.profileUpdated': 'प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई!', 'toast.copied': 'क्लिपबोर्ड पर कॉपी हो गया!', 'toast.copyFailed': 'कॉपी करने में विफल। कृपया मैन्युअल रूप से कॉपी करें।', 'toast.installExtension': 'कृपया Alby या nos2x जैसा Nostr ब्राउज़र एक्सटेंशन इंस्टॉल करें', 'toast.loginFailed': 'एक्सटेंशन से लॉगिन विफल। पुनः प्रयास करें।', 'toast.invalidKey': 'अमान्य प्राइवेट की। जाँच करें और पुनः प्रयास करें।', 'toast.enterKey': 'कृपया अपनी प्राइवेट की दर्ज करें', 'toast.enterUsername': 'कृपया उपयोगकर्ता नाम दर्ज करें', 'toast.accountCreated': 'Plebs में आपका स्वागत है! आप अब लॉग इन हैं।', 'toast.keyCopied': 'प्राइवेट की क्लिपबोर्ड पर कॉपी हो गई!', 'toast.unmuted': 'उपयोगकर्ता अनम्यूट हो गया', 'toast.unmuteFailed': 'अनम्यूट करने में विफल', 'toast.selectImage': 'कृपया एक इमेज फ़ाइल चुनें', 'toast.imageTooLarge': 'इमेज 5MB से कम होनी चाहिए', 'toast.avatarFailed': 'अवतार अपलोड करने में विफल। पुनः प्रयास करें।', 'toast.mustBeLoggedIn': 'प्रोफ़ाइल संपादित करने के लिए लॉग इन होना ज़रूरी है', 'toast.enterDisplayName': 'कृपया प्रदर्शित नाम दर्ज करें', 'toast.profileFailed': 'प्रोफ़ाइल सहेजने में विफल। पुनः प्रयास करें।', 'toast.invalidBunker': 'कृपया वैध bunker URL दर्ज करें', 'toast.connectFailed': 'कनेक्ट करने में विफल', 'toast.showingFiltered': 'फ़िल्टर की गई सामग्री दिखा रहे हैं', 'toast.reportSubmitted': 'रिपोर्ट सफलतापूर्वक सबमिट हो गई', 'toast.draftSaved': 'ड्राफ्ट सहेजा गया! आप मेरे वीडियो से बाद में जारी रख सकते हैं।', 'toast.draftLoaded': 'ड्राफ्ट लोड हो गया। अपलोड पूरा करें और प्रकाशित करें।', 'toast.draftDeleted': 'ड्राफ्ट हटा दिया गया', 'toast.languageChanged': 'भाषा बदली गई', 'toast.videoBlocked': 'वीडियो ब्लॉक किया गया और Nostr पर प्रकाशित हुआ', 'toast.waitForUpload': 'कृपया वीडियो अपलोड पूरा होने की प्रतीक्षा करें', 'toast.enterTitle': 'कृपया शीर्षक दर्ज करें', 'toast.publishing': 'Nostr पर वीडियो प्रकाशित हो रहा है...',
+        'toast.loggedIn': 'सफलतापूर्वक लॉग इन हो गए!', 'toast.settingsSaved': 'सेटिंग्स सफलतापूर्वक सहेजी गईं!', 'toast.settingsLocal': 'सेटिंग्स स्थानीय रूप से सहेजी गईं। Nostr पर सहेजने में विफल।', 'toast.settingsLocalOnly': 'सेटिंग्स स्थानीय रूप से सहेजी गईं!', 'toast.settingsReset': 'सेटिंग्स डिफ़ॉल्ट पर रीसेट हो गईं!', 'toast.avatarUploaded': 'अवतार सफलतापूर्वक अपलोड हो गया!', 'toast.profileUpdated': 'प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई!', 'toast.copied': 'क्लिपबोर्ड पर कॉपी हो गया!', 'toast.copyFailed': 'कॉपी करने में विफल। कृपया मैन्युअल रूप से कॉपी करें।', 'toast.installExtension': 'कृपया Alby या nos2x जैसा Nostr ब्राउज़र एक्सटेंशन इंस्टॉल करें', 'toast.loginFailed': 'एक्सटेंशन से लॉगिन विफल। पुनः प्रयास करें।', 'toast.invalidKey': 'अमान्य प्राइवेट की। जाँच करें और पुनः प्रयास करें।', 'toast.enterKey': 'कृपया अपनी प्राइवेट की दर्ज करें', 'toast.enterUsername': 'कृपया उपयोगकर्ता नाम दर्ज करें', 'toast.accountCreated': 'Goblinbox में आपका स्वागत है! आप अब लॉग इन हैं।', 'toast.keyCopied': 'प्राइवेट की क्लिपबोर्ड पर कॉपी हो गई!', 'toast.unmuted': 'उपयोगकर्ता अनम्यूट हो गया', 'toast.unmuteFailed': 'अनम्यूट करने में विफल', 'toast.selectImage': 'कृपया एक इमेज फ़ाइल चुनें', 'toast.imageTooLarge': 'इमेज 5MB से कम होनी चाहिए', 'toast.avatarFailed': 'अवतार अपलोड करने में विफल। पुनः प्रयास करें।', 'toast.mustBeLoggedIn': 'प्रोफ़ाइल संपादित करने के लिए लॉग इन होना ज़रूरी है', 'toast.enterDisplayName': 'कृपया प्रदर्शित नाम दर्ज करें', 'toast.profileFailed': 'प्रोफ़ाइल सहेजने में विफल। पुनः प्रयास करें।', 'toast.invalidBunker': 'कृपया वैध bunker URL दर्ज करें', 'toast.connectFailed': 'कनेक्ट करने में विफल', 'toast.showingFiltered': 'फ़िल्टर की गई सामग्री दिखा रहे हैं', 'toast.reportSubmitted': 'रिपोर्ट सफलतापूर्वक सबमिट हो गई', 'toast.draftSaved': 'ड्राफ्ट सहेजा गया! आप मेरे वीडियो से बाद में जारी रख सकते हैं।', 'toast.draftLoaded': 'ड्राफ्ट लोड हो गया। अपलोड पूरा करें और प्रकाशित करें।', 'toast.draftDeleted': 'ड्राफ्ट हटा दिया गया', 'toast.languageChanged': 'भाषा बदली गई', 'toast.videoBlocked': 'वीडियो ब्लॉक किया गया और Nostr पर प्रकाशित हुआ', 'toast.waitForUpload': 'कृपया वीडियो अपलोड पूरा होने की प्रतीक्षा करें', 'toast.enterTitle': 'कृपया शीर्षक दर्ज करें', 'toast.publishing': 'Nostr पर वीडियो प्रकाशित हो रहा है...',
         // Time
         'time.justNow': 'अभी', 'time.secondAgo': '1 सेकंड पहले', 'time.secondsAgo': '{n} सेकंड पहले', 'time.minuteAgo': '1 मिनट पहले', 'time.minutesAgo': '{n} मिनट पहले', 'time.hourAgo': '1 घंटा पहले', 'time.hoursAgo': '{n} घंटे पहले', 'time.dayAgo': '1 दिन पहले', 'time.daysAgo': '{n} दिन पहले', 'time.weekAgo': '1 सप्ताह पहले', 'time.weeksAgo': '{n} सप्ताह पहले', 'time.monthAgo': '1 महीना पहले', 'time.monthsAgo': '{n} महीने पहले', 'time.yearAgo': '1 साल पहले', 'time.yearsAgo': '{n} साल पहले',
         // Empty States
@@ -5301,15 +5301,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA और सामग्री नीति',
         'dmca.lastUpdated': 'अंतिम अपडेट: दिसंबर 2024',
-        'dmca.architectureTitle': 'Plebs आर्किटेक्चर को समझना',
-        'dmca.architectureDesc': 'Plebs एक विकेंद्रीकृत वीडियो प्लेटफॉर्म फ्रंटएंड है जो पारंपरिक वीडियो होस्टिंग सेवाओं से अलग तरीके से काम करता है।',
-        'dmca.architectureItem1': 'Plebs कोई वीडियो या छवि सामग्री होस्ट नहीं करता।',
+        'dmca.architectureTitle': 'Goblinbox आर्किटेक्चर को समझना',
+        'dmca.architectureDesc': 'Goblinbox एक विकेंद्रीकृत वीडियो प्लेटफॉर्म फ्रंटएंड है जो पारंपरिक वीडियो होस्टिंग सेवाओं से अलग तरीके से काम करता है।',
+        'dmca.architectureItem1': 'Goblinbox कोई वीडियो या छवि सामग्री होस्ट नहीं करता।',
         'dmca.architectureItem1Desc': 'हम एक क्लाइंट/फ्रंटएंड हैं जो कहीं और संग्रहीत सामग्री प्रदर्शित करता है।',
         'dmca.architectureItem2': 'सभी मीडिया फाइलें स्वतंत्र Blossom सर्वरों पर संग्रहीत हैं।',
         'dmca.architectureItem3': 'वीडियो मेटाडेटा Nostr रिले पर प्रकाशित है।',
-        'dmca.architectureItem4': 'Plebs केवल इस वितरित सामग्री को एकत्र और प्रदर्शित करता है।',
+        'dmca.architectureItem4': 'Goblinbox केवल इस वितरित सामग्री को एकत्र और प्रदर्शित करता है।',
         'dmca.filingTitle': 'DMCA दावा दायर करना',
-        'dmca.filingDesc': 'क्योंकि Plebs सामग्री होस्ट नहीं करता, हम सीधे उल्लंघनकारी सामग्री को हटा नहीं सकते।',
+        'dmca.filingDesc': 'क्योंकि Goblinbox सामग्री होस्ट नहीं करता, हम सीधे उल्लंघनकारी सामग्री को हटा नहीं सकते।',
         'dmca.forVideoTitle': '1. वीडियो/छवि सामग्री के लिए',
         'dmca.forVideoDesc': 'मीडिया फाइलें Blossom सर्वरों पर संग्रहीत हैं।',
         'dmca.forVideoItem1': 'पहचानें कि कौन सा Blossom सर्वर सामग्री होस्ट कर रहा है',
@@ -5320,7 +5320,7 @@ const translations = {
         'dmca.forMetadataItem1': 'यह जानकारी Nostr रिले पर संग्रहीत है',
         'dmca.forMetadataItem2': 'विशिष्ट Nostr रिले ऑपरेटरों से संपर्क करें',
         'dmca.forMetadataItem3': 'कई रिले समान डेटा संग्रहीत कर सकते हैं',
-        'dmca.whatWeCanDoTitle': 'Plebs क्या कर सकता है',
+        'dmca.whatWeCanDoTitle': 'Goblinbox क्या कर सकता है',
         'dmca.whatWeCanDoDesc': 'हालांकि हम सामग्री होस्ट नहीं करते, हम कर सकते हैं:',
         'dmca.whatWeCanDoItem1': 'विशिष्ट सामग्री होस्ट करने वाले सर्वरों की पहचान में सहायता करें',
         'dmca.whatWeCanDoItem2': 'स्थानीय ब्लॉकलिस्ट में सामग्री जोड़ें',
@@ -5435,10 +5435,10 @@ const translations = {
         'analytics.noVideosDesc': 'प्रदर्शन ट्रैकिंग शुरू करने के लिए अपना पहला वीडियो अपलोड करें।',
 
         // About Page
-        'about.title': 'Plebs.place के बारे में',
+        'about.title': 'Goblinbox.place के बारे में',
         'about.subtitle': 'विकेंद्रीकृत वीडियो प्लेटफॉर्म',
-        'about.welcome': 'Plebs.place में आपका स्वागत है',
-        'about.description': 'Plebs.place एक विकेंद्रीकृत वीडियो शेयरिंग प्लेटफॉर्म है जो Nostr प्रोटोकॉल पर बना है, जो क्रिएटर्स को उनकी सामग्री और दर्शकों पर पूर्ण नियंत्रण देता है।',
+        'about.welcome': 'Goblinbox.place में आपका स्वागत है',
+        'about.description': 'Goblinbox.place एक विकेंद्रीकृत वीडियो शेयरिंग प्लेटफॉर्म है जो Nostr प्रोटोकॉल पर बना है, जो क्रिएटर्स को उनकी सामग्री और दर्शकों पर पूर्ण नियंत्रण देता है।',
         'about.feature1Title': 'विकेंद्रीकृत',
         'about.feature1Desc': 'Nostr पर निर्मित, सेंसरशिप प्रतिरोध और सामग्री का सच्चा स्वामित्व सुनिश्चित करता है।',
         'about.feature2Title': 'क्रिएटर-प्रथम',
@@ -5467,13 +5467,13 @@ const translations = {
         'terms.title': 'सेवा की शर्तें',
         'terms.lastUpdated': 'अंतिम अपडेट',
         'terms.section1Title': '1. शर्तों की स्वीकृति',
-        'terms.section1Content': 'Plebs.place का उपयोग करके, आप इन शर्तों से बंधे होने के लिए सहमत हैं। यदि आप सहमत नहीं हैं, तो कृपया प्लेटफॉर्म का उपयोग न करें।',
+        'terms.section1Content': 'Goblinbox.place का उपयोग करके, आप इन शर्तों से बंधे होने के लिए सहमत हैं। यदि आप सहमत नहीं हैं, तो कृपया प्लेटफॉर्म का उपयोग न करें।',
         'terms.section2Title': '2. सेवा विवरण',
-        'terms.section2Content': 'Plebs.place एक विकेंद्रीकृत वीडियो शेयरिंग प्लेटफॉर्म है जो Nostr प्रोटोकॉल का उपयोग करता है। हम वीडियो होस्टिंग, शेयरिंग और Lightning मोनेटाइजेशन के लिए टूल प्रदान करते हैं।',
+        'terms.section2Content': 'Goblinbox.place एक विकेंद्रीकृत वीडियो शेयरिंग प्लेटफॉर्म है जो Nostr प्रोटोकॉल का उपयोग करता है। हम वीडियो होस्टिंग, शेयरिंग और Lightning मोनेटाइजेशन के लिए टूल प्रदान करते हैं।',
         'terms.section3Title': '3. उपयोगकर्ता जिम्मेदारियां',
         'terms.section3Content': 'आप प्लेटफॉर्म के माध्यम से पोस्ट की गई सभी सामग्री के लिए जिम्मेदार हैं। आप अवैध, हानिकारक, या दूसरों के अधिकारों का उल्लंघन करने वाली सामग्री अपलोड न करने के लिए सहमत हैं।',
         'terms.section4Title': '4. सामग्री स्वामित्व',
-        'terms.section4Content': 'आप अपनी सामग्री का पूर्ण स्वामित्व रखते हैं। अपलोड करके, आप Plebs.place को अपने वीडियो होस्ट करने और प्रदान करने के लिए सीमित लाइसेंस देते हैं।',
+        'terms.section4Content': 'आप अपनी सामग्री का पूर्ण स्वामित्व रखते हैं। अपलोड करके, आप Goblinbox.place को अपने वीडियो होस्ट करने और प्रदान करने के लिए सीमित लाइसेंस देते हैं।',
         'terms.section5Title': '5. निषिद्ध उपयोग',
         'terms.section5Content': 'आप किसी भी अवैध गतिविधियों, उत्पीड़न, स्पैम, या हानिकारक सामग्री के वितरण के लिए प्लेटफॉर्म का उपयोग नहीं कर सकते।',
         'terms.section6Title': '6. खाता प्रबंधन',
@@ -5481,7 +5481,7 @@ const translations = {
         'terms.section7Title': '7. भुगतान शर्तें',
         'terms.section7Content': 'सभी भुगतान Lightning Network के माध्यम से संसाधित होते हैं। लेनदेन अंतिम और अपरिवर्तनीय हैं। कृपया लेनदेन से पहले सभी भुगतान विवरण सत्यापित करें।',
         'terms.section8Title': '8. दायित्व की सीमा',
-        'terms.section8Content': 'Plebs.place बिना किसी वारंटी के "जैसा है" प्रदान किया जाता है। हम किसी भी हानि, क्षति, या सेवा रुकावट के लिए जिम्मेदार नहीं हैं।',
+        'terms.section8Content': 'Goblinbox.place बिना किसी वारंटी के "जैसा है" प्रदान किया जाता है। हम किसी भी हानि, क्षति, या सेवा रुकावट के लिए जिम्मेदार नहीं हैं।',
         'terms.section9Title': '9. शर्तों में परिवर्तन',
         'terms.section9Content': 'ये शर्तें समय-समय पर अपडेट हो सकती हैं। निरंतर उपयोग अपडेटेड शर्तों की स्वीकृति का संकेत देता है।',
 
@@ -5489,7 +5489,7 @@ const translations = {
         'privacy.title': 'गोपनीयता नीति',
         'privacy.lastUpdated': 'अंतिम अपडेट',
         'privacy.section1Title': '1. परिचय',
-        'privacy.section1Content': 'यह गोपनीयता नीति बताती है कि Plebs.place हमारे विकेंद्रीकृत वीडियो प्लेटफॉर्म के आपके उपयोग से संबंधित जानकारी को कैसे संभालता है।',
+        'privacy.section1Content': 'यह गोपनीयता नीति बताती है कि Goblinbox.place हमारे विकेंद्रीकृत वीडियो प्लेटफॉर्म के आपके उपयोग से संबंधित जानकारी को कैसे संभालता है।',
         'privacy.section2Title': '2. हम कौन सी जानकारी एकत्र करते हैं',
         'privacy.section2Content': 'विकेंद्रीकृत प्लेटफॉर्म के रूप में, हम न्यूनतम डेटा एकत्र करते हैं। आपकी Nostr सार्वजनिक कुंजी प्रमाणीकरण के लिए उपयोग की जाती है, और वीडियो मेटाडेटा Nostr रिले पर संग्रहीत होता है।',
         'privacy.section3Title': '3. डेटा भंडारण',
@@ -5505,7 +5505,7 @@ const translations = {
         'privacy.section8Title': '8. आपके अधिकार',
         'privacy.section8Content': 'आपके पास अपने डेटा पर पूर्ण नियंत्रण है। आप किसी भी समय अपनी सामग्री हटा सकते हैं या प्लेटफॉर्म का उपयोग बंद कर सकते हैं।',
         'privacy.section9Title': '9. बच्चों की गोपनीयता',
-        'privacy.section9Content': 'Plebs.place 13 वर्ष से कम उम्र के बच्चों के लिए नहीं है। हम जानबूझकर नाबालिगों से जानकारी एकत्र नहीं करते।',
+        'privacy.section9Content': 'Goblinbox.place 13 वर्ष से कम उम्र के बच्चों के लिए नहीं है। हम जानबूझकर नाबालिगों से जानकारी एकत्र नहीं करते।',
         'privacy.section10Title': '10. नीति परिवर्तन',
         'privacy.section10Content': 'हम इस गोपनीयता नीति को अपडेट कर सकते हैं। परिवर्तन इस पेज पर अपडेट तिथि के साथ पोस्ट किए जाएंगे।',
 
@@ -5516,11 +5516,11 @@ const translations = {
         'faq.technical': 'तकनीकी',
         'faq.monetization': 'मोनेटाइजेशन',
         'faq.content': 'सामग्री',
-        'faq.q1': 'Plebs.place क्या है?',
-        'faq.a1': 'Plebs.place एक विकेंद्रीकृत वीडियो शेयरिंग प्लेटफॉर्म है जो Nostr प्रोटोकॉल पर बना है, जो आपको अपनी सामग्री और दर्शकों का पूर्ण स्वामित्व देता है।',
-        'faq.q2': 'Plebs.place कैसे काम करता है?',
+        'faq.q1': 'Goblinbox.place क्या है?',
+        'faq.a1': 'Goblinbox.place एक विकेंद्रीकृत वीडियो शेयरिंग प्लेटफॉर्म है जो Nostr प्रोटोकॉल पर बना है, जो आपको अपनी सामग्री और दर्शकों का पूर्ण स्वामित्व देता है।',
+        'faq.q2': 'Goblinbox.place कैसे काम करता है?',
         'faq.a2': 'प्लेटफॉर्म Nostr का उपयोग प्रमाणीकरण और सामाजिक के लिए, विकेंद्रीकृत स्टोरेज का वीडियो होस्टिंग के लिए, और Lightning Network का तत्काल भुगतान के लिए करता है।',
-        'faq.q3': 'क्या Plebs.place मुफ्त है?',
+        'faq.q3': 'क्या Goblinbox.place मुफ्त है?',
         'faq.a3': 'हां, खाता बनाना, अपलोड करना और देखना मुफ्त है। शुरू करने के लिए आपको बस एक Nostr कुंजी चाहिए।',
         'faq.q4': 'Nostr क्या है?',
         'faq.a4': 'Nostr एक विकेंद्रीकृत संचार प्रोटोकॉल है जो आपको केंद्रीकृत प्लेटफॉर्म पर निर्भर किए बिना अपनी पहचान और डेटा को नियंत्रित करने देता है।',
@@ -5549,7 +5549,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'स्व-मॉडरेशन',
         'faq.q16': 'विकेंद्रीकृत प्लेटफ़ॉर्म पर मॉडरेशन कैसे काम करता है?',
-        'faq.a16': 'केंद्रीकृत मॉडरेटर वाले पारंपरिक प्लेटफार्मों के विपरीत, Plebs आपको इस बात पर नियंत्रण देता है कि आप क्या देखते हैं। हम शक्तिशाली स्व-मॉडरेशन टूल प्रदान करते हैं जिसमें सामग्री फ़िल्टर पैक, उपयोगकर्ता म्यूटिंग, सामुदायिक चेतावनियां और रेश्यो किए गए वीडियो संकेतक शामिल हैं। आप तय करते हैं कि कौन सी सामग्री आपके लिए उपयुक्त है - कोई केंद्रीय प्राधिकरण उन निर्णयों को नहीं ले रहा है।',
+        'faq.a16': 'केंद्रीकृत मॉडरेटर वाले पारंपरिक प्लेटफार्मों के विपरीत, Goblinbox आपको इस बात पर नियंत्रण देता है कि आप क्या देखते हैं। हम शक्तिशाली स्व-मॉडरेशन टूल प्रदान करते हैं जिसमें सामग्री फ़िल्टर पैक, उपयोगकर्ता म्यूटिंग, सामुदायिक चेतावनियां और रेश्यो किए गए वीडियो संकेतक शामिल हैं। आप तय करते हैं कि कौन सी सामग्री आपके लिए उपयुक्त है - कोई केंद्रीय प्राधिकरण उन निर्णयों को नहीं ले रहा है।',
         'faq.q17': 'सामग्री फ़िल्टर पैक क्या हैं?',
         'faq.a17Intro': 'सामग्री फ़िल्टर पैक पूर्वनिर्धारित कीवर्ड फ़िल्टर हैं जिन्हें आप विशिष्ट प्रकार की सामग्री छिपाने के लिए सक्षम कर सकते हैं। उपलब्ध पैक में शामिल हैं:',
         'faq.a17Pack1': 'नस्लवाद और घृणास्पद भाषण:',
@@ -5577,8 +5577,8 @@ const translations = {
         'pageTitle.likedVideos': 'पसंद किए गए वीडियो',
         'pageTitle.watchHistory': 'देखने का इतिहास',
         'pageTitle.liveStreams': 'लाइव स्ट्रीम',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Plebs पर लाइव',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Goblinbox पर लाइव',
         // Home Page Sections
         'section.trending': 'ट्रेंडिंग',
         'section.recommended': 'आपके लिए सुझाव',
@@ -5629,7 +5629,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'गोपनीयता और सुरक्षा',
         'faq.q22': 'क्या मेरी गतिविधि निजी है?',
-        'faq.a22': 'Nostr पर, अधिकांश गतिविधि डिज़ाइन द्वारा सार्वजनिक होती है। आपके लाइक्स, टिप्पणियां, फॉलो और zaps सार्वजनिक नेटवर्क पर दिखाई देते हैं। हालाँकि, Plebs आपके ब्राउज़र में आपके वॉच हिस्ट्री को स्थानीय रूप से संग्रहीत करता है - इसे कभी भी किसी सर्वर पर नहीं भेजा जाता है। आप किसी भी समय अपना स्थानीय डेटा साफ़ कर सकते हैं।',
+        'faq.a22': 'Nostr पर, अधिकांश गतिविधि डिज़ाइन द्वारा सार्वजनिक होती है। आपके लाइक्स, टिप्पणियां, फॉलो और zaps सार्वजनिक नेटवर्क पर दिखाई देते हैं। हालाँकि, Goblinbox आपके ब्राउज़र में आपके वॉच हिस्ट्री को स्थानीय रूप से संग्रहीत करता है - इसे कभी भी किसी सर्वर पर नहीं भेजा जाता है। आप किसी भी समय अपना स्थानीय डेटा साफ़ कर सकते हैं।',
         'faq.q23': 'मैं अपने खाते को सुरक्षित कैसे रखूं?',
         'faq.a23': 'अपनी निजी कुंजी (nsec) को कभी भी किसी के साथ साझा न करें। हम दृढ़ता से Alby, nos2x, या हार्डवेयर साइनर जैसे Nostr ब्राउज़र एक्सटेंशन का उपयोग करने की सिफारिश करते हैं। ये आपकी निजी कुंजी को सुरक्षित रखते हैं और केवल तब इवेंट पर हस्ताक्षर करते हैं जब आप उन्हें मंजूरी देते हैं। वेबसाइटों में अपने nsec को सीधे संग्रहीत करने से बचें।',
         'faq.q24': 'क्या मैं अपनी सामग्री हटा सकता हूं?',
@@ -5640,7 +5640,7 @@ const translations = {
         'faq.a25Intro': 'यदि वीडियो लोड नहीं हो रहे हैं, तो इन चरणों को आज़माएं:',
         'faq.a25Item1': 'पेज को रिफ्रेश करें',
         'faq.a25Item2': 'अपना इंटरनेट कनेक्शन जांचें',
-        'faq.a25Item3': 'वीडियो को होस्ट करने वाला Blossom सर्वर डाउन हो सकता है - यह Plebs से स्वतंत्र है',
+        'faq.a25Item3': 'वीडियो को होस्ट करने वाला Blossom सर्वर डाउन हो सकता है - यह Goblinbox से स्वतंत्र है',
         'faq.a25Item4': 'ब्राउज़र एक्सटेंशन को अक्षम करने का प्रयास करें जो सामग्री को ब्लॉक कर सकते हैं',
         'faq.a25Item5': 'अपना ब्राउज़र कैश साफ़ करें और फिर से प्रयास करें',
         'faq.q26': 'मैंने अपनी निजी कुंजी खो दी है - क्या आप इसे पुनर्प्राप्त करने में मेरी सहायता कर सकते हैं?',
@@ -5659,7 +5659,7 @@ const translations = {
         // Private Key Modal
         'privateKey.title': 'La Tua Chiave Privata', 'privateKey.warning': 'IMPORTANTE: Salva questo in un posto sicuro. Se perdi questa chiave, perderai l\'accesso al tuo account. Non condividerla mai con nessuno!', 'privateKey.show': 'Mostra Chiave Privata', 'privateKey.hide': 'Nascondi Chiave Privata', 'privateKey.copy': 'Copia', 'privateKey.saved': 'Ho salvato la mia chiave', 'privateKey.yourPublicKey': 'La tua Chiave Pubblica (npub):', 'privateKey.yourPrivateKey': 'La tua Chiave Privata (nsec):',
         // Signup Modal
-        'signup.title': 'Crea Account Nostr', 'signup.whatIsNostr': 'Cos\'è Nostr?', 'signup.nostrDescription': 'Nostr è un protocollo decentralizzato che ti dà il controllo sulla tua identità e i tuoi dati. Nessun server centrale - il tuo account è una coppia di chiavi crittografiche.', 'signup.whyNostr': 'Perché Nostr?', 'signup.benefit1': 'Possiedi la tua identità', 'signup.benefit2': 'Nessuna censura', 'signup.benefit3': 'Portabilità tra piattaforme', 'signup.createNew': 'Crea Nuovo Account', 'signup.haveAccount': 'Hai già un account?', 'signup.login': 'Accedi', 'signup.createButton': 'Crea Account', 'signup.generating': 'Generazione chiavi...', 'signup.displayName': 'Nome Visualizzato', 'signup.displayNamePlaceholder': 'Inserisci nome visualizzato', 'signup.username': 'Nome Utente', 'signup.usernamePlaceholder': 'Inserisci nome utente', 'signup.about': 'Descrizione (opzionale)', 'signup.profilePicture': 'Foto Profilo (opzionale)', 'signup.lightningAddress': 'Indirizzo Lightning (opzionale)', 'signup.nostrAddress': 'Indirizzo Nostr', 'signup.nostrAddressPlaceholder': 'nomeutente', 'signup.nostrAddressHint': 'Il tuo indirizzo Nostr rende il tuo profilo più facile da trovare. Solo lettere minuscole, numeri, _ e -.', 'signup.nostrAddressRequired': 'Inserisci un indirizzo Nostr', 'signup.nostrAddressAvailable': 'Disponibile!', 'signup.nostrAddressUnavailable': 'Già in uso', 'signup.nostrAddressChecking': 'Verifica in corso...', 'signup.nostrAddressInvalid': 'Formato nome utente non valido', 'signup.nostrAddressRegistering': 'Registrazione indirizzo Nostr...', 'signup.nostrAddressSuccess': 'Indirizzo Nostr registrato!', 'signup.nostrAddressFailed': 'Impossibile registrare indirizzo Nostr', 'signup.createAccountBtn': 'Crea Account', 'signup.termsAgree': 'Creando un account, accetti i nostri', 'signup.and': 'e', 'signup.success': 'Account Creato con Successo!', 'signup.yourPrivateKey': 'La Tua Chiave Privata (nsec)', 'signup.keyWarning': 'Questo è l\'UNICO modo per accedere al tuo account. Conservala in un posto sicuro!', 'signup.copyPrivateKey': 'Copia Chiave Privata', 'signup.howToUseKey': 'Come usare la tua chiave privata', 'signup.continueToPlebs': 'Continua su Plebs', 'signup.step1': 'Salva in modo sicuro:', 'signup.step1Desc': 'Salva il tuo nsec in un gestore di password, scrivilo o salvalo in un file crittografato. Non condividerlo mai pubblicamente!', 'signup.step2': 'Per accedere di nuovo:', 'signup.step2Desc': 'Clicca su "Chiave Privata" nella schermata di accesso e incolla il tuo nsec. Funziona come una password.', 'signup.step3': 'Usa in altre app:', 'signup.step3Desc': 'Il tuo nsec funziona in tutte le app Nostr - Damus, Primal, Amethyst e centinaia di altre!', 'signup.step4': 'Considera un\'app di firma:', 'signup.step4Desc': 'Per maggiore sicurezza, usa app come Amber (Android) o un\'estensione del browser come Alby per gestire le tue chiavi.',
+        'signup.title': 'Crea Account Nostr', 'signup.whatIsNostr': 'Cos\'è Nostr?', 'signup.nostrDescription': 'Nostr è un protocollo decentralizzato che ti dà il controllo sulla tua identità e i tuoi dati. Nessun server centrale - il tuo account è una coppia di chiavi crittografiche.', 'signup.whyNostr': 'Perché Nostr?', 'signup.benefit1': 'Possiedi la tua identità', 'signup.benefit2': 'Nessuna censura', 'signup.benefit3': 'Portabilità tra piattaforme', 'signup.createNew': 'Crea Nuovo Account', 'signup.haveAccount': 'Hai già un account?', 'signup.login': 'Accedi', 'signup.createButton': 'Crea Account', 'signup.generating': 'Generazione chiavi...', 'signup.displayName': 'Nome Visualizzato', 'signup.displayNamePlaceholder': 'Inserisci nome visualizzato', 'signup.username': 'Nome Utente', 'signup.usernamePlaceholder': 'Inserisci nome utente', 'signup.about': 'Descrizione (opzionale)', 'signup.profilePicture': 'Foto Profilo (opzionale)', 'signup.lightningAddress': 'Indirizzo Lightning (opzionale)', 'signup.nostrAddress': 'Indirizzo Nostr', 'signup.nostrAddressPlaceholder': 'nomeutente', 'signup.nostrAddressHint': 'Il tuo indirizzo Nostr rende il tuo profilo più facile da trovare. Solo lettere minuscole, numeri, _ e -.', 'signup.nostrAddressRequired': 'Inserisci un indirizzo Nostr', 'signup.nostrAddressAvailable': 'Disponibile!', 'signup.nostrAddressUnavailable': 'Già in uso', 'signup.nostrAddressChecking': 'Verifica in corso...', 'signup.nostrAddressInvalid': 'Formato nome utente non valido', 'signup.nostrAddressRegistering': 'Registrazione indirizzo Nostr...', 'signup.nostrAddressSuccess': 'Indirizzo Nostr registrato!', 'signup.nostrAddressFailed': 'Impossibile registrare indirizzo Nostr', 'signup.createAccountBtn': 'Crea Account', 'signup.termsAgree': 'Creando un account, accetti i nostri', 'signup.and': 'e', 'signup.success': 'Account Creato con Successo!', 'signup.yourPrivateKey': 'La Tua Chiave Privata (nsec)', 'signup.keyWarning': 'Questo è l\'UNICO modo per accedere al tuo account. Conservala in un posto sicuro!', 'signup.copyPrivateKey': 'Copia Chiave Privata', 'signup.howToUseKey': 'Come usare la tua chiave privata', 'signup.continueToGoblinbox': 'Continua su Goblinbox', 'signup.step1': 'Salva in modo sicuro:', 'signup.step1Desc': 'Salva il tuo nsec in un gestore di password, scrivilo o salvalo in un file crittografato. Non condividerlo mai pubblicamente!', 'signup.step2': 'Per accedere di nuovo:', 'signup.step2Desc': 'Clicca su "Chiave Privata" nella schermata di accesso e incolla il tuo nsec. Funziona come una password.', 'signup.step3': 'Usa in altre app:', 'signup.step3Desc': 'Il tuo nsec funziona in tutte le app Nostr - Damus, Primal, Amethyst e centinaia di altre!', 'signup.step4': 'Considera un\'app di firma:', 'signup.step4Desc': 'Per maggiore sicurezza, usa app come Amber (Android) o un\'estensione del browser come Alby per gestire le tue chiavi.',
         // Notifications
         'notifications.title': 'Notifiche', 'notifications.empty': 'Nessuna notifica', 'notifications.viewAll': 'Vedi tutte le notifiche', 'notifications.markAllRead': 'Segna tutto come letto', 'notifications.settings': 'Impostazioni notifiche', 'notifications.loading': 'Caricamento notifiche...', 'notifications.zap': 'ti ha inviato uno zap', 'notifications.like': 'ha apprezzato il tuo contenuto', 'notifications.comment': 'ha commentato', 'notifications.follow': 'ti ha seguito', 'notifications.repost': 'ha ripostato', 'notifications.mention': 'ti ha menzionato',
         // Settings Modal
@@ -5692,7 +5692,7 @@ const translations = {
         // Video Page
         'video.views': 'visualizzazioni', 'video.like': 'Mi Piace', 'video.dislike': 'Non Mi Piace', 'video.share': 'Condividi', 'video.save': 'Salva', 'video.report': 'Segnala', 'video.follow': 'Segui', 'video.unfollow': 'Non Seguire', 'video.subscribe': 'Iscriviti', 'video.subscribed': 'Iscritto', 'video.comments': 'Commenti', 'video.addComment': 'Aggiungi commento...', 'video.reply': 'Rispondi', 'video.replies': 'risposte', 'video.loadMore': 'Carica Altri', 'video.noComments': 'Nessun commento. Sii il primo!', 'video.zap': 'Zap', 'video.zapAmount': 'Importo Zap (sats)', 'video.sendZap': 'Invia Zap', 'video.boost': 'Boost', 'video.description': 'Descrizione', 'video.showMore': 'Mostra di più', 'video.showLess': 'Mostra meno', 'video.publishedOn': 'Pubblicato il',
         // Toast Messages
-        'toast.loggedIn': 'Accesso effettuato con successo!', 'toast.settingsSaved': 'Impostazioni salvate con successo!', 'toast.settingsLocal': 'Impostazioni salvate localmente. Impossibile salvare su Nostr.', 'toast.settingsLocalOnly': 'Impostazioni salvate localmente!', 'toast.settingsReset': 'Impostazioni ripristinate ai valori predefiniti!', 'toast.avatarUploaded': 'Avatar caricato con successo!', 'toast.profileUpdated': 'Profilo aggiornato con successo!', 'toast.copied': 'Copiato negli appunti!', 'toast.copyFailed': 'Copia fallita. Si prega di copiare manualmente.', 'toast.installExtension': 'Si prega di installare un\'estensione Nostr come Alby o nos2x', 'toast.loginFailed': 'Accesso con estensione fallito. Riprova.', 'toast.invalidKey': 'Chiave privata non valida. Controlla e riprova.', 'toast.enterKey': 'Si prega di inserire la chiave privata', 'toast.enterUsername': 'Si prega di inserire un nome utente', 'toast.accountCreated': 'Benvenuto su Plebs! Sei ora connesso.', 'toast.keyCopied': 'Chiave privata copiata negli appunti!', 'toast.unmuted': 'Utente riattivato', 'toast.unmuteFailed': 'Impossibile riattivare utente', 'toast.selectImage': 'Si prega di selezionare un file immagine', 'toast.imageTooLarge': 'L\'immagine deve essere inferiore a 5MB', 'toast.avatarFailed': 'Caricamento avatar fallito. Riprova.', 'toast.mustBeLoggedIn': 'Devi essere connesso per modificare il profilo', 'toast.enterDisplayName': 'Si prega di inserire un nome visualizzato', 'toast.profileFailed': 'Salvataggio profilo fallito. Riprova.', 'toast.invalidBunker': 'Si prega di inserire un URL bunker valido', 'toast.connectFailed': 'Connessione fallita', 'toast.showingFiltered': 'Visualizzazione contenuti filtrati', 'toast.reportSubmitted': 'Segnalazione inviata con successo', 'toast.draftSaved': 'Bozza salvata! Puoi continuare dopo da I Miei Video.', 'toast.draftLoaded': 'Bozza caricata. Completa il caricamento e pubblica.', 'toast.draftDeleted': 'Bozza eliminata', 'toast.languageChanged': 'Lingua cambiata', 'toast.videoBlocked': 'Video bloccato e pubblicato su Nostr', 'toast.waitForUpload': 'Attendere il completamento del caricamento video', 'toast.enterTitle': 'Si prega di inserire un titolo', 'toast.publishing': 'Pubblicazione video su Nostr...',
+        'toast.loggedIn': 'Accesso effettuato con successo!', 'toast.settingsSaved': 'Impostazioni salvate con successo!', 'toast.settingsLocal': 'Impostazioni salvate localmente. Impossibile salvare su Nostr.', 'toast.settingsLocalOnly': 'Impostazioni salvate localmente!', 'toast.settingsReset': 'Impostazioni ripristinate ai valori predefiniti!', 'toast.avatarUploaded': 'Avatar caricato con successo!', 'toast.profileUpdated': 'Profilo aggiornato con successo!', 'toast.copied': 'Copiato negli appunti!', 'toast.copyFailed': 'Copia fallita. Si prega di copiare manualmente.', 'toast.installExtension': 'Si prega di installare un\'estensione Nostr come Alby o nos2x', 'toast.loginFailed': 'Accesso con estensione fallito. Riprova.', 'toast.invalidKey': 'Chiave privata non valida. Controlla e riprova.', 'toast.enterKey': 'Si prega di inserire la chiave privata', 'toast.enterUsername': 'Si prega di inserire un nome utente', 'toast.accountCreated': 'Benvenuto su Goblinbox! Sei ora connesso.', 'toast.keyCopied': 'Chiave privata copiata negli appunti!', 'toast.unmuted': 'Utente riattivato', 'toast.unmuteFailed': 'Impossibile riattivare utente', 'toast.selectImage': 'Si prega di selezionare un file immagine', 'toast.imageTooLarge': 'L\'immagine deve essere inferiore a 5MB', 'toast.avatarFailed': 'Caricamento avatar fallito. Riprova.', 'toast.mustBeLoggedIn': 'Devi essere connesso per modificare il profilo', 'toast.enterDisplayName': 'Si prega di inserire un nome visualizzato', 'toast.profileFailed': 'Salvataggio profilo fallito. Riprova.', 'toast.invalidBunker': 'Si prega di inserire un URL bunker valido', 'toast.connectFailed': 'Connessione fallita', 'toast.showingFiltered': 'Visualizzazione contenuti filtrati', 'toast.reportSubmitted': 'Segnalazione inviata con successo', 'toast.draftSaved': 'Bozza salvata! Puoi continuare dopo da I Miei Video.', 'toast.draftLoaded': 'Bozza caricata. Completa il caricamento e pubblica.', 'toast.draftDeleted': 'Bozza eliminata', 'toast.languageChanged': 'Lingua cambiata', 'toast.videoBlocked': 'Video bloccato e pubblicato su Nostr', 'toast.waitForUpload': 'Attendere il completamento del caricamento video', 'toast.enterTitle': 'Si prega di inserire un titolo', 'toast.publishing': 'Pubblicazione video su Nostr...',
         // Time
         'time.justNow': 'adesso', 'time.secondAgo': '1 secondo fa', 'time.secondsAgo': '{n} secondi fa', 'time.minuteAgo': '1 minuto fa', 'time.minutesAgo': '{n} minuti fa', 'time.hourAgo': '1 ora fa', 'time.hoursAgo': '{n} ore fa', 'time.dayAgo': '1 giorno fa', 'time.daysAgo': '{n} giorni fa', 'time.weekAgo': '1 settimana fa', 'time.weeksAgo': '{n} settimane fa', 'time.monthAgo': '1 mese fa', 'time.monthsAgo': '{n} mesi fa', 'time.yearAgo': '1 anno fa', 'time.yearsAgo': '{n} anni fa',
         // Empty States
@@ -5741,15 +5741,15 @@ const translations = {
         // DMCA Page
         'dmca.title': 'DMCA e Politica sui Contenuti',
         'dmca.lastUpdated': 'Ultimo aggiornamento: Dicembre 2024',
-        'dmca.architectureTitle': 'Comprendere l\'Architettura di Plebs',
-        'dmca.architectureDesc': 'Plebs è un\'interfaccia di piattaforma video decentralizzata che opera in modo diverso dai servizi tradizionali.',
-        'dmca.architectureItem1': 'Plebs non ospita alcun contenuto video o immagine.',
+        'dmca.architectureTitle': 'Comprendere l\'Architettura di Goblinbox',
+        'dmca.architectureDesc': 'Goblinbox è un\'interfaccia di piattaforma video decentralizzata che opera in modo diverso dai servizi tradizionali.',
+        'dmca.architectureItem1': 'Goblinbox non ospita alcun contenuto video o immagine.',
         'dmca.architectureItem1Desc': 'Siamo un client/interfaccia che visualizza contenuti archiviati altrove.',
         'dmca.architectureItem2': 'Tutti i file multimediali sono archiviati su server Blossom indipendenti.',
         'dmca.architectureItem3': 'I metadati video sono pubblicati sui relay Nostr.',
-        'dmca.architectureItem4': 'Plebs aggrega e visualizza semplicemente questo contenuto distribuito.',
+        'dmca.architectureItem4': 'Goblinbox aggrega e visualizza semplicemente questo contenuto distribuito.',
         'dmca.filingTitle': 'Presentare un Reclamo DMCA',
-        'dmca.filingDesc': 'Poiché Plebs non ospita contenuti, non possiamo rimuovere direttamente materiale violativo.',
+        'dmca.filingDesc': 'Poiché Goblinbox non ospita contenuti, non possiamo rimuovere direttamente materiale violativo.',
         'dmca.forVideoTitle': '1. Per Contenuti Video/Immagine',
         'dmca.forVideoDesc': 'I file multimediali sono archiviati sui server Blossom.',
         'dmca.forVideoItem1': 'Identificare quale server Blossom ospita il contenuto',
@@ -5760,7 +5760,7 @@ const translations = {
         'dmca.forMetadataItem1': 'Queste informazioni sono archiviate sui relay Nostr',
         'dmca.forMetadataItem2': 'Contattare gli operatori specifici dei relay Nostr',
         'dmca.forMetadataItem3': 'Più relay possono archiviare gli stessi dati',
-        'dmca.whatWeCanDoTitle': 'Cosa Può Fare Plebs',
+        'dmca.whatWeCanDoTitle': 'Cosa Può Fare Goblinbox',
         'dmca.whatWeCanDoDesc': 'Sebbene non ospitiamo contenuti, possiamo:',
         'dmca.whatWeCanDoItem1': 'Aiutarti a identificare quali server ospitano contenuti specifici',
         'dmca.whatWeCanDoItem2': 'Aggiungere contenuti a una lista di blocco locale',
@@ -5875,10 +5875,10 @@ const translations = {
         'analytics.noVideosDesc': 'Carica il tuo primo video per iniziare a monitorare le performance.',
 
         // About Page
-        'about.title': 'Informazioni su Plebs.place',
+        'about.title': 'Informazioni su Goblinbox.place',
         'about.subtitle': 'Piattaforma video decentralizzata',
-        'about.welcome': 'Benvenuto su Plebs.place',
-        'about.description': 'Plebs.place è una piattaforma di condivisione video decentralizzata costruita sul protocollo Nostr, che offre ai creatori il pieno controllo sui propri contenuti e sul proprio pubblico.',
+        'about.welcome': 'Benvenuto su Goblinbox.place',
+        'about.description': 'Goblinbox.place è una piattaforma di condivisione video decentralizzata costruita sul protocollo Nostr, che offre ai creatori il pieno controllo sui propri contenuti e sul proprio pubblico.',
         'about.feature1Title': 'Decentralizzato',
         'about.feature1Desc': 'Costruito su Nostr, garantisce resistenza alla censura e vera proprietà dei contenuti.',
         'about.feature2Title': 'Prima i creatori',
@@ -5907,13 +5907,13 @@ const translations = {
         'terms.title': 'Termini di Servizio',
         'terms.lastUpdated': 'Ultimo aggiornamento',
         'terms.section1Title': '1. Accettazione dei termini',
-        'terms.section1Content': 'Utilizzando Plebs.place, accetti di essere vincolato da questi termini. Se non sei d\'accordo, ti preghiamo di non utilizzare la piattaforma.',
+        'terms.section1Content': 'Utilizzando Goblinbox.place, accetti di essere vincolato da questi termini. Se non sei d\'accordo, ti preghiamo di non utilizzare la piattaforma.',
         'terms.section2Title': '2. Descrizione del servizio',
-        'terms.section2Content': 'Plebs.place è una piattaforma di condivisione video decentralizzata che utilizza il protocollo Nostr. Forniamo strumenti per hosting video, condivisione e monetizzazione tramite Lightning.',
+        'terms.section2Content': 'Goblinbox.place è una piattaforma di condivisione video decentralizzata che utilizza il protocollo Nostr. Forniamo strumenti per hosting video, condivisione e monetizzazione tramite Lightning.',
         'terms.section3Title': '3. Responsabilità dell\'utente',
         'terms.section3Content': 'Sei responsabile di tutti i contenuti che pubblichi attraverso la piattaforma. Accetti di non caricare contenuti illegali, dannosi o che violano i diritti altrui.',
         'terms.section4Title': '4. Proprietà dei contenuti',
-        'terms.section4Content': 'Mantieni la piena proprietà dei tuoi contenuti. Caricando, concedi a Plebs.place una licenza limitata per ospitare e fornire i tuoi video.',
+        'terms.section4Content': 'Mantieni la piena proprietà dei tuoi contenuti. Caricando, concedi a Goblinbox.place una licenza limitata per ospitare e fornire i tuoi video.',
         'terms.section5Title': '5. Uso vietato',
         'terms.section5Content': 'Non puoi utilizzare la piattaforma per attività illegali, molestie, spam o distribuzione di contenuti dannosi.',
         'terms.section6Title': '6. Gestione dell\'account',
@@ -5921,7 +5921,7 @@ const translations = {
         'terms.section7Title': '7. Termini di pagamento',
         'terms.section7Content': 'Tutti i pagamenti sono elaborati tramite Lightning Network. Le transazioni sono definitive e irreversibili. Verifica tutti i dettagli di pagamento prima delle transazioni.',
         'terms.section8Title': '8. Limitazione di responsabilità',
-        'terms.section8Content': 'Plebs.place è fornito "così com\'è" senza garanzie. Non siamo responsabili per perdite, danni o interruzioni del servizio.',
+        'terms.section8Content': 'Goblinbox.place è fornito "così com\'è" senza garanzie. Non siamo responsabili per perdite, danni o interruzioni del servizio.',
         'terms.section9Title': '9. Modifiche ai termini',
         'terms.section9Content': 'Questi termini possono essere aggiornati periodicamente. L\'uso continuato indica l\'accettazione dei termini aggiornati.',
 
@@ -5929,7 +5929,7 @@ const translations = {
         'privacy.title': 'Informativa sulla Privacy',
         'privacy.lastUpdated': 'Ultimo aggiornamento',
         'privacy.section1Title': '1. Introduzione',
-        'privacy.section1Content': 'Questa informativa sulla privacy spiega come Plebs.place gestisce le informazioni relative al tuo utilizzo della nostra piattaforma video decentralizzata.',
+        'privacy.section1Content': 'Questa informativa sulla privacy spiega come Goblinbox.place gestisce le informazioni relative al tuo utilizzo della nostra piattaforma video decentralizzata.',
         'privacy.section2Title': '2. Informazioni che raccogliamo',
         'privacy.section2Content': 'Come piattaforma decentralizzata, raccogliamo dati minimi. La tua chiave pubblica Nostr è usata per l\'autenticazione e i metadati video sono memorizzati sui relay Nostr.',
         'privacy.section3Title': '3. Archiviazione dei dati',
@@ -5945,7 +5945,7 @@ const translations = {
         'privacy.section8Title': '8. I tuoi diritti',
         'privacy.section8Content': 'Hai il pieno controllo sui tuoi dati. Puoi eliminare i tuoi contenuti o smettere di usare la piattaforma in qualsiasi momento.',
         'privacy.section9Title': '9. Privacy dei minori',
-        'privacy.section9Content': 'Plebs.place non è destinato ai minori di 13 anni. Non raccogliamo intenzionalmente informazioni da minori.',
+        'privacy.section9Content': 'Goblinbox.place non è destinato ai minori di 13 anni. Non raccogliamo intenzionalmente informazioni da minori.',
         'privacy.section10Title': '10. Modifiche all\'informativa',
         'privacy.section10Content': 'Potremmo aggiornare questa informativa sulla privacy. Le modifiche saranno pubblicate su questa pagina con la data di aggiornamento.',
 
@@ -5956,11 +5956,11 @@ const translations = {
         'faq.technical': 'Tecnico',
         'faq.monetization': 'Monetizzazione',
         'faq.content': 'Contenuti',
-        'faq.q1': 'Cos\'è Plebs.place?',
-        'faq.a1': 'Plebs.place è una piattaforma di condivisione video decentralizzata costruita sul protocollo Nostr, che ti offre la piena proprietà dei tuoi contenuti e del tuo pubblico.',
-        'faq.q2': 'Come funziona Plebs.place?',
+        'faq.q1': 'Cos\'è Goblinbox.place?',
+        'faq.a1': 'Goblinbox.place è una piattaforma di condivisione video decentralizzata costruita sul protocollo Nostr, che ti offre la piena proprietà dei tuoi contenuti e del tuo pubblico.',
+        'faq.q2': 'Come funziona Goblinbox.place?',
         'faq.a2': 'La piattaforma utilizza Nostr per autenticazione e social, storage decentralizzato per hosting video e Lightning Network per pagamenti istantanei.',
-        'faq.q3': 'Plebs.place è gratuito?',
+        'faq.q3': 'Goblinbox.place è gratuito?',
         'faq.a3': 'Sì, creare un account, caricare e guardare video è gratuito. Hai solo bisogno di una chiave Nostr per iniziare.',
         'faq.q4': 'Cos\'è Nostr?',
         'faq.a4': 'Nostr è un protocollo di comunicazione decentralizzato che ti permette di controllare la tua identità e i tuoi dati senza dipendere da piattaforme centralizzate.',
@@ -5989,7 +5989,7 @@ const translations = {
         // FAQ Self-Moderation Section
         'faq.selfModeration': 'Auto-moderazione',
         'faq.q16': 'Come funziona la moderazione su una piattaforma decentralizzata?',
-        'faq.a16': 'A differenza delle piattaforme tradizionali con moderatori centralizzati, Plebs ti mette in controllo di ciò che vedi. Forniamo potenti strumenti di auto-moderazione tra cui pacchetti di filtri per contenuti, silenziamento utenti, avvisi della comunità e indicatori di video "ratioed". Tu decidi quale contenuto è appropriato per te - non c\'è un\'autorità centrale che prende queste decisioni.',
+        'faq.a16': 'A differenza delle piattaforme tradizionali con moderatori centralizzati, Goblinbox ti mette in controllo di ciò che vedi. Forniamo potenti strumenti di auto-moderazione tra cui pacchetti di filtri per contenuti, silenziamento utenti, avvisi della comunità e indicatori di video "ratioed". Tu decidi quale contenuto è appropriato per te - non c\'è un\'autorità centrale che prende queste decisioni.',
         'faq.q17': 'Cosa sono i Pacchetti di Filtri per Contenuti?',
 
         // Page Titles
@@ -5998,8 +5998,8 @@ const translations = {
         'pageTitle.likedVideos': 'Video Piaciuti',
         'pageTitle.watchHistory': 'Cronologia Visualizzazioni',
         'pageTitle.liveStreams': 'Live Stream',
-        'pageTitle.suffix': '- Plebs',
-        'pageTitle.liveSuffix': '- Live su Plebs',
+        'pageTitle.suffix': '- Goblinbox',
+        'pageTitle.liveSuffix': '- Live su Goblinbox',
         // Home Page Sections
         'section.trending': 'Di Tendenza',
         'section.recommended': 'Consigliati per Te',
@@ -6069,7 +6069,7 @@ const translations = {
         // FAQ Privacy & Security Section
         'faq.privacySecurity': 'Privacy e Sicurezza',
         'faq.q22': 'La mia attività è privata?',
-        'faq.a22': 'Su Nostr, la maggior parte dell\'attività è pubblica per design. I tuoi like, commenti, follow e zap sono visibili sulla rete pubblica. Tuttavia, Plebs memorizza la tua cronologia di visualizzazione localmente nel tuo browser - non viene mai inviata a nessun server. Puoi cancellare i tuoi dati locali in qualsiasi momento.',
+        'faq.a22': 'Su Nostr, la maggior parte dell\'attività è pubblica per design. I tuoi like, commenti, follow e zap sono visibili sulla rete pubblica. Tuttavia, Goblinbox memorizza la tua cronologia di visualizzazione localmente nel tuo browser - non viene mai inviata a nessun server. Puoi cancellare i tuoi dati locali in qualsiasi momento.',
         'faq.q23': 'Come mantenere sicuro il mio account?',
         'faq.a23': 'Non condividere mai la tua chiave privata (nsec) con nessuno. Raccomandiamo fortemente di usare un\'estensione browser Nostr come Alby, nos2x, o un hardware signer. Questi mantengono la tua chiave privata sicura e firmano solo gli eventi quando li approvi. Evita di memorizzare il tuo nsec direttamente nei siti web.',
         'faq.q24': 'Posso eliminare i miei contenuti?',
@@ -6080,7 +6080,7 @@ const translations = {
         'faq.a25Intro': 'Se i video non si caricano, prova questi passaggi:',
         'faq.a25Item1': 'Aggiorna la pagina',
         'faq.a25Item2': 'Controlla la tua connessione internet',
-        'faq.a25Item3': 'Il server Blossom che ospita il video potrebbe essere offline - questo è indipendente da Plebs',
+        'faq.a25Item3': 'Il server Blossom che ospita il video potrebbe essere offline - questo è indipendente da Goblinbox',
         'faq.a25Item4': 'Prova a disabilitare le estensioni del browser che potrebbero bloccare i contenuti',
         'faq.a25Item5': 'Cancella la cache del browser e riprova',
         'faq.q26': 'Ho perso la mia chiave privata - puoi aiutarmi a recuperarla?',
@@ -7642,7 +7642,7 @@ function createNip71VideoEvent(videoData) {
         createImetaTag(videoData),
         ['t', 'pv69420'], // Keep our app identifier for easy filtering
         ...videoData.tags.map(tag => ['t', tag]),
-        ['client', 'Plebs']
+        ['client', 'Goblinbox']
     ];
 
     // Add published_at if this is an edit (use original publish time)
@@ -7692,7 +7692,7 @@ function createKind1VideoEvent(videoData, addressableEventId = null) {
         ['size', (videoData.size || 0).toString()],
         ['duration', Math.floor(videoData.duration || 0).toString()],
         ['thumb', videoData.thumbnail],
-        ['client', 'Plebs']
+        ['client', 'Goblinbox']
     ];
 
     if (videoData.isNSFW) {
@@ -7732,7 +7732,7 @@ function createLegacyNip71VideoEvent(videoData) {
         createImetaTag(videoData),
         ['t', 'pv69420'],
         ...videoData.tags.map(tag => ['t', tag]),
-        ['client', 'Plebs']
+        ['client', 'Goblinbox']
     ];
 
     // Add published_at if this is an edit
@@ -8440,7 +8440,7 @@ async function saveDraftToNostr(draftData) {
         tags: [
             ['d', dTag],
             ['t', 'video-draft'],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         content: JSON.stringify(draftData),
         created_at: Math.floor(Date.now() / 1000)
@@ -8627,7 +8627,7 @@ async function recordVideoView(videoEventId) {
             ['t', 'video-view'],
             ['e', videoEventId],
             ['p', event.pubkey],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         content: JSON.stringify({
             viewedAt: Math.floor(now / 1000),
@@ -8687,7 +8687,7 @@ async function recordVideoShare(videoEventId) {
             ['t', 'video-share'],
             ['e', videoEventId],
             ['p', event.pubkey],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         content: JSON.stringify({
             sharedAt: Math.floor(now / 1000),
@@ -8718,7 +8718,7 @@ async function recordChannelFollow(channelPubkey) {
             ['d', `${VIEW_TRACKING_APP_ID}/follow/${channelPubkey}`],
             ['t', 'channel-follow'],
             ['p', channelPubkey],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         content: JSON.stringify({
             action: 'follow',
@@ -8749,7 +8749,7 @@ async function recordChannelUnfollow(channelPubkey) {
             ['d', `${VIEW_TRACKING_APP_ID}/unfollow/${channelPubkey}/${Math.floor(now / 1000)}`],
             ['t', 'channel-unfollow'],
             ['p', channelPubkey],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         content: JSON.stringify({
             action: 'unfollow',
@@ -11493,7 +11493,7 @@ function generateNostrConnectURI() {
 
     // Create the metadata
     const metadata = {
-        name: "Plebs",
+        name: "Goblinbox",
         url: window.location.origin,
         description: "Decentralized video platform"
     };
@@ -12725,7 +12725,7 @@ function finishAccountCreation() {
     hideSignupModal();
     onUserLoggedIn(true);
 
-    showToast('Welcome to Plebs! You are now logged in.', 'success');
+    showToast('Welcome to Goblinbox! You are now logged in.', 'success');
 }
 
 // NostrCheck.me API integration for NIP-05 registration
@@ -13646,8 +13646,8 @@ async function saveSettingsToNostr() {
             kind: 30078,
             tags: [
                 ['d', 'plebs-settings'],
-                ['title', 'Plebs App Settings'],
-                ['client', 'Plebs']
+                ['title', 'Goblinbox App Settings'],
+                ['client', 'Goblinbox']
             ],
             content: JSON.stringify(userSettings),
             created_at: Math.floor(Date.now() / 1000)
@@ -14060,7 +14060,7 @@ async function handleRoute() {
         setMetaTag('meta[property="og:title"]', 'content', title);
         setMetaTag('meta[property="og:description"]', 'content', description);
         setMetaTag('meta[property="og:type"]', 'content', type);
-        setMetaTag('meta[property="og:site_name"]', 'content', 'Plebs');
+        setMetaTag('meta[property="og:site_name"]', 'content', 'Goblinbox');
         setMetaTag('meta[property="og:image"]', 'content', ogImage);
 
         // Include the full URL with hash
@@ -14093,14 +14093,14 @@ async function handleRoute() {
     };
 
     updateMetaTags(
-        'Plebs - Decentralized Video Platform',
-        'Plebs is a censorship-resistant, decentralized video platform powered by the Nostr social protocol'
+        'Goblinbox - Decentralized Video Platform',
+        'Goblinbox is a censorship-resistant, decentralized video platform powered by the Nostr social protocol'
     );
 
     setStructuredData({
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Plebs",
+        "name": "Goblinbox",
         "description": "Censorship-resistant, decentralized video platform powered by Nostr",
         "url": window.location.href
     });
@@ -14123,8 +14123,8 @@ async function handleRoute() {
                     const authorName = profile?.name || profile?.display_name || `User ${event.pubkey.slice(0, 8)}`;
 
                     updateMetaTags(
-                        `${videoData.title} - Plebs`,
-                        videoData.description ? videoData.description.slice(0, 155) : `Watch "${videoData.title}" by ${authorName} on Plebs`,
+                        `${videoData.title} - Goblinbox`,
+                        videoData.description ? videoData.description.slice(0, 155) : `Watch "${videoData.title}" by ${authorName} on Goblinbox`,
                         videoData.thumbnail,
                         'video.other'
                     );
@@ -14133,7 +14133,7 @@ async function handleRoute() {
                         "@context": "https://schema.org",
                         "@type": "VideoObject",
                         "name": videoData.title,
-                        "description": videoData.description || `Watch "${videoData.title}" on Plebs`,
+                        "description": videoData.description || `Watch "${videoData.title}" on Goblinbox`,
                         "thumbnailUrl": videoData.thumbnail || undefined,
                         "uploadDate": new Date(event.created_at * 1000).toISOString(),
                         "duration": videoData.duration ? `PT${Math.floor(videoData.duration / 60)}M${videoData.duration % 60}S` : undefined,
@@ -14174,8 +14174,8 @@ async function handleRoute() {
                 const avatarUrl = profile?.picture || profile?.avatar || '';
 
                 updateMetaTags(
-                    `${displayName} - Plebs`,
-                    about ? about.slice(0, 155) : `Watch videos from ${displayName} on Plebs`,
+                    `${displayName} - Goblinbox`,
+                    about ? about.slice(0, 155) : `Watch videos from ${displayName} on Goblinbox`,
                     avatarUrl,
                     'profile'
                 );
@@ -14204,15 +14204,15 @@ async function handleRoute() {
         }
 
         updateMetaTags(
-            `${normalizedTag.charAt(0).toUpperCase() + normalizedTag.slice(1)} Videos - Plebs`,
-            `Watch ${normalizedTag} videos on Plebs, the censorship-resistant decentralized video platform`
+            `${normalizedTag.charAt(0).toUpperCase() + normalizedTag.slice(1)} Videos - Goblinbox`,
+            `Watch ${normalizedTag} videos on Goblinbox, the censorship-resistant decentralized video platform`
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": `${normalizedTag.charAt(0).toUpperCase() + normalizedTag.slice(1)} Videos`,
-            "description": `Watch ${normalizedTag} videos on Plebs`,
+            "description": `Watch ${normalizedTag} videos on Goblinbox`,
             "url": window.location.href
         });
 
@@ -14220,15 +14220,15 @@ async function handleRoute() {
     } else if (pathParts[0] === 'search' && pathParts[1]) {
         const query = decodeURIComponent(pathParts[1]);
         updateMetaTags(
-            `Search: ${query} - Plebs`,
-            `Search results for "${query}" on Plebs`
+            `Search: ${query} - Goblinbox`,
+            `Search results for "${query}" on Goblinbox`
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "SearchResultsPage",
             "name": `Search: ${query}`,
-            "description": `Search results for "${query}" on Plebs`,
+            "description": `Search results for "${query}" on Goblinbox`,
             "url": window.location.href
         });
 
@@ -14236,180 +14236,180 @@ async function handleRoute() {
         performSearch(pathParts[1]);
     } else if (pathParts[0] === 'following') {
         updateMetaTags(
-            'Following - Plebs',
-            'Watch videos from creators you follow on Plebs'
+            'Following - Goblinbox',
+            'Watch videos from creators you follow on Goblinbox'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "Following",
-            "description": "Watch videos from creators you follow on Plebs",
+            "description": "Watch videos from creators you follow on Goblinbox",
             "url": window.location.href
         });
 
         loadFollowing();
     } else if (pathParts[0] === 'my-videos') {
         updateMetaTags(
-            'My Videos - Plebs',
-            'Manage your videos on Plebs'
+            'My Videos - Goblinbox',
+            'Manage your videos on Goblinbox'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "My Videos",
-            "description": "Manage your videos on Plebs",
+            "description": "Manage your videos on Goblinbox",
             "url": window.location.href
         });
 
         loadMyVideos();
     } else if (pathParts[0] === 'analytics') {
         updateMetaTags(
-            'Analytics - Plebs',
-            'View your channel analytics and video performance on Plebs'
+            'Analytics - Goblinbox',
+            'View your channel analytics and video performance on Goblinbox'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Analytics",
-            "description": "View your channel analytics and video performance on Plebs",
+            "description": "View your channel analytics and video performance on Goblinbox",
             "url": window.location.href
         });
 
         loadAnalytics();
     } else if (pathParts[0] === 'liked') {
         updateMetaTags(
-            'Liked Videos - Plebs',
-            'Watch your liked videos on Plebs'
+            'Liked Videos - Goblinbox',
+            'Watch your liked videos on Goblinbox'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "Liked Videos",
-            "description": "Watch your liked videos on Plebs",
+            "description": "Watch your liked videos on Goblinbox",
             "url": window.location.href
         });
 
         loadLikedVideos();
     } else if (pathParts[0] === 'history') {
         updateMetaTags(
-            'Watched History - Plebs',
-            'View your recently watched videos on Plebs'
+            'Watched History - Goblinbox',
+            'View your recently watched videos on Goblinbox'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "Watched History",
-            "description": "View your recently watched videos on Plebs",
+            "description": "View your recently watched videos on Goblinbox",
             "url": window.location.href
         });
 
         loadWatchHistory();
     } else if (pathParts[0] === 'about') {
         updateMetaTags(
-            'About - Plebs',
-            'Learn about Plebs, a censorship-resistant decentralized video platform powered by Nostr'
+            'About - Goblinbox',
+            'Learn about Goblinbox, a censorship-resistant decentralized video platform powered by Nostr'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "AboutPage",
-            "name": "About Plebs",
-            "description": "Learn about Plebs, a censorship-resistant decentralized video platform powered by Nostr",
+            "name": "About Goblinbox",
+            "description": "Learn about Goblinbox, a censorship-resistant decentralized video platform powered by Nostr",
             "url": window.location.href
         });
 
         loadAboutPage();
     } else if (pathParts[0] === 'contact') {
         updateMetaTags(
-            'Contact - Plebs',
-            'Get in touch with the Plebs team'
+            'Contact - Goblinbox',
+            'Get in touch with the Goblinbox team'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "ContactPage",
-            "name": "Contact Plebs",
-            "description": "Get in touch with the Plebs team",
+            "name": "Contact Goblinbox",
+            "description": "Get in touch with the Goblinbox team",
             "url": window.location.href
         });
 
         loadContactPage();
     } else if (pathParts[0] === 'terms') {
         updateMetaTags(
-            'Terms of Service - Plebs',
-            'Terms of Service for using the Plebs platform'
+            'Terms of Service - Goblinbox',
+            'Terms of Service for using the Goblinbox platform'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Terms of Service",
-            "description": "Terms of Service for using the Plebs platform",
+            "description": "Terms of Service for using the Goblinbox platform",
             "url": window.location.href
         });
 
         loadTermsPage();
     } else if (pathParts[0] === 'privacy') {
         updateMetaTags(
-            'Privacy Policy - Plebs',
-            'Privacy Policy for the Plebs platform'
+            'Privacy Policy - Goblinbox',
+            'Privacy Policy for the Goblinbox platform'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Privacy Policy",
-            "description": "Privacy Policy for the Plebs platform",
+            "description": "Privacy Policy for the Goblinbox platform",
             "url": window.location.href
         });
 
         loadPrivacyPage();
     } else if (pathParts[0] === 'faq') {
         updateMetaTags(
-            'FAQ - Plebs',
-            'Frequently asked questions about Plebs, Nostr, and decentralized video'
+            'FAQ - Goblinbox',
+            'Frequently asked questions about Goblinbox, Nostr, and decentralized video'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "name": "Frequently Asked Questions",
-            "description": "Frequently asked questions about Plebs, Nostr, and decentralized video",
+            "description": "Frequently asked questions about Goblinbox, Nostr, and decentralized video",
             "url": window.location.href
         });
 
         loadFaqPage();
     } else if (pathParts[0] === 'dmca') {
         updateMetaTags(
-            'DMCA & Content Policy - Plebs',
-            'DMCA and content policy information for Plebs decentralized video platform'
+            'DMCA & Content Policy - Goblinbox',
+            'DMCA and content policy information for Goblinbox decentralized video platform'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "DMCA & Content Policy",
-            "description": "DMCA and content policy information for Plebs decentralized video platform",
+            "description": "DMCA and content policy information for Goblinbox decentralized video platform",
             "url": window.location.href
         });
 
         loadDmcaPage();
     } else if (pathParts[0] === 'admin') {
         updateMetaTags(
-            'Admin Dashboard - Plebs',
-            'Admin dashboard for Plebs platform management'
+            'Admin Dashboard - Goblinbox',
+            'Admin dashboard for Goblinbox platform management'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Admin Dashboard",
-            "description": "Admin dashboard for Plebs platform management",
+            "description": "Admin dashboard for Goblinbox platform management",
             "url": window.location.href
         });
 
@@ -14419,15 +14419,15 @@ async function handleRoute() {
         const eventId = pathParts[1];
 
         updateMetaTags(
-            'Live Stream - Plebs',
-            'Watch this live stream on Plebs'
+            'Live Stream - Goblinbox',
+            'Watch this live stream on Goblinbox'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "BroadcastEvent",
             "name": "Live Stream",
-            "description": "Watch this live stream on Plebs",
+            "description": "Watch this live stream on Goblinbox",
             "url": window.location.href
         });
 
@@ -14435,15 +14435,15 @@ async function handleRoute() {
     } else if (pathParts[0] === 'live') {
         // Live feed page
         updateMetaTags(
-            'Live Streams - Plebs',
-            'Watch live streams on Plebs, the decentralized video platform'
+            'Live Streams - Goblinbox',
+            'Watch live streams on Goblinbox, the decentralized video platform'
         );
 
         setStructuredData({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
             "name": "Live Streams",
-            "description": "Watch live streams on Plebs",
+            "description": "Watch live streams on Goblinbox",
             "url": window.location.href
         });
 
@@ -15359,7 +15359,7 @@ async function saveWatchHistoryToNostr(history) {
             tags: [
                 ['d', WATCH_HISTORY_APP_IDENTIFIER],
                 ['t', 'watch-history'],
-                ['client', 'Plebs']
+                ['client', 'Goblinbox']
             ],
             content: JSON.stringify(history),
             created_at: Math.floor(Date.now() / 1000)
@@ -17593,7 +17593,7 @@ function loadFaqPage() {
             <h1>${t('faq.title')}</h1>
 
             <div class="faq-category">
-                <h2>${t('faq.aboutPlebs')}</h2>
+                <h2>${t('faq.aboutGoblinbox')}</h2>
                 <div class="faq-accordion">
                     <div class="faq-item">
                         <button class="faq-question" onclick="toggleFaqItem(this)">
@@ -17816,7 +17816,7 @@ function loadFaqPage() {
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-content">
-                                Plebs shows recommendations based on what's popular, recent content, and content from creators you follow. There's no algorithmic manipulation trying to maximize your engagement or show you controversial content. What you see is based on transparent metrics like views, likes, and zaps.
+                                Goblinbox shows recommendations based on what's popular, recent content, and content from creators you follow. There's no algorithmic manipulation trying to maximize your engagement or show you controversial content. What you see is based on transparent metrics like views, likes, and zaps.
                             </div>
                         </div>
                     </div>
@@ -17827,7 +17827,7 @@ function loadFaqPage() {
                         </button>
                         <div class="faq-answer">
                             <div class="faq-answer-content">
-                                Yes! Plebs supports live streaming via Nostr. You can watch live streams from the Live section in the sidebar. Live streams include real-time chat and zapping capabilities. To go live yourself, you'll need streaming software that supports Nostr.
+                                Yes! Goblinbox supports live streaming via Nostr. You can watch live streams from the Live section in the sidebar. Live streams include real-time chat and zapping capabilities. To go live yourself, you'll need streaming software that supports Nostr.
                             </div>
                         </div>
                     </div>
@@ -18210,7 +18210,7 @@ async function loadAdminAnalytics() {
             { timeout: 10000 }
         );
 
-        // Count reactions only on Plebs videos (batch by video IDs)
+        // Count reactions only on Goblinbox videos (batch by video IDs)
         let totalLikes = 0;
         let totalDislikes = 0;
 
@@ -30288,16 +30288,16 @@ async function playVideo(eventId, skipNSFWCheck = false, skipRatioedCheck = fals
         if (videoData && profile) {
             const authorName = profile?.name || profile?.display_name || `User ${event.pubkey.slice(0, 8)}`;
 
-            document.title = `${videoData.title} - Plebs`;
+            document.title = `${videoData.title} - Goblinbox`;
 
             const setMetaTag = (selector, attribute, value) => {
                 let tag = document.querySelector(selector);
                 if (tag) tag.setAttribute(attribute, value);
             };
 
-            setMetaTag('meta[property="og:title"]', 'content', `${videoData.title} - Plebs`);
+            setMetaTag('meta[property="og:title"]', 'content', `${videoData.title} - Goblinbox`);
             setMetaTag('meta[property="og:description"]', 'content',
-                videoData.description ? videoData.description.slice(0, 155) : `Watch "${videoData.title}" by ${authorName} on Plebs`);
+                videoData.description ? videoData.description.slice(0, 155) : `Watch "${videoData.title}" by ${authorName} on Goblinbox`);
             if (videoData.thumbnail) {
                 setMetaTag('meta[property="og:image"]', 'content', videoData.thumbnail);
             }
@@ -33440,7 +33440,7 @@ async function createBlossomAuthEvent(hash, server) {
             ['t', 'upload'],
             ['x', hash],
             ['expiration', expiration.toString()],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         created_at: Math.floor(Date.now() / 1000)
     };
@@ -34737,7 +34737,7 @@ async function handleGoLive(e) {
             ['streaming', streamUrl],
             ['status', status],
             ['starts', String(startTime)],
-            ['t', 'pv69420'], // Plebs app tag
+            ['t', 'pv69420'], // Goblinbox app tag
         ];
 
         // Add thumbnail if uploaded
@@ -35143,7 +35143,7 @@ async function playLiveStream(eventId, skipNSFWCheck = false, skipRatioedCheck =
         }
 
         // Update page title
-        document.title = `${liveData.title} - Live on Plebs`;
+        document.title = `${liveData.title} - Live on Goblinbox`;
 
         // Add to watch history
         addToWatchHistory(eventId, event.tags || [], event.pubkey);
@@ -36740,7 +36740,7 @@ async function recordLiveViewer(eventId) {
             ['t', 'live-viewer'],
             ['e', eventId],
             ['p', event.pubkey],
-            ['client', 'Plebs']
+            ['client', 'Goblinbox']
         ],
         content: JSON.stringify({
             timestamp: now,
